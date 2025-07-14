@@ -1,0 +1,37 @@
+[
+    {
+        "name": "Chamber of Fate",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            "^$CanEnter|Chamber_of_Fate"
+        ],
+        "children": [
+            {
+                "name": "Calamis' Weapon of Choice",
+                "chest_unopened_img": "images/items/check_weapon_fade.png",
+                "chest_opened_img": "images/items/check_weapon.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "^$CanReach|Calamis_Weapon_of_Choice"
+                ],
+                "sections": [
+                    {
+                        "name": "Lucid Blade",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [ 
+                    { 
+                       "map": "Chamber of Fate", 
+                       "x": 474, 
+                       "y": 730 
+                    } 
+                 ]
+            }
+        ]
+    }
+]

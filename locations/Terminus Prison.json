@@ -1,0 +1,529 @@
+[
+    {
+        "name": "Terminus Prison",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            "^$CanEnter|Terminus Prison"
+        ],
+        "children": [
+            {
+                "name": "Third Floor Locked Cell Left",
+                "chest_unopened_img": "images/items/check_item_fade.png",
+                "chest_opened_img": "images/items/check_item.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "^$CanReach|Third Floor Locked Cell Left"
+                ],
+                "sections": [
+                    {
+                        "name": "Cloth Bandage",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    { 
+                       "map": "Terminus Prison",
+                       "x": 1313,
+                       "y": 381
+                    }
+                 ]
+            },
+            {
+                "name": "Third Floor Locked Cell Right",
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "^$CanReach|Third Floor Locked Cell Right"
+                ],
+                "sections": [
+                    {
+                        "name": "Ashes",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    { 
+                       "map": "Terminus Prison",
+                       "x": 1478,
+                       "y": 385
+                    }
+                ]
+            },
+            {
+                "name": "Third Floor Locked Cell South",
+                "chest_unopened_img": "images/items/check_weapon_fade.png",
+                "chest_opened_img": "images/items/check_weapon.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "^$CanReach|Third Floor Locked Cell South"
+                ],
+                "sections": [
+                    {
+                        "name": "Broken Lance",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    { 
+                       "map": "Terminus Prison",
+                       "x": 1236,
+                       "y": 559
+                    }
+                ]
+            },
+            {
+                "name": "Almost Bottomless Pit",
+                "chest_unopened_img": "images/items/check_spell_fade.png",
+                "chest_opened_img": "images/items/check_spell.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "^$CanReach|Almost Bottomless Pit"
+                ],
+                "sections": [
+                    {
+                        "name": "Spell Ring (Icarian Flight)",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    { 
+                       "map": "Terminus Prison",
+                       "x": 1589,
+                       "y": 437
+                    }
+                 ]
+            },
+            {
+                "name": "Second Floor Broken Cell",
+                "chest_unopened_img": "images/items/check_item_fade.png",
+                "chest_opened_img": "images/items/check_item.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "^$CanReach|Second Floor Broken Cell"
+                ],
+                "sections": [
+                    {
+                        "name": "Cloth Bandage",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    { 
+                       "map": "Terminus Prison",
+                       "x": 2222,
+                       "y": 380
+                    }
+                 ]
+            },
+            {
+                "name": "Second Floor Jailer's Table",
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "^$CanReach|Second Floor Jailer's Table"
+                ],
+                "sections": [
+                    {
+                        "name": "Terminus Prison Key",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    { 
+                       "map": "Terminus Prison",
+                       "x": 2426,
+                       "y": 427
+                    }
+                 ]
+            },
+            {
+                "name": "First Floor Hidden Cell",
+                "chest_unopened_img": "images/items/check_item_fade.png",
+                "chest_opened_img": "images/items/check_item.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "^$CanReach|First Floor Hidden Cell"
+                ],
+                "sections": [
+                    {
+                        "name": "Holy Water",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    { 
+                       "map": "Terminus Prison",
+                       "x": 1559,
+                       "y": 900
+                    }
+                 ]
+            },
+            {
+                "name": "First Floor Hidden Debris Room",
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "^$CanReach|First Floor Hidden Debris Room"
+                ],
+                "sections": [
+                    {
+                        "name": "Light Urn",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    { 
+                       "map": "Terminus Prison",
+                       "x": 1472,
+                       "y": 776
+                    }
+                 ]
+            },
+            {
+                "name": "First Floor Remains",
+                "chest_unopened_img": "images/items/check_weapon_fade.png",
+                "chest_opened_img": "images/items/check_weapon.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "^$CanReach|First Floor Remains"
+                ],
+                "sections": [
+                    {
+                        "name": "Fishing Spear",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    { 
+                       "map": "Terminus Prison",
+                       "x": 1552,
+                       "y": 834
+                    }
+                 ]
+            },
+            {
+                "name": "Green Asylum Guarded Alcove",
+                "chest_unopened_img": "images/items/check_item_fade.png",
+                "chest_opened_img": "images/items/check_item.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "^$CanReach|Green Asylum Guarded Alcove"
+                ],
+                "sections": [
+                    {
+                        "name": "Moonlight Vial",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    { 
+                       "map": "Terminus Prison",
+                       "x": 2025,
+                       "y": 1150
+                    }
+                 ]
+            },
+            {
+                "name": "Green Asylum Guarded Alcove (Left)",
+                "chest_unopened_img": "images/items/check_item_fade.png",
+                "chest_opened_img": "images/items/check_item.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "^$CanReach|Green Asylum Guarded Alcove (Left)"
+                ],
+                "sections": [
+                    {
+                        "name": "Moonlight Vial",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    { 
+                       "map": "Terminus Prison",
+                       "x": 2015,
+                       "y": 1150
+                    }
+                 ]
+            },
+            {
+                "name": "Green Asylum Guarded Alcove (Right)",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "^$CanReach|Green Asylum Guarded Alcove (Right)"
+                ],
+                "sections": [
+                    {
+                        "name": "Moonlight Vial",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    { 
+                       "map": "Terminus Prison",
+                       "x": 2025,
+                       "y": 1150
+                    }
+                 ]
+            },
+            {
+                "name": "Green Asylum Long Alcove",
+                "chest_unopened_img": "images/items/check_item_fade.png",
+                "chest_opened_img": "images/items/check_item.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "^$CanReach|Green Asylum Long Alcove"
+                ],
+                "sections": [
+                    {
+                        "name": "Earth Elixir",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    { 
+                       "map": "Terminus Prison",
+                       "x": 1983,
+                       "y": 1069
+                    }
+                 ]
+            },
+            {
+                "name": "Green Asylum Bone Pit",
+                "chest_unopened_img": "images/items/check_item_fade.png",
+                "chest_opened_img": "images/items/check_item.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "^$CanReach|Green Asylum Bone Pit"
+                ],
+                "sections": [
+                    {
+                        "name": "Health Vial",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    { 
+                       "map": "Terminus Prison",
+                       "x": 1985,
+                       "y": 982
+                    }
+                 ]
+            },
+            {
+                "name": "Fourth Floor Cell Hanging Remains",
+                "chest_unopened_img": "images/items/check_item_fade.png",
+                "chest_opened_img": "images/items/check_item.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "^$CanReach|Fourth Floor Cell Hanging Remains"
+                ],
+                "sections": [
+                    {
+                        "name": "Health Vial",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    { 
+                       "map": "Terminus Prison",
+                       "x": 783,
+                       "y": 509
+                    }
+                 ]
+            },
+            {
+                "name": "Fourth Floor Maledictus Secret",
+                "chest_unopened_img": "images/items/check_spell_fade.png",
+                "chest_opened_img": "images/items/check_spell.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "^$CanReach|Fourth Floor Maledictus Secret"
+                ],
+                "sections": [
+                    {
+                        "name": "Spell Ring (Blue Flame Arc)",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    { 
+                       "map": "Terminus Prison",
+                       "x": 519,
+                       "y": 649
+                    }
+                 ]
+            },
+            {
+                "name": "Fourth Floor Hidden Jailer Sleeping Spot",
+                "chest_unopened_img": "images/items/check_item_fade.png",
+                "chest_opened_img": "images/items/check_item.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "^$CanReach|Fourth Floor Hidden Jailer Sleeping Spot"
+                ],
+                "sections": [
+                    {
+                        "name": "Holy Water",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    { 
+                       "map": "Terminus Prison",
+                       "x": 457,
+                       "y": 650
+                    }
+                 ]
+            },
+            {
+                "name": "Fourth Floor Jailer Break Room",
+                "chest_unopened_img": "images/items/check_item_fade.png",
+                "chest_opened_img": "images/items/check_item.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "^$CanReach|Fourth Floor Jailer Break Room"
+                ],
+                "sections": [
+                    {
+                        "name": "Mana Vial",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    { 
+                       "map": "Terminus Prison",
+                       "x": 391,
+                       "y": 747
+                    }
+                 ]
+            },
+            {
+                "name": "Etna's Resting Place",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "^$CanReach|Etna's Resting Place"
+                ],
+                "sections": [
+                    { 
+                       "name": "Ectoplasm",
+                       "chest_unopened_img": "images/items/check_misc_fade.png",
+                       "chest_opened_img": "images/items/check_misc.png",
+                       "item_count": 1
+                    },
+                    { 
+                       "name": "Snowflake Obsidian",
+                       "chest_unopened_img": "images/items/check_misc_fade.png",
+                       "chest_opened_img": "images/items/check_misc.png",
+                       "item_count": 1
+                    },
+                    { 
+                       "name": "Moonpetal",
+                       "chest_unopened_img": "images/items/check_misc_fade.png",
+                       "chest_opened_img": "images/items/check_misc.png",
+                       "item_count": 1
+                    }
+                 ],
+                 "map_locations": [
+                    { 
+                       "map": "Terminus Prison",
+                       "x": 536,
+                       "y": 360
+                    }
+                 ]
+            },
+            {
+                "name": "Fourth Floor Collapsed Tunnel",
+                "chest_unopened_img": "images/items/check_weapon_fade.png",
+                "chest_opened_img": "images/items/check_weapon.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "^$CanReach|Fourth Floor Collapsed Tunnel"
+                ],
+                "sections": [
+                    {
+                        "name": "Hammer of Cruelty",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    { 
+                       "map": "Terminus Prison",
+                       "x": 506,
+                       "y": 280
+                    }
+                 ]
+            },
+            {
+                "name": "Egg's Resting Place",
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "^$CanReach|Egg's Resting Place"
+                ],
+                "sections": [
+                    {
+                        "name": "Skeletal Rattle",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    { 
+                       "map": "Terminus Prison",
+                       "x": 1961,
+                       "y": 1051
+                    }
+                 ]
+            }
+        ]
+    }
+]

@@ -1,0 +1,178 @@
+[
+    {
+        "name": "Quenchsanity",
+        "overlay_background": "#000000",
+        "visibility_rules": [
+            "quench_on"
+        ],
+        "sections": [
+            {
+                "name": "Quench Steel Claw",
+                "access_rules": ["steelclaw"],
+                "visibility_rules": [],
+                "item_count": 1,
+                "chest_unopened_img": "images/items/check_weapon_fade.png",
+                "chest_opened_img": "images/items/check_weapon.png"
+            },
+            {
+                "name": "Quench Iron Claw",
+                "access_rules": ["ironclaw"],
+                "visibility_rules": [],
+                "item_count": 1,
+                "chest_unopened_img": "images/items/check_weapon_fade.png",
+                "chest_opened_img": "images/items/check_weapon.png"
+            },
+            {
+                "name": "Quench Iron Club",
+                "access_rules": ["ironclub"],
+                "visibility_rules": [],
+                "item_count": 1,
+                "chest_unopened_img": "images/items/check_weapon_fade.png",
+                "chest_opened_img": "images/items/check_weapon.png"
+            },
+            {
+                "name": "Quench Stone Club",
+                "access_rules": ["stoneclub"],
+                "visibility_rules": [],
+                "item_count": 1,
+                "chest_unopened_img": "images/items/check_weapon_fade.png",
+                "chest_opened_img": "images/items/check_weapon.png"
+            },
+            {
+                "name": "Quench Torch",
+                "access_rules": ["torch"],
+                "visibility_rules": [],
+                "item_count": 1,
+                "chest_unopened_img": "images/items/check_weapon_fade.png",
+                "chest_opened_img": "images/items/check_weapon.png"
+            },
+            {
+                "name": "Quench Brittle Arming Sword",
+                "access_rules": ["brittlearmingsword"],
+                "visibility_rules": [],
+                "item_count": 1,
+                "chest_unopened_img": "images/items/check_weapon_fade.png",
+                "chest_opened_img": "images/items/check_weapon.png"
+            },
+            {
+                "name": "Quench Broken Hilt",
+                "access_rules": ["brokenhilt"],
+                "visibility_rules": [],
+                "item_count": 1,
+                "chest_unopened_img": "images/items/check_weapon_fade.png",
+                "chest_opened_img": "images/items/check_weapon.png"
+            },
+            {
+                "name": "Quench Broken Lance",
+                "access_rules": ["brokenlancee"],
+                "visibility_rules": [],
+                "item_count": 1,
+                "chest_unopened_img": "images/items/check_weapon_fade.png",
+                "chest_opened_img": "images/items/check_weapon.png"
+            },
+            {
+                "name": "Quench Crossbow",
+                "access_rules": ["crossbow"],
+                "visibility_rules": [],
+                "item_count": 1,
+                "chest_unopened_img": "images/items/check_weapon_fade.png",
+                "chest_opened_img": "images/items/check_weapon.png"
+            },
+            {
+                "name": "Quench Elfen Sword",
+                "access_rules": ["elfensword"],
+                "visibility_rules": [],
+                "item_count": 1,
+                "chest_unopened_img": "images/items/check_weapon_fade.png",
+                "chest_opened_img": "images/items/check_weapon.png"
+            },
+            {
+                "name": "Quench Lyrian Longsword",
+                "access_rules": ["lyrianlongsword"],
+                "visibility_rules": [],
+                "item_count": 1,
+                "chest_unopened_img": "images/items/check_weapon_fade.png",
+                "chest_opened_img": "images/items/check_weapon.png"
+            },
+            {
+                "name": "Quench Obsidian Seal",
+                "access_rules": ["obsidianseal"],
+                "visibility_rules": [],
+                "item_count": 1,
+                "chest_unopened_img": "images/items/check_weapon_fade.png",
+                "chest_opened_img": "images/items/check_weapon.png"
+            },
+            {
+                "name": "Quench Obsidian Cursebrand",
+                "access_rules": ["obsidiancursebrand"],
+                "visibility_rules": [],
+                "item_count": 1,
+                "chest_unopened_img": "images/items/check_weapon_fade.png",
+                "chest_opened_img": "images/items/check_weapon.png"
+            },
+            {
+                "name": "Quench Obsidian Poisonguard",
+                "access_rules": ["obsidianpoisonguard"],
+                "visibility_rules": [],
+                "item_count": 1,
+                "chest_unopened_img": "images/items/check_weapon_fade.png",
+                "chest_opened_img": "images/items/check_weapon.png"
+            },
+            {
+                "name": "Quench Rapier",
+                "access_rules": ["rapier"],
+                "visibility_rules": [],
+                "item_count": 1,
+                "chest_unopened_img": "images/items/check_weapon_fade.png",
+                "chest_opened_img": "images/items/check_weapon.png"
+            },
+            {
+                "name": "Quench Replica Sword",
+                "access_rules": ["replicasword"],
+                "visibility_rules": [],
+                "item_count": 1,
+                "chest_unopened_img": "images/items/check_weapon_fade.png",
+                "chest_opened_img": "images/items/check_weapon.png"
+            },
+            {
+                "name": "Quench Rusted Sword",
+                "access_rules": ["rustedsword"],
+                "visibility_rules": [],
+                "item_count": 1,
+                "chest_unopened_img": "images/items/check_weapon_fade.png",
+                "chest_opened_img": "images/items/check_weapon.png"
+            },
+            {
+                "name": "Quench Shadow Blade",
+                "access_rules": ["shadowblade"],
+                "visibility_rules": [],
+                "item_count": 1,
+                "chest_unopened_img": "images/items/check_weapon_fade.png",
+                "chest_opened_img": "images/items/check_weapon.png"
+            },
+            {
+                "name": "Quench Shining Blade",
+                "access_rules": ["shiningblade"],
+                "visibility_rules": [],
+                "item_count": 1,
+                "chest_unopened_img": "images/items/check_weapon_fade.png",
+                "chest_opened_img": "images/items/check_weapon.png"
+            },
+            {
+                "name": "Quench Death Scythe",
+                "access_rules": ["deathscythe"],
+                "visibility_rules": [],
+                "item_count": 1,
+                "chest_unopened_img": "images/items/check_weapon_fade.png",
+                "chest_opened_img": "images/items/check_weapon.png"
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "Wing's Rest",
+                "x": "200",
+                "y": "1250"
+            }
+        ]
+    }
+]

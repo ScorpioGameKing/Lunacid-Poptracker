@@ -1,0 +1,2520 @@
+[
+    {
+        "name": "Overworld Hints",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            " "
+        ],
+        "children": [
+            {
+                "name": "Accursed Tomb",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "{}"
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": "1995",
+                        "y": "72",
+                        "size": 12
+                    }
+                ]
+            },
+            {
+                "name": "Boiling Grotto",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "{}"
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": "2359",
+                        "y": "1185",
+                        "size": 12
+                    }
+                ]
+            },
+            {
+                "name": "Castle Le Fanu",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "{}"
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": "827",
+                        "y": "1852",
+                        "size": 12
+                    }
+                ]
+            },
+            {
+                "name": "Chamber of Fate",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "{}"
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": "1055",
+                        "y": "2225",
+                        "size": 12
+                    }
+                ]
+            },
+            {
+                "name": "Dropsanity",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "{}"
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": "526",
+                        "y": "447",
+                        "size": 12
+                    }
+                ]
+            },
+            {
+                "name": "Etna's Pupil",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "{}"
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": "917",
+                        "y": "797",
+                        "size": 12
+                    }
+                ]
+            },
+            {
+                "name": "Forbidden Archives",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "{}"
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": "1879",
+                        "y": "2022",
+                        "size": 12
+                    }
+                ]
+            },
+            {
+                "name": "Forest Canopy",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "{}"
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": "1809",
+                        "y": "2194",
+                        "size": 12
+                    }
+                ]
+            },
+            {
+                "name": "Forlorn Arena",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "{}"
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": "1580",
+                        "y": "737",
+                        "size": 12
+                    }
+                ]
+            },
+            {
+                "name": "Great Well Surface",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "{}"
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": "858",
+                        "y": "1779",
+                        "size": 12
+                    }
+                ]
+            },
+            {
+                "name": "Hollow Basin",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "{}"
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": "275",
+                        "y": "874",
+                        "size": 12
+                    }
+                ]
+            },
+            {
+                "name": "Labyrinth of Ash",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "{}"
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": "375",
+                        "y": "471",
+                        "size": 12
+                    }
+                ]
+            },
+            {
+                "name": "Laetus Chasm",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "{}"
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": "2050",
+                        "y": "1489",
+                        "size": 12
+                    }
+                ]
+            },
+            {
+                "name": "Quenchsanity",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "{}"
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": "2176",
+                        "y": "1504",
+                        "size": 12
+                    }
+                ]
+            },
+            {
+                "name": "Sand Temple",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "{}"
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": "1382",
+                        "y": "123",
+                        "size": 12
+                    }
+                ]
+            },
+            {
+                "name": "Sealed Ballroom",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "{}"
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": "2487",
+                        "y": "190",
+                        "size": 12
+                    }
+                ]
+            },
+            {
+                "name": "Shopsanity",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "{}"
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": "1858",
+                        "y": "1326",
+                        "size": 12
+                    }
+                ]
+            },
+            {
+                "name": "Terminus Prison",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "{}"
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": "2275",
+                        "y": "2132",
+                        "size": 12
+                    }
+                ]
+            },
+            {
+                "name": "The Fetid Mire",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "{}"
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": "1510",
+                        "y": "466",
+                        "size": 12
+                    }
+                ]
+            },
+            {
+                "name": "The Sanguine Sea",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "{}"
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": "82",
+                        "y": "1153",
+                        "size": 12
+                    }
+                ]
+            },
+            {
+                "name": "Throne Chamber",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "{}"
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": "841",
+                        "y": "912",
+                        "size": 12
+                    }
+                ]
+            },
+            {
+                "name": "Tower of Abyss",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "{}"
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": "27",
+                        "y": "925",
+                        "size": 12
+                    }
+                ]
+            },
+            {
+                "name": "Wing's Rest",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "{}"
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": "2409",
+                        "y": "1019",
+                        "size": 12
+                    }
+                ]
+            },
+            {
+                "name": "Yosei Forest",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "{}"
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": "2500",
+                        "y": "456",
+                        "size": 12
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Overworld",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            " "
+        ],
+        "children": [
+            {
+                "name": "Accursed Tomb",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Catacombs Coffins Near Stairs - Health Vial",
+                        "ref": "Accursed Tomb/Catacombs Coffins Near Stairs/Health Vial"
+                    },
+                    {
+                        "name": "Catacombs Coffins With Blue Light - Spell Ring (Coffin)",
+                        "ref": "Accursed Tomb/Catacombs Coffins With Blue Light/Spell Ring (Coffin)"
+                    },
+                    {
+                        "name": "Corrupted Room - White Tape",
+                        "ref": "Accursed Tomb/Corrupted Room/White Tape"
+                    },
+                    {
+                        "name": "Gated Tomb Near Corrupted Room - Ocean Elixir",
+                        "ref": "Accursed Tomb/Gated Tomb Near Corrupted Room/Ocean Elixir"
+                    },
+                    {
+                        "name": "Catacombs Hidden Room - Ocean Elixir",
+                        "ref": "Accursed Tomb/Catacombs Hidden Room/Ocean Elixir"
+                    },
+                    {
+                        "name": "Deep Coffin Storage - Halbard",
+                        "ref": "Accursed Tomb/Deep Coffin Storage/Halbard"
+                    },
+                    {
+                        "name": "Red Skeleton - Blade of Jusztina",
+                        "ref": "Accursed Tomb/Red Skeleton/Blade of Jusztina"
+                    },
+                    {
+                        "name": "Mausoleum Hidden Chest - Twisted Staff",
+                        "ref": "Accursed Tomb/Mausoleum Hidden Chest/Twisted Staff"
+                    },
+                    {
+                        "name": "Mausoleum Upper Alcove Table - Black Book",
+                        "ref": "Accursed Tomb/Mausoleum Upper Alcove Table/Black Book"
+                    },
+                    {
+                        "name": "Mausoleum Maze (Early) - Holy Water",
+                        "ref": "Accursed Tomb/Mausoleum Maze (Early)/Holy Water"
+                    },
+                    {
+                        "name": "Mausoleum Maze (Middle) - Health Vial",
+                        "ref": "Accursed Tomb/Mausoleum Maze (Middle)/Health Vial"
+                    },
+                    {
+                        "name": "Mausoleum Central Room (Right) - Health Vial",
+                        "ref": "Accursed Tomb/Mausoleum Central Room (Right)/Health Vial"
+                    },
+                    {
+                        "name": "Mausoleum Central Room (Left) - Holy Water",
+                        "ref": "Accursed Tomb/Mausoleum Central Room (Left)/Holy Water"
+                    },
+                    {
+                        "name": "Mausoleum Central Room (Back) - Earth Elixir",
+                        "ref": "Accursed Tomb/Mausoleum Central Room (Back)/Earth Elixir"
+                    },
+                    {
+                        "name": "Mausoleum Central Room (Left Path) - Health Vial",
+                        "ref": "Accursed Tomb/Mausoleum Central Room (Left Path)/Health Vial"
+                    },
+                    {
+                        "name": "Mausoleum Central Room (Right Path) - Ocean Elixir",
+                        "ref": "Accursed Tomb/Mausoleum Central Room (Right Path)/Ocean Elixir"
+                    },
+                    {
+                        "name": "Kill Death - 10 Strange Coins",
+                        "ref": "Accursed Tomb/Kill Death/10 Strange Coins"
+                    },
+                    {
+                        "name": "Tomb With Switch - Vampire Hunter Sword",
+                        "ref": "Accursed Tomb/Tomb With Switch/Vampire Hunter Sword"
+                    },
+                    {
+                        "name": "Tomb With Sitting Corpse - Survey Banner",
+                        "ref": "Accursed Tomb/Tomb With Sitting Corpse/Survey Banner"
+                    },
+                    {
+                        "name": "Demi Chest - Spell Ring (Lightning)",
+                        "ref": "Accursed Tomb/Demi Chest/Spell Ring (Lightning)"
+                    },
+                    {
+                        "name": "Near Light Switch - Crystal Shard",
+                        "ref": "Accursed Tomb/Near Light Switch/Crystal Shard"
+                    },
+                    {
+                        "name": "Hidden Room in Tomb - Earth Elixir",
+                        "ref": "Accursed Tomb/Hidden Room in Tomb/Earth Elixir"
+                    },
+                    {
+                        "name": "Hidden Chest in Tomb - 100 Silver",
+                        "ref": "Accursed Tomb/Hidden Chest in Tomb/100 Silver"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": "1995",
+                        "y": "72",
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Boiling Grotto",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Corpse Beneath Entrance - 5 Silver",
+                        "ref": "Boiling Grotto/Corpse Beneath Entrance/5 Silver"
+                    },
+                    {
+                        "name": "Slab of a Broken Bridge - Crystal Shard",
+                        "ref": "Boiling Grotto/Slab of a Broken Bridge/Crystal Shard"
+                    },
+                    {
+                        "name": "Hidden Chest - 25 Silver",
+                        "ref": "Boiling Grotto/Hidden Chest/25 Silver"
+                    },
+                    {
+                        "name": "Triple Hidden Chest - Ashes",
+                        "ref": "Boiling Grotto/Triple Hidden Chest/Ashes"
+                    },
+                    {
+                        "name": "Lava Overseeing Dragon Switch - Spell Ring (Rock Bridge)",
+                        "ref": "Boiling Grotto/Lava Overseeing Dragon Switch/Spell Ring (Rock Bridge)"
+                    },
+                    {
+                        "name": "Through Dragon Switch Tunnel - Mana Vial",
+                        "ref": "Boiling Grotto/Through Dragon Switch Tunnel/Mana Vial"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": "2359",
+                        "y": "1185",
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Castle Le Fanu",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Outside Corner - Mana Vial",
+                        "ref": "Castle Le Fanu/Outside Corner/Mana Vial"
+                    },
+                    {
+                        "name": "Cattle Cell (South) - Spectral Candle",
+                        "ref": "Castle Le Fanu/Cattle Cell (South)/Spectral Candle"
+                    },
+                    {
+                        "name": "Cattle Cell (West) - Health Vial",
+                        "ref": "Castle Le Fanu/Cattle Cell (West)/Health Vial"
+                    },
+                    {
+                        "name": "Cattle Cell (Center) - Spell Ring (Summon Ice Sword)",
+                        "ref": "Castle Le Fanu/Cattle Cell (Center)/Spell Ring (Summon Ice Sword)"
+                    },
+                    {
+                        "name": "Cattle Cell (North) - Vampiric Symbol (W)",
+                        "ref": "Castle Le Fanu/Cattle Cell (North)/Vampiric Symbol (W)"
+                    },
+                    {
+                        "name": "Hidden Cattle Cell - Wand of Power",
+                        "ref": "Castle Le Fanu/Hidden Cattle Cell/Wand of Power"
+                    },
+                    {
+                        "name": "Hallway Rubble Room - Light Urn",
+                        "ref": "Castle Le Fanu/Hallway Rubble Room/Light Urn"
+                    },
+                    {
+                        "name": "Hallway Dining Room - Blood Wine",
+                        "ref": "Castle Le Fanu/Hallway Dining Room/Blood Wine"
+                    },
+                    {
+                        "name": "Garrat Resting Room (Fountain) - Holy Water",
+                        "ref": "Castle Le Fanu/Garrat Resting Room (Fountain)/Holy Water"
+                    },
+                    {
+                        "name": "Garrat Resting Room (Wall) - Crossbow",
+                        "ref": "Castle Le Fanu/Garrat Resting Room (Wall)/Crossbow"
+                    },
+                    {
+                        "name": "Hallway Dead End Before Blue Doors - Vampiric Symbol (A)",
+                        "ref": "Castle Le Fanu/Hallway Dead End Before Blue Doors/Vampiric Symbol (A)"
+                    },
+                    {
+                        "name": "Upper Floor Coffin Room (Small Room) - Earth Elixir",
+                        "ref": "Castle Le Fanu/Upper Floor Coffin Room (Small Room)/Earth Elixir"
+                    },
+                    {
+                        "name": "Upper Floor Coffin Room (Large Room) - Ocean Elixir",
+                        "ref": "Castle Le Fanu/Upper Floor Coffin Room (Large Room)/Ocean Elixir"
+                    },
+                    {
+                        "name": "Upper Floor Coffin Room (Double) - Blade of Ophelia",
+                        "ref": "Castle Le Fanu/Upper Floor Coffin Room (Double)/Blade of Ophelia"
+                    },
+                    {
+                        "name": "Upper Floor Coffin Room (Hallway) - Vampiric Symbol (E)",
+                        "ref": "Castle Le Fanu/Upper Floor Coffin Room (Hallway)/Vampiric Symbol (E)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": "827",
+                        "y": "1852",
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Chamber of Fate",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Calamis' Weapon of Choice - Lucid Blade",
+                        "ref": "Chamber of Fate/Calamis' Weapon of Choice/Lucid Blade"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": "1055",
+                        "y": "2225",
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Dropsanity",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Snail - Summon Snail Drop",
+                        "ref": "Dropsanity/Snail/Summon Snail Drop"
+                    },
+                    {
+                        "name": "Snail - Small Silver Drop",
+                        "ref": "Dropsanity/Snail/Small Silver Drop"
+                    },
+                    {
+                        "name": "Snail - Large Silver Drop",
+                        "ref": "Dropsanity/Snail/Large Silver Drop"
+                    },
+                    {
+                        "name": "Snail - Ocean Bone Shard Drop",
+                        "ref": "Dropsanity/Snail/Ocean Bone Shard Drop"
+                    },
+                    {
+                        "name": "Mummy Knight - Rusted Sword Drop",
+                        "ref": "Dropsanity/Mummy Knight/Rusted Sword Drop"
+                    },
+                    {
+                        "name": "Mummy Knight - Onyx Drop",
+                        "ref": "Dropsanity/Mummy Knight/Onyx Drop"
+                    },
+                    {
+                        "name": "Mummy Knight - Large Silver Drop",
+                        "ref": "Dropsanity/Mummy Knight/Large Silver Drop"
+                    },
+                    {
+                        "name": "Mummy Knight - Small Silver Drop",
+                        "ref": "Dropsanity/Mummy Knight/Small Silver Drop"
+                    },
+                    {
+                        "name": "Kodama - Summon Kodama Drop",
+                        "ref": "Dropsanity/Kodama/Summon Kodama Drop"
+                    },
+                    {
+                        "name": "Kodama - Small Silver Drop",
+                        "ref": "Dropsanity/Kodama/Small Silver Drop"
+                    },
+                    {
+                        "name": "Kodama - Medium Silver Drop",
+                        "ref": "Dropsanity/Kodama/Medium Silver Drop"
+                    },
+                    {
+                        "name": "Kodama - Opal Drop",
+                        "ref": "Dropsanity/Kodama/Opal Drop"
+                    },
+                    {
+                        "name": "Chimera - Quick Stride Drop",
+                        "ref": "Dropsanity/Chimera/Quick Stride Drop"
+                    },
+                    {
+                        "name": "Chimera - Light Urn Drop",
+                        "ref": "Dropsanity/Chimera/Light Urn Drop"
+                    },
+                    {
+                        "name": "Chimera - Holy Water Drop",
+                        "ref": "Dropsanity/Chimera/Holy Water Drop"
+                    },
+                    {
+                        "name": "Milk Snail - Ice Sickle Drop",
+                        "ref": "Dropsanity/Milk Snail/Ice Sickle Drop"
+                    },
+                    {
+                        "name": "Milk Snail - Small Silver Drop",
+                        "ref": "Dropsanity/Milk Snail/Small Silver Drop"
+                    },
+                    {
+                        "name": "Milk Snail - Large Silver Drop",
+                        "ref": "Dropsanity/Milk Snail/Large Silver Drop"
+                    },
+                    {
+                        "name": "Milk Snail - Ocean Bone Shard Drop",
+                        "ref": "Dropsanity/Milk Snail/Ocean Bone Shard Drop"
+                    },
+                    {
+                        "name": "Skeleton - Skeleton Axe Drop",
+                        "ref": "Dropsanity/Skeleton/Skeleton Axe Drop"
+                    },
+                    {
+                        "name": "Skeleton - Dark Skull Drop",
+                        "ref": "Dropsanity/Skeleton/Dark Skull Drop"
+                    },
+                    {
+                        "name": "Skeleton - Medium Silver Drop",
+                        "ref": "Dropsanity/Skeleton/Medium Silver Drop"
+                    },
+                    {
+                        "name": "Skeleton - Mana Vial",
+                        "ref": "Dropsanity/Skeleton/Mana Vial"
+                    },
+                    {
+                        "name": "Skeleton - Onyx Drop",
+                        "ref": "Dropsanity/Skeleton/Onyx Drop"
+                    },
+                    {
+                        "name": "Skeleton - Bones Drop",
+                        "ref": "Dropsanity/Skeleton/Bones Drop"
+                    },
+                    {
+                        "name": "Phantom - Cursed Blade Drop",
+                        "ref": "Dropsanity/Phantom/Cursed Blade Drop"
+                    },
+                    {
+                        "name": "Phantom - Medium Silver Drop",
+                        "ref": "Dropsanity/Phantom/Medium Silver Drop"
+                    },
+                    {
+                        "name": "Phantom - Holy Water Drop",
+                        "ref": "Dropsanity/Phantom/Holy Water Drop"
+                    },
+                    {
+                        "name": "Phantom - Moonlight Vial Drop",
+                        "ref": "Dropsanity/Phantom/Moonlight Vial Drop"
+                    },
+                    {
+                        "name": "Phantom - Ectoplasm Drop",
+                        "ref": "Dropsanity/Phantom/Ectoplasm Drop"
+                    },
+                    {
+                        "name": "Obsidian Skeleton - Obsidian Cursebrand Drop",
+                        "ref": "Dropsanity/Obsidian Skeleton/Obsidian Cursebrand Drop"
+                    },
+                    {
+                        "name": "Obsidian Skeleton - Obsidian Poisonguard Drop",
+                        "ref": "Dropsanity/Obsidian Skeleton/Obsidian Poisonguard Drop"
+                    },
+                    {
+                        "name": "Obsidian Skeleton - Large Silver Drop",
+                        "ref": "Dropsanity/Obsidian Skeleton/Large Silver Drop"
+                    },
+                    {
+                        "name": "Obsidian Skeleton - Bones Drop",
+                        "ref": "Dropsanity/Obsidian Skeleton/Bones Drop"
+                    },
+                    {
+                        "name": "Obsidian Skeleton - Mana Vial Drop",
+                        "ref": "Dropsanity/Obsidian Skeleton/Mana Vial Drop"
+                    },
+                    {
+                        "name": "Obsidian Skeleton - Obsidian Drop",
+                        "ref": "Dropsanity/Obsidian Skeleton/Obsidian Drop"
+                    },
+                    {
+                        "name": "Anpu - Golden Khopesh Drop",
+                        "ref": "Dropsanity/Anpu/Golden Khopesh Drop"
+                    },
+                    {
+                        "name": "Anpu - Golden Sickle Drop",
+                        "ref": "Dropsanity/Anpu/Golden Sickle Drop"
+                    },
+                    {
+                        "name": "Anpu - Large Silver Drop",
+                        "ref": "Dropsanity/Anpu/Large Silver Drop"
+                    },
+                    {
+                        "name": "Anpu - Fire Opal Drop",
+                        "ref": "Dropsanity/Anpu/Fire Opal Drop"
+                    },
+                    {
+                        "name": "Malformed Horse - Brittle Arming Sword Drop",
+                        "ref": "Dropsanity/Malformed Horse/Brittle Arming Sword Drop"
+                    },
+                    {
+                        "name": "Malformed Horse - Large Silver Drop",
+                        "ref": "Dropsanity/Malformed Horse/Large Silver Drop"
+                    },
+                    {
+                        "name": "Malformed Horse - Mana Vial Drop",
+                        "ref": "Dropsanity/Malformed Horse/Mana Vial Drop"
+                    },
+                    {
+                        "name": "Jailor - Jailor's Candle Drop",
+                        "ref": "Dropsanity/Jailor/Jailor's Candle Drop"
+                    },
+                    {
+                        "name": "Jailor - Large Silver Drop",
+                        "ref": "Dropsanity/Jailor/Large Silver Drop"
+                    },
+                    {
+                        "name": "Jailor - Spectral Candle Drop",
+                        "ref": "Dropsanity/Jailor/Spectral Candle Drop"
+                    },
+                    {
+                        "name": "Jailor - Cloth Bandage Drop",
+                        "ref": "Dropsanity/Jailor/Cloth Bandage Drop"
+                    },
+                    {
+                        "name": "Jailor - Health Vial Drop",
+                        "ref": "Dropsanity/Jailor/Health Vial Drop"
+                    },
+                    {
+                        "name": "Jailor - Angel's Feather Drop",
+                        "ref": "Dropsanity/Jailor/Angel's Feather Drop"
+                    },
+                    {
+                        "name": "Vampire Page - Lyrian Longsword Drop",
+                        "ref": "Dropsanity/Vampire Page/Lyrian Longsword Drop"
+                    },
+                    {
+                        "name": "Vampire Page - Vampiric Ashes Drop",
+                        "ref": "Dropsanity/Vampire Page/Vampiric Ashes Drop"
+                    },
+                    {
+                        "name": "Vampire Page - Large Silver Drop",
+                        "ref": "Dropsanity/Vampire Page/Large Silver Drop"
+                    },
+                    {
+                        "name": "Sucsarian - Sucsarian Dagger Drop",
+                        "ref": "Dropsanity/Sucsarian/Sucsarian Dagger Drop"
+                    },
+                    {
+                        "name": "Sucsarian - Sucsarian Spear Drop",
+                        "ref": "Dropsanity/Sucsarian/Sucsarian Spear Drop"
+                    },
+                    {
+                        "name": "Sucsarian - Large Silver Drop",
+                        "ref": "Dropsanity/Sucsarian/Large Silver Drop"
+                    },
+                    {
+                        "name": "Sucsarian - Obsidian Drop",
+                        "ref": "Dropsanity/Sucsarian/Obsidian Drop"
+                    },
+                    {
+                        "name": "Sucsarian - Snowflake Obsidian Drop",
+                        "ref": "Dropsanity/Sucsarian/Snowflake Obsidian Drop"
+                    },
+                    {
+                        "name": "Sucsarian - Throwing Knife Drop",
+                        "ref": "Dropsanity/Sucsarian/Throwing Knife Drop"
+                    },
+                    {
+                        "name": "Giant Skeleton - Dark Skull Drop",
+                        "ref": "Dropsanity/Giant Skeleton/Dark Skull Drop"
+                    },
+                    {
+                        "name": "Giant Skeleton - Dark Urn Drop",
+                        "ref": "Dropsanity/Giant Skeleton/Dark Urn Drop"
+                    },
+                    {
+                        "name": "Giant Skeleton - Bones Drop",
+                        "ref": "Dropsanity/Giant Skeleton/Bones Drop"
+                    },
+                    {
+                        "name": "Giant Skeleton - Mana Vial Drop",
+                        "ref": "Dropsanity/Giant Skeleton/Mana Vial Drop"
+                    },
+                    {
+                        "name": "Giant Skeleton - Onyx Drop",
+                        "ref": "Dropsanity/Giant Skeleton/Onyx Drop"
+                    },
+                    {
+                        "name": "Cetea - Tornado Drop",
+                        "ref": "Dropsanity/Cetea/Tornado Drop"
+                    },
+                    {
+                        "name": "Cetea - Medium Silver Drop",
+                        "ref": "Dropsanity/Cetea/Medium Silver Drop"
+                    },
+                    {
+                        "name": "Cetea - Ocean Bone Shell Drop",
+                        "ref": "Dropsanity/Cetea/Ocean Bone Shell Drop"
+                    },
+                    {
+                        "name": "Abyssal Demon - Ocean Elixir Drop",
+                        "ref": "Dropsanity/Abyssal Demon/Ocean Elixir Drop"
+                    },
+                    {
+                        "name": "Lupine Skeleton - Dark Skull Drop",
+                        "ref": "Dropsanity/Lupine Skeleton/Dark Skull Drop"
+                    },
+                    {
+                        "name": "Lupine Skeleton - Medium Silver Drop",
+                        "ref": "Dropsanity/Lupine Skeleton/Medium Silver Drop"
+                    },
+                    {
+                        "name": "Lupine Skeleton - Onyx Drop",
+                        "ref": "Dropsanity/Lupine Skeleton/Onyx Drop"
+                    },
+                    {
+                        "name": "Lupine Skeleton - Bones Drop",
+                        "ref": "Dropsanity/Lupine Skeleton/Bones Drop"
+                    },
+                    {
+                        "name": "Shulker - Obsidian Drop",
+                        "ref": "Dropsanity/Shulker/Obsidian Drop"
+                    },
+                    {
+                        "name": "Shulker - Onyx Drop",
+                        "ref": "Dropsanity/Shulker/Onyx Drop"
+                    },
+                    {
+                        "name": "Mummy - Mana Vial Drop",
+                        "ref": "Dropsanity/Mummy/Mana Vial Drop"
+                    },
+                    {
+                        "name": "Mummy - Onyx Drop",
+                        "ref": "Dropsanity/Mummy/Onyx Drop"
+                    },
+                    {
+                        "name": "Mummy - Small Silver Drop",
+                        "ref": "Dropsanity/Mummy/Small Silver Drop"
+                    },
+                    {
+                        "name": "Mummy - Large Silver Drop",
+                        "ref": "Dropsanity/Mummy/Large Silver Drop"
+                    },
+                    {
+                        "name": "Necronomicon - Fire Opal Drop",
+                        "ref": "Dropsanity/Necronomicon/Fire Opal Drop"
+                    },
+                    {
+                        "name": "Necronomicon - Medium Silver Drop",
+                        "ref": "Dropsanity/Necronomicon/Medium Silver Drop"
+                    },
+                    {
+                        "name": "Necronomicon - Large Silver Drop",
+                        "ref": "Dropsanity/Necronomicon/Large Silver Drop"
+                    },
+                    {
+                        "name": "Necronomicon - Mana Vial Drop",
+                        "ref": "Dropsanity/Necronomicon/Mana Vial Drop"
+                    },
+                    {
+                        "name": "Enlightened One - Mana Vial Drop",
+                        "ref": "Dropsanity/Enlightened One/Mana Vial Drop"
+                    },
+                    {
+                        "name": "Enlightened One - Ocean Bone Shell Drop",
+                        "ref": "Dropsanity/Enlightened One/Ocean Bone Shell Drop"
+                    },
+                    {
+                        "name": "Slime Skeleton - Ashes Drop",
+                        "ref": "Dropsanity/Slime Skeleton/Ashes Drop"
+                    },
+                    {
+                        "name": "Rat King - Large Silver Drop",
+                        "ref": "Dropsanity/Rat King/Large Silver Drop"
+                    },
+                    {
+                        "name": "Rat King - Lotus Seed Pod Drop",
+                        "ref": "Dropsanity/Rat King/Lotus Seed Pod Drop"
+                    },
+                    {
+                        "name": "Rat - Small Silver Drop",
+                        "ref": "Dropsanity/Rat/Small Silver Drop"
+                    },
+                    {
+                        "name": "Yakul - Medium Silver Drop",
+                        "ref": "Dropsanity/Yakul/Medium Silver Drop"
+                    },
+                    {
+                        "name": "Yakul - Fire Opal Drop",
+                        "ref": "Dropsanity/Yakul/Fire Opal Drop"
+                    },
+                    {
+                        "name": "Yakul - Opal Drop",
+                        "ref": "Dropsanity/Yakul/Opal Drop"
+                    },
+                    {
+                        "name": "Yakul - Health Vial Drop",
+                        "ref": "Dropsanity/Yakul/Health Vial Drop"
+                    },
+                    {
+                        "name": "Venus - Medium Silver Drop",
+                        "ref": "Dropsanity/Venus/Medium Silver Drop"
+                    },
+                    {
+                        "name": "Venus - Yellow Morel Drop",
+                        "ref": "Dropsanity/Venus/Yellow Morel Drop"
+                    },
+                    {
+                        "name": "Venus - Destroying Angel Mushroom Drop",
+                        "ref": "Dropsanity/Venus/Destroying Angel Mushroom Drop"
+                    },
+                    {
+                        "name": "Neptune - Medium Silver Drop",
+                        "ref": "Dropsanity/Neptune/Medium Silver Drop"
+                    },
+                    {
+                        "name": "Neptune - Yellow Morel Drop",
+                        "ref": "Dropsanity/Neptune/Yellow Morel Drop"
+                    },
+                    {
+                        "name": "Neptune - Destroying Angel Mushroom Drop",
+                        "ref": "Dropsanity/Neptune/Destroying Angel Mushroom Drop"
+                    },
+                    {
+                        "name": "Unilateralis - Medium Silver Drop",
+                        "ref": "Dropsanity/Unilateralis/Medium Silver Drop"
+                    },
+                    {
+                        "name": "Unilateralis - Yellow Morel Drop",
+                        "ref": "Dropsanity/Unilateralis/Yellow Morel Drop"
+                    },
+                    {
+                        "name": "Unilateralis - Destroying Angel Mushroom Drop",
+                        "ref": "Dropsanity/Unilateralis/Destroying Angel Mushroom Drop"
+                    },
+                    {
+                        "name": "Hemalith - Health Vial Drop",
+                        "ref": "Dropsanity/Hemalith/Health Vial Drop"
+                    },
+                    {
+                        "name": "Hemalith - Pink Shrimp Drop",
+                        "ref": "Dropsanity/Hemalith/Pink Shrimp Drop"
+                    },
+                    {
+                        "name": "Hemalith - Bloodweed Drop",
+                        "ref": "Dropsanity/Hemalith/Bloodweed Drop"
+                    },
+                    {
+                        "name": "Mi-Go - Ocean Bone Shell Drop",
+                        "ref": "Dropsanity/Mi-Go/Ocean Bone Shell Drop"
+                    },
+                    {
+                        "name": "Mi-Go - Medium Silver Drop",
+                        "ref": "Dropsanity/Mi-Go/Medium Silver Drop"
+                    },
+                    {
+                        "name": "Mi-Go - Snowflake Obsidian",
+                        "ref": "Dropsanity/Mi-Go/Snowflake Obsidian"
+                    },
+                    {
+                        "name": "Mare - Medium Silver Drop",
+                        "ref": "Dropsanity/Mare/Medium Silver Drop"
+                    },
+                    {
+                        "name": "Mare - Obsidian Drop",
+                        "ref": "Dropsanity/Mare/Obsidian Drop"
+                    },
+                    {
+                        "name": "Mare - Onyx Drop",
+                        "ref": "Dropsanity/Mare/Onyx Drop"
+                    },
+                    {
+                        "name": "Cursed Painting - Fire Opal Drop",
+                        "ref": "Dropsanity/Cursed Painting/Fire Opal Drop"
+                    },
+                    {
+                        "name": "Cursed Painting - Medium Silver Drop",
+                        "ref": "Dropsanity/Cursed Painting/Medium Silver Drop"
+                    },
+                    {
+                        "name": "Cursed Painting - Mana Vial Pickup",
+                        "ref": "Dropsanity/Cursed Painting/Mana Vial Pickup"
+                    },
+                    {
+                        "name": "Cursed Painting - Large Silver Drop",
+                        "ref": "Dropsanity/Cursed Painting/Large Silver Drop"
+                    },
+                    {
+                        "name": "Vampire - Large Silver Drop",
+                        "ref": "Dropsanity/Vampire/Large Silver Drop"
+                    },
+                    {
+                        "name": "Vampire - Vampiric Ashes Drop",
+                        "ref": "Dropsanity/Vampire/Vampiric Ashes Drop"
+                    },
+                    {
+                        "name": "Vampire - Cloth Bandage Drop",
+                        "ref": "Dropsanity/Vampire/Cloth Bandage Drop"
+                    },
+                    {
+                        "name": "Malformed - Vampiric Ashes Drop",
+                        "ref": "Dropsanity/Malformed/Vampiric Ashes Drop"
+                    },
+                    {
+                        "name": "Great Bat - Health Vial Drop",
+                        "ref": "Dropsanity/Great Bat/Health Vial Drop"
+                    },
+                    {
+                        "name": "Great Bat - Obsidian Drop",
+                        "ref": "Dropsanity/Great Bat/Obsidian Drop"
+                    },
+                    {
+                        "name": "Great Bat - Large Silver Drop",
+                        "ref": "Dropsanity/Great Bat/Large Silver Drop"
+                    },
+                    {
+                        "name": "Poltergeist - Large Silver Drop",
+                        "ref": "Dropsanity/Poltergeist/Large Silver Drop"
+                    },
+                    {
+                        "name": "Poltergeist - Ectoplasm Drop",
+                        "ref": "Dropsanity/Poltergeist/Ectoplasm Drop"
+                    },
+                    {
+                        "name": "Hallowed Husk - Large Silver Drop",
+                        "ref": "Dropsanity/Hallowed Husk/Large Silver Drop"
+                    },
+                    {
+                        "name": "Hallowed Husk - Bones Drop",
+                        "ref": "Dropsanity/Hallowed Husk/Bones Drop"
+                    },
+                    {
+                        "name": "Hallowed Husk - Cloth Bandage Drop",
+                        "ref": "Dropsanity/Hallowed Husk/Cloth Bandage Drop"
+                    },
+                    {
+                        "name": "Hallowed Husk - Light Urn Drop",
+                        "ref": "Dropsanity/Hallowed Husk/Light Urn Drop"
+                    },
+                    {
+                        "name": "Hallowed Husk - Fool's Gold Drop",
+                        "ref": "Dropsanity/Hallowed Husk/Fool's Gold Drop"
+                    },
+                    {
+                        "name": "Hallowed Husk - Holy Water Drop",
+                        "ref": "Dropsanity/Hallowed Husk/Holy Water Drop"
+                    },
+                    {
+                        "name": "Ikurr'ilb - Ikurr'ilb Root Drop",
+                        "ref": "Dropsanity/Ikurr'ilb/Ikurr'ilb Root Drop"
+                    },
+                    {
+                        "name": "Ikurr'ilb - Medium Silver Drop",
+                        "ref": "Dropsanity/Ikurr'ilb/Medium Silver Drop"
+                    },
+                    {
+                        "name": "Ikurr'ilb - Snowflake Obsidian Drop",
+                        "ref": "Dropsanity/Ikurr'ilb/Snowflake Obsidian Drop"
+                    },
+                    {
+                        "name": "Mimic - Moonlight Vial Drop",
+                        "ref": "Dropsanity/Mimic/Moonlight Vial Drop"
+                    },
+                    {
+                        "name": "Mimic - Obsidian Drop",
+                        "ref": "Dropsanity/Mimic/Obsidian Drop"
+                    },
+                    {
+                        "name": "Mimic - Fool's Gold Drop",
+                        "ref": "Dropsanity/Mimic/Fool's Gold Drop"
+                    },
+                    {
+                        "name": "Serpent - Antidote Drop",
+                        "ref": "Dropsanity/Serpent/Antidote Drop"
+                    },
+                    {
+                        "name": "Serpent - Small Silver Drop",
+                        "ref": "Dropsanity/Serpent/Small Silver Drop"
+                    },
+                    {
+                        "name": "Embalmed - Cloth Bandage Drop",
+                        "ref": "Dropsanity/Embalmed/Cloth Bandage Drop"
+                    },
+                    {
+                        "name": "Embalmed - Ashes Drop",
+                        "ref": "Dropsanity/Embalmed/Ashes Drop"
+                    },
+                    {
+                        "name": "Embalmed - Bones Drop",
+                        "ref": "Dropsanity/Embalmed/Bones Drop"
+                    },
+                    {
+                        "name": "Cerritulus Lunam - Ectoplasm Drop",
+                        "ref": "Dropsanity/Cerritulus Lunam/Ectoplasm Drop"
+                    },
+                    {
+                        "name": "Cerritulus Lunam - Medium Silver Drop",
+                        "ref": "Dropsanity/Cerritulus Lunam/Medium Silver Drop"
+                    },
+                    {
+                        "name": "Cerritulus Lunam - Snowflake Obsidian Drop",
+                        "ref": "Dropsanity/Cerritulus Lunam/Snowflake Obsidian Drop"
+                    },
+                    {
+                        "name": "Vesta - Fairy Moss Drop",
+                        "ref": "Dropsanity/Vesta/Fairy Moss Drop"
+                    },
+                    {
+                        "name": "Vesta - Yellow Morel Drop",
+                        "ref": "Dropsanity/Vesta/Yellow Morel Drop"
+                    },
+                    {
+                        "name": "Vesta - Destroying Angel Mushroom Drop",
+                        "ref": "Dropsanity/Vesta/Destroying Angel Mushroom Drop"
+                    },
+                    {
+                        "name": "Ceres - Fairy Moss Drop",
+                        "ref": "Dropsanity/Ceres/Fairy Moss Drop"
+                    },
+                    {
+                        "name": "Ceres - Yellow Morel Drop",
+                        "ref": "Dropsanity/Ceres/Yellow Morel Drop"
+                    },
+                    {
+                        "name": "Ceres - Destroying Angel Mushroom Drop",
+                        "ref": "Dropsanity/Ceres/Destroying Angel Mushroom Drop"
+                    },
+                    {
+                        "name": "Gloom Wood - Fairy Moss Drop",
+                        "ref": "Dropsanity/Gloom Wood/Fairy Moss Drop"
+                    },
+                    {
+                        "name": "Gloom Wood - Health Vial Drop",
+                        "ref": "Dropsanity/Gloom Wood/Health Vial Drop"
+                    },
+                    {
+                        "name": "Gloom Wood - Mana Vial Drop",
+                        "ref": "Dropsanity/Gloom Wood/Mana Vial Drop"
+                    },
+                    {
+                        "name": "Sanguis Umbra - Black Book Drop",
+                        "ref": "Dropsanity/Sanguis Umbra/Black Book Drop"
+                    },
+                    {
+                        "name": "Infested Corpse - Bones",
+                        "ref": "Dropsanity/Infested Corpse/Bones"
+                    },
+                    {
+                        "name": "Infested Corpse - Antidote Drop",
+                        "ref": "Dropsanity/Infested Corpse/Antidote Drop"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": "526",
+                        "y": "447",
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Etna's Pupil",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Etna's Pupil - Alchemize Concentrated Lunacy",
+                        "ref": "Etna's Pupil/Alchemize Concentrated Lunacy"
+                    },
+                    {
+                        "name": "Etna's Pupil - Alchemize Hostility Barrier",
+                        "ref": "Etna's Pupil/Alchemize Hostility Barrier"
+                    },
+                    {
+                        "name": "Etna's Pupil - Alchemize Explosives",
+                        "ref": "Etna's Pupil/Alchemize Explosives"
+                    },
+                    {
+                        "name": "Etna's Pupil - Alchemize Venomous Object",
+                        "ref": "Etna's Pupil/Alchemize Venomous Object"
+                    },
+                    {
+                        "name": "Etna's Pupil - Alchemize Defense Construct",
+                        "ref": "Etna's Pupil/Alchemize Defense Construct"
+                    },
+                    {
+                        "name": "Etna's Pupil - Alchemize Concentrated Poison",
+                        "ref": "Etna's Pupil/Alchemize Concentrated Poison"
+                    },
+                    {
+                        "name": "Etna's Pupil - Alchemize Nature",
+                        "ref": "Etna's Pupil/Alchemize Nature"
+                    },
+                    {
+                        "name": "Etna's Pupil - Alchemize Antivenom",
+                        "ref": "Etna's Pupil/Alchemize Antivenom"
+                    },
+                    {
+                        "name": "Etna's Pupil - Alchemize Cleromancy Tool",
+                        "ref": "Etna's Pupil/Alchemize Cleromancy Tool"
+                    },
+                    {
+                        "name": "Etna's Pupil - Alchemize Healing Remedy",
+                        "ref": "Etna's Pupil/Alchemize Healing Remedy"
+                    },
+                    {
+                        "name": "Etna's Pupil - Alchemize Water of Life",
+                        "ref": "Etna's Pupil/Alchemize Water of Life"
+                    },
+                    {
+                        "name": "Etna's Pupil - Alchemize Sharp Object",
+                        "ref": "Etna's Pupil/Alchemize Sharp Object"
+                    },
+                    {
+                        "name": "Etna's Pupil - Alchemize Golden Sin of Abdul",
+                        "ref": "Etna's Pupil/Alchemize Golden Sin of Abdul"
+                    },
+                    {
+                        "name": "Etna's Pupil - Alchemize Mana Remedy",
+                        "ref": "Etna's Pupil/Alchemize Mana Remedy"
+                    },
+                    {
+                        "name": "Etna's Pupil - Alchemize Unstable Stone",
+                        "ref": "Etna's Pupil/Alchemize Unstable Stone"
+                    },
+                    {
+                        "name": "Etna's Pupil - Alchemize Simple Life",
+                        "ref": "Etna's Pupil/Alchemize Simple Life"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": "917",
+                        "y": "797",
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Forbidden Archives",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Back Room Past Bridge - Ocean Elixir",
+                        "ref": "Forbidden Archives/Back Room Past Bridge/Ocean Elixir"
+                    },
+                    {
+                        "name": "Strange Corpse - Spell Ring (Corpse Transformation)",
+                        "ref": "Forbidden Archives/Strange Corpse/Spell Ring (Corpse Transformation)"
+                    },
+                    {
+                        "name": "Against Wall Near Trees - Light Urn",
+                        "ref": "Forbidden Archives/Against Wall Near Trees/Light Urn"
+                    },
+                    {
+                        "name": "Short Wall Near Trees - Health Vial",
+                        "ref": "Forbidden Archives/Short Wall Near Trees/Health Vial"
+                    },
+                    {
+                        "name": "Snail Lectern (Near) - Spell Ring (Light Reveal)",
+                        "ref": "Forbidden Archives/Snail Lectern (Near)/Spell Ring (Light Reveal)"
+                    },
+                    {
+                        "name": "Snail Lectern (Far) - Spell Ring (Blood Drain)",
+                        "ref": "Forbidden Archives/Snail Lectern (Far)/Spell Ring (Blood Drain)"
+                    },
+                    {
+                        "name": "Rug on Balcony - Mana Vial",
+                        "ref": "Forbidden Archives/Rug on Balcony/Mana Vial"
+                    },
+                    {
+                        "name": "Rooftops - Earth Elixir",
+                        "ref": "Forbidden Archives/Rooftops/Earth Elixir"
+                    },
+                    {
+                        "name": "Hidden Room Upper Floor - Wolfram Greatsword",
+                        "ref": "Forbidden Archives/Hidden Room Upper Floor/Wolfram Greatsword"
+                    },
+                    {
+                        "name": "Hidden Room Lower Floor - Crystal Shard",
+                        "ref": "Forbidden Archives/Hidden Room Lower Floor/Crystal Shard"
+                    },
+                    {
+                        "name": "Near Twisty Tree - Fairy Moss",
+                        "ref": "Forbidden Archives/Near Twisty Tree/Fairy Moss"
+                    },
+                    {
+                        "name": "uwu - Axe of Harming",
+                        "ref": "Forbidden Archives/uwu/Axe of Harming"
+                    },
+                    {
+                        "name": "Daedalus Knowledge (First) - Black Book 1",
+                        "ref": "Forbidden Archives/Daedalus Knowledge (First)/Black Book 1"
+                    },
+                    {
+                        "name": "Daedalus Knowledge (Second) - Black Book 2",
+                        "ref": "Forbidden Archives/Daedalus Knowledge (Second)/Black Book 2"
+                    },
+                    {
+                        "name": "Daedalus Knowledge (Third) - Black Book 3",
+                        "ref": "Forbidden Archives/Daedalus Knowledge (Third)/Black Book 3"
+                    },
+                    {
+                        "name": "Corner Near Daedalus - Health Vial",
+                        "ref": "Forbidden Archives/Corner Near Daedalus/Health Vial"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": "1879",
+                        "y": "2022",
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Forest Canopy",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Branch Lower Edge - Crystal Shard",
+                        "ref": "Forest Canopy/Branch Lower Edge/Crystal Shard"
+                    },
+                    {
+                        "name": "Branch Cave - Fairy Moss",
+                        "ref": "Forest Canopy/Branch Cave/Fairy Moss"
+                    },
+                    {
+                        "name": "Chest - Spell Ring (Poison Mist)",
+                        "ref": "Forest Canopy/Chest/Spell Ring (Poison Mist)"
+                    },
+                    {
+                        "name": "Wooden Statue (Josiah) - Skull of Josiah",
+                        "ref": "Forest Canopy/Wooden Statue (Josiah)/Skull of Josiah"
+                    },
+                    {
+                        "name": "Wooden Statue (Sitting) - Spell Ring (Wind Slicer)",
+                        "ref": "Forest Canopy/Wooden Statue (Sitting)/Spell Ring (Wind Slicer)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": "1809",
+                        "y": "2194",
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Forlorn Arena",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Corpse Waiting For A Full Moon - Broken Sword",
+                        "ref": "Forlorn Arena/Corpse Waiting For A Full Moon/Broken Sword"
+                    },
+                    {
+                        "name": "Entry Rock Parkour - Health Vial",
+                        "ref": "Forlorn Arena/Entry Rock Parkour/Health Vial"
+                    },
+                    {
+                        "name": "Temple of Earth Hidden Plant Haven - Shadow Blade",
+                        "ref": "Forlorn Arena/Temple of Earth Hidden Plant Haven/Shadow Blade"
+                    },
+                    {
+                        "name": "Temple of Earth Hidden Room - Earth Elixir",
+                        "ref": "Forlorn Arena/Temple of Earth Hidden Room/Earth Elixir"
+                    },
+                    {
+                        "name": "Temple of Earth Fractured Chest - Fractured Life",
+                        "ref": "Forlorn Arena/Temple of Earth Fractured Chest/Fractured Life"
+                    },
+                    {
+                        "name": "Temple of Earth Chest Near Switch - Earth Talisman",
+                        "ref": "Forlorn Arena/Temple of Earth Chest Near Switch/Earth Talisman"
+                    },
+                    {
+                        "name": "Temple of Water Room Near Water - Fairy Moss",
+                        "ref": "Forlorn Arena/Temple of Water Room Near Water/Fairy Moss"
+                    },
+                    {
+                        "name": "Temple of Water Corner Near Water - Antidote",
+                        "ref": "Forlorn Arena/Temple of Water Corner Near Water/Antidote"
+                    },
+                    {
+                        "name": "Temple of Water Collapsed End Near Balcony - Health Vial",
+                        "ref": "Forlorn Arena/Temple of Water Collapsed End Near Balcony/Health Vial"
+                    },
+                    {
+                        "name": "Temple of Water Hidden Basement (Left) - Antidote",
+                        "ref": "Forlorn Arena/Temple of Water Hidden Basement (Left)/Antidote"
+                    },
+                    {
+                        "name": "Temple of Water Hidden Basement (Right) - Antidote",
+                        "ref": "Forlorn Arena/Temple of Water Hidden Basement (Right)/Antidote"
+                    },
+                    {
+                        "name": "Temple of Water Hidden Laser Room - Obsidian Sword",
+                        "ref": "Forlorn Arena/Temple of Water Hidden Laser Room/Obsidian Sword"
+                    },
+                    {
+                        "name": "Temple of Water Hidden Alcove Before Stairs - Health Vial",
+                        "ref": "Forlorn Arena/Temple of Water Hidden Alcove Before Stairs/Health Vial"
+                    },
+                    {
+                        "name": "Temple of Water Hidden Alcove (Left) - Wisp Heart",
+                        "ref": "Forlorn Arena/Temple of Water Hidden Alcove (Left)/Wisp Heart"
+                    },
+                    {
+                        "name": "Temple of Water Hidden Alcove (Right) - Wisp Heart",
+                        "ref": "Forlorn Arena/Temple of Water Hidden Alcove (Right)/Wisp Heart"
+                    },
+                    {
+                        "name": "Temple of Water Hidden Alcove Before Switch - Ocean Elixir",
+                        "ref": "Forlorn Arena/Temple of Water Hidden Alcove Before Switch/Ocean Elixir"
+                    },
+                    {
+                        "name": "Temple of Water Fractured Chest - Fractured Death",
+                        "ref": "Forlorn Arena/Temple of Water Fractured Chest/Fractured Death"
+                    },
+                    {
+                        "name": "Temple of Water Chest Near Switch - Water Talisman",
+                        "ref": "Forlorn Arena/Temple of Water Chest Near Switch/Water Talisman"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": "1580",
+                        "y": "737",
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Great Well Surface",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Demi's Gift - Crystal Shard x 3",
+                        "ref": "Great Well Surface/Demi's Gift/Crystal Shard x 3"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": "858",
+                        "y": "1779",
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Hollow Basin",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Starting Weapon - Replica Sword",
+                        "ref": "Hollow Basin/Starting Weapon/Replica Sword"
+                    },
+                    {
+                        "name": "Rightmost Water Room (Right) - Mana Vial",
+                        "ref": "Hollow Basin/Rightmost Water Room (Right)/Mana Vial"
+                    },
+                    {
+                        "name": "Rightmost Water Room (Left) - Spell Ring (Ghost Light)",
+                        "ref": "Hollow Basin/Rightmost Water Room (Left)/Spell Ring (Ghost Light)"
+                    },
+                    {
+                        "name": "Leftmost Water Room - Health Vial",
+                        "ref": "Hollow Basin/Leftmost Water Room/Health Vial"
+                    },
+                    {
+                        "name": "Chest Near Demi - Spell Ring (Flame Spear)",
+                        "ref": "Hollow Basin/Chest Near Demi/Spell Ring (Flame Spear)"
+                    },
+                    {
+                        "name": "Near Enchanted Door - Health Vial",
+                        "ref": "Hollow Basin/Near Enchanted Door/Health Vial"
+                    },
+                    {
+                        "name": "Dark Tunnel After Enchanted Door - Torch",
+                        "ref": "Hollow Basin/Dark Tunnel After Enchanted Door/Torch"
+                    },
+                    {
+                        "name": "Temple Fountain - Health Vial",
+                        "ref": "Hollow Basin/Temple Fountain/Health Vial"
+                    },
+                    {
+                        "name": "Temple Ritual Table - Ritual Dagger",
+                        "ref": "Hollow Basin/Temple Ritual Table/Ritual Dagger"
+                    },
+                    {
+                        "name": "Temple Altar Chest - Spell Ring (Lithomancy)",
+                        "ref": "Hollow Basin/Temple Altar Chest/Spell Ring (Lithomancy)"
+                    },
+                    {
+                        "name": "Temple Hidden Room Behind Pillar (Left) - Health Vial",
+                        "ref": "Hollow Basin/Temple Hidden Room Behind Pillar (Left)/Health Vial"
+                    },
+                    {
+                        "name": "Temple Hidden Room Behind Pillar (Right) - Health Vial",
+                        "ref": "Hollow Basin/Temple Hidden Room Behind Pillar (Right)/Health Vial"
+                    },
+                    {
+                        "name": "Temple Ritual Table After Bridge - Spell Ring (Flame Flare)",
+                        "ref": "Hollow Basin/Temple Ritual Table After Bridge/Spell Ring (Flame Flare)"
+                    },
+                    {
+                        "name": "Temple Small Pillar Top - Health Vial",
+                        "ref": "Hollow Basin/Temple Small Pillar Top/Health Vial"
+                    },
+                    {
+                        "name": "Temple Pillar Room Left - Crystal Shard",
+                        "ref": "Hollow Basin/Temple Pillar Room Left/Crystal Shard"
+                    },
+                    {
+                        "name": "Temple Pillar Room Back Left - Wooden Shield",
+                        "ref": "Hollow Basin/Temple Pillar Room Back Left/Wooden Shield"
+                    },
+                    {
+                        "name": "Temple Pillar Room Back Right - Blood Wine",
+                        "ref": "Hollow Basin/Temple Pillar Room Back Right/Blood Wine"
+                    },
+                    {
+                        "name": "Temple Pillar Room Hidden Room - Spell Ring (Blood Strike)",
+                        "ref": "Hollow Basin/Temple Pillar Room Hidden Room/Spell Ring (Blood Strike)"
+                    },
+                    {
+                        "name": "Temple Hidden Room In Sewer - VHS Tape",
+                        "ref": "Hollow Basin/Temple Hidden Room In Sewer/VHS Tape"
+                    },
+                    {
+                        "name": "Temple Table in Sewer - Stone Club",
+                        "ref": "Hollow Basin/Temple Table in Sewer/Stone Club"
+                    },
+                    {
+                        "name": "Temple Sewer Puzzle - Corrupted Key",
+                        "ref": "Hollow Basin/Temple Sewer Puzzle/Corrupted Key"
+                    },
+                    {
+                        "name": "Temple Blood Altar - 10 Strange Coins",
+                        "ref": "Hollow Basin/Temple Blood Altar/10 Strange Coins"
+                    },
+                    {
+                        "name": "Alcove on Path to Yosei Forest - Steel Spear",
+                        "ref": "Hollow Basin/Alcove on Path to Yosei Forest/Steel Spear"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": "275",
+                        "y": "874",
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Labyrinth of Ash",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Entry Coffin - Mana Vial",
+                        "ref": "Labyrinth of Ash/Entry Coffin/Mana Vial"
+                    },
+                    {
+                        "name": "Giant Remains - Health Vial",
+                        "ref": "Labyrinth of Ash/Giant Remains/Health Vial"
+                    },
+                    {
+                        "name": "Behind Statue - Wisp Heart",
+                        "ref": "Labyrinth of Ash/Behind Statue/Wisp Heart"
+                    },
+                    {
+                        "name": "Rocks Near Switch - Spell Ring (Lava Chasm)",
+                        "ref": "Labyrinth of Ash/Rocks Near Switch/Spell Ring (Lava Chasm)"
+                    },
+                    {
+                        "name": "Forbidden Light Chest - Spell Ring (Spirit Warp)",
+                        "ref": "Labyrinth of Ash/Forbidden Light Chest/Spell Ring (Spirit Warp)"
+                    },
+                    {
+                        "name": "Hidden Light Stash - Dark Urn",
+                        "ref": "Labyrinth of Ash/Hidden Light Stash/Dark Urn"
+                    },
+                    {
+                        "name": "NNSNSSNSNN Lost Maze - Serpent Fang",
+                        "ref": "Labyrinth of Ash/NNSNSSNSNN Lost Maze/Serpent Fang"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": "375",
+                        "y": "471",
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Laetus Chasm",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Hidden Room - Spell Ring (Ice Tear)",
+                        "ref": "Laetus Chasm/Hidden Room/Spell Ring (Ice Tear)"
+                    },
+                    {
+                        "name": "Invisible Path to Cliffside - Blessed Wind",
+                        "ref": "Laetus Chasm/Invisible Path to Cliffside/Blessed Wind"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": "2050",
+                        "y": "1489",
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Quenchsanity",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Quenchsanity - Quench Steel Claw",
+                        "ref": "Quenchsanity/Quench Steel Claw"
+                    },
+                    {
+                        "name": "Quenchsanity - Quench Iron Claw",
+                        "ref": "Quenchsanity/Quench Iron Claw"
+                    },
+                    {
+                        "name": "Quenchsanity - Quench Iron Club",
+                        "ref": "Quenchsanity/Quench Iron Club"
+                    },
+                    {
+                        "name": "Quenchsanity - Quench Stone Club",
+                        "ref": "Quenchsanity/Quench Stone Club"
+                    },
+                    {
+                        "name": "Quenchsanity - Quench Torch",
+                        "ref": "Quenchsanity/Quench Torch"
+                    },
+                    {
+                        "name": "Quenchsanity - Quench Brittle Arming Sword",
+                        "ref": "Quenchsanity/Quench Brittle Arming Sword"
+                    },
+                    {
+                        "name": "Quenchsanity - Quench Broken Hilt",
+                        "ref": "Quenchsanity/Quench Broken Hilt"
+                    },
+                    {
+                        "name": "Quenchsanity - Quench Broken Lance",
+                        "ref": "Quenchsanity/Quench Broken Lance"
+                    },
+                    {
+                        "name": "Quenchsanity - Quench Crossbow",
+                        "ref": "Quenchsanity/Quench Crossbow"
+                    },
+                    {
+                        "name": "Quenchsanity - Quench Elfen Sword",
+                        "ref": "Quenchsanity/Quench Elfen Sword"
+                    },
+                    {
+                        "name": "Quenchsanity - Quench Lyrian Longsword",
+                        "ref": "Quenchsanity/Quench Lyrian Longsword"
+                    },
+                    {
+                        "name": "Quenchsanity - Quench Obsidian Seal",
+                        "ref": "Quenchsanity/Quench Obsidian Seal"
+                    },
+                    {
+                        "name": "Quenchsanity - Quench Obsidian Cursebrand",
+                        "ref": "Quenchsanity/Quench Obsidian Cursebrand"
+                    },
+                    {
+                        "name": "Quenchsanity - Quench Obsidian Poisonguard",
+                        "ref": "Quenchsanity/Quench Obsidian Poisonguard"
+                    },
+                    {
+                        "name": "Quenchsanity - Quench Rapier",
+                        "ref": "Quenchsanity/Quench Rapier"
+                    },
+                    {
+                        "name": "Quenchsanity - Quench Replica Sword",
+                        "ref": "Quenchsanity/Quench Replica Sword"
+                    },
+                    {
+                        "name": "Quenchsanity - Quench Rusted Sword",
+                        "ref": "Quenchsanity/Quench Rusted Sword"
+                    },
+                    {
+                        "name": "Quenchsanity - Quench Shadow Blade",
+                        "ref": "Quenchsanity/Quench Shadow Blade"
+                    },
+                    {
+                        "name": "Quenchsanity - Quench Shining Blade",
+                        "ref": "Quenchsanity/Quench Shining Blade"
+                    },
+                    {
+                        "name": "Quenchsanity - Quench Death Scythe",
+                        "ref": "Quenchsanity/Quench Death Scythe"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": "2176",
+                        "y": "1504",
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Sand Temple",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Top Right Sarcophagus - Cloth Bandage",
+                        "ref": "Sand Temple/Top Right Sarcophagus/Cloth Bandage"
+                    },
+                    {
+                        "name": "Second Floor Snake Room - Health Vial",
+                        "ref": "Sand Temple/Second Floor Snake Room/Health Vial"
+                    },
+                    {
+                        "name": "Basement Snake Pit - Staff of Osiris",
+                        "ref": "Sand Temple/Basement Snake Pit/Staff of Osiris"
+                    },
+                    {
+                        "name": "Room Buried in Sand - Staff of Osiris",
+                        "ref": "Sand Temple/Room Buried in Sand/Staff of Osiris"
+                    },
+                    {
+                        "name": "Basement Stone Rubble - Mana Vial",
+                        "ref": "Sand Temple/Basement Stone Rubble/Mana Vial"
+                    },
+                    {
+                        "name": "Hidden Sarcophagus - Cloth Bandage",
+                        "ref": "Sand Temple/Hidden Sarcophagus/Cloth Bandage"
+                    },
+                    {
+                        "name": "Second Floor Dead End - Health Vial",
+                        "ref": "Sand Temple/Second Floor Dead End/Health Vial"
+                    },
+                    {
+                        "name": "Lunacid Sandwich - Iron Claw",
+                        "ref": "Sand Temple/Lunacid Sandwich/Iron Claw"
+                    },
+                    {
+                        "name": "Chest Near Switch - Spell Ring (Ignis Calor)",
+                        "ref": "Sand Temple/Chest Near Switch/Spell Ring (Ignis Calor)"
+                    },
+                    {
+                        "name": "Chest Overlooking Crypt - Ocean Elixir",
+                        "ref": "Sand Temple/Chest Overlooking Crypt/Ocean Elixir"
+                    },
+                    {
+                        "name": "Floor Switch Maze - Moon Vial",
+                        "ref": "Sand Temple/Floor Switch Maze/Moon Vial"
+                    },
+                    {
+                        "name": "Triple Sarcophagus - 10 Silver",
+                        "ref": "Sand Temple/Triple Sarcophagus/10 Silver"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": "1382",
+                        "y": "123",
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Sealed Ballroom",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Entry Small Room Lounge - Blood Wine",
+                        "ref": "Sealed Ballroom/Entry Small Room Lounge/Blood Wine"
+                    },
+                    {
+                        "name": "Entry Hidden Couch Top - Steel Needle (If Not Bought)",
+                        "ref": "Sealed Ballroom/Entry Hidden Couch Top/Steel Needle (If Not Bought)"
+                    },
+                    {
+                        "name": "Entry Hidden Couch Bottom - Health Vial",
+                        "ref": "Sealed Ballroom/Entry Hidden Couch Bottom/Health Vial"
+                    },
+                    {
+                        "name": "Entry Hidden Cave in a Lounge - Spectral Candle",
+                        "ref": "Sealed Ballroom/Entry Hidden Cave in a Lounge/Spectral Candle"
+                    },
+                    {
+                        "name": "Entry Lounge Long Table - Health Vial",
+                        "ref": "Sealed Ballroom/Entry Lounge Long Table/Health Vial"
+                    },
+                    {
+                        "name": "Side Hidden Cave - Crystal Shard",
+                        "ref": "Sealed Ballroom/Side Hidden Cave/Crystal Shard"
+                    },
+                    {
+                        "name": "Side Chest Near Switch - Spell Ring (Earth Thorn)",
+                        "ref": "Sealed Ballroom/Side Chest Near Switch/Spell Ring (Earth Thorn)"
+                    },
+                    {
+                        "name": "Side Painting Viewing Room - Ocean Elixir",
+                        "ref": "Sealed Ballroom/Side Painting Viewing Room/Ocean Elixir"
+                    },
+                    {
+                        "name": "Side Hidden Casket Room - Health Vial",
+                        "ref": "Sealed Ballroom/Side Hidden Casket Room/Health Vial"
+                    },
+                    {
+                        "name": "Side XP Drain Party Room - Marauder Black Flail",
+                        "ref": "Sealed Ballroom/Side XP Drain Party Room/Marauder Black Flail"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": "2487",
+                        "y": "190",
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Shopsanity",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Shopsanity - Buy Rapier",
+                        "ref": "Shopsanity/Buy Rapier"
+                    },
+                    {
+                        "name": "Shopsanity - Buy Crossbow",
+                        "ref": "Shopsanity/Buy Crossbow"
+                    },
+                    {
+                        "name": "Shopsanity - Buy Oil Lantern",
+                        "ref": "Shopsanity/Buy Oil Lantern"
+                    },
+                    {
+                        "name": "Shopsanity - Buy Enchanted Key",
+                        "ref": "Shopsanity/Buy Enchanted Key"
+                    },
+                    {
+                        "name": "Shopsanity - Buy Jotunn Slayer",
+                        "ref": "Shopsanity/Buy Jotunn Slayer"
+                    },
+                    {
+                        "name": "Shopsanity - Buy Privateer Musket",
+                        "ref": "Shopsanity/Buy Privateer Musket"
+                    },
+                    {
+                        "name": "Shopsanity - Buy Steel Needle",
+                        "ref": "Shopsanity/Buy Steel Needle"
+                    },
+                    {
+                        "name": "Shopsanity - Buy Ocean Elixir (Patchouli)",
+                        "ref": "Shopsanity/Buy Ocean Elixir (Patchouli)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": "1858",
+                        "y": "1326",
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Terminus Prison",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Third Floor Locked Cell Left - Cloth Bandage",
+                        "ref": "Terminus Prison/Third Floor Locked Cell Left/Cloth Bandage"
+                    },
+                    {
+                        "name": "Third Floor Locked Cell Right - Ashes",
+                        "ref": "Terminus Prison/Third Floor Locked Cell Right/Ashes"
+                    },
+                    {
+                        "name": "Third Floor Locked Cell South - Broken Lance",
+                        "ref": "Terminus Prison/Third Floor Locked Cell South/Broken Lance"
+                    },
+                    {
+                        "name": "Almost Bottomless Pit - Spell Ring (Icarian Flight)",
+                        "ref": "Terminus Prison/Almost Bottomless Pit/Spell Ring (Icarian Flight)"
+                    },
+                    {
+                        "name": "Second Floor Broken Cell - Cloth Bandage",
+                        "ref": "Terminus Prison/Second Floor Broken Cell/Cloth Bandage"
+                    },
+                    {
+                        "name": "Second Floor Jailer's Table - Terminus Prison Key",
+                        "ref": "Terminus Prison/Second Floor Jailer's Table/Terminus Prison Key"
+                    },
+                    {
+                        "name": "First Floor Hidden Cell - Holy Water",
+                        "ref": "Terminus Prison/First Floor Hidden Cell/Holy Water"
+                    },
+                    {
+                        "name": "First Floor Hidden Debris Room - Light Urn",
+                        "ref": "Terminus Prison/First Floor Hidden Debris Room/Light Urn"
+                    },
+                    {
+                        "name": "First Floor Remains - Fishing Spear",
+                        "ref": "Terminus Prison/First Floor Remains/Fishing Spear"
+                    },
+                    {
+                        "name": "Green Asylum Guarded Alcove (Left) - Moonlight Vial",
+                        "ref": "Terminus Prison/Green Asylum Guarded Alcove (Left)/Moonlight Vial"
+                    },
+                    {
+                        "name": "Green Asylum Guarded Alcove (Right) - Moonlight Vial",
+                        "ref": "Terminus Prison/Green Asylum Guarded Alcove (Right)/Moonlight Vial"
+                    },
+                    {
+                        "name": "Green Asylum Long Alcove - Earth Elixir",
+                        "ref": "Terminus Prison/Green Asylum Long Alcove/Earth Elixir"
+                    },
+                    {
+                        "name": "Green Asylum Bone Pit - Health Vial",
+                        "ref": "Terminus Prison/Green Asylum Bone Pit/Health Vial"
+                    },
+                    {
+                        "name": "Fourth Floor Cell Hanging Remains - Health Vial",
+                        "ref": "Terminus Prison/Fourth Floor Cell Hanging Remains/Health Vial"
+                    },
+                    {
+                        "name": "Fourth Floor Maledictus Secret - Spell Ring (Blue Flame Arc)",
+                        "ref": "Terminus Prison/Fourth Floor Maledictus Secret/Spell Ring (Blue Flame Arc)"
+                    },
+                    {
+                        "name": "Fourth Floor Hidden Jailer Sleeping Spot - Holy Water",
+                        "ref": "Terminus Prison/Fourth Floor Hidden Jailer Sleeping Spot/Holy Water"
+                    },
+                    {
+                        "name": "Fourth Floor Jailer Break Room - Mana Vial",
+                        "ref": "Terminus Prison/Fourth Floor Jailer Break Room/Mana Vial"
+                    },
+                    {
+                        "name": "Etna's Resting Place Item 1 - Moonpetal",
+                        "ref": "Terminus Prison/Etna's Resting Place Item 1/Moonpetal"
+                    },
+                    {
+                        "name": "Etna's Resting Place Item 2 - Ectoplasm",
+                        "ref": "Terminus Prison/Etna's Resting Place Item 2/Ectoplasm"
+                    },
+                    {
+                        "name": "Etna's Resting Place Item 3 - Snowflake Obsidian",
+                        "ref": "Terminus Prison/Etna's Resting Place Item 3/Snowflake Obsidian"
+                    },
+                    {
+                        "name": "Fourth Floor Collapsed Tunnel - Hammer of Cruelty",
+                        "ref": "Terminus Prison/Fourth Floor Collapsed Tunnel/Hammer of Cruelty"
+                    },
+                    {
+                        "name": "Egg's Resting Place - Skeletal Rattle",
+                        "ref": "Terminus Prison/Egg's Resting Place/Skeletal Rattle"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": "2275",
+                        "y": "2132",
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "The Fetid Mire",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Room Left of Foyer - Antidote",
+                        "ref": "The Fetid Mire/Room Left of Foyer/Antidote"
+                    },
+                    {
+                        "name": "Hidden Slimey Chest Near Entrance - Spell Ring (Ice Spear)",
+                        "ref": "The Fetid Mire/Hidden Slimey Chest Near Entrance/Spell Ring (Ice Spear)"
+                    },
+                    {
+                        "name": "Hidden Upper Overlook (Left) - Crystal Shard",
+                        "ref": "The Fetid Mire/Hidden Upper Overlook (Left)/Crystal Shard"
+                    },
+                    {
+                        "name": "Hidden Upper Overlook (Right) - Ocean Elixir",
+                        "ref": "The Fetid Mire/Hidden Upper Overlook (Right)/Ocean Elixir"
+                    },
+                    {
+                        "name": "Bonenard's Trash - Antidote",
+                        "ref": "The Fetid Mire/Bonenard's Trash/Antidote"
+                    },
+                    {
+                        "name": "Rubble Near Overlook Bridge - Antidote",
+                        "ref": "The Fetid Mire/Rubble Near Overlook Bridge/Antidote"
+                    },
+                    {
+                        "name": "Slime Skeleton Chest - Spell Ring (Barrier)",
+                        "ref": "The Fetid Mire/Slime Skeleton Chest/Spell Ring (Barrier)"
+                    },
+                    {
+                        "name": "Jellisha's Trash - Mana Vial",
+                        "ref": "The Fetid Mire/Jellisha's Trash/Mana Vial"
+                    },
+                    {
+                        "name": "Jellisha's Quest Reward - Spell Ring (Slime Orb)",
+                        "ref": "The Fetid Mire/Jellisha's Quest Reward/Spell Ring (Slime Orb)"
+                    },
+                    {
+                        "name": "Path to Sanguine Sea (Left) - Battle Axe",
+                        "ref": "The Fetid Mire/Path to Sanguine Sea (Left)/Battle Axe"
+                    },
+                    {
+                        "name": "Path to Sanguine Sea (Right) - Health Vial",
+                        "ref": "The Fetid Mire/Path to Sanguine Sea (Right)/Health Vial"
+                    },
+                    {
+                        "name": "Hidden Chest Near Underworks - Earth Elixir",
+                        "ref": "The Fetid Mire/Hidden Chest Near Underworks/Earth Elixir"
+                    },
+                    {
+                        "name": "Rubble Near Illusory Wall - Spell Ring (Wind Dash)",
+                        "ref": "The Fetid Mire/Rubble Near Illusory Wall/Spell Ring (Wind Dash)"
+                    },
+                    {
+                        "name": "Underwater Pipe - Poison Throwing Knife",
+                        "ref": "The Fetid Mire/Underwater Pipe/Poison Throwing Knife"
+                    },
+                    {
+                        "name": "Underworks Waterfall - Antidote",
+                        "ref": "The Fetid Mire/Underworks Waterfall/Antidote"
+                    },
+                    {
+                        "name": "Underworks Skeleton - Broken Hilt",
+                        "ref": "The Fetid Mire/Underworks Skeleton/Broken Hilt"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": "1510",
+                        "y": "466",
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "The Sanguine Sea",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Pillar In Front of Castle Le Fanu - Corrupted Dagger",
+                        "ref": "The Sanguine Sea/Pillar In Front of Castle Le Fanu/Corrupted Dagger"
+                    },
+                    {
+                        "name": "Underblood Near Castle Le Fanu - Dark Rapier",
+                        "ref": "The Sanguine Sea/Underblood Near Castle Le Fanu/Dark Rapier"
+                    },
+                    {
+                        "name": "Fairy Circle - Spell Ring (Summon Fairy)",
+                        "ref": "The Sanguine Sea/Fairy Circle/Spell Ring (Summon Fairy)"
+                    },
+                    {
+                        "name": "Killing the Jotunn - 10 Strange Coins",
+                        "ref": "The Sanguine Sea/Killing the Jotunn/10 Strange Coins"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": "82",
+                        "y": "1153",
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Throne Chamber",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Crilall's Book Repository - Black Book",
+                        "ref": "Throne Chamber/Crilall's Book Repository/Black Book"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": "841",
+                        "y": "912",
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Tower of Abyss",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Prize Beneath Tree - Moonlight",
+                        "ref": "Tower of Abyss/Prize Beneath Tree/Moonlight"
+                    },
+                    {
+                        "name": "Floor 5 Chest - Mana Vial",
+                        "ref": "Tower of Abyss/Floor 5 Chest/Mana Vial"
+                    },
+                    {
+                        "name": "Floor 10 Chest - Antidote",
+                        "ref": "Tower of Abyss/Floor 10 Chest/Antidote"
+                    },
+                    {
+                        "name": "Floor 15 Chest - Fairy Moss",
+                        "ref": "Tower of Abyss/Floor 15 Chest/Fairy Moss"
+                    },
+                    {
+                        "name": "Floor 20 Chest - Spectral Candle",
+                        "ref": "Tower of Abyss/Floor 20 Chest/Spectral Candle"
+                    },
+                    {
+                        "name": "Floor 25 Chest - Health Vial",
+                        "ref": "Tower of Abyss/Floor 25 Chest/Health Vial"
+                    },
+                    {
+                        "name": "Floor 30 Chest - Crystal Lantern",
+                        "ref": "Tower of Abyss/Floor 30 Chest/Crystal Lantern"
+                    },
+                    {
+                        "name": "Floor 35 Chest - 2 Silver",
+                        "ref": "Tower of Abyss/Floor 35 Chest/2 Silver"
+                    },
+                    {
+                        "name": "Floor 40 Chest - Spectral Candle",
+                        "ref": "Tower of Abyss/Floor 40 Chest/Spectral Candle"
+                    },
+                    {
+                        "name": "Floor 45 Chest - Earth Elixir",
+                        "ref": "Tower of Abyss/Floor 45 Chest/Earth Elixir"
+                    },
+                    {
+                        "name": "Floor 50 Chest - Ocean Elixir",
+                        "ref": "Tower of Abyss/Floor 50 Chest/Ocean Elixir"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": "27",
+                        "y": "925",
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Wing's Rest",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Rafters - Ocean Elixir",
+                        "ref": "Wing's Rest/Rafters/Ocean Elixir"
+                    },
+                    {
+                        "name": "Bench - Crystal Shard",
+                        "ref": "Wing's Rest/Bench/Crystal Shard"
+                    },
+                    {
+                        "name": "Clive's Gift - Health Vial",
+                        "ref": "Wing's Rest/Clive's Gift/Health Vial"
+                    },
+                    {
+                        "name": "Demi's Victory Gift - Dusty Crystal Orb",
+                        "ref": "Wing's Rest/Demi's Victory Gift/Dusty Crystal Orb"
+                    },
+                    {
+                        "name": "Demi's Introduction Gift - Class Based Gift",
+                        "ref": "Wing's Rest/Demi's Introduction Gift/Class Based Gift"
+                    },
+                    {
+                        "name": "Christmas Present - Jingle Bells",
+                        "ref": "Wing's Rest/Christmas Present/Jingle Bells"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": "2409",
+                        "y": "1019",
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Yosei Forest",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Barrel Group - Health Vial",
+                        "ref": "Yosei Forest/Barrel Group/Health Vial"
+                    },
+                    {
+                        "name": "Blood Pool - Spell Ring (Blood Drain)",
+                        "ref": "Yosei Forest/Blood Pool/Spell Ring (Blood Drain)"
+                    },
+                    {
+                        "name": "Branches Within Tree - Spell Ring (Holy Warmth)",
+                        "ref": "Yosei Forest/Branches Within Tree/Spell Ring (Holy Warmth)"
+                    },
+                    {
+                        "name": "Chest Near Tree - Elfen Bow",
+                        "ref": "Yosei Forest/Chest Near Tree/Elfen Bow"
+                    },
+                    {
+                        "name": "Blood Plant's Insides - Health Vial",
+                        "ref": "Yosei Forest/Blood Plant's Insides/Health Vial"
+                    },
+                    {
+                        "name": "Hanging In The Trees - Elfen Sword",
+                        "ref": "Yosei Forest/Hanging In The Trees/Elfen Sword"
+                    },
+                    {
+                        "name": "Hidden Chest - Spell Ring (Light Reveal)",
+                        "ref": "Yosei Forest/Hidden Chest/Spell Ring (Light Reveal)"
+                    },
+                    {
+                        "name": "Room Defended by Blood Plant - Spell Ring (Earth Strike)",
+                        "ref": "Yosei Forest/Room Defended by Blood Plant/Spell Ring (Earth Strike)"
+                    },
+                    {
+                        "name": "Patchouli - Enchanted Key",
+                        "ref": "Yosei Forest/Patchouli/Enchanted Key"
+                    },
+                    {
+                        "name": "Patchouli - Ocean Elixir",
+                        "ref": "Yosei Forest/Patchouli/Ocean Elixir"
+                    },
+                    {
+                        "name": "Yosei Forest - Patchouli's Yuletide Offering",
+                        "ref": "Yosei Forest/Patchouli's Yuletide Offering"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": "2500",
+                        "y": "456",
+                        "size": 6
+                    }
+                ]
+            }
+        ]
+    }
+]

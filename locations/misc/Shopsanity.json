@@ -1,0 +1,96 @@
+[
+    {
+        "name": "Shopsanity",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "visibility_rules": [
+            "shops_on"
+        ],
+        "children": [
+            {
+                "name": "Sheryl's Shop",
+                "visibility_rules": [],
+                "sections": [
+                    {
+                        "name": "Enchanted Key",
+                        "chest_unopened_img": "images/items/check_misc_fade.png",
+                        "chest_opened_img": "images/items/check_misc.png",
+                        "item_count": 1,
+                        "access_rules": ["^$CanReach|Buy Enchanted Key"]
+                    },
+                    {
+                        "name": "Crossbow",
+                        "chest_unopened_img": "images/items/check_weapon_fade.png",
+                        "chest_opened_img": "images/items/check_weapon.png",
+                        "item_count": 1,
+                        "access_rules": ["^$CanReach|Buy Crossbow"]
+                    },
+                    {
+                        "name": "Rapier",
+                        "chest_unopened_img": "images/items/check_weapon_fade.png",
+                        "chest_opened_img": "images/items/check_weapon.png",
+                        "item_count": 1,
+                        "access_rules": ["^$CanReach|Buy Rapier"]
+                    },
+                    {
+                        "name": "Steel Needle",
+                        "chest_unopened_img": "images/items/check_weapon_fade.png",
+                        "chest_opened_img": "images/items/check_weapon.png",
+                        "item_count": 1,
+                        "access_rules": ["^$CanReach|Buy Steel Needle"]
+                    },
+                    {
+                        "name": "Ocean Elixir",
+                        "chest_unopened_img": "images/items/check_item_fade.png",
+                        "chest_opened_img": "images/items/check_item.png",
+                        "visibility_rules": false,
+                        "item_count": 1,
+                        "access_rules": [
+                            "^$CanReach|Buy Ocean Elixir"
+                         ]
+                    },
+                    {
+                        "name": "Oil Lantern",
+                        "chest_unopened_img": "images/items/check_misc_fade.png",
+                        "chest_opened_img": "images/items/check_misc.png",
+                        "item_count": 1,
+                        "access_rules": [
+                            "^$CanReach|Buy Oil Lantern"
+                         ]
+                    },
+                    {
+                        "name": "Privateer Musket",
+                        "chest_unopened_img": "images/items/check_weapon_fade.png",
+                        "chest_opened_img": "images/items/check_weapon.png",
+                        "item_count": 1,
+                        "access_rules": [
+                           "^$CanReach|Buy Privateer Musket"
+                        ]
+                    },
+                    {
+                        "name": "Jotunn Slayer",
+                        "chest_unopened_img": "images/items/check_weapon_fade.png",
+                        "chest_opened_img": "images/items/check_weapon.png",
+                        "item_count": 1,
+                        "access_rules": [
+                            "^$CanReach|Buy Jotunn Slayer"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Wing's Rest",
+                        "x": 864,
+                        "y": 972
+                    },
+                    { 
+                        "map": "Boiling Grotto",
+                        "x": 474,
+                        "y": 286
+                    }
+                ]
+            }
+        ]
+    }
+]

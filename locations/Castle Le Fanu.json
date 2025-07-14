@@ -1,0 +1,373 @@
+[
+    {
+        "name": "Castle Le Fanu",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            "^$CanEnter|Castle Le Fanu"
+        ],
+        "children": [
+            {
+                "name": "Outside Corner",
+                "chest_unopened_img": "images/items/check_item_fade.png",
+                "chest_opened_img": "images/items/check_item.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "^$CanReach|Outside Corner"
+                ],
+                "sections": [
+                    {
+                        "name": "Mana Vial",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    { 
+                       "map": "Castle Le Fanu",
+                       "x": 1506,
+                       "y": 1216
+                    }
+                 ]
+            },
+            {
+                "name": "Cattle Cell (South)",
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "^$CanReach|Cattle Cell (South)"
+                ],
+                "sections": [
+                    {
+                        "name": "Spectral Candle",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    { 
+                       "map": "Castle Le Fanu",
+                       "x": 406,
+                       "y": 971
+                    }
+                 ]
+            },
+            {
+                "name": "Cattle Cell (West)",
+                "chest_unopened_img": "images/items/check_item_fade.png",
+                "chest_opened_img": "images/items/check_item.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "^$CanReach|Cattle Cell (West)"
+                ],
+                "sections": [
+                    {
+                        "name": "Health Vial",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    { 
+                       "map": "Castle Le Fanu",
+                       "x": 153,
+                       "y": 887
+                    }
+                 ]
+            },
+            {
+                "name": "Cattle Cell (Center)",
+                "chest_unopened_img": "images/items/check_spell_fade.png",
+                "chest_opened_img": "images/items/check_spell.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "^$CanReach|Cattle Cell (Center)"
+                ],
+                "sections": [
+                    {
+                        "name": "Spell Ring (Summon Ice Sword)",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    { 
+                       "map": "Castle Le Fanu",
+                       "x": 517,
+                       "y": 861
+                    }
+                 ]
+            },
+            {
+                "name": "Cattle Cell (North)",
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "^$CanReach|Cattle Cell (North)"
+                ],
+                "sections": [
+                    {
+                        "name": "Vampiric Symbol (W)",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    { 
+                       "map": "Castle Le Fanu",
+                       "x": 292,
+                       "y": 385
+                    }
+                 ]
+            },
+            {
+                "name": "Hidden Cattle Cell",
+                "chest_unopened_img": "images/items/check_weapon_fade.png",
+                "chest_opened_img": "images/items/check_weapon.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "^$CanReach|Hidden Cattle Cell"
+                ],
+                "sections": [
+                    {
+                        "name": "Wand of Power",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    { 
+                       "map": "Castle Le Fanu",
+                       "x": 326,
+                       "y": 283
+                    }
+                 ]
+            },
+            {
+                "name": "Hallway Rubble Room",
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "^$CanReach|Hallway Rubble Room"
+                ],
+                "sections": [
+                    {
+                        "name": "Light Urn",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    { 
+                       "map": "Castle Le Fanu",
+                       "x": 990,
+                       "y": 982
+                    }
+                 ]
+            },
+            {
+                "name": "Hallway Dining Room",
+                "chest_unopened_img": "images/items/check_item_fade.png",
+                "chest_opened_img": "images/items/check_item.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "^$CanReach|Hallway Dining Room"
+                ],
+                "sections": [
+                    {
+                        "name": "Blood Wine",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    { 
+                       "map": "Castle Le Fanu",
+                       "x": 1068,
+                       "y": 752
+                    }
+                 ]
+            },
+            {
+                "name": "Garrat Resting Room (Fountain)",
+                "chest_unopened_img": "images/items/check_item_fade.png",
+                "chest_opened_img": "images/items/check_item.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "^$CanReach|Garrat Resting Room (Fountain)"
+                ],
+                "sections": [
+                    {
+                        "name": "Holy Water",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    { 
+                       "map": "Castle Le Fanu",
+                       "x": 1382,
+                       "y": 903
+                    }
+                 ]
+            },
+            {
+                "name": "Garrat Resting Room (Wall)",
+                "chest_unopened_img": "images/items/check_weapon_fade.png",
+                "chest_opened_img": "images/items/check_weapon.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "^$CanReach|Garrat Resting Room (Wall)"
+                ],
+                "sections": [
+                    {
+                        "name": "Crossbow",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    { 
+                       "map": "Castle Le Fanu",
+                       "x": 1401,
+                       "y": 821
+                    }
+                 ]
+            },
+            {
+                "name": "Hallway Dead End Before Blue Doors",
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "^$CanReach|Hallway Dead End Before Blue Doors"
+                ],
+                "sections": [
+                    {
+                        "name": "Vampiric Symbol (A)",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    { 
+                       "map": "Castle Le Fanu",
+                       "x": 1407,
+                       "y": 1322
+                    }
+                 ]
+            },
+            {
+                "name": "Upper Floor Coffin Room (Small Room)",
+                "chest_unopened_img": "images/items/check_item_fade.png",
+                "chest_opened_img": "images/items/check_item.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "^$CanReach|Upper Floor Coffin Room (Small Room)"
+                ],
+                "sections": [
+                    {
+                        "name": "Earth Elixir",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    { 
+                       "map": "Castle Le Fanu",
+                       "x": 2011,
+                       "y": 522
+                    }
+                 ]
+            },
+            {
+                "name": "Upper Floor Coffin Room (Large Room)",
+                "chest_unopened_img": "images/items/check_item_fade.png",
+                "chest_opened_img": "images/items/check_item.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "^$CanReach|Upper Floor Coffin Room (Large Room)"
+                ],
+                "sections": [
+                    {
+                        "name": "Ocean Elixir",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    { 
+                       "map": "Castle Le Fanu",
+                       "x": 2026,
+                       "y": 49
+                    }
+                 ]
+            },
+            {
+                "name": "Upper Floor Coffin Room (Double)",
+                "chest_unopened_img": "images/items/check_weapon_fade.png",
+                "chest_opened_img": "images/items/check_weapon.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "^$CanReach|Upper Floor Coffin Room (Double)"
+                ],
+                "sections": [
+                    {
+                        "name": "Blade of Ophelia",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    { 
+                       "map": "Castle Le Fanu",
+                       "x": 2304,
+                       "y": 520
+                    }
+                 ]
+            },
+            {
+                "name": "Upper Floor Coffin Room (Hallway)",
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "^$CanReach|Upper Floor Coffin Room (Hallway)"
+                ],
+                "sections": [
+                    {
+                        "name": "Vampiric Symbol (E)",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    { 
+                       "map": "Castle Le Fanu",
+                       "x": 1228,
+                       "y": 266
+                    }
+                 ]
+            }
+        ]
+    }
+]

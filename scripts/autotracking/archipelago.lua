@@ -18,7 +18,6 @@ function has_value (t, val)
     return 0
 end
 
-
 function dump_table(o, depth)
     if depth == nil then
         depth = 0
@@ -40,9 +39,27 @@ function dump_table(o, depth)
 end
 
 function onClear(slot_data)
-    if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
-        print(string.format("called onClear, slot_data:\n%s", dump_table(slot_data)))
-    end
+    -- if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+    --     print(string.format("called onClear, slot_data:\n%s", dump_table(slot_data)))
+    -- end
+
+    Tracker:FindObjectForCode('ele_blood').Active = false
+
+    Archipelago:SetNotify({
+        string.format("Slot:%d:currentScene", Archipelago.PlayerNumber),
+        string.format("Slot:%d:TraversedEntrances", Archipelago.PlayerNumber),
+        string.format("Slot:%d:LV_GATE_BASIN", Archipelago.PlayerNumber),
+        string.format("Slot:%d:LV_GATE_FOREST", Archipelago.PlayerNumber)
+    });
+    Archipelago:Get({
+        string.format("Slot:%d:currentScene", Archipelago.PlayerNumber),
+        string.format("Slot:%d:TraversedEntrances", Archipelago.PlayerNumber),
+        string.format("Slot:%d:LV_GATE_BASIN", Archipelago.PlayerNumber),
+        string.format("Slot:%d:LV_GATE_FOREST", Archipelago.PlayerNumber)
+    });
+
+    -- ENEMY_LOCATIONS = GroupEnemiesByType(slot_data["enemy_placement"])
+
     SLOT_DATA = slot_data
     CUR_INDEX = -1
     -- reset locations
@@ -64,7 +81,7 @@ function onClear(slot_data)
                 end
             end
         end
-        
+
     end
     -- reset items
     for _, items_array in pairs(ITEM_MAPPING) do
@@ -93,9 +110,11 @@ function onClear(slot_data)
             end
         end
     end
+
     LOCAL_ITEMS = {}
     GLOBAL_ITEMS = {}
     AutoFill()
+
     -- manually run snes interface functions after onClear in case we are already ingame
 end
 
@@ -173,6 +192,7 @@ function onItem(index, item_id, item_name, player_number)
             print(string.format("global items: %s", dump_table(GLOBAL_ITEMS)))
         end
     end
+    CheckLightSource()
 end
 
 -- called when a location gets cleared
@@ -229,12 +249,100 @@ end
 -- Archipelago:AddScoutHandler("scout handler", onScout)
 -- Archipelago:AddBouncedHandler("bounce handler", onBounce)
 
+Archipelago:AddSetReplyHandler("DataStorageHandler", function (key, value, oldValue)
+    if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+        print("key: ", key)
+        print("value: ", value)
+        print("oldValue: ", oldValue)
+    end
+    if key == string.format("Slot:%d:currentScene", Archipelago.PlayerNumber) and value then
+        CURRENT_SCENE = value
+        Tracker:UiHint("ActivateTab", value)
+    end
+
+    if key == string.format("Slot:%d:TraversedEntrances", Archipelago.PlayerNumber) and value then
+        local mapData = {}
+
+        for _, entry in ipairs(value) do
+            mapData[entry.Key] = entry.Value
+        end
+        TRAVERSED_ENTRANCES = mapData
+        print(dump_table(mapData, 2))
+        if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+            print(dump_table(mapData, 2))
+        end
+    end
+
+    if key == string.format("Slot:%d:LV_GATE_BASIN", Archipelago.PlayerNumber) then
+        if value then
+            Tracker:FindObjectForCode("livinggate_basin").Active = true
+        else
+            Tracker:FindObjectForCode("livinggate_basin").Active = false
+        end
+    end
+
+    if key == string.format("Slot:%d:LV_GATE_FOREST", Archipelago.PlayerNumber) then
+        if value then
+            Tracker:FindObjectForCode("livinggate_forest").Active = true
+        else
+            Tracker:FindObjectForCode("livinggate_forest").Active = false
+        end
+    end
+
+    Update()
+end)
+
+Archipelago:AddRetrievedHandler("DataStorageHandler", function (key, value)
+    if key == string.format("Slot:%d:currentScene", Archipelago.PlayerNumber) and value then
+            if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+                print("key: ", key)
+                print("value: ", value)
+            end
+        
+            CURRENT_SCENE = value
+            Tracker:UiHint("ActivateTab", value)
+    end
+
+    if key == string.format("Slot:%d:TraversedEntrances", Archipelago.PlayerNumber) and value then
+        local mapData = {}
+
+        for _, entry in ipairs(value) do
+            mapData[entry.Key] = entry.Value
+        end
+        TRAVERSED_ENTRANCES = mapData
+        print(dump_table(mapData, 2))
+        if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+            print(dump_table(mapData, 2))
+        end
+    end
+
+    if key == string.format("Slot:%d:LV_GATE_BASIN", Archipelago.PlayerNumber) then
+        if value then
+            Tracker:FindObjectForCode("livinggate_basin").Active = true
+        else
+            Tracker:FindObjectForCode("livinggate_basin").Active = false
+        end
+    end
+
+    if key == string.format("Slot:%d:LV_GATE_FOREST", Archipelago.PlayerNumber) then
+        if value then
+            Tracker:FindObjectForCode("livinggate_forest").Active = true
+        else
+            Tracker:FindObjectForCode("livinggate_forest").Active = false
+        end
+    end
+
+    Update()
+end)
+
 function AutoFill()
     if SLOT_DATA == nil  then
         print("its fucked")
         return
     end
-    print(dump_table(SLOT_DATA))
+    if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+        print(dump_table(SLOT_DATA))
+    end
 
     -- mapDropsanity = {[0]=0,[1]=1}
     -- mapShopsanity = {[0]=0,[1]=1}
@@ -245,19 +353,25 @@ function AutoFill()
         shopsanity = {code="shops_on", mapping=nil},
         switch_locks = {code="switch_locks", mapping=nil},
         secret_door_lock = {code="secret_doors", mapping=nil},
-        entrance_randomization = {code="entrance_toggle", mapping=nil}
+        door_locks = {code="door_lock_toggle", mapping=nil},
+        entrance_randomization = {code="entrance_toggle", mapping=nil},
+        etnas_pupil = {code="etna_on", mapping=nil},
+        quenchsanity = {code="quench_on", mapping=nil},
+        starting_area = {code="starting_area", mapping=nil},
+        starting_class = {code="starting_class", mapping=nil}
+        -- enemy_randomization = {code="enemy_toggle", mapping=nil},
     }
 
     for settings_name , settings_value in pairs(SLOT_DATA) do
         if slotCodes[settings_name] then
             local item = Tracker:FindObjectForCode(slotCodes[settings_name].code)
-            if item.Type == "toggle" then
+            if item and item.Type == "toggle" then
                 if slotCodes[settings_name].mapping == nil then
                     item.Active = settings_value
                 else
                     item.Active = slotCodes[settings_name].mapping[settings_value]
                 end
-            elseif item.Type == "progressive" then
+            elseif item and item.Type == "progressive" then
                 print(settings_value, type(settings_value))
                 if slotCodes[settings_name].mapping == nil then
                     item.CurrentStage = settings_value
@@ -276,3 +390,50 @@ function AutoFill()
         UpdateElements(SLOT_DATA["elements"])
     end
 end
+
+function Update()
+    Tracker:FindObjectForCode('update').Active = not Tracker:FindObjectForCode('update').Active
+end
+
+function GroupEnemiesByType(enemy_data)
+    local result = {}
+
+    for _, enemies in pairs(enemy_data) do
+        for _, value in pairs(enemies) do
+            local location, index, enemy = value:match("([^|]+)|([^|]+)|(.+)")
+            if location and index and enemy then
+                enemy = enemy:match("^%s*(.-)%s*$")
+                local full_location = location .. "|" .. index
+
+                if not result[enemy] then
+                    result[enemy] = {}
+                end
+                table.insert(result[enemy], full_location)
+            end
+        end
+    end
+
+    return result
+end
+
+function CheckLightSource()
+    if Tracker:FindObjectForCode("quench_on").Active then
+        if WereAnyItemsReceived(
+            {"torch", "irontorch", "crystallantern", "oillantern", "flameflare",
+            "ghostlight", "twistedstaff", "moonlight", "flamesword",
+            "limbo", "shiningblade", "jailor'scandle"}) == AccessibilityLevel.Normal then
+                Tracker:FindObjectForCode('lightsource').Active = true
+            return
+        end
+        Tracker:FindObjectForCode('lightsource').Active = false
+    else
+        if WereAnyItemsReceived({"torch", "crystallantern", "oillantern", "flameflare",
+                                        "ghostlight", "twistedstaff", "moonlight", "brokenhilt",
+                                        "limbo", "shadowblade", "jailor'scandle"}) == AccessibilityLevel.Normal then
+            Tracker:FindObjectForCode('lightsource').Active = true
+            return
+        end
+        Tracker:FindObjectForCode('lightsource').Active = false
+    end
+end
+

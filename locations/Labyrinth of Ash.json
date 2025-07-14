@@ -1,0 +1,181 @@
+[
+    {
+        "name": "Labyrinth of Ash",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            "^$CanEnter|Labyrinth of Ash"
+        ],
+        "children": [
+            {
+                "name": "Entry Coffin",
+                "chest_unopened_img": "images/items/check_item_fade.png",
+                "chest_opened_img": "images/items/check_item.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "^$CanReach|Entry Coffin"
+                ],
+                "sections": [
+                    {
+                        "name": "Mana Vial",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    { 
+                       "map": "Labyrinth of Ash",
+                       "x": 1072,
+                       "y": 1072
+                    }
+                 ]
+            },
+            {
+                "name": "Giant Remains",
+                "chest_unopened_img": "images/items/check_item_fade.png",
+                "chest_opened_img": "images/items/check_item.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "^$CanReach|Giant Remains"
+                ],
+                "sections": [
+                    {
+                        "name": "Health Vial",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    { 
+                       "map": "Labyrinth of Ash",
+                       "x": 1722,
+                       "y": 748
+                    }
+                 ]
+            },
+            {
+                "name": "Behind Statue",
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "^$CanReach|Behind Statue"
+                ],
+                "sections": [
+                    {
+                        "name": "Wisp Heart",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    { 
+                       "map": "Labyrinth of Ash",
+                       "x": 1798,
+                       "y": 1287
+                    }
+                 ]
+            },
+            {
+                "name": "Rocks Near Switch",
+                "chest_unopened_img": "images/items/check_spell_fade.png",
+                "chest_opened_img": "images/items/check_spell.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "^$CanReach|Rocks Near Switch"
+                ],
+                "sections": [
+                    {
+                        "name": "Spell Ring (Lava Chasm)",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    { 
+                       "map": "Labyrinth of Ash",
+                       "x": 1499,
+                       "y": 974
+                    }
+                 ]
+            },
+            {
+                "name": "Forbidden Light Chest",
+                "chest_unopened_img": "images/items/check_spell_fade.png",
+                "chest_opened_img": "images/items/check_spell.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "^$CanReach|Forbidden Light Chest"
+                ],
+                "sections": [
+                    {
+                        "name": "Spell Ring (Spirit Warp)",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    { 
+                       "map": "Labyrinth of Ash",
+                       "x": 644,
+                       "y": 847
+                    }
+                 ]
+            },
+            {
+                "name": "Hidden Light Stash",
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "^$CanReach|Hidden Light Stash"
+                ],
+                "sections": [
+                    {
+                        "name": "Dark Urn",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    { 
+                       "map": "Labyrinth of Ash",
+                       "x": 386,
+                       "y": 816
+                    }
+                 ]
+            },
+            {
+                "name": "NNSNSSNSNN Lost Maze",
+                "chest_unopened_img": "images/items/check_weapon_fade.png",
+                "chest_opened_img": "images/items/check_weapon.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "^$CanReach|NNSNSSNSNN Lost Maze"
+                ],
+                "sections": [
+                    {
+                        "name": "Serpent Fang",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    { 
+                       "map": "Labyrinth of Ash",
+                       "x": 752,
+                       "y": 1070
+                    }
+                 ]
+            }
+        ]
+    }
+]

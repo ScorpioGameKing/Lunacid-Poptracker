@@ -40,15 +40,6 @@
                         },
                         {
                             "type": "group",
-                            "header": "Settings",
-                            "dock": "top",
-                            "content": {
-                                "type": "layout",
-                                "key": "settings_grid"
-                            }
-                        },
-                        {
-                            "type": "group",
                             "header": "Switch Keys",
                             "dock": "top",
                             "content": {
@@ -68,216 +59,11 @@
                     ]
                 },
                 {
-                    "type": "tabbed",
-                    "tabs": [
-                        {
-                            "title": "Interconnections",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "Interconnections"
-                                ]
-                            }
-                        },
-                        {
-                            "title": "Dropsanity",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "Dropsanity"
-                                ]
-                            }
-                        },
-                        {
-                            "title": "Wing's Rest",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "Wing's Rest"
-                                ]
-                            }
-                        },
-                        {
-                            "title": "Hollow Basin",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "Hollow Basin"
-                                ]
-                            }
-                        },
-                        {
-                            "title": "The Fetid Mire",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "The Fetid Mire"
-                                ]
-                            }
-                        },
-                        {
-                            "title": "The Sanguine Sea",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "The Sanguine Sea"
-                                ]
-                            }
-                        },
-                        {
-                            "title": "Accursed Tomb",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "Accursed Tomb"
-                                ]
-                            }
-                        },
-                        {
-                            "title": "Yosei Forest",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "Yosei Forest"
-                                ]
-                            }
-                        },
-                        {
-                            "title": "Forest Canopy",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "Forest Canopy"
-                                ]
-                            }
-                        },
-                        {
-                            "title": "Forbidden Archives",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "Forbidden Archives"
-                                ]
-                            }
-                        },
-                        {
-                            "title": "Castle Le Fanu",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "Castle Le Fanu"
-                                ]
-                            }
-                        },
-                        {
-                            "title": "Sealed Ballroom",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "Sealed Ballroom"
-                                ]
-                            }
-                        },
-                        {
-                            "title": "Laetus Chasm",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "Laetus Chasm"
-                                ]
-                            }
-                        },
-                        {
-                            "title": "Great Well Surface",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "Great Well Surface"
-                                ]
-                            }
-                        },
-                        {
-                            "title": "Throne Chamber",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "Throne Chamber"
-                                ]
-                            }
-                        },
-                        {
-                            "title": "A Holy Battlefield",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "A Holy Battlefield"
-                                ]
-                            }
-                        },
-                        {
-                            "title": "Boiling Grotto",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "Boiling Grotto"
-                                ]
-                            }
-                        },
-                        {
-                            "title": "Tower of Abyss",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "Tower of Abyss"
-                                ]
-                            }
-                        },
-                        {
-                            "title": "Terminus Prison",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "Terminus Prison"
-                                ]
-                            }
-                        },
-                        {
-                            "title": "Forlorn Arena",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "Forlorn Arena"
-                                ]
-                            }
-                        },
-                        {
-                            "title": "Labyrinth of Ash",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "Labyrinth of Ash"
-                                ]
-                            }
-                        },
-                        {
-                            "title": "Chamber of Fate",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "Chamber of Fate"
-                                ]
-                            }
-                        },
-                        {
-                            "title": "Grave of the Sleeper",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "Grave of the Sleeper"
-                                ]
-                            }
-                        }
-                    ]
+                    "type": "dock",
+                    "content": {
+                        "type": "layout",
+                        "key": "tabbed_maps_vertical"
+                    }
                 }
             ]
         }
@@ -296,7 +82,7 @@
                     "content": [
                         {
                             "type": "group",
-                            "header": "Items",
+                            "header": "Progressive Items",
                             "dock": "top",
                             "margin": "0,0,3,0",
                             "content": {
@@ -308,7 +94,7 @@
                         },
                         {
                             "type": "group",
-                            "header": "Elements & Spells",
+                            "header": "Elements, Spells & Choices",
                             "dock": "top",
                             "margin": "0,0,3,0",
                             "content": {
@@ -318,25 +104,14 @@
                         },
                         {
                             "type": "group",
-                            "header": "Tricks",
+                            "header": "Vouchers",
                             "dock": "top",
                             "margin": "0,0,3,0",
                             "content": {
                                 "type": "layout",
-                                "key": "tricks_grid"
+                                "key": "voucher_grid"
                             }
                         },
-                        {
-                            "type": "group",
-                            "header": "Settings",
-                            "dock": "top",
-                            "margin": "0,0,3,0",
-                            "content": {
-                                "type": "layout",
-                                "key": "settings_grid"
-                            }
-                        }
-                        ,
                         {
                             "type": "group",
                             "header": "Switch Keys",
@@ -360,216 +135,11 @@
                     ]
                 },
                 {
-                    "type": "tabbed",
-                    "tabs": [
-                        {
-                            "title": "Interconnections",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "Interconnections"
-                                ]
-                            }
-                        },
-                        {
-                            "title": "Dropsanity",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "Dropsanity"
-                                ]
-                            }
-                        },
-                        {
-                            "title": "Wing's Rest",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "Wing's Rest"
-                                ]
-                            }
-                        },
-                        {
-                            "title": "Hollow Basin",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "Hollow Basin"
-                                ]
-                            }
-                        },
-                        {
-                            "title": "The Fetid Mire",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "The Fetid Mire"
-                                ]
-                            }
-                        },
-                        {
-                            "title": "The Sanguine Sea",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "The Sanguine Sea"
-                                ]
-                            }
-                        },
-                        {
-                            "title": "Accursed Tomb",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "Accursed Tomb"
-                                ]
-                            }
-                        },
-                        {
-                            "title": "Yosei Forest",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "Yosei Forest"
-                                ]
-                            }
-                        },
-                        {
-                            "title": "Forest Canopy",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "Forest Canopy"
-                                ]
-                            }
-                        },
-                        {
-                            "title": "Forbidden Archives",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "Forbidden Archives"
-                                ]
-                            }
-                        },
-                        {
-                            "title": "Castle Le Fanu",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "Castle Le Fanu"
-                                ]
-                            }
-                        },
-                        {
-                            "title": "Sealed Ballroom",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "Sealed Ballroom"
-                                ]
-                            }
-                        },
-                        {
-                            "title": "Laetus Chasm",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "Laetus Chasm"
-                                ]
-                            }
-                        },
-                        {
-                            "title": "Great Well Surface",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "Great Well Surface"
-                                ]
-                            }
-                        },
-                        {
-                            "title": "Throne Chamber",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "Throne Chamber"
-                                ]
-                            }
-                        },
-                        {
-                            "title": "A Holy Battlefield",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "A Holy Battlefield"
-                                ]
-                            }
-                        },
-                        {
-                            "title": "Boiling Grotto",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "Boiling Grotto"
-                                ]
-                            }
-                        },
-                        {
-                            "title": "Tower of Abyss",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "Tower of Abyss"
-                                ]
-                            }
-                        },
-                        {
-                            "title": "Terminus Prison",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "Terminus Prison"
-                                ]
-                            }
-                        },
-                        {
-                            "title": "Forlorn Arena",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "Forlorn Arena"
-                                ]
-                            }
-                        },
-                        {
-                            "title": "Labyrinth of Ash",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "Labyrinth of Ash"
-                                ]
-                            }
-                        },
-                        {
-                            "title": "Chamber of Fate",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "Chamber of Fate"
-                                ]
-                            }
-                        },
-                        {
-                            "title": "Grave of the Sleeper",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "Grave of the Sleeper"
-                                ]
-                            }
-                        }
-                    ]
+                    "type": "dock",
+                    "content": {
+                        "type": "layout",
+                        "key": "tabbed_maps_horizontal"
+                    }
                 }
             ]
         }

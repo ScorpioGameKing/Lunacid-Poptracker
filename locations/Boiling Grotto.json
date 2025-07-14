@@ -1,0 +1,157 @@
+[
+    {
+        "name": "Boiling Grotto",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            "^$CanEnter|Boiling Grotto"
+        ],
+        "children": [
+            {
+                "name": "Corpse Beneath Entrance",
+                "chest_unopened_img": "images/items/check_coin_fade.png",
+                "chest_opened_img": "images/items/check_coin.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "^$CanReach|Corpse Beneath Entrance"
+                ],
+                "sections": [
+                    {
+                        "name": "5 Silver",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    { 
+                       "map": "Boiling Grotto",
+                       "x": 186,
+                       "y": 775
+                    }
+                 ]
+            },
+            {
+                "name": "Slab of a Broken Bridge",
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "^$CanReach|Slab of a Broken Bridge"
+                ],
+                "sections": [
+                    {
+                        "name": "Crystal Shard",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    { 
+                       "map": "Boiling Grotto",
+                       "x": 101,
+                       "y": 478
+                    }
+                 ]
+            },
+            {
+                "name": "Hidden Chest",
+                "chest_unopened_img": "images/items/check_coin_fade.png",
+                "chest_opened_img": "images/items/check_coin.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "^$CanReach|BG: Hidden Chest"
+                ],
+                "sections": [
+                    {
+                        "name": "25 Silver",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    { 
+                       "map": "Boiling Grotto",
+                       "x": 1135,
+                       "y": 1170
+                    }
+                 ]
+            },
+            {
+                "name": "Triple Hidden Chest",
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "^$CanReach|Triple Hidden Chest"
+                ],
+                "sections": [
+                    {
+                        "name": "Ashes",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    { 
+                       "map": "Boiling Grotto",
+                       "x": 1135,
+                       "y": 1338
+                    }
+                 ]
+            },
+            {
+                "name": "Lava Overseeing Dragon Switch",
+                "chest_unopened_img": "images/items/check_spell_fade.png",
+                "chest_opened_img": "images/items/check_spell.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "^$CanReach|Lava Overseeing Dragon Switch"
+                ],
+                "sections": [
+                    {
+                        "name": "Spell Ring (Rock Bridge)",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    { 
+                       "map": "Boiling Grotto",
+                       "x": 1085,
+                       "y": 865
+                    }
+                 ]
+            },
+            {
+                "name": "Through Dragon Switch Tunnel",
+                "chest_unopened_img": "images/items/check_item_fade.png",
+                "chest_opened_img": "images/items/check_item.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "^$CanReach|Through Dragon Switch Tunnel"
+                ],
+                "sections": [
+                    {
+                        "name": "Mana Vial",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    { 
+                       "map": "Boiling Grotto",
+                       "x": 948,
+                       "y": 633
+                    }
+                 ]
+            }
+        ]
+    }
+]

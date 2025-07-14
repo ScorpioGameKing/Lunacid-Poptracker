@@ -1,0 +1,61 @@
+[
+    {
+        "name": "Laetus Chasm",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            "^$CanEnter|Laetus Chasm"
+        ],
+        "children": [
+            {
+                "name": "Hidden Room", 
+                "chest_unopened_img": "images/items/check_spell_fade.png",
+                "chest_opened_img": "images/items/check_spell.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "^$CanReach|Hidden Room"
+                ],
+                "sections": [
+                    {
+                        "name": "Spell Ring (Ice Tear)",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Laetus Chasm",
+                        "x": 1347,
+                        "y": 987
+                    }
+                ]
+            },
+            {
+                "name": "Invisible Path to Cliffside",
+                "chest_unopened_img": "images/items/check_weapon_fade.png",
+                "chest_opened_img": "images/items/check_weapon.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "^$CanReach|Invisible Path to Cliffside"
+                ],
+                "sections": [
+                    {
+                        "name": "Blessed Wind",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Laetus Chasm",
+                        "x": 666,
+                        "y": 144
+                    }
+                ]
+            }
+        ]
+    }
+]

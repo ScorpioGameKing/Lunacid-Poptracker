@@ -14,9 +14,9 @@
                         "item_margin": "10, 10",
                         "h_alignment": "left",
                         "rows": [
-                            ["vamp_symbol", "bb", "ekey", "term_key", "ckey"],
-                            ["scoins", "vhs_tape_1", "vhs_tape_2", "w_talis", "e_talis"],
-                            ["dc_orb", "skel_egg", "jo_skull", "slayer"]
+                            ["strangecoin", "progressivevampiricsymbol", "enchantedkey", "terminusprisonkey", "corruptkey", "lucidblade"],
+                            ["vhstape", "whitevhstape", "watertalisman", "earthtalisman", "lightsource", "jotunnslayer"],
+                            ["dustycrystalorb", "blackbook", "skeletonegg", "skullofjosiah", "", "limbo"]
                         ]
                     }
                 ]
@@ -38,8 +38,31 @@
                         "item_margin": "10, 10",
                         "h_alignment": "left",
                         "rows": [
-                            ["wop", "ele_light", "ele_blood", "ele_fire", "ele_dark"],
-                            ["ele_poison", "limbo"]
+                            ["livinggate_basin", "livinggate_forest", "", "", "igniscalor"],
+                            ["wandofpower", "ele_poison", "ele_light", "ele_blood", "ele_fire", "ele_dark"],
+                            ["coffin", "icarianflight", "rockbridge", "barrier", "summonsnail", "spiritwarp"]
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "voucher_grid": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "horizontal",
+                "margin": "0,0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "10, 10",
+                        "h_alignment": "left",
+                        "rows": [
+                            ["sheryl'sinitialofferingsvoucher", "sheryl'sgoldenarmorvoucher", "sheryl'sdreamervoucher", "patchouli'sdrinkvoucher"]
                         ]
                     }
                 ]
@@ -68,28 +91,6 @@
             }
         ]
     },
-    "settings_grid": {
-        "type": "array",
-        "orientation": "vertical",
-        "margin": "0,0",
-        "content": [
-            {
-                "type": "array",
-                "orientation": "horizontal",
-                "margin": "0,0",
-                "content": [
-                    {
-                        "type": "itemgrid",
-                        "item_margin": "10, 10",
-                        "h_alignment": "left",
-                        "rows": [
-                            ["drops_on", "shops_on", "secret_doors", "switch_locks", "door_lock_toggle"]
-                        ]
-                    }
-                ]
-            }
-        ]
-    },
     "switch_key_grid": {
         "type": "array",
         "orientation": "vertical",
@@ -105,9 +106,9 @@
                         "item_margin": "10, 10",
                         "h_alignment": "left",
                         "rows": [
-                            ["tos_switch_key", "hb_switch_key", "fm_switch_key", "fba_shortcut_switch_key", "fba_elevator_keyring"],
-                            ["at_switch_keyring", "at_fire_keyring", "sb_switch_key", "bg_fire_keyring", "st_switch_keyring"],
-                            ["tp_back_alley_switch_key", "tp_arena_switch_key", "la_switch_key", "tow_switch_key", "toe_switch_key"]
+                            ["templeofsilenceswitchkey", "hollowbasinswitchkey", "fetidmireswitchkey", "forbiddenarchivesshortcutswitchkey", "forbiddenarchiveselevatorswitchkeyring"],
+                            ["accursedtombswitchkeyring", "prometheusfireswitchkeyring", "sealedballroomswitchkey", "grottofireswitchkeyring", "sandtempleswitcheskeyring"],
+                            ["terminusprisonbackalleyswitchkey", "forlornarenagateswitchkey", "labyrinthofashswitchkey", "templeofwaterswitchkey", "templeofearthswitchkey"]
                         ]
                     }
                 ]
@@ -129,10 +130,10 @@
                         "item_margin": "10, 10",
                         "h_alignment": "left",
                         "rows": [
-                            ["broken_steps_door", "lower_bridge_door", "sewers_door", "treetop_door", "tomb_secret_door"],
-                            ["sewers_sea_door", "accursed_door", "castle_doors", "library_exit_door", "surface_door"],
-                            ["light_accursed_door", "queen_throne_door", "prison_main_door", "secondary_lock_door", "burning_hot_door"],
-                            ["forbidden_door", "sucsarian_door", "dreamer_door", "ballroom_side_door", "tower_abyss_door"]
+                            ["brokenstepsdoorkey", "lowerricketybridgedoorkey", "sewersdoorkey", "treetopdoorkey", "tombsecretdoorkey"],
+                            ["sewersseadoorkey", "accurseddoorkey", "castledoorskey", "libraryexitdoorkey", "surfacedoorkey"],
+                            ["lightaccurseddoorkey", "queen'sthronedoorkey", "prisonmaindoorkey", "secondarylockkey", "burninghotkey"],
+                            ["forbiddendoorkey", "sucsariankey", "dreamerkey", "ballroomsideroomskeyring", "towerofabysskeyring"]
                         ]
                     }
                 ]
