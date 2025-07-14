@@ -1,0 +1,496 @@
+[
+   {
+      "name": "Hollow Basin",
+      "chest_unopened_img": "/images/items/close.png",
+      "chest_opened_img": "/images/items/open.png",
+      "overlay_background": "#000000",
+      "access_rules": [
+         "^$CanEnter|Hollow Basin"
+      ],
+      "children": [
+         {
+            "name": "Encouraging Statue",
+            "chest_unopened_img": "images/items/check_weapon_fade.png",
+            "chest_opened_img": "images/items/check_weapon.png",
+            "sections": [
+               {
+                  "name": "Replica Sword",
+                  "item_count": 1
+               }
+            ],
+            "map_locations": [
+               {
+                  "map": "Hollow Basin",
+                  "x": 640,
+                  "y": 835
+               }
+            ],
+            "access_rules": [
+               "^$CanReach|Encouraging Statue"
+            ]
+         },
+         {
+            "name": "Rightmost Water Room (Right)",
+            "chest_unopened_img": "images/items/check_item_fade.png",
+            "chest_opened_img": "images/items/check_item.png",
+            "sections": [
+               {
+                  "name": "Mana Vial",
+                  "item_count": 1
+               }
+            ],
+            "map_locations": [
+               {
+                  "map": "Hollow Basin",
+                  "x": 1550,
+                  "y": 1110
+               }
+            ],
+            "access_rules": [
+               "^$CanReach|Rightmost Water Room (Right)"
+            ]
+         },
+         {
+            "name": "Rightmost Water Room (Left)",
+            "chest_unopened_img": "images/items/check_spell_fade.png",
+            "chest_opened_img": "images/items/check_spell.png",
+            "sections": [
+               {
+                  "name": "Spell Ring (Ghost Light)",
+                  "item_count": 1
+               }
+            ],
+            "map_locations": [
+               {
+                  "map": "Hollow Basin",
+                  "x": 1550,
+                  "y": 875
+               }
+            ],
+            "access_rules": [
+               "^$CanReach|Rightmost Water Room (Left)"
+            ]
+         },
+         {
+            "name": "Leftmost Water Room",
+            "chest_unopened_img": "images/items/check_item_fade.png",
+            "chest_opened_img": "images/items/check_item.png",
+            "sections": [
+               {
+                  "name": "Health Vial",
+                  "item_count": 1
+               }
+            ],
+            "map_locations": [
+               {
+                  "map": "Hollow Basin",
+                  "x": 1647,
+                  "y": 641
+               }
+            ],
+            "access_rules": [
+               "^$CanReach|Leftmost Water Room"
+            ]
+         },
+         {
+            "name": "Chest Near Demi",
+            "chest_unopened_img": "images/items/check_spell_fade.png",
+            "chest_opened_img": "images/items/check_spell.png",
+            "sections": [
+               {
+                  "name": "Spell Ring (Flame Spear)",
+                  "item_count": 1
+               }
+            ],
+            "map_locations": [
+               {
+                  "map": "Hollow Basin",
+                  "x": 808,
+                  "y": 333
+               }
+            ],
+            "access_rules": [
+               "^$CanReach|Chest Near Demi"
+            ]
+         },
+         {
+            "name": "Near Enchanted Door",
+            "chest_unopened_img": "images/items/check_item_fade.png",
+            "chest_opened_img": "images/items/check_item.png",
+            "sections": [
+               {
+                  "name": "Health Vial",
+                  "item_count": 1
+               }
+            ],
+            "map_locations": [
+               {
+                  "map": "Hollow Basin",
+                  "x": 906,
+                  "y": 1347
+               }
+            ],
+            "access_rules": [
+               "^$CanReach|Near Enchanted Door"
+            ]
+         },
+         {
+            "name": "Dark Tunnel After Enchanted Door",
+            "chest_unopened_img": "images/items/check_weapon_fade.png",
+            "chest_opened_img": "images/items/check_weapon.png",
+            "access_rules": [
+               "^$CanReach|Dark Tunnel After Enchanted Door"
+            ],
+            "sections": [
+               {
+                  "name": "Torch",
+                  "item_count": 1
+               }
+            ],
+            "map_locations": [
+               {
+                  "map": "Hollow Basin",
+                  "x": 1175,
+                  "y": 1440
+               }
+            ]
+         },
+         {
+            "name": "Temple Fountain",
+            "chest_unopened_img": "images/items/check_item_fade.png",
+            "chest_opened_img": "images/items/check_item.png",
+            "access_rules": [
+               "^$CanReach|Temple Fountain"
+            ],
+            "sections": [
+               {
+                  "name": "Health Vial",
+                  "item_count": 1
+               }
+            ],
+            "map_locations": [
+               {
+                  "map": "Hollow Basin",
+                  "x": 671,
+                  "y": 1818
+               }
+            ]
+         },
+         {
+            "name": "Temple Ritual Table",
+            "chest_unopened_img": "images/items/check_weapon_fade.png",
+            "chest_opened_img": "images/items/check_weapon.png",
+            "access_rules": [
+               "^$CanReach|Temple Ritual Table"
+            ],
+            "sections": [
+               {
+                  "name": "Ritual Dagger",
+                  "item_count": 1
+               }
+            ],
+            "map_locations": [
+               {
+                  "map": "Hollow Basin",
+                  "x": 572,
+                  "y": 1702
+               }
+            ]
+         },
+         {
+            "name": "Temple Altar Chest",
+            "chest_unopened_img": "images/items/check_spell_fade.png",
+            "chest_opened_img": "images/items/check_spell.png",
+            "access_rules": [
+               "^$CanReach|Temple Altar Chest"
+            ],
+            "sections": [
+               {
+                  "name": "Spell Ring (Lithomancy)",
+                  "item_count": 1
+               }
+            ],
+            "map_locations": [
+               {
+                  "map": "Hollow Basin",
+                  "x": 392,
+                  "y": 1637
+               }
+            ]
+         },
+         {
+            "name": "Temple Hidden Room Behind Pillar (Left)",
+            "chest_unopened_img": "images/items/check_item_fade.png",
+            "chest_opened_img": "images/items/check_item.png",
+            "access_rules": [
+               "^$CanReach|Temple Hidden Room Behind Pillar (Left)"
+            ],
+            "sections": [
+               {
+                  "name": "Health Vial",
+                  "item_count": 1
+               }
+            ],
+            "map_locations": [
+               {
+                  "map": "Hollow Basin",
+                  "x": 535,
+                  "y": 1329
+               }
+            ]
+         },
+         {
+            "name": "Temple Hidden Room Behind Pillar (Right)",
+            "chest_unopened_img": "images/items/check_item_fade.png",
+            "chest_opened_img": "images/items/check_item.png",
+            "access_rules": [
+               "^$CanReach|Temple Hidden Room Behind Pillar (Right)"
+            ],
+            "sections": [
+               {
+                  "name": "Health Vial",
+                  "item_count": 1
+               }
+            ],
+            "map_locations": [
+               {
+                  "map": "Hollow Basin",
+                  "x": 561,
+                  "y": 1345
+               }
+            ]
+         },
+         {
+            "name": "Temple Ritual Table After Bridge",
+            "chest_unopened_img": "images/items/check_spell_fade.png",
+            "chest_opened_img": "images/items/check_spell.png",
+            "access_rules": [
+               "^$CanReach|Temple Ritual Table After Bridge"
+            ],
+            "sections": [
+               {
+                  "name": "Spell Ring (Flame Flare)",
+                  "item_count": 1
+               }
+            ],
+            "map_locations": [
+               {
+                  "map": "Hollow Basin",
+                  "x": 777,
+                  "y": 1456
+               }
+            ]
+         },
+         {
+            "name": "Temple Small Pillar Top",
+            "chest_unopened_img": "images/items/check_item_fade.png",
+            "chest_opened_img": "images/items/check_item.png",
+            "access_rules": [
+               "^$CanReach|Temple Small Pillar Top"
+            ],
+            "sections": [
+               {
+                  "name": "Health Vial",
+                  "item_count": 1
+               }
+            ],
+            "map_locations": [
+               {
+                  "map": "Hollow Basin",
+                  "x": 655,
+                  "y": 1503
+               }
+            ]
+         },
+         {
+            "name": "Temple Pillar Room Left",
+            "chest_unopened_img": "images/items/check_misc_fade.png",
+            "chest_opened_img": "images/items/check_misc.png",
+            "access_rules": [
+               "^$CanReach|Temple Pillar Room Left"
+            ],
+            "sections": [
+               {
+                  "name": "Crystal Shard",
+                  "item_count": 1
+               }
+            ],
+            "map_locations": [
+               {
+                  "map": "Hollow Basin",
+                  "x": 1041,
+                  "y": 1639
+               }
+            ]
+         },
+         {
+            "name": "Temple Pillar Room Back Left",
+            "chest_unopened_img": "images/items/check_weapon_fade.png",
+            "chest_opened_img": "images/items/check_weapon.png",
+            "access_rules": [
+               "^$CanReach|Temple Pillar Room Back Left"
+            ],
+            "sections": [
+               {
+                  "name": "Wooden Shield",
+                  "item_count": 1
+               }
+            ],
+            "map_locations": [
+               {
+                  "map": "Hollow Basin",
+                  "x": 1013,
+                  "y": 1748
+               }
+            ]
+         },
+         {
+            "name": "Temple Pillar Room Back Right",
+            "chest_unopened_img": "images/items/check_item_fade.png",
+            "chest_opened_img": "images/items/check_item.png",
+            "access_rules": [
+               "^$CanReach|Temple Pillar Room Back Right"
+            ],
+            "sections": [
+               {
+                  "name": "Blood Wine",
+                  "item_count": 1
+               }
+            ],
+            "map_locations": [
+               {
+                  "map": "Hollow Basin",
+                  "x": 913,
+                  "y": 1769
+               }
+            ]
+         },
+         {
+            "name": "Temple Pillar Room Hidden Room",
+            "chest_unopened_img": "images/items/check_spell_fade.png",
+            "chest_opened_img": "images/items/check_spell.png",
+            "access_rules": [
+               "^$CanReach|Temple Pillar Room Hidden Room"
+            ],
+            "sections": [
+               {
+                  "name": "Spell Ring (Blood Strike)",
+                  "item_count": 1
+               }
+            ],
+            "map_locations": [
+               {
+                  "map": "Hollow Basin",
+                  "x": 827,
+                  "y": 1739
+               }
+            ]
+         },
+         {
+            "name": "Temple Blood Altar",
+            "chest_unopened_img": "images/items/check_misc_fade.png",
+            "chest_opened_img": "images/items/check_misc.png",
+            "access_rules": [
+               "^$CanReach|Temple Blood Altar"
+            ],
+            "sections": [
+               {
+                  "name": "10 Strange Coins",
+                  "item_count": 1
+               }
+            ],
+            "map_locations": [
+               {
+                  "map": "Hollow Basin",
+                  "x": 349,
+                  "y": 1600
+               }
+            ]
+         },
+         {
+            "name": "Alcove on Path to Yosei Forest",
+            "chest_unopened_img": "images/items/check_weapon_fade.png",
+            "chest_opened_img": "images/items/check_weapon.png",
+            "access_rules": [
+               "^$CanReach|Alcove on Path to Yosei Forest"
+            ],
+            "sections": [
+               {
+                  "name": "Steel Spear",
+                  "item_count": 1
+               }
+            ],
+            "map_locations": [
+               {
+                  "map": "Hollow Basin",
+                  "x": 804,
+                  "y": 1279
+               }
+            ]
+         },
+         {
+            "name": "Temple Hidden Room In Sewer",
+            "chest_unopened_img": "images/items/check_misc_fade.png",
+            "chest_opened_img": "images/items/check_misc.png",
+            "access_rules": [
+               "^$CanReach|Temple Hidden Room In Sewer"
+            ],
+            "sections": [
+               {
+                  "name": "VHS Tape",
+                  "item_count": 1
+               }
+            ],
+            "map_locations": [
+               {
+                  "map": "Hollow Basin",
+                  "x": 337,
+                  "y": 1719
+               }
+            ]
+         },
+         {
+            "name": "Temple Table in Sewer",
+            "chest_unopened_img": "images/items/check_weapon_fade.png",
+            "chest_opened_img": "images/items/check_weapon.png",
+            "access_rules": [
+               "^$CanReach|Temple Table in Sewer"
+            ],
+            "sections": [
+               {
+                  "name": "Stone Club",
+                  "item_count": 1
+               }
+            ],
+            "map_locations": [
+               {
+                  "map": "Hollow Basin",
+                  "x": 291,
+                  "y": 2295
+               }
+            ]
+         },
+         {
+            "name": "Temple Sewer Puzzle",
+            "chest_unopened_img": "images/items/check_misc_fade.png",
+            "chest_opened_img": "images/items/check_misc.png",
+            "access_rules": [
+               "^$CanReach|Temple Sewer Puzzle"
+            ],
+            "sections": [
+               {
+                  "name": "Corrupted Key",
+                  "item_count": 1
+               }
+            ],
+            "map_locations": [
+               {
+                  "map": "Hollow Basin",
+                  "x": 142,
+                  "y": 1974
+               }
+            ]
+         }
+      ]
+   }
+]

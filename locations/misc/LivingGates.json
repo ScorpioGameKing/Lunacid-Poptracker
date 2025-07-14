@@ -1,0 +1,49 @@
+[
+    {
+        "name": "Living Gates",
+        "children": [
+            {
+                "name": "Hollow Basin Living Gate",
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "access_rules": [
+                    "^$CanReach|Hollow Basin Living Gate"
+                ],
+                "sections": [
+                    {
+                        "name": "Open Gate",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Hollow Basin",
+                        "x": 963,
+                        "y": 1337
+                    }
+                ]
+            },
+            {
+                "name": "Yosei Forest Living Gate",
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "access_rules": [
+                    "^$CanReach|Yosei Forest Living Gate"
+                ],
+                "sections": [
+                    {
+                        "name": "Open Gate",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Yosei Forest",
+                        "x": 1706,
+                        "y": 940
+                    }
+                ]
+            }
+        ]
+    }
+]

@@ -1,0 +1,37 @@
+{
+    "settings_popup": {
+        "type": "array",
+        "orientation": "horizontal",
+        "background": "#000000",
+        "dropshadow": true,
+        "h_alignment": "left",
+        "content": [
+            {
+                "type": "group",
+                "header": "Settings",
+                "dock": "bottom",
+                "content": {
+                    "type": "layout",
+                    "key": "settings"
+                }	
+            }
+        ]
+    },
+    "settings": {
+        "type": "array",
+        "orientation": "horizontal",
+        "background": "#000000",
+        "content": [
+            {
+                "type": "itemgrid",
+                "h_alignment": "left",
+                "item_size": "150",
+                "rows": [
+                    ["drops_on", "shops_on", "quench_on", "etna_on"],
+                    ["switch_locks", "door_lock_toggle", "secret_doors", "entrance_toggle"],
+                    ["show_switches", "show_doors", "starting_class", "starting_area"]
+                ]
+            }
+        ]
+    }
+}

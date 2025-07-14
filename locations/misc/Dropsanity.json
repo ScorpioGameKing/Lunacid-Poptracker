@@ -1,0 +1,379 @@
+[
+    {
+        "name": "Dropsanity",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "visibility_rules": "drops_on",
+        "access_rules": [
+            " "
+        ],
+        "children": [
+            {
+                "name": "Snail",
+                "chest_unopened_img": "images/items/check_spell_fade.png",
+                "chest_opened_img": "images/items/check_spell.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "^$CanKill|Snail"
+                ],
+                "sections": [
+                    {
+                        "name": "Summon Snail Drop",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Dropsanity",
+                        "x": 573,
+                        "y": 166
+                    }
+                ]
+            },
+            {
+                "name": "Mummy Knight",
+                "chest_unopened_img": "images/items/check_weapon_fade.png",
+                "chest_opened_img": "images/items/check_weapon.png",
+                "access_rules": [
+                    "^$CanKill|Mummy Knight"
+                ],
+                "sections": [
+                    {
+                        "name": "Rusted Sword Drop",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Dropsanity",
+                        "x": 573,
+                        "y": 436
+                    }
+                ]
+            },
+            {
+                "name": "Kodama",
+                "chest_unopened_img": "images/items/check_spell_fade.png",
+                "chest_opened_img": "images/items/check_spell.png",
+                "access_rules": [
+                    "^$CanKill|Kodama"
+                ],
+                "sections": [
+                    {
+                        "name": "Summon Kodama Drop",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Dropsanity",
+                        "x": 573,
+                        "y": 706
+                    }
+                ]
+            },
+            {
+                "name": "Chimera",
+                "chest_unopened_img": "images/items/check_spell_fade.png",
+                "chest_opened_img": "images/items/check_spell.png",
+                "access_rules": [
+                    "^$CanKill|Chimera"
+                ],
+                "sections": [
+                    {
+                        "name": "Quick Stride Drop",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Dropsanity",
+                        "x": 573,
+                        "y": 976
+                    }
+                ]
+            },
+            {
+                "name": "Milk Snail",
+                "chest_unopened_img": "images/items/check_weapon_fade.png",
+                "chest_opened_img": "images/items/check_weapon.png",
+                "access_rules": [
+                    "^$CanKill|Milk Snail"
+                ],
+                "sections": [
+                    {
+                        "name": "Ice Sickle Drop",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Dropsanity",
+                        "x": 573,
+                        "y": 1246
+                    }
+                ]
+            },
+            {
+                "name": "Skeleton",
+                "chest_unopened_img": "images/items/check_weapon_fade.png",
+                "chest_opened_img": "images/items/check_weapon.png",
+                "access_rules": [
+                    "^$CanKill|Skeleton"
+                ],
+                "sections": [
+                    {
+                        "name": "Skeleton Axe Drop",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Dark Skull Drop",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Dropsanity",
+                        "x": 573,
+                        "y": 1516
+                    },
+                    {
+                        "map": "Dropsanity",
+                        "x": 573,
+                        "y": 1786
+                    }
+                ]
+            },
+            {
+                "name": "Phantom",
+                "chest_unopened_img": "images/items/check_weapon_fade.png",
+                "chest_opened_img": "images/items/check_weapon.png",
+                "access_rules": [
+                    "^$CanKill|Phantom"
+                ],
+                "sections": [
+                    {
+                        "name": "Cursed Blade Drop",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Dropsanity",
+                        "x": 573,
+                        "y": 2056
+                    }
+                ]
+            },
+            {
+                "name": "Obsidian Skeleton",
+                "chest_unopened_img": "images/items/check_weapon_fade.png",
+                "chest_opened_img": "images/items/check_weapon.png",
+                "access_rules": [
+                    "^$CanKill|Obsidian Skeleton"
+                ],
+                "sections": [
+                    {
+                        "name": "Obsidian Cursebrand Drop",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Obsidian Poisonguard Drop",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Dropsanity",
+                        "x": 1337,
+                        "y": 166
+                    },
+                    {
+                        "map": "Dropsanity",
+                        "x": 1337,
+                        "y": 436
+                    }
+                ]
+            },
+            {
+                "name": "Anpu",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "^$CanKill|Anpu"
+                ],
+                "sections": [
+                    {
+                        "name": "Golden Khopesh Drop",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Golden Sickle Drop",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Dropsanity",
+                        "x": 1337,
+                        "y": 706
+                    },
+                    {
+                        "map": "Dropsanity",
+                        "x": 1337,
+                        "y": 976
+                    }
+                ]
+            },
+            {
+                "name": "Malformed Horse",
+                "chest_unopened_img": "images/items/check_weapon_fade.png",
+                "chest_opened_img": "images/items/check_weapon.png",
+                "access_rules": [
+                    "^$CanKill|Malformed Horse"
+                ],
+                "sections": [
+                    {
+                        "name": "Brittle Arming Sword Drop",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Dropsanity",
+                        "x": 1337,
+                        "y": 1246
+                    }
+                ]
+            },
+            {
+                "name": "Jailor",
+                "chest_unopened_img": "images/items/check_weapon_fade.png",
+                "chest_opened_img": "images/items/check_weapon.png",
+                "access_rules": [
+                    "^$CanKill|Jailor"
+                ],
+                "sections": [
+                    {
+                        "name": "Jailor's Candle Drop",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Dropsanity",
+                        "x": 1337,
+                        "y": 1516
+                    }
+                ]
+            },
+            {
+                "name": "Vampire Page",
+                "chest_unopened_img": "images/items/check_weapon_fade.png",
+                "chest_opened_img": "images/items/check_weapon.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "^$CanKill|Vampire Page"
+                ],
+                "sections": [
+                    {
+                        "name": "Lyrian Longsword Drop",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Dropsanity",
+                        "x": 1337,
+                        "y": 1786
+                    }
+                ]
+            },
+            {
+                "name": "Sucsarian",
+                "chest_unopened_img": "images/items/check_weapon_fade.png",
+                "chest_opened_img": "images/items/check_weapon.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "^$CanKill|Sucsarian"
+                ],
+                "sections": [
+                    {
+                        "name": "Sucsarian Dagger Drop",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Sucsarian Spear Drop",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Dropsanity",
+                        "x": 1337,
+                        "y": 2056
+                    },
+                    {
+                        "map": "Dropsanity",
+                        "x": 2100,
+                        "y": 166
+                    }
+                ]
+            },
+            {
+                "name": "Cetea",
+                "chest_unopened_img": "images/items/check_spell_fade.png",
+                "chest_opened_img": "images/items/check_spell.png",
+                "access_rules": [
+                    "^$CanKill|Cetea"
+                ],
+                "sections": [
+                    {
+                        "name": "Tornado Drop",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Dropsanity",
+                        "x": 2100,
+                        "y": 436
+                    }
+                ]
+            },
+            {
+                "name": "Abyssal Demon",
+                "chest_unopened_img": "images/items/check_item_fade.png",
+                "chest_opened_img": "images/items/check_item.png",
+                "access_rules": [
+                    "^$CanKill|Abyssal Demon"
+                ],
+                "sections": [
+                    {
+                        "name": "Ocean Elixir Drop",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Dropsanity",
+                        "x": 2100,
+                        "y": 706
+                    },
+                    {
+                        "map": "The Sanguine Sea",
+                        "x": 150,
+                        "y": 1070
+                    },
+                    {
+                        "map": "Accursed Tomb",
+                        "x": 1815,
+                        "y": 440
+                    }
+                ]
+            }
+        ]
+    }
+]

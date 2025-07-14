@@ -1,0 +1,97 @@
+[
+    {
+    "name": "The Sanguine Sea",
+    "access_rules":[
+       "^$CanEnter|The Sanguine Sea"
+    ],
+    "children": [
+       {
+             "name": "Pillar In Front of Castle Le Fanu",
+             "chest_unopened_img": "images/items/check_item_fade.png",
+             "chest_opened_img": "images/items/check_item.png",
+             "overlay_background": "#000000",
+             "access_rules": [
+                   "^$CanReach|Pillar In Front of Castle Le Fanu"
+             ],
+             "sections": [
+                {
+                    "name": "Corrupted Dagger",
+                    "access_rules": [],
+                    "visibility_rules": [],
+                    "item_count": 1
+                }
+            ],
+            "map_locations": [
+                { 
+                   "map": "The Sanguine Sea",
+                   "x": 796,
+                   "y": 894
+                }
+             ]
+          },
+          {
+             "name": "Killing the Jotunn",
+             "chest_unopened_img": "images/items/check_misc_fade.png",
+             "chest_opened_img": "images/items/check_misc.png",
+             "access_rules": [
+                   "^$CanReach|Killing the Jotunn"
+             ],
+             "sections": [
+                { 
+                   "name": "10 Strange Coins",
+                   "item_count": 1
+                }
+             ],
+             "map_locations": [
+                { 
+                   "map": "The Sanguine Sea",
+                   "x": 1118,
+                   "y": 1074
+                }
+             ]
+          },
+          {
+             "name": "Underblood Near Castle Le Fanu",
+             "chest_unopened_img": "images/items/check_weapon_fade.png",
+             "chest_opened_img": "images/items/check_weapon.png",
+             "sections": [
+                { 
+                   "name": "Dark Rapier",
+                   "item_count": 1
+                }
+             ],
+             "access_rules": [
+                "^$CanReach|Underblood Near Castle Le Fanu"
+            ],
+             "map_locations": [
+                { 
+                   "map": "The Sanguine Sea",
+                   "x": 820,
+                   "y": 1278
+                }
+             ]
+          },
+          {
+             "name": "Fairy Circle",
+             "chest_unopened_img": "images/items/check_spell_fade.png",
+             "chest_opened_img": "images/items/check_spell.png",
+             "access_rules": [
+                "^$CanReach|Fairy Circle"
+            ],
+             "sections": [
+                { 
+                   "name": "Spell Ring (Summon Fairy)",
+                   "item_count": 1
+                }
+             ],
+             "map_locations": [
+                { 
+                   "map": "The Sanguine Sea",
+                   "x": 1296,
+                   "y": 168
+                }
+             ]
+          }
+       ]
+  }
+]

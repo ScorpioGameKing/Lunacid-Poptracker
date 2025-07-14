@@ -1,0 +1,146 @@
+[
+    {
+        "name": "Etna's Pupil",
+        "overlay_background": "#000000",
+        "visibility_rules": [
+            "etna_on"
+        ],
+        "sections": [
+            {
+                "name": "Alchemize Concentrated Lunacy",
+                "access_rules": [],
+                "visibility_rules": [],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "item_count": 1
+            },
+            {
+                "name": "Alchemize Hostility Barrier",
+                "access_rules": [],
+                "visibility_rules": [],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "item_count": 1
+            },
+            {
+                "name": "Alchemize Explosives",
+                "access_rules": [],
+                "visibility_rules": [],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "item_count": 1
+            },
+            {
+                "name": "Alchemize Venomous Object",
+                "access_rules": [],
+                "visibility_rules": [],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "item_count": 1
+            },
+            {
+                "name": "Alchemize Defense Construct",
+                "access_rules": [],
+                "visibility_rules": [],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "item_count": 1
+            },
+            {
+                "name": "Alchemize Concentrated Poison",
+                "access_rules": [],
+                "visibility_rules": [],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "item_count": 1
+            },
+            {
+                "name": "Alchemize Nature",
+                "access_rules": [],
+                "visibility_rules": [],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "item_count": 1
+            },
+            {
+                "name": "Alchemize Antivenom",
+                "access_rules": [],
+                "visibility_rules": [],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "item_count": 1
+            },
+            {
+                "name": "Alchemize Cleromancy Tool",
+                "access_rules": [],
+                "visibility_rules": [],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "item_count": 1
+            },
+            {
+                "name": "Alchemize Healing Remedy",
+                "access_rules": [],
+                "visibility_rules": [],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "item_count": 1
+            },
+            {
+                "name": "Alchemize Water of Life",
+                "access_rules": [],
+                "visibility_rules": [],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "item_count": 1
+            },
+            {
+                "name": "Alchemize Sharp Object",
+                "access_rules": [],
+                "visibility_rules": [],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "item_count": 1
+            },
+            {
+                "name": "Alchemize Golden Sin of Abdul",
+                "access_rules": [],
+                "visibility_rules": [],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "item_count": 1
+            },
+            {
+                "name": "Alchemize Mana Remedy",
+                "access_rules": [],
+                "visibility_rules": [],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "item_count": 1
+            },
+            {
+                "name": "Alchemize Unstable Stone",
+                "access_rules": [],
+                "visibility_rules": [],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "item_count": 1
+            },
+            {
+                "name": "Alchemize Simple Life",
+                "access_rules": [],
+                "visibility_rules": [],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "item_count": 1
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "Wing's Rest",
+                "x": 323,
+                "y": 660
+            }
+        ]
+    }
+]

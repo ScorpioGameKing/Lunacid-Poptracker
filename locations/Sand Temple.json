@@ -1,0 +1,301 @@
+[
+    {
+        "name": "Sand Temple",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            "^$CanEnter|Boiling Grotto"
+        ],
+        "children": [
+            {
+                "name": "Top Right Sarcophagus",
+                "chest_unopened_img": "images/items/check_item_fade.png",
+                "chest_opened_img": "images/items/check_item.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "^$CanReach|Top Right Sarcophagus"
+                ],
+                "sections": [
+                    {
+                        "name": "Cloth Bandage",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    { 
+                       "map": "Boiling Grotto",
+                       "x": 1612,
+                       "y": 136
+                    }
+                 ]
+            },
+            {
+                "name": "Second Floor Snake Room",
+                "chest_unopened_img": "images/items/check_item_fade.png",
+                "chest_opened_img": "images/items/check_item.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "^$CanReach|Second Floor Snake Room"
+                ],
+                "sections": [
+                    {
+                        "name": "Health Vial",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    { 
+                       "map": "Boiling Grotto",
+                       "x": 1875,
+                       "y": 629
+                    }
+                 ]
+            },
+            {
+                "name": "Basement Snake Pit",
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "^$CanReach|Basement Snake Pit"
+                ],
+                "sections": [
+                    {
+                        "name": "Staff of Osiris",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    { 
+                       "map": "Boiling Grotto",
+                       "x": 1263,
+                       "y": 962
+                    }
+                 ]
+            },
+            {
+                "name": "Room Buried in Sand",
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "^$CanReach|Room Buried in Sand"
+                ],
+                "sections": [
+                    {
+                        "name": "Staff of Osiris",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    { 
+                       "map": "Boiling Grotto",
+                       "x": 2191,
+                       "y": 532
+                    }
+                 ]
+            },
+            {
+                "name": "Basement Stone Rubble",
+                "chest_unopened_img": "images/items/check_item_fade.png",
+                "chest_opened_img": "images/items/check_item.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "^$CanReach|Basement Stone Rubble"
+                ],
+                "sections": [
+                    {
+                        "name": "Mana Vial",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    { 
+                       "map": "Boiling Grotto",
+                       "x": 1935,
+                       "y": 919
+                    }
+                 ]
+            },
+            {
+                "name": "Hidden Sarcophagus",
+                "chest_unopened_img": "images/items/check_item_fade.png",
+                "chest_opened_img": "images/items/check_item.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "^$CanReach|Hidden Sarcophagus"
+                ],
+                "sections": [
+                    {
+                        "name": "Cloth Bandage",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    { 
+                       "map": "Boiling Grotto",
+                       "x": 1417,
+                       "y": 202
+                    }
+                 ]
+            },
+            {
+                "name": "Second Floor Dead End",
+                "chest_unopened_img": "images/items/check_item_fade.png",
+                "chest_opened_img": "images/items/check_item.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "^$CanReach|Second Floor Dead End"
+                ],
+                "sections": [
+                    {
+                        "name": "Health Vial",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    { 
+                       "map": "Boiling Grotto",
+                       "x": 2026,
+                       "y": 163
+                    }
+                 ]
+            },
+            {
+                "name": "Lunacid Sandwich",
+                "chest_unopened_img": "images/items/check_weapon_fade.png",
+                "chest_opened_img": "images/items/check_weapon.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "^$CanReach|Lunacid Sandwich"
+                ],
+                "sections": [
+                    {
+                        "name": "Iron Claw",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    { 
+                       "map": "Boiling Grotto",
+                       "x": 1783,
+                       "y": 404
+                    }
+                 ]
+            },
+            {
+                "name": "Chest Near Switch",
+                "chest_unopened_img": "images/items/check_spell_fade.png",
+                "chest_opened_img": "images/items/check_spell.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "^$CanReach|Chest Near Switch"
+                ],
+                "sections": [
+                    {
+                        "name": "Spell Ring (Ignis Calor)",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    { 
+                       "map": "Boiling Grotto",
+                       "x": 1282,
+                       "y": 680
+                    }
+                 ]
+            },
+            {
+                "name": "Chest Overlooking Crypt",
+                "chest_unopened_img": "images/items/check_item_fade.png",
+                "chest_opened_img": "images/items/check_item.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "^$CanReach|Chest Overlooking Crypt"
+                ],
+                "sections": [
+                    {
+                        "name": "Ocean Elixir",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    { 
+                       "map": "Boiling Grotto",
+                       "x": 2081,
+                       "y": 1235
+                    }
+                 ]
+            },
+            {
+                "name": "Floor Switch Maze",
+                "chest_unopened_img": "images/items/check_item_fade.png",
+                "chest_opened_img": "images/items/check_item.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "^$CanReach|Floor Switch Maze"
+                ],
+                "sections": [
+                    {
+                        "name": "Moon Vial",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    { 
+                       "map": "Boiling Grotto",
+                       "x": 2237,
+                       "y": 692
+                    }
+                 ]
+            },
+            {
+                "name": "Triple Sarcophagus",
+                "chest_unopened_img": "images/items/check_coin_fade.png",
+                "chest_opened_img": "images/items/check_coin.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "^$CanReach|Triple Sarcophagus"
+                ],
+                "sections": [
+                    {
+                        "name": "10 Silver",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    { 
+                       "map": "Boiling Grotto",
+                       "x": 1384,
+                       "y": 386
+                    }
+                 ]
+            }
+        ]
+    }
+]

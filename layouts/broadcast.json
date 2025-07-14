@@ -44,15 +44,6 @@
                                 "type": "layout",
                                 "key": "logic_grid"
                             }
-                        },
-                        {                    
-                            "type": "group",
-                            "header": "Settings",
-                            "dock": "top",
-                            "content": {
-                                "type": "layout",
-                                "key": "settings_grid"
-                            }
                         }
                     ]
                 }

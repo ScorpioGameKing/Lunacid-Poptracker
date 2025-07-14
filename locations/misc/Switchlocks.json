@@ -1,0 +1,602 @@
+[
+   {
+      "name": "Switchsanity",
+      "visibility_rules": [
+         "switch_locks",
+         "show_switches"
+      ],
+      "children": [
+         {
+            "name": "Hollow Basin",
+            "access_rules": [
+               "^$CanEnter|Hollow Basin"
+            ],
+            "children": [
+               {
+                  "name": "Hollow Basin Switch",
+                  "chest_unopened_img": "images/items/check_misc_fade.png",
+                  "chest_opened_img": "images/items/check_misc.png",
+                  "visibility_rules": [
+                     "switch_locks"
+                  ],
+                  "access_rules": [
+                     "^$CanReach|Hollow Basin Switch"
+                  ],
+                  "sections": [
+                     {
+                        "name": "Locks Easy Pathing",
+                        "item_count": 1
+                     }
+                  ],
+                  "map_locations": [
+                     {
+                        "map": "Hollow Basin",
+                        "x": 683,
+                        "y": 654
+                     }
+                  ]
+               },
+               {
+                  "name": "Temple of Silence Switch",
+                  "chest_unopened_img": "images/items/check_misc_fade.png",
+                  "chest_opened_img": "images/items/check_misc.png",
+                  "access_rules": [
+                     "^$CanReach|Temple of Silence Switch"
+                  ],
+                  "sections": [
+                     {
+                        "name": "ToS Access, Mire + Yosei On",
+                        "item_count": 1
+                     }
+                  ],
+                  "map_locations": [
+                     {
+                        "map": "Hollow Basin",
+                        "x": 586,
+                        "y": 1579
+                     }
+                  ]
+               }
+            ]
+         },
+         {
+            "name": "Forbidden Archives",
+            "access_rules": [
+               "^$CanEnter|Forbidden Archives"
+            ],
+            "children": [
+               {
+                  "name": "Forbidden Archives Shortcut Switch",
+                  "visibility_rules": [
+                     "switch_locks"
+                  ],
+                  "access_rules": [
+                     "^$CanReach|Forbidden Archives Shortcut Switch"
+                  ],
+                  "chest_unopened_img": "images/items/check_misc_fade.png",
+                  "chest_opened_img": "images/items/check_misc.png",
+                  "sections": [
+                     { 
+                        "name": "Locks Easy Pathing",
+                        "item_count": 1
+                     }
+                  ],
+                  "map_locations": [
+                     { 
+                        "map": "Forbidden Archives",
+                        "x": 773,
+                        "y": 627
+                     }
+                  ]
+               },
+               {
+                  "name": "Forbidden Archives Elevator Switch (1F - 2F) [Top]",
+                  "visibility_rules": [
+                     "switch_locks"
+                  ],
+                  "access_rules": [
+                     "^$CanReach|Forbidden Archives Elevator Switch (1F - 2F) [Top]"
+                  ],
+                  "chest_unopened_img": "images/items/check_misc_fade.png",
+                  "chest_opened_img": "images/items/check_misc.png",
+                  "sections": [
+                     { 
+                        "name": "Locks Easy Pathing",
+                        "item_count": 1
+                     }
+                  ],
+                  "map_locations": [
+                     { 
+                        "map": "Forbidden Archives",
+                        "x": 1069,
+                        "y": 579
+                     }
+                  ]
+               },
+               {
+                  "name": "Forbidden Archives Elevator Switch (1F - 2F) [Bottom]",
+                  "visibility_rules": [
+                     "switch_locks"
+                  ],
+                  "access_rules": [
+                     "^$CanReach|Forbidden Archives Elevator Switch (1F - 2F) [Bottom]"
+                  ],
+                  "chest_unopened_img": "images/items/check_misc_fade.png",
+                  "chest_opened_img": "images/items/check_misc.png",
+                  "sections": [
+                     { 
+                        "name": "Locks Easy Pathing",
+                        "item_count": 1
+                     }
+                  ],
+                  "map_locations": [
+                     { 
+                        "map": "Forbidden Archives",
+                        "x": 1594,
+                        "y": 1591
+                     }
+                  ]
+               },
+               {
+                  "name": "Forbidden Archives Elevator Switch (2F - 3F) [Top]",
+                  "visibility_rules": [
+                     "switch_locks"
+                  ],
+                  "access_rules": [
+                     "^$CanReach|Forbidden Archives Elevator Switch (2F - 3F) [Top]"
+                  ],
+                  "chest_unopened_img": "images/items/check_misc_fade.png",
+                  "chest_opened_img": "images/items/check_misc.png",
+                  "sections": [
+                     { 
+                        "name": "Locks Easy Pathing",
+                        "item_count": 1
+                     }
+                  ],
+                  "map_locations": [
+                     { 
+                        "map": "Forbidden Archives",
+                        "x": 1864,
+                        "y": 576
+                     }
+                  ]
+               },
+               {
+                  "name": "Forbidden Archives Elevator Switch (2F - 3F) [Bottom]",
+                  "visibility_rules": [
+                     "switch_locks"
+                  ],
+                  "access_rules": [
+                     "^$CanReach|Forbidden Archives Elevator Switch (2F - 3F) [Bottom]"
+                  ],
+                  "chest_unopened_img": "images/items/check_misc_fade.png",
+                  "chest_opened_img": "images/items/check_misc.png",
+                  "sections": [
+                     { 
+                        "name": "Locks Easy Pathing",
+                        "item_count": 1
+                     }
+                  ],
+                  "map_locations": [
+                     { 
+                        "map": "Forbidden Archives",
+                        "x": 903,
+                        "y": 574
+                     }
+                  ]
+               },
+               {
+                  "name": "Forbidden Archives Elevator Switch (1F - 3F) [Top]",
+                  "visibility_rules": [
+                     "switch_locks"
+                  ],
+                  "access_rules": [
+                     "^$CanReach|Forbidden Archives Elevator Switch (1F - 3F) [Top]"
+                  ],
+                  "chest_unopened_img": "images/items/check_misc_fade.png",
+                  "chest_opened_img": "images/items/check_misc.png",
+                  "sections": [
+                     { 
+                        "name": "Locks Easy Pathing",
+                        "item_count": 1
+                     }
+                  ],
+                  "map_locations": [
+                     { 
+                        "map": "Forbidden Archives",
+                        "x": 2059,
+                        "y": 354
+                     }
+                  ]
+               },
+               {
+                  "name": "Forbidden Archives Elevator Switch (1F - 3F) [Bottom]",
+                  "visibility_rules": [
+                     "switch_locks"
+                  ],
+                  "access_rules": [
+                     "^$CanReach|Forbidden Archives Elevator Switch (1F - 3F) [Bottom]"
+                  ],
+                  "chest_unopened_img": "images/items/check_misc_fade.png",
+                  "chest_opened_img": "images/items/check_misc.png",
+                  "sections": [
+                     { 
+                        "name": "Locks Easy Pathing",
+                        "item_count": 1
+                     }
+                  ],
+                  "map_locations": [
+                     { 
+                        "map": "Forbidden Archives",
+                        "x": 1620,
+                        "y": 1370
+                     }
+                  ]
+               }
+            ]
+         },
+         {
+            "name": "Accursed Tomb",
+            "access_rules": [
+               "^$CanEnter|Accursed Tomb"
+            ],
+            "children": [
+               {
+                  "name": "Accursed Tomb Lobby Switch",
+                  "access_rules": [
+                     "^$CanReach|Accursed Tomb Lobby Switch"
+                  ],
+                  "chest_unopened_img": "images/items/check_misc_fade.png",
+                  "chest_opened_img": "images/items/check_misc.png",
+                  "sections": [
+                     { 
+                        "name": "Locks Easy Pathing",
+                        "item_count": 1
+                     }
+                  ],
+                  "map_locations": [
+                     { 
+                        "map": "Accursed Tomb",
+                        "x": 645,
+                        "y": 1535
+                     }
+                  ]
+               },
+               {
+                  "name": "Accursed Tomb Crypt Switch",
+                  "access_rules": [
+                     "^$CanReach|Accursed Tomb Crypt Switch"
+                  ],
+                  "chest_unopened_img": "images/items/check_misc_fade.png",
+                  "chest_opened_img": "images/items/check_misc.png",
+                  "sections": [
+                     { 
+                        "name": "Locks Easy Pathing",
+                        "item_count": 1
+                     }
+                  ],
+                  "map_locations": [
+                     { 
+                        "map": "Accursed Tomb",
+                        "x": 681,
+                        "y": 1165
+                     }
+                  ]
+               },
+               {
+                  "name": "Accursed Tomb Light Switch (Near Save Crystal)",
+                  "access_rules": [
+                     "^$CanReach|Accursed Tomb Light Switch (Near Save Crystal)"
+                  ],
+                  "chest_unopened_img": "images/items/check_misc_fade.png",
+                  "chest_opened_img": "images/items/check_misc.png",
+                  "sections": [
+                     { 
+                        "name": "Locks Easy Pathing",
+                        "item_count": 1
+                     }
+                  ],
+                  "map_locations": [
+                     { 
+                        "map": "Accursed Tomb",
+                        "x": 1054,
+                        "y": 1628
+                     }
+                  ]
+               },
+               {
+                  "name": "Accursed Tomb Light Switch (Near Demi)",
+                  "access_rules": [
+                     "^$CanReach|Accursed Tomb Light Switch (Near Demi)"
+                  ],
+                  "chest_unopened_img": "images/items/check_misc_fade.png",
+                  "chest_opened_img": "images/items/check_misc.png",
+                  "sections": [
+                     { 
+                        "name": "Locks Easy Pathing",
+                        "item_count": 1
+                     }
+                  ],
+                  "map_locations": [
+                     { 
+                        "map": "Accursed Tomb",
+                        "x": 297,
+                        "y": 1852
+                     }
+                  ]
+               },
+               {
+                  "name": "Accursed Tomb Light Switch (In Noble Crypt)",
+                  "access_rules": [
+                     "^$CanReach|Accursed Tomb Light Switch (In Noble Crypt)"
+                  ],
+                  "chest_unopened_img": "images/items/check_misc_fade.png",
+                  "chest_opened_img": "images/items/check_misc.png",
+                  "sections": [
+                     { 
+                        "name": "Locks Easy Pathing",
+                        "item_count": 1
+                     }
+                  ],
+                  "map_locations": [
+                     { 
+                        "map": "Accursed Tomb",
+                        "x": 1179,
+                        "y": 739
+                     }
+                  ]
+               }
+            ]
+         },
+         {
+            "name": "The Fetid Mire",
+            "access_rules": [
+               "^$CanEnter|The Fetid Mire"
+            ],
+            "children": [
+               {
+                  "name": "Fetid Mire Switch",
+                  "access_rules": [
+                     "^$CanReach|Fetid Mire Switch"
+                  ],
+                  "chest_unopened_img": "images/items/check_misc_fade.png",
+                  "chest_opened_img": "images/items/check_misc.png",
+                  "sections": [
+                     { 
+                        "name": "Locks Easy Pathing",
+                        "item_count": 1
+                     }
+                  ],
+                  "map_locations": [
+                     { 
+                        "map": "The Fetid Mire",
+                        "x": 1717,
+                        "y": 1779
+                     }
+                  ]
+               }
+            ]
+         },
+         {
+            "name": "Sealed Ballroom",
+            "access_rules": [
+               "^$CanEnter|Sealed Ballroom"
+            ],
+            "children": [
+               {
+                  "name": "Sealed Ballroom Switch",
+                  "access_rules": [
+                     "^$CanReach|Sealed Ballroom Switch"
+                  ],
+                  "chest_unopened_img": "images/items/check_misc_fade.png",
+                  "chest_opened_img": "images/items/check_misc.png",
+                  "sections": [
+                     { 
+                        "name": "Locks Easy Pathing",
+                        "item_count": 1
+                     }
+                  ],
+                  "map_locations": [
+                     { 
+                        "map": "Sealed Ballroom",
+                        "x": 413,
+                        "y": 620
+                     }
+                  ]
+               }
+            ]
+         },
+         {
+            "name": "Boiling Grotto",
+            "access_rules": [
+               "^$CanEnter|Boiling Grotto"
+            ],
+            "children": [
+               {
+                  "name": "Boiling Grotto Fire Switch (North)",
+                  "visibility_rules": [
+                     "switch_locks"
+                  ],
+                  "access_rules": [
+                     "^$CanReach|Boiling Grotto Fire Switch (North)"
+                  ],
+                  "chest_unopened_img": "images/items/check_misc_fade.png",
+                  "chest_opened_img": "images/items/check_misc.png",
+                  "sections": [
+                     { 
+                        "name": "Locks Sand Temple",
+                        "hosted_item": "boil_switch_1",
+                        "item_count": 1
+                     }
+                  ],
+                  "map_locations": [
+                     { 
+                        "map": "Boiling Grotto",
+                        "x": 1069,
+                        "y": 399
+                     }
+                  ]
+               },
+               {
+                  "name": "Boiling Grotto Fire Switch (South)",
+                  "visibility_rules": [
+                     "switch_locks"
+                  ],
+                  "access_rules": [
+                     "^$CanReach|Boiling Grotto Fire Switch (South)"
+                  ],
+                  "chest_unopened_img": "images/items/check_misc_fade.png",
+                  "chest_opened_img": "images/items/check_misc.png",
+                  "sections": [
+                     { 
+                        "name": "Locks Sand Temple",
+                        "hosted_item": "boil_switch_2",
+                        "item_count": 1
+                     }
+                  ],
+                  "map_locations": [
+                     { 
+                        "map": "Boiling Grotto",
+                        "x": 1069,
+                        "y": 631
+                     }
+                  ]
+               }
+            ]
+         },
+         {
+            "name": "Terminus Prison",
+            "access_rules": [
+               "^$CanEnter|Terminus Prison"
+            ],
+            "children": [
+               {
+                  "name": "Terminus Prison Back Alley Switch",
+                  "visibility_rules":[
+                     "switch_locks"
+                  ],
+                  "access_rules": [
+                     "^$CanReach|Terminus Prison Back Alley Switch"
+                  ],
+                  "chest_unopened_img": "images/items/check_misc_fade.png",
+                  "chest_opened_img": "images/items/check_misc.png",
+                  "sections": [
+                     { 
+                        "name": "Locks Easy Pathing",
+                        "item_count": 1
+                     }
+                  ],
+                  "map_locations": [
+                     { 
+                        "map": "Terminus Prison",
+                        "x": 1193,
+                        "y": 446
+                     }
+                  ]
+               },
+               {
+                  "name": "Forlorn Arena Switch",
+                  "access_rules": [
+                     "^$CanReach|Forlorn Arena Switch"
+                  ],
+                  "chest_unopened_img": "images/items/check_misc_fade.png",
+                  "chest_opened_img": "images/items/check_misc.png",
+                  "sections": [
+                     { 
+                        "name": "Locks Forlorn Arena On",
+                        "hosted_item": "arena_lock_opened",
+                        "item_count": 1
+                     }
+                  ],
+                  "map_locations": [
+                     { 
+                        "map": "Terminus Prison",
+                        "x": 278,
+                        "y": 497
+                     }
+                  ]
+               }
+            ]
+         },
+         {
+            "name": "Forlorn Arena",
+            "access_rules": [
+               "^$CanEnter|Forlorn Arena"
+            ],
+            "children": [
+               {
+                  "name": "Temple of Water Switch",
+                  "access_rules": [
+                     "^$CanReach|Temple of Water Switch"
+                  ],
+                  "chest_unopened_img": "images/items/check_misc_fade.png",
+                  "chest_opened_img": "images/items/check_misc.png",
+                  "sections": [
+                     { 
+                        "name": "Locks Easy Pathing",
+                        "item_count": 1
+                     }
+                  ],
+                  "map_locations": [
+                     { 
+                        "map": "Forlorn Arena",
+                        "x": 592,
+                        "y": 739
+                     }
+                  ]
+               },
+               {
+                  "name": "Temple of Earth Switch",
+                  "access_rules": [
+                     "^$CanReach|Temple of Earth Switch"
+                  ],
+                  "chest_unopened_img": "images/items/check_misc_fade.png",
+                  "chest_opened_img": "images/items/check_misc.png",
+                  "sections": [
+                     { 
+                        "name": "Locks Easy Pathing",
+                        "item_count": 1
+                     }
+                  ],
+                  "map_locations": [
+                     { 
+                        "map": "Forlorn Arena",
+                        "x": 647,
+                        "y": 1545
+                     }
+                  ]
+               }
+            ]
+         },
+         {
+            "name": "Labyrinth of Ash",
+            "access_rules": [
+               "^$CanEnter|Labyrinth of Ash"
+            ],
+            "children": [
+               {
+                  "name": "Labyrinth of Ash Switch",
+                  "access_rules": [
+                     "^$CanReach|Labyrinth of Ash Switch"
+                  ],
+                  "chest_unopened_img": "images/items/check_misc_fade.png",
+                  "chest_opened_img": "images/items/check_misc.png",
+                  "sections": [
+                     { 
+                        "name": "Locks Easy Pathing",
+                        "item_count": 1
+                     }
+                  ],
+                  "map_locations": [
+                     { 
+                        "map": "Labyrinth of Ash",
+                        "x": 586,
+                        "y": 1579
+                     }
+                  ]
+               }
+            ]
+         }
+      ]
+   }
+]

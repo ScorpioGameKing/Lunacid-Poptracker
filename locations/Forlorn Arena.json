@@ -1,0 +1,399 @@
+[
+    {
+        "name": "Forlorn Arena",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            "^$CanEnter|Forlorn Arena"
+        ],
+        "children": [
+            {
+                "name": "Corpse Waiting For A Full Moon",
+                "chest_unopened_img": "images/items/check_weapon_fade.png",
+                "chest_opened_img": "images/items/check_weapon.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "^$CanReach|Corpse Waiting For A Full Moon"
+                ],
+                "sections": [
+                    {
+                        "name": "Broken Sword",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    { 
+                       "map": "Forlorn Arena",
+                       "x": 994,
+                       "y": 1213
+                    }
+                 ]
+            },
+            {
+                "name": "Entry Rock Parkour",
+                "chest_unopened_img": "images/items/check_item_fade.png",
+                "chest_opened_img": "images/items/check_item.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "^$CanReach|Entry Rock Parkour"
+                ],
+                "sections": [
+                    {
+                        "name": "Health Vial",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    { 
+                       "map": "Forlorn Arena",
+                       "x": 537,
+                       "y": 1406
+                    }
+                 ]
+            },
+            {
+                "name": "Temple of Earth Hidden Plant Haven",
+                "chest_unopened_img": "images/items/check_weapon_fade.png",
+                "chest_opened_img": "images/items/check_weapon.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "^$CanReach|Temple of Earth Hidden Plant Haven"
+                ],
+                "sections": [
+                    {
+                        "name": "Shadow Blade",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    { 
+                       "map": "Forlorn Arena",
+                       "x": 359,
+                       "y": 1783
+                    }
+                 ]
+            },
+            {
+                "name": "Temple of Earth Hidden Room",
+                "chest_unopened_img": "images/items/check_item_fade.png",
+                "chest_opened_img": "images/items/check_item.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "^$CanReach|Temple of Earth Hidden Room"
+                ],
+                "sections": [
+                    {
+                        "name": "Earth Elixir",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    { 
+                       "map": "Forlorn Arena",
+                       "x": 437,
+                       "y": 1711
+                    }
+                 ]
+            },
+            {
+                "name": "Temple of Earth Fractured Chest",
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "^$CanReach|Temple of Earth Fractured Chest"
+                ],
+                "sections": [
+                    {
+                        "name": "Fractured Life",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    { 
+                       "map": "Forlorn Arena",
+                       "x": 669,
+                       "y": 2220
+                    }
+                 ]
+            },
+            {
+                "name": "Temple of Earth Chest Near Switch",
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "^$CanReach|Temple of Earth Chest Near Switch"
+                ],
+                "sections": [
+                    {
+                        "name": "Earth Talisman",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    { 
+                       "map": "Forlorn Arena",
+                       "x": 513,
+                       "y": 1528
+                    }
+                 ]
+            },
+            {
+                "name": "Temple of Water Room Near Water",
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "^$CanReach|Temple of Water Room Near Water"
+                ],
+                "sections": [
+                    {
+                        "name": "Fairy Moss",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    { 
+                       "map": "Forlorn Arena",
+                       "x": 988,
+                       "y": 725
+                    }
+                 ]
+            },
+            {
+                "name": "Temple of Water Corner Near Water",
+                "chest_unopened_img": "images/items/check_item_fade.png",
+                "chest_opened_img": "images/items/check_item.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "^$CanReach|Temple of Water Corner Near Water"
+                ],
+                "sections": [
+                    {
+                        "name": "Antidote",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    { 
+                       "map": "Forlorn Arena",
+                       "x": 1091,
+                       "y": 712
+                    }
+                 ]
+            },
+            {
+                "name": "Temple of Water Collapsed End Near Balcony",
+                "chest_unopened_img": "images/items/check_item_fade.png",
+                "chest_opened_img": "images/items/check_item.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "^$CanReach|Temple of Water Collapsed End Near Balcony"
+                ],
+                "sections": [
+                    {
+                        "name": "Health Vial",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    { 
+                       "map": "Forlorn Arena",
+                       "x": 746,
+                       "y": 465
+                    }
+                 ]
+            },
+            {
+                "name": "Temple of Water Hidden Basement",
+                "chest_unopened_img": "images/items/check_item_fade.png",
+                "chest_opened_img": "images/items/check_item.png",
+                "access_rules":[
+                   "^$CanReach|Temple of Water Hidden Basement"
+                ],
+                "sections": [
+                   { 
+                      "name": "Antidote (Left)",
+                      "item_count": 1
+                   },
+                   { 
+                      "name": "Antidote (Right)",
+                      "item_count": 1
+                   }
+                ],
+                "map_locations": [
+                   { 
+                      "map": "Forlorn Arena",
+                      "x": 817,
+                      "y": 303
+                   }
+                ]
+             },
+            {
+                "name": "Temple of Water Hidden Laser Room",
+                "chest_unopened_img": "images/items/check_weapon_fade.png",
+                "chest_opened_img": "images/items/check_weapon.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "^$CanReach|Temple of Water Hidden Laser Room"
+                ],
+                "sections": [
+                    {
+                        "name": "Obsidian Sword",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    { 
+                       "map": "Forlorn Arena",
+                       "x": 800,
+                       "y": 353
+                    }
+                 ]
+            },
+            {
+                "name": "Temple of Water Hidden Alcove Before Stairs",
+                "chest_unopened_img": "images/items/check_item_fade.png",
+                "chest_opened_img": "images/items/check_item.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "^$CanReach|Temple of Water Hidden Alcove Before Stairs"
+                ],
+                "sections": [
+                    {
+                        "name": "Health Vial",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    { 
+                       "map": "Forlorn Arena",
+                       "x": 509,
+                       "y": 649
+                    }
+                 ]
+            },
+            {
+                "name": "Temple of Water Hidden Alcove",
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "access_rules":[
+                   "^$CanReach|Temple of Water Hidden Alcove"
+                ],
+                "sections": [
+                   { 
+                      "name": "Wisp Heart (Left)",
+                      "item_count": 1
+                   },
+                   { 
+                      "name": "Wisp Heart (Right)",
+                      "item_count": 1
+                   }
+                ],
+                "map_locations": [
+                   { 
+                      "map": "Forlorn Arena",
+                      "x": 231,
+                      "y": 510
+                   }
+                ]
+             },
+            {
+                "name": "Temple of Water Hidden Alcove Before Switch",
+                "chest_unopened_img": "images/items/check_item_fade.png",
+                "chest_opened_img": "images/items/check_item.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "^$CanReach|Temple of Water Hidden Alcove Before Switch"
+                ],
+                "sections": [
+                    {
+                        "name": "Ocean Elixir",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    { 
+                       "map": "Forlorn Arena",
+                       "x": 64,
+                       "y": 762
+                    }
+                 ]
+            },
+            {
+                "name": "Temple of Water Fractured Chest",
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "^$CanReach|Temple of Water Fractured Chest"
+                ],
+                "sections": [
+                    {
+                        "name": "Fractured Death",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    { 
+                       "map": "Forlorn Arena",
+                       "x": 218,
+                       "y": 150
+                    }
+                 ]
+            },
+            {
+                "name": "Temple of Water Chest Near Switch",
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "^$CanReach|Temple of Water Chest Near Switch"
+                ],
+                "sections": [
+                    {
+                        "name": "Water Talisman",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    { 
+                       "map": "Forlorn Arena",
+                       "x": 563,
+                       "y": 710
+                    }
+                ]
+            }
+        ]
+    }
+]

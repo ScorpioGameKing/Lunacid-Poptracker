@@ -1,0 +1,397 @@
+[
+    {
+        "name": "The Fetid Mire",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            "^$CanEnter|The Fetid Mire"
+        ],
+        "children": [
+            {
+                "name": "Room Left of Foyer",
+                "chest_unopened_img": "images/items/check_item_fade.png",
+                "chest_opened_img": "images/items/check_item.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Antidote",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    { 
+                       "map": "The Fetid Mire",
+                       "x": 1568,
+                       "y": 2042
+                    }
+                 ]
+            },
+            {
+                "name": "Hidden Slimey Chest Near Entrance",
+                "chest_unopened_img": "images/items/check_spell_fade.png",
+                "chest_opened_img": "images/items/check_spell.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Spell Ring (Ice Spear)",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    { 
+                       "map": "The Fetid Mire",
+                       "x": 1674,
+                       "y": 1742
+                    }
+                 ]
+            },
+            {
+                "name": "Hidden Upper Overlook (Left)",
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Crystal Shard",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    { 
+                       "map": "The Fetid Mire",
+                       "x": 1146,
+                       "y": 632
+                    }
+                 ]
+            },
+            {
+                "name": "Hidden Upper Overlook (Right)",
+                "chest_unopened_img": "images/items/check_item_fade.png",
+                "chest_opened_img": "images/items/check_item.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Ocean Elixir",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    { 
+                       "map": "The Fetid Mire",
+                       "x": 1172,
+                       "y": 432
+                    }
+                 ]
+            },
+            {
+                "name": "Bonenard's Trash",
+                "chest_unopened_img": "images/items/check_item_fade.png",
+                "chest_opened_img": "images/items/check_item.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Antidote",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    { 
+                       "map": "The Fetid Mire",
+                       "x": 1672,
+                       "y": 762
+                    }
+                 ]
+            },
+            {
+                "name": "Rubble Near Overlook Bridge",
+                "chest_unopened_img": "images/items/check_item_fade.png",
+                "chest_opened_img": "images/items/check_item.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Antidote",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    { 
+                       "map": "The Fetid Mire",
+                       "x": 1910,
+                       "y": 886
+                    }
+                 ]
+            },
+            {
+                "name": "Slime Skeleton Chest",
+                "chest_unopened_img": "images/items/check_spell_fade.png",
+                "chest_opened_img": "images/items/check_spell.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Spell Ring (Barrier)",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    { 
+                       "map": "The Fetid Mire",
+                       "x": 1944,
+                       "y": 1678
+                    }
+                 ]
+            },
+            {
+                "name": "Jellisha's Trash",
+                "chest_unopened_img": "images/items/check_item_fade.png",
+                "chest_opened_img": "images/items/check_item.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Mana Vial",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    { 
+                       "map": "The Fetid Mire",
+                       "x": 558,
+                       "y": 1138
+                    }
+                 ]
+            },
+            {
+                "name": "Jellisha's Quest Reward",
+                "chest_unopened_img": "images/items/check_spell_fade.png",
+                "chest_opened_img": "images/items/check_spell.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Spell Ring (Slime Orb)",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    { 
+                       "map": "The Fetid Mire",
+                       "x": 658,
+                       "y": 1154
+                    }
+                 ]
+            },
+            {
+                "name": "Path to Sanguine Sea (Left)",
+                "chest_unopened_img": "images/items/check_weapon_fade.png",
+                "chest_opened_img": "images/items/check_weapon.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Battle Axe",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    { 
+                       "map": "The Fetid Mire",
+                       "x": 470,
+                       "y": 198
+                    }
+                 ]
+            },
+            {
+                "name": "Path to Sanguine Sea (Right)",
+                "chest_unopened_img": "images/items/check_item_fade.png",
+                "chest_opened_img": "images/items/check_item.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Health Vial",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    { 
+                       "map": "The Fetid Mire",
+                       "x": 670,
+                       "y": 178
+                    }
+                 ]
+            },
+            {
+                "name": "Hidden Chest Near Underworks",
+                "chest_unopened_img": "images/items/check_item_fade.png",
+                "chest_opened_img": "images/items/check_item.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Earth Elixir",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    { 
+                       "map": "The Fetid Mire",
+                       "x": 880,
+                       "y": 666
+                    }
+                 ]
+            },
+            {
+                "name": "Rubble Near Illusory Wall",
+                "chest_unopened_img": "images/items/check_spell_fade.png",
+                "chest_opened_img": "images/items/check_spell.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Spell Ring (Wind Dash)",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    { 
+                       "map": "The Fetid Mire",
+                       "x": 890,
+                       "y": 524
+                    }
+                 ]
+            },
+            {
+                "name": "Underwater Pipe",
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Poison Throwing Knife",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    { 
+                       "map": "The Fetid Mire",
+                       "x": 688,
+                       "y": 1214
+                    }
+                 ]
+            },
+            {
+                "name": "Underworks Waterfall",
+                "chest_unopened_img": "images/items/check_item_fade.png",
+                "chest_opened_img": "images/items/check_item.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Antidote",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    { 
+                       "map": "The Fetid Mire",
+                       "x": 1086,
+                       "y": 1282
+                    }
+                 ]
+            },
+            {
+                "name": "Underworks Skeleton",
+                "chest_unopened_img": "images/items/check_weapon_fade.png",
+                "chest_opened_img": "images/items/check_weapon.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Broken Hilt",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    { 
+                       "map": "The Fetid Mire",
+                       "x": 1318,
+                       "y": 1656
+                    }
+                 ]
+            }
+        ]
+    }
+]

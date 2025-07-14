@@ -3,7 +3,7 @@
 --
 -- PopTracker API definition file.
 -- Do NOT load this into your pack.
--- Read docs/PACKS.md#lua-interface for instructions.
+-- Read doc/PACKS.md#lua-interface for instructions.
 --
 
 ---- Helpers ----
@@ -15,7 +15,7 @@
 
 ---Currently running PopTracker version as string "x.y.z".
 ---@type string
-PopVersion = "0.26.1"
+PopVersion = "0.27.1"
 -- Actual value comes from the program, not from here, but try to keep in sync with API version here.
 
 ---Set to true to get more error or debug output.
@@ -82,6 +82,12 @@ function Tracker:UiHint(name, value) end
 ---pause evaluating logic rules when set to true
 ---@type boolean
 Tracker.BulkUpdate = false
+
+---Allow to evaluate logic rules fewer times than items are updated.
+---Only available in PopTracker, since 0.28.1.
+---Use as: `if Tracker.AllowDeferredLogicUpdate ~= nil then Tracker.AllowDeferredLogicUpdate = true end`
+---@type boolean
+Tracker.AllowDeferredLogicUpdate = false
 
 
 ---- ScriptHost ----
@@ -186,6 +192,19 @@ function ScriptHost:AddOnFrameHandler(name, callback) end
 ---@return boolean true on success
 function ScriptHost:RemoveOnFrameHandler(name) end
 
+---Add a handler/callback that runs when a location section changed (checks checked/unchecked).
+---Any kind of filtering and detection what changed has to be done inside the callback.
+---Available since 0.26.2.
+---@param name string identifier/name of this callback
+---@param callback fun(section:LocationSection):nil called when any location section changed
+---@return string reference for RemoveOnLocationSectionChangedHandler
+function ScriptHost:AddOnLocationSectionChangedHandler(name, callback) end
+
+---Remove a handler/callback added by RemoveOnLocationSectionChangedHandler.
+---Available since 0.26.2.
+---@param name string identifier/name of the handler to remove
+---@return boolean true on success
+function ScriptHost:RemoveOnLocationSectionChangedHandler(name) end
 
 ---- AutoTracker ----
 
@@ -289,6 +308,14 @@ function VariableStore:ReadVariable(variableName) end
 ---@class Archipelago
 Archipelago = {}
 
+---@enum archipelagoCientStatus
+Archipelago.ClientStatus = {
+    UNKNOWN = 0,
+    READY = 10,
+    PLAYING = 20,
+    GOAL = 30,
+}
+
 ---The slot number of the connected player or -1 if not connected.
 ---@type integer
 Archipelago.PlayerNumber = -1
@@ -361,6 +388,51 @@ function Archipelago:Get(keys) end
 ---@param keys string[] keys to watch
 ---@return boolean true on success
 function Archipelago:SetNotify(keys) end
+
+---Send locations as checked to the server.
+---Supported since 0.26.2, only allowed if "apmanual" flag is set in manifest.
+---@param locations integer[] locations to check
+---@return boolean true on success
+function Archipelago:LocationChecks(locations) end
+
+---Send locations as scouted to the server.
+---Supported since 0.26.2, only allowed if "apmanual" or "aphintgame" flag is set in manifest.
+---@param locations integer[]
+---@param sendAsHint integer
+---@return boolean true on success
+function Archipelago:LocationScouts(locations, sendAsHint) end
+
+---Send client status to the server. This is used to send the goal / win condition.
+---Supported since 0.27.1, only allowed if "apmanual" flag is set in manifest.
+---@param status archipelagoCientStatus
+---@return boolean true on success
+function Archipelago:StatusUpdate(status) end
+
+---Get alias/name of a player.
+---Supported since 0.28.1.
+---@param slot integer
+---@return string alias of the player or "Unknown" if not found
+function Archipelago:GetPlayerAlias(slot) end
+
+---Get game name of a player.
+---Supported since 0.28.1.
+---@param slot integer
+---@return string name of the game or "Unknown" if not found
+function Archipelago:GetPlayerGame(slot) end
+
+---Get item name for a specific game.
+---Supported since 0.28.1.
+---@param id integer item id
+---@param game string name of the game
+---@return string name of the item or "Unknown" if not found
+function Archipelago:GetItemName(id, game) end
+
+---Get item name for a specific game.
+---Supported since 0.28.1.
+---@param id integer item id
+---@param game string name of the game
+---@return string name of the location or "Unknown" if not found
+function Archipelago:GetLocationName(id, game) end
 
 
 ---- ImageRef ----
@@ -508,8 +580,7 @@ JsonItem = {}
 
 ---Get or set the item's image. Use `ImageReference:FromPackRelativePath` to create an `ImageRef`.
 ---For performance reasons, using a staged item is recommended.
----Currently only works for items of type toggle and static.
--- Available since 0.26.0.
+-- Available since 0.26.0. Changed to include mods and reset on change in 0.26.2.
 ---@type ImageRef?
 JsonItem.Icon = nil
 
@@ -549,6 +620,11 @@ JsonItem.Owner = {}
 ---Gets the type of the item as string ("toggle, ...").
 ---Available since 0.23.0.
 JsonItem.Type = ""
+
+---Disables state/stage changes when clicking the item.
+---Available since 0.26.2.
+---@type boolean
+JsonItem.IgnoreUserInput = false
 
 ---Set item overlay text (like count, but also for non-consumables).
 ---Only available in PopTracker.
@@ -602,3 +678,7 @@ LocationSection.AvailableChestCount = 1
 ---Read-only, giving one of the `AccessibilityLevel` constants.
 ---@type accessibilityLevel
 LocationSection.AccessibilityLevel = 0
+
+---Read-only, returning the full id as string such as "Location/Section"
+---@type string
+LocationSection.FullID = ""

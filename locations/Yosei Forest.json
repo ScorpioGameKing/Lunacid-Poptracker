@@ -1,0 +1,257 @@
+[
+    {
+        "name": "Yosei Forest",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            "^$CanEnter|Yosei Forest"
+        ],
+        "children": [
+            {
+                "name": "Barrel Group",
+                "chest_unopened_img": "images/items/check_item_fade.png",
+                "chest_opened_img": "images/items/check_item.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "^$CanReach|Barrel Group"
+                ],
+                "sections": [
+                    {
+                        "name": "Health Vial",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    { 
+                       "map": "Yosei Forest",
+                       "x": 188,
+                       "y": 1036
+                    }
+                 ]
+            },
+            {
+                "name": "Blood Pool",
+                "chest_unopened_img": "images/items/check_spell_fade.png",
+                "chest_opened_img": "images/items/check_spell.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "^$CanReach|Blood Pool"
+                ],
+                "sections": [
+                    {
+                        "name": "Spell Ring (Blood Drain)",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    { 
+                       "map": "Yosei Forest",
+                       "x": 742,
+                       "y": 524
+                    }
+                 ]
+            },
+            {
+                "name": "Branches Within Tree",
+                "chest_unopened_img": "images/items/check_spell_fade.png",
+                "chest_opened_img": "images/items/check_spell.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "^$CanReach|Branches Within Tree"
+                ],
+                "sections": [
+                    {
+                        "name": "Spell Ring (Holy Warmth)",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    { 
+                       "map": "Yosei Forest",
+                       "x": 1084,
+                       "y": 1250
+                    }
+                 ]
+            },
+            {
+                "name": "Chest Near Tree",
+                "chest_unopened_img": "images/items/check_weapon_fade.png",
+                "chest_opened_img": "images/items/check_weapon.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "^$CanReach|Chest Near Tree"
+                ],
+                "sections": [
+                    {
+                        "name": "Elfen Bow",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    { 
+                       "map": "Yosei Forest",
+                       "x": 1354,
+                       "y": 978
+                    }
+                 ]
+            },
+            {
+                "name": "Blood Plant's Insides",
+                "chest_unopened_img": "images/items/check_item_fade.png",
+                "chest_opened_img": "images/items/check_item.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "^$CanReach|Blood Plant's Insides"
+                ],
+                "sections": [
+                    {
+                        "name": "Health Vial",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    { 
+                       "map": "Yosei Forest",
+                       "x": 1188,
+                       "y": 650
+                    }
+                 ]
+            },
+            {
+                "name": "Hanging In The Trees",
+                "chest_unopened_img": "images/items/check_weapon_fade.png",
+                "chest_opened_img": "images/items/check_weapon.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "^$CanReach|Hanging In The Trees"
+                ],
+                "sections": [
+                    {
+                        "name": "Elfen Sword",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    { 
+                       "map": "Yosei Forest",
+                       "x": 1842,
+                       "y": 806
+                    }
+                 ]
+            },
+            {
+                "name": "Hidden Chest",
+                "chest_unopened_img": "images/items/check_spell_fade.png",
+                "chest_opened_img": "images/items/check_spell.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "^$CanReach|YF: Hidden Chest"
+                ],
+                "sections": [
+                    {
+                        "name": "Spell Ring (Light Reveal)",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    { 
+                       "map": "Yosei Forest",
+                       "x": 2188,
+                       "y": 280
+                    }
+                 ]
+            },
+            {
+                "name": "Room Defended by Blood Plant",
+                "chest_unopened_img": "images/items/check_spell_fade.png",
+                "chest_opened_img": "images/items/check_spell.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "^$CanReach|Room Defended by Blood Plant"
+                ],
+                "sections": [
+                    {
+                        "name": "Spell Ring (Earth Strike)",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    { 
+                       "map": "Yosei Forest",
+                       "x": 1584,
+                       "y": 282
+                    }
+                 ]
+            },
+            {
+                "name": "Patchouli",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "sections": [
+                    {
+                        "name": "Patchouli's Canopy Offer",
+                        "chest_unopened_img": "images/items/check_item_fade.png",
+                        "chest_opened_img": "images/items/check_item.png",
+                        "access_rules": [
+                            "^$CanReach|Patchouli's Canopy Offer"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Patchouli's Reward",
+                        "chest_unopened_img": "images/items/check_item_fade.png",
+                        "chest_opened_img": "images/items/check_item.png",
+                        "access_rules": [
+                            "^$CanReach|Patchouli's Reward"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Patchouli's Yuletide Offering",
+                        "chest_unopened_img": "images/items/check_item_fade.png",
+                        "chest_opened_img": "images/items/check_item.png",
+                        "access_rules": [
+                            "^$CanReach|Patchouli's Yuletide Offering"
+                        ],
+                        "visibility_rules": ["false"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Ocean Elixir",
+                        "visibility_rules": ["shops_on"],
+                        "chest_unopened_img": "images/items/check_item_fade.png",
+                        "chest_opened_img": "images/items/check_item.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    { 
+                        "map": "Yosei Forest",
+                        "x": 1348,
+                        "y": 426
+                     }
+                ]
+            }
+        ]
+    }
+]

@@ -1,0 +1,133 @@
+[
+    {
+        "name": "Forest Canopy",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            "^$CanEnter|Forest Canopy"
+        ],
+        "children": [
+            {
+                "name": "Branch Lower Edge",
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Crystal Shard",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    { 
+                       "map": "Forest Canopy",
+                       "x": 399,
+                       "y": 299
+                    }
+                ]
+            },
+            {
+                "name": "Branch Cave",
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Fairy Moss",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    { 
+                       "map": "Forest Canopy",
+                       "x": 353,
+                       "y": 68
+                    }
+                 ]
+            },
+            {
+                "name": "Chest",
+                "chest_unopened_img": "images/items/check_spell_fade.png",
+                "chest_opened_img": "images/items/check_spell.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Spell Ring (Poison Mist)",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    { 
+                       "map": "Forest Canopy",
+                       "x": 803,
+                       "y": 459
+                    }
+                 ]
+            },
+            {
+                "name": "Wooden Statue (Josiah)",
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Skull of Josiah",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    { 
+                       "map": "Forest Canopy",
+                       "x": 213,
+                       "y": 359
+                    }
+                 ]
+            },
+            {
+                "name": "Wooden Statue (Sitting)",
+                "chest_unopened_img": "images/items/check_spell_fade.png",
+                "chest_opened_img": "images/items/check_spell.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Spell Ring (Wind Slicer)",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    { 
+                       "map": "Forest Canopy",
+                       "x": 798,
+                       "y": 267
+                    }
+                 ]
+            }
+        ]
+    }
+]
