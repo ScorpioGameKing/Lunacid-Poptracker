@@ -1,0 +1,39 @@
+{
+    "versions": [
+        {
+            "package_version": "0.9.0",
+            "download_url": "https://github.com/ScorpioGameKing/Lunacid-Poptracker/releases/download/beta-0.9.0/Lunacid-Poptracker.0.9.0.zip",
+            "sha256": "4ce8e1fff83dc7977fcf3599f99c3b66dce0e4a1f6144d503b2b72dbe8c2578a",
+            "changelog": [
+                "complete rework of the tracker to work with version 0.9.7+ of the AP Randomizer"
+            ]
+        },
+        {
+            "package_version": "0.8.1",
+            "download_url": "https://github.com/ScorpioGameKing/Lunacid-Poptracker/releases/download/alpha-0.8.1/Lunacid-Poptracker.0.8.1.zip",
+            "sha256": "42ac232217b5cc1a287103cb2bf0aa5f7e2579056f58e2326279034100d4fee5",
+            "changelog": [
+                "Merged Aeltael's PR to update the item IDs to work with 0.8.0+ seeds.",
+                "This does break previous version's auto-tracking so only update to this if you're up to date with the mod and apworld!"
+            ]
+        },
+        {
+            "package_version": "0.8.0",
+            "download_url": "https://github.com/ScorpioGameKing/Lunacid-Poptracker/releases/download/alpha-0.8.0-pre/Lunacid-Poptracker-0.8.0-pre.zip",
+            "sha256": "eb893f3e35054506a09e7f67b15800f94d81d930f1e34c7677dd83d2d5b0bafd",
+            "changelog": [
+                "AP SUPPORT IS HALF WORKING, LOCATIONS RELEASE, ITEMS ARE NOT TRACKED PROPERLY",
+                "Laundry List of Misc fixes",
+                "Added Door Lock Support (Fuzzy Logic)"
+            ]
+        },
+        {
+            "package_version": "0.7.0",
+            "download_url": "https://github.com/ScorpioGameKing/Lunacid-Poptracker/releases/download/alpha-0.7.0/Lunacid-Poptracker-0.7.0.zip",
+            "sha256": "9ae7e6fe986e615540fc685757136fa140e379ffcdbbb7c89a60dc709d49368d",
+            "changelog": [
+                "various logic fixes, location tweaks and most importantly AP Autotracking implementation"
+            ]
+        }
+    ]
+}
