@@ -1,6 +1,6 @@
 {
     "$schema": "https://raw.githubusercontent.com/LuaLS/vscode-lua/master/setting/schema.json",
-    "workspace.library": ["./lua/definition"],
+    "workspace.library": ["../../api/lua/definition"],
     "runtime.version": "Lua 5.4",
     "diagnostics.globals": [
         "autoFill"

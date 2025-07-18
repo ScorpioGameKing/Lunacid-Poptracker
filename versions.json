@@ -3,7 +3,7 @@
         {
             "package_version": "0.9.0",
             "download_url": "https://github.com/ScorpioGameKing/Lunacid-Poptracker/releases/download/beta-0.9.0/Lunacid-Poptracker.0.9.0.zip",
-            "sha256": "4ce8e1fff83dc7977fcf3599f99c3b66dce0e4a1f6144d503b2b72dbe8c2578a",
+            "sha256": "da3afc943b1a70c2233c42f298134680d25d9befc1f5f2b26f062c686015670d",
             "changelog": [
                 "complete rework of the tracker to work with version 0.9.7+ of the AP Randomizer"
             ]
