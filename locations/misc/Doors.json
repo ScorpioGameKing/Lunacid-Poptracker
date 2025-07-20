@@ -17,7 +17,7 @@
                     "chest_unopened_img": "images/items/check_misc_fade.png",
                     "chest_opened_img": "images/items/check_misc.png",
                     "access_rules": [
-                        "^$CanReach|Surface Hole"
+                        "^$CanReach|Surface Hole (Wing's Rest)"
                     ],
                     "sections": [
                         {
@@ -71,7 +71,7 @@
                         "chest_unopened_img": "images/items/check_misc_fade.png",
                         "chest_opened_img": "images/items/check_misc.png",
                         "access_rules": [
-                            "^$CanReach|Surface Hole"
+                            "^$CanReach|Surface Hole (Hollow Basin)"
                         ],
                         "sections": [
                             {

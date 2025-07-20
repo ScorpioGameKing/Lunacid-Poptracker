@@ -33,6 +33,15 @@ function HasConnection(warp)
     return AccessibilityLevel.None
 end
 
+function HasAnyConnection(warps)
+    for _, warp in pairs(warps) do
+        if TRAVERSED_ENTRANCES[warp] then
+            return AccessibilityLevel.Normal
+        end
+    end
+    return AccessibilityLevel.None
+end
+
 function CanEnterCastleStage(stage)
     local result3 = AccessibilityLevel.None
     local result2 = AccessibilityLevel.None
@@ -42,32 +51,33 @@ function CanEnterCastleStage(stage)
         result3 = And(CanEnter("Castle Le Fanu"), IsItemStageAtLeastN("progressivevampiricsymbol", 3))
     end
     if stage <= 2 then
-        result2 = Or(HasConnection("Burning Hot Door (Castle Le Fanu Side)"),
+        result2 = Or(
+            HasConnection("Burning Hot Door (Castle Le Fanu Side)"),
             And(
-                Or(
-                    HasConnection("Castle Doors (Castle Le Fanu Side)"),
-                    HasConnection("Jump from Castle Le Fanu Walls")),
-            IsItemStageAtLeastN("progressivevampiricsymbol", 2)),
+                HasAnyConnection({"Castle Doors (Castle Le Fanu Side)", "Jump from Castle Le Fanu Walls"}),
+                IsItemStageAtLeastN("progressivevampiricsymbol", 2)
+            ),
             And(
                 HasConnection("Light Accursed Door (Castle Le Fanu Side)"), HasElement("ele_dark"),
-                Or(
-                    HasConnection("Castle Doors (Castle Le Fanu Side)"),
-                    HasConnection("Jump from Castle Le Fanu Walls"))))
+                HasAnyConnection({"Castle Doors (Castle Le Fanu Side)", "Jump from Castle Le Fanu Walls"})
+            )
+        )
     end
     if stage == 1 then
-        resultSingle = And(Or(HasConnection("Castle Doors (Castle Le Fanu Side)"),
-            HasConnection("Jump from Castle Le Fanu Walls")),
-            IsItemStageAtLeastN("progressivevampiricsymbol", 1))
+        resultSingle = And(
+            HasAnyConnection({"Castle Doors (Castle Le Fanu Side)", "Jump from Castle Le Fanu Walls"}),
+            IsItemStageAtLeastN("progressivevampiricsymbol", 1)
+        )
     end
     if stage == 0.5 then
-        resultSingle = And(Or(HasConnection("Castle Doors (Castle Le Fanu Side)"),
-            HasConnection("Jump from Castle Le Fanu Walls")),
-            CanEnterCattleCells())
+        resultSingle = And(
+            HasAnyConnection({"Castle Doors (Castle Le Fanu Side)", "Jump from Castle Le Fanu Walls"}),
+            CanEnterCattleCells()
+        )
     end
 
     if stage == 0 then
-        resultSingle = Or(HasConnection("Castle Doors (Castle Le Fanu Side)"),
-            HasConnection("Jump from Castle Le Fanu Walls"))
+        resultSingle = HasAnyConnection({"Castle Doors (Castle Le Fanu Side)", "Jump from Castle Le Fanu Walls"})
     end
     return Or(result3, result2, resultSingle)
 end
