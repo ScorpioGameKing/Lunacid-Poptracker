@@ -16,9 +16,6 @@
                   "name": "Hollow Basin Switch",
                   "chest_unopened_img": "images/items/check_misc_fade.png",
                   "chest_opened_img": "images/items/check_misc.png",
-                  "visibility_rules": [
-                     "switch_locks"
-                  ],
                   "access_rules": [
                      "^$CanReach|Hollow Basin Switch"
                   ],
