@@ -19,7 +19,9 @@
                     {
                         "map": "Hollow Basin",
                         "x": 963,
-                        "y": 1337
+                        "y": 1337,
+                        "shape": "trapezoid",
+                        "size": 36
                     }
                 ]
             },
@@ -40,7 +42,9 @@
                     {
                         "map": "Yosei Forest",
                         "x": 1706,
-                        "y": 940
+                        "y": 940,
+                        "shape": "trapezoid",
+                        "size": 36
                     }
                 ]
             }
