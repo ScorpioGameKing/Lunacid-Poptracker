@@ -184,12 +184,6 @@
         "codes": "lightsource"
     },
     {
-        "name": "Spiritwarp",
-        "type": "toggle",
-        "img": "images/items/misc.png",
-        "codes": "spiritwarp"
-    },
-    {
         "name": "Ranged Attacks",
         "type": "toggle",
         "img": "images/items/misc.png",

@@ -202,22 +202,19 @@ VANILLA_LOCATION_LOGIC = {
 
     ["Hidden Room Upper Floor"]     = function() return And(HasDustyOrb(), Or(CanJumpHeight("High"), HasSwitch("forbiddenarchiveselevatorswitchkeyring"))) end,
 
-    ["Hidden Room Lower Floor"]     = function() return And(HasDustyOrb(), Or(CanJumpHeight("High"), HasSwitch("forbiddenarchiveselevatorswitchkeyring"), WasItemReceived("spiritwarp"))) end,
+    ["Hidden Room Lower Floor"]     = function() return HasDustyOrb() end,
 
-    ["Near Twisty Tree"]            = function() return Or(CanJumpHeight("High"), HasSwitch("forbiddenarchiveselevatorswitchkeyring"), WasItemReceived("spiritwarp")) end,
+    ["Near Twisty Tree"]            = function() return AccessibilityLevel.Normal end,
 
-    ["uwu"]                         = function() return Or(CanJumpHeight("High"), HasSwitch("forbiddenarchiveselevatorswitchkeyring"), WasItemReceived("spiritwarp")) end,
+    ["uwu"]                         = function() return AccessibilityLevel.Normal end,
 
-    ["Daedalus Knowledge (First)"]  = function() return And(Or(CanJumpHeight("High"), HasSwitch("forbiddenarchiveselevatorswitchkeyring"), WasItemReceived("spiritwarp")),
-                                        IsItemStageAtLeastN("blackbook", 1)) end,
+    ["Daedalus Knowledge (First)"]  = function() return IsItemStageAtLeastN("blackbook", 1) end,
 
-    ["Daedalus Knowledge (Second)"] = function() return And(Or(CanJumpHeight("High"), HasSwitch("forbiddenarchiveselevatorswitchkeyring"), WasItemReceived("spiritwarp")),
-                                        IsItemStageAtLeastN("blackbook", 2)) end,
+    ["Daedalus Knowledge (Second)"] = function() return IsItemStageAtLeastN("blackbook", 2) end,
 
-    ["Daedalus Knowledge (Third)"]  = function() return And(Or(CanJumpHeight("High"), HasSwitch("forbiddenarchiveselevatorswitchkeyring"), WasItemReceived("spiritwarp")),
-                                        IsItemStageAtLeastN("blackbook", 3)) end,
+    ["Daedalus Knowledge (Third)"]  = function() return IsItemStageAtLeastN("blackbook", 3) end,
 
-    ["Corner Near Daedalus"]        = function() return Or(CanJumpHeight("High"), HasSwitch("forbiddenarchiveselevatorswitchkeyring"), WasItemReceived("spiritwarp")) end,
+    ["Corner Near Daedalus"]        = function() return AccessibilityLevel.Normal end,
 
 -- Castle Le Fanu
     ["Outside Corner"]                          = function() return AccessibilityLevel.Normal end,
@@ -311,7 +308,7 @@ VANILLA_LOCATION_LOGIC = {
 
     ["Second Floor Dead End"]   = function() return And(CanJumpHeight("Medium"), HasSwitch("grottofireswitchkeyring")) end,
 
-    ["Lunacid Sandwich"]        = function() return And(WasItemReceived("spiritwarp"), HasSwitch("grottofireswitchkeyring")) end,
+    ["Lunacid Sandwich"]        = function() return HasSwitch("grottofireswitchkeyring") end,
 
     ["Chest Near Switch"]       = function() return HasSwitch("grottofireswitchkeyring") end,
 
@@ -353,8 +350,7 @@ VANILLA_LOCATION_LOGIC = {
 
     ["Third Floor Locked Cell South"]               = function() return WasItemReceived("terminusprisonkey") end,
 
-    ["Almost Bottomless Pit"]                       = function() return And(WasItemReceived("terminusprisonkey"),
-                                                        WereAnyItemsReceived({"spiritwarp", "icarianflight"})) end,
+    ["Almost Bottomless Pit"]                       = function() return WasItemReceived("terminusprisonkey") end,
 
     ["Second Floor Broken Cell"]                    = function() return AccessibilityLevel.Normal end,
 

@@ -40,7 +40,7 @@
                         "rows": [
                             ["livinggate_basin", "livinggate_forest", "", "", "igniscalor"],
                             ["wandofpower", "ele_poison", "ele_light", "ele_blood", "ele_fire", "ele_dark"],
-                            ["coffin", "icarianflight", "rockbridge", "barrier", "summonsnail", "spiritwarp"]
+                            ["coffin", "icarianflight", "rockbridge", "barrier", "summonsnail"]
                         ]
                     }
                 ]
