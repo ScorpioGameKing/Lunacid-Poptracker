@@ -1,6 +1,14 @@
 {
     "versions": [
         {
+            "package_version": "0.9.1",
+            "download_url": "https://github.com/ScorpioGameKing/Lunacid-Poptracker/releases/download/beta-0.9.1/Lunacid-Poptracker-0.9.1.zip",
+            "sha256": "e7f6620f9faa286c941dc1462d1c708cc253fa85b3d6ece77bdd3ea3cbff58ac",
+            "changelog": [
+                "multiple visual and logic fixes"
+            ]
+        },
+        {
             "package_version": "0.9.0",
             "download_url": "https://github.com/ScorpioGameKing/Lunacid-Poptracker/releases/download/beta-0.9.0/Lunacid-Poptracker-0.9.0.zip",
             "sha256": "da3afc943b1a70c2233c42f298134680d25d9befc1f5f2b26f062c686015670d",

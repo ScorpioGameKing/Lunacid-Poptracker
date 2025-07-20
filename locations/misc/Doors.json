@@ -17,7 +17,7 @@
                     "chest_unopened_img": "images/items/check_misc_fade.png",
                     "chest_opened_img": "images/items/check_misc.png",
                     "access_rules": [
-                        "^$CanReach|Surface Hole"
+                        "^$CanReach|Surface Hole (Wing's Rest)"
                     ],
                     "sections": [
                         {
@@ -29,7 +29,9 @@
                         {
                           "map": "Wing's Rest",
                           "x": 600,
-                          "y": 900
+                          "y": 900,
+                          "shape": "trapezoid",
+                          "size": 36
                       }
                     ]
                 }  
@@ -58,7 +60,9 @@
                             {
                                 "map": "Hollow Basin",
                                 "x": 763,
-                                "y": 1174
+                                "y": 1174,
+                                "shape": "trapezoid",
+                                "size": 36
                             }
                         ]
                     },
@@ -67,7 +71,7 @@
                         "chest_unopened_img": "images/items/check_misc_fade.png",
                         "chest_opened_img": "images/items/check_misc.png",
                         "access_rules": [
-                            "^$CanReach|Surface Hole"
+                            "^$CanReach|Surface Hole (Hollow Basin)"
                         ],
                         "sections": [
                             {
@@ -79,12 +83,16 @@
                             {
                                 "map": "Hollow Basin",
                                 "x": 996,
-                                "y": 760
+                                "y": 760,
+                                "shape": "trapezoid",
+                                "size": 36
                             },
                             {
                               "map": "Wing's Rest",
                               "x": 600,
-                              "y": 900
+                              "y": 900,
+                              "shape": "trapezoid",
+                              "size": 36
                           }
                         ]
                     },
@@ -105,7 +113,9 @@
                             {
                                 "map": "Hollow Basin",
                                 "x": 820,
-                                "y": 966
+                                "y": 966,
+                                "shape": "trapezoid",
+                                "size": 36
                             }
                         ]
                     },
@@ -126,7 +136,9 @@
                             {
                                 "map": "Hollow Basin",
                                 "x": 175,
-                                "y": 2380
+                                "y": 2380,
+                                "shape": "trapezoid",
+                                "size": 36
                             }
                         ]
                     }
@@ -155,7 +167,9 @@
                             {
                                 "map": "Forbidden Archives",
                                 "x": 129,
-                                "y": 261
+                                "y": 261,
+                                "shape": "trapezoid",
+                                "size": 36
                             }
                         ]
                     },
@@ -176,7 +190,9 @@
                             {
                                 "map": "Forbidden Archives",
                                 "x": 1653,
-                                "y": 1060
+                                "y": 1060,
+                                "shape": "trapezoid",
+                                "size": 36
                             }
                         ]
                     }
@@ -205,7 +221,9 @@
                         { 
                            "map": "The Fetid Mire",
                            "x": 1734,
-                           "y": 2389
+                           "y": 2389,
+                           "shape": "trapezoid",
+                           "size": 36
                         }
                      ]
                   },
@@ -226,7 +244,9 @@
                         { 
                            "map": "The Fetid Mire",
                            "x": 538,
-                           "y": 114
+                           "y": 114,
+                           "shape": "trapezoid",
+                           "size": 36
                         }
                      ]
                   }
@@ -255,7 +275,9 @@
                            { 
                               "map": "The Sanguine Sea",
                               "x": 1140,
-                              "y": 637
+                              "y": 637,
+                              "shape": "trapezoid",
+                              "size": 36
                            }
                         ]
                      },
@@ -276,7 +298,9 @@
                            { 
                               "map": "The Sanguine Sea",
                               "x": 164,
-                              "y": 637
+                              "y": 637,
+                              "shape": "trapezoid",
+                              "size": 36
                            }
                         ]
                      },
@@ -297,7 +321,9 @@
                            { 
                               "map": "The Sanguine Sea",
                               "x": 744,
-                              "y": 1271
+                              "y": 1271,
+                              "shape": "trapezoid",
+                              "size": 36
                            }
                         ]
                      }
@@ -326,7 +352,9 @@
                            { 
                               "map": "Accursed Tomb",
                               "x": 817,
-                              "y": 1317
+                              "y": 1317,
+                              "shape": "trapezoid",
+                              "size": 36
                            }
                         ]
                      },
@@ -347,7 +375,9 @@
                            { 
                               "map": "Accursed Tomb",
                               "x": 622,
-                              "y": 1779
+                              "y": 1779,
+                              "shape": "trapezoid",
+                              "size": 36
                            }
                         ]
                      }
@@ -376,7 +406,9 @@
                            { 
                               "map": "Yosei Forest",
                               "x": 126,
-                              "y": 738
+                              "y": 738,
+                              "shape": "trapezoid",
+                              "size": 36
                            }
                         ]
                      },
@@ -397,7 +429,9 @@
                            { 
                               "map": "Yosei Forest",
                               "x": 222,
-                              "y": 336
+                              "y": 336,
+                              "shape": "trapezoid",
+                              "size": 36
                            }
                         ]
                      },
@@ -418,7 +452,9 @@
                            { 
                               "map": "Yosei Forest",
                               "x": 1600,
-                              "y": 890
+                              "y": 890,
+                              "shape": "trapezoid",
+                              "size": 36
                            }
                         ]
                      }
@@ -447,7 +483,9 @@
                            { 
                               "map": "Forest Canopy",
                               "x": 80,
-                              "y": 315
+                              "y": 315,
+                              "shape": "trapezoid",
+                              "size": 36
                            }
                         ]
                     }
@@ -476,7 +514,9 @@
                            { 
                               "map": "Castle Le Fanu",
                               "x": 1215,
-                              "y": 1898
+                              "y": 1898,
+                              "shape": "trapezoid",
+                              "size": 36
                            }
                         ]
                      },
@@ -497,7 +537,9 @@
                            { 
                               "map": "Castle Le Fanu",
                               "x": 1695,
-                              "y": 510
+                              "y": 510,
+                              "shape": "trapezoid",
+                              "size": 36
                            }
                         ]
                      },
@@ -518,7 +560,9 @@
                            { 
                               "map": "Castle Le Fanu",
                               "x": 1486,
-                              "y": 833
+                              "y": 833,
+                              "shape": "trapezoid",
+                              "size": 36
                            }
                         ]
                      },
@@ -539,7 +583,9 @@
                            { 
                               "map": "Castle Le Fanu",
                               "x": 790,
-                              "y": 116
+                              "y": 116,
+                              "shape": "trapezoid",
+                              "size": 36
                            }
                         ]
                      },
@@ -560,7 +606,9 @@
                            { 
                               "map": "Castle Le Fanu",
                               "x": 1138,
-                              "y": 1793
+                              "y": 1793,
+                              "shape": "trapezoid",
+                              "size": 36
                            }
                         ]
                      }
@@ -589,7 +637,9 @@
                            { 
                               "map": "Sealed Ballroom",
                               "x": 537,
-                              "y": 789
+                              "y": 789,
+                              "shape": "trapezoid",
+                              "size": 36
                            }
                         ]
                      }
@@ -619,7 +669,8 @@
                              "map": "Throne Chamber",
                              "x": 1096,
                              "y": 2250,
-                             "size": 64
+                             "size": 64,
+                             "shape": "trapezoid"
                           }
                        ]
                     },
@@ -641,7 +692,8 @@
                            "map": "Throne Chamber",
                            "x": 280,
                            "y": 520,
-                           "size": 64
+                           "size": 64,
+                           "shape": "trapezoid"
                         }
                      ]
                   }
@@ -670,7 +722,9 @@
                         { 
                            "map": "Laetus Chasm",
                            "x": 1935,
-                           "y": 666
+                           "y": 666,
+                           "shape": "trapezoid",
+                           "size": 36
                         }
                      ]
                   },
@@ -691,7 +745,9 @@
                         { 
                            "map": "Laetus Chasm",
                            "x": 1349,
-                           "y": 1759
+                           "y": 1759,
+                           "shape": "trapezoid",
+                           "size": 36
                         }
                      ]
                   }
@@ -720,7 +776,9 @@
                         { 
                            "map": "Great Well Surface",
                            "x": 1117,
-                           "y": 1063
+                           "y": 1063,
+                           "shape": "trapezoid",
+                           "size": 36
                         }
                      ]
                   },
@@ -741,7 +799,9 @@
                         { 
                            "map": "Great Well Surface",
                            "x": 809,
-                           "y": 2078
+                           "y": 2078,
+                           "shape": "trapezoid",
+                           "size": 36
                         }
                      ]
                   }
@@ -770,7 +830,9 @@
                         { 
                            "map": "A Holy Battlefield",
                            "x": 655,
-                           "y": 136
+                           "y": 136,
+                           "shape": "trapezoid",
+                           "size": 36
                         }
                      ]
                   }
@@ -799,7 +861,9 @@
                         { 
                            "map": "Boiling Grotto",
                            "x": 250,
-                           "y": 878
+                           "y": 878,
+                           "shape": "trapezoid",
+                           "size": 36
                         }
                      ]
                   },
@@ -820,7 +884,9 @@
                         { 
                            "map": "Boiling Grotto",
                            "x": 355,
-                           "y": 403
+                           "y": 403,
+                           "shape": "trapezoid",
+                           "size": 36
                         }
                      ]
                   }
@@ -849,7 +915,9 @@
                         { 
                            "map": "Terminus Prison",
                            "x": 1235,
-                           "y": 234
+                           "y": 234,
+                           "shape": "trapezoid",
+                           "size": 36
                         }
                      ]
                   },
@@ -870,7 +938,9 @@
                         { 
                            "map": "Terminus Prison",
                            "x": 1671,
-                           "y": 911
+                           "y": 911,
+                           "shape": "trapezoid",
+                           "size": 36
                         }
                      ]
                   },
@@ -891,7 +961,9 @@
                         { 
                            "map": "Terminus Prison",
                            "x": 1465,
-                           "y": 1333
+                           "y": 1333,
+                           "shape": "trapezoid",
+                           "size": 36
                         }
                      ]
                   }
@@ -920,7 +992,9 @@
                         { 
                            "map": "Forlorn Arena",
                            "x": 236,
-                           "y": 1126
+                           "y": 1126,
+                           "shape": "trapezoid",
+                           "size": 36
                         }
                      ]
                   },
@@ -941,7 +1015,9 @@
                         { 
                            "map": "Forlorn Arena",
                            "x": 1065,
-                           "y": 1126
+                           "y": 1126,
+                           "shape": "trapezoid",
+                           "size": 36
                         }
                      ]
                   }
@@ -970,7 +1046,9 @@
                         { 
                            "map": "Labyrinth of Ash",
                            "x": 1102,
-                           "y": 1330
+                           "y": 1330,
+                           "shape": "trapezoid",
+                           "size": 36
                         }
                      ]
                   }
@@ -999,7 +1077,9 @@
                         { 
                            "map": "Chamber of Fate",
                            "x": 475,
-                           "y": 1382
+                           "y": 1382,
+                           "shape": "trapezoid",
+                           "size": 36
                         }
                      ]
                   },
@@ -1020,7 +1100,9 @@
                         { 
                            "map": "Chamber of Fate",
                            "x": 475,
-                           "y": 162
+                           "y": 162,
+                           "shape": "trapezoid",
+                           "size": 36
                         }
                      ]
                   }
