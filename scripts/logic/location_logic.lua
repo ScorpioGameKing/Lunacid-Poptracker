@@ -597,22 +597,22 @@ VANILLA_LOCATION_LOGIC = {
 ER_LOCATION_LOGIC = {
 -- Hollow Basin
     ["Dark Tunnel After Enchanted Door"]            = function() return Or(VANILLA_LOCATION_LOGIC["Dark Tunnel After Enchanted Door"](),
-                                                                            HasConnection('Rickety Bridge Door (Hollow Basin Side)')) end,
+                                                                            And(HasConnection('Rickety Bridge Door (Hollow Basin Side)'), HasDustyOrb())) end,
 
     ["Temple Fountain"]                             = function() return Or(VANILLA_LOCATION_LOGIC["Temple Fountain"](),
-                                                                            HasConnection('Rickety Bridge Door (Hollow Basin Side)')) end,
+                                                                            And(HasConnection('Rickety Bridge Door (Hollow Basin Side)'), HasDustyOrb())) end,
 
     ["Temple Ritual Table"]                         = function() return Or(VANILLA_LOCATION_LOGIC["Temple Ritual Table"](),
-                                                                            HasConnection('Rickety Bridge Door (Hollow Basin Side)')) end,
+                                                                            And(HasConnection('Rickety Bridge Door (Hollow Basin Side)'), HasDustyOrb())) end,
 
     ["Temple Altar Chest"]                          = function() return Or(VANILLA_LOCATION_LOGIC["Temple Altar Chest"](),
-                                                                            HasConnection('Rickety Bridge Door (Hollow Basin Side)')) end,
+                                                                            And(HasConnection('Rickety Bridge Door (Hollow Basin Side)'), HasDustyOrb())) end,
 
     ["Temple Hidden Room Behind Pillar (Left)"]     = function() return Or(VANILLA_LOCATION_LOGIC["Temple Hidden Room Behind Pillar (Left)"](),
-                                                                            HasConnection('Rickety Bridge Door (Hollow Basin Side)')) end,
+                                                                            And(HasConnection('Rickety Bridge Door (Hollow Basin Side)'), HasDustyOrb())) end,
 
     ["Temple Hidden Room Behind Pillar (Right)"]    = function() return Or(VANILLA_LOCATION_LOGIC["Temple Hidden Room Behind Pillar (Right)"](),
-                                                                            HasConnection('Rickety Bridge Door (Hollow Basin Side)')) end,
+                                                                            And(HasConnection('Rickety Bridge Door (Hollow Basin Side)'), HasDustyOrb())) end,
 
     ["Temple Ritual Table After Bridge"]            = function() return Or(VANILLA_LOCATION_LOGIC["Temple Ritual Table After Bridge"](),
                                                                             HasConnection('Rickety Bridge Door (Hollow Basin Side)')) end,
@@ -621,16 +621,16 @@ ER_LOCATION_LOGIC = {
                                                                             HasConnection('Rickety Bridge Door (Hollow Basin Side)')) end,
 
     ["Temple Pillar Room Left"]                     = function() return Or(VANILLA_LOCATION_LOGIC["Temple Pillar Room Left"](),
-                                                                            HasConnection('Rickety Bridge Door (Hollow Basin Side)')) end,
+                                                                            And(HasConnection('Rickety Bridge Door (Hollow Basin Side)'), HasDustyOrb())) end,
 
     ["Temple Pillar Room Back Left"]                = function() return Or(VANILLA_LOCATION_LOGIC["Temple Pillar Room Back Left"](),
-                                                                            HasConnection('Rickety Bridge Door (Hollow Basin Side)')) end,
+                                                                            And(HasConnection('Rickety Bridge Door (Hollow Basin Side)'), HasDustyOrb())) end,
 
     ["Temple Pillar Room Back Right"]               = function() return Or(VANILLA_LOCATION_LOGIC["Temple Pillar Room Back Right"](),
-                                                                            HasConnection('Rickety Bridge Door (Hollow Basin Side)')) end,
+                                                                            And(HasConnection('Rickety Bridge Door (Hollow Basin Side)'), HasDustyOrb())) end,
 
     ["Temple Pillar Room Hidden Room"]              = function() return Or(VANILLA_LOCATION_LOGIC["Temple Pillar Room Hidden Room"](),
-                                                                            HasConnection('Rickety Bridge Door (Hollow Basin Side)')) end,
+                                                                            And(HasConnection('Rickety Bridge Door (Hollow Basin Side)'), HasDustyOrb())) end,
 
     ["Temple Hidden Room In Sewer"]                 = function() return And(HasDustyOrb(),
                                                                             Or(HasConnection('Sewers Door (Hollow Basin Side)'),
@@ -638,15 +638,15 @@ ER_LOCATION_LOGIC = {
                                                                                 VANILLA_LOCATION_LOGIC["Temple Hidden Room In Sewer"]())) end,
 
     ["Temple Table in Sewer"]                       = function() return Or(HasConnection('Sewers Door (Hollow Basin Side)'),
-                                                                            And(HasConnection('Rickety Bridge Door (Hollow Basin Side)'), HasSwitch("templeofsilenceswitchkey")),
+                                                                            And(HasConnection('Rickety Bridge Door (Hollow Basin Side)'), HasSwitch("templeofsilenceswitchkey"), HasDustyOrb()),
                                                                             VANILLA_LOCATION_LOGIC["Temple Table in Sewer"]()) end,
 
     ["Temple Sewer Puzzle"]                         = function() return Or(And(HasConnection('Sewers Door (Hollow Basin Side)'), And(WasItemReceived("vhstape"), HasElement("ele_light"))),
-                                                                            And(HasConnection('Rickety Bridge Door (Hollow Basin Side)'), HasSwitch("templeofsilenceswitchkey"), WasItemReceived("vhstape"), HasElement("ele_light")),
+                                                                            And(HasConnection('Rickety Bridge Door (Hollow Basin Side)'), HasSwitch("templeofsilenceswitchkey"), WasItemReceived("vhstape"), HasElement("ele_light"), HasDustyOrb()),
                                                                             VANILLA_LOCATION_LOGIC["Temple Sewer Puzzle"]()) end,
 
     ["Temple Blood Altar"]                          = function() return Or(VANILLA_LOCATION_LOGIC["Temple Blood Altar"](),
-                                                                            And(HasConnection('Rickety Bridge Door (Hollow Basin Side)'), HasElement("ele_blood"))) end,
+                                                                            And(HasConnection('Rickety Bridge Door (Hollow Basin Side)'), HasElement("ele_blood"), HasDustyOrb())) end,
 
     ["Alcove on Path to Yosei Forest"]              = function() return Or(VANILLA_LOCATION_LOGIC["Alcove on Path to Yosei Forest"](),
                                                                             HasConnection('Alcove on Path to Yosei Forest')) end,
