@@ -64,9 +64,9 @@ VANILLA_LOCATION_LOGIC = {
 
     ["Hidden Slimey Chest Near Entrance"]   = function() return HasDustyOrb() end,
 
-    ["Hidden Upper Overlook (Left)"]        = function() return HasDustyOrb() end,
+    ["Hidden Upper Overlook (Left)"]        = function() return Or(HasDustyOrb(), WasItemReceived("icarianflight")) end,
 
-    ["Hidden Upper Overlook (Right)"]       = function() return HasDustyOrb() end,
+    ["Hidden Upper Overlook (Right)"]       = function() return Or(HasDustyOrb(), WasItemReceived("icarianflight")) end,
 
     ["Bonenard's Trash"]                    = function() return AccessibilityLevel.Normal end,
 
