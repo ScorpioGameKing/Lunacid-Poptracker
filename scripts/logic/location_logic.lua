@@ -671,7 +671,7 @@ ER_LOCATION_LOGIC = {
 
     ["Cattle Cell (North)"]                     = function() return And(HasElement("ele_blood"), CanEnterCastleStage(0)) end,
 
-    ["Hidden Cattle Cell"]                      = function() return And(HasElement("ele_blood"), CanEnterCastleStage(0)) end,
+    ["Hidden Cattle Cell"]                      = function() return And(HasElement("ele_blood"), CanEnterCastleStage(0), HasDustyOrb()) end,
 
     ["Hallway Rubble Room"]                     = function() return CanEnterCastleStage(1) end,
 
