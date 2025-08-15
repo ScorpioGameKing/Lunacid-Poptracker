@@ -30,12 +30,12 @@ function HasConnection(warp)
     if TRAVERSED_ENTRANCES[warp] then
         return AccessibilityLevel.Normal
     end
-    return AccessibilityLevel.None
+    return StartingIn(warp)
 end
 
 function HasAnyConnection(warps)
     for _, warp in pairs(warps) do
-        if TRAVERSED_ENTRANCES[warp] then
+        if HasConnection(warp) == AccessibilityLevel.Normal then
             return AccessibilityLevel.Normal
         end
     end
@@ -77,7 +77,7 @@ function CanEnterCastleStage(stage)
     end
 
     if stage == 0 then
-        resultSingle = HasAnyConnection({"Castle Doors (Castle Le Fanu Side)", "Jump from Castle Le Fanu Walls"})
+        resultSingle = HasAnyConnection({"Castle Doors (Castle Le Fanu Side)", "Jump from Castle Le Fanu Walls", "Castle Le Fanu"})
     end
     return Or(result3, result2, resultSingle)
 end
