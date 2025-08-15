@@ -594,17 +594,17 @@ VANILLA_LOCATION_LOGIC = {
 
 ER_LOCATION_LOGIC = {
 -- Hollow Basin
-    ["Encouraging Statue"]                          = function() return HasAnyConnection({"Rickety Bridge Door (Hollow Basin Side)", "Broken Steps Door (Hollow Basin Side)", "Surface Hole (Hollow Basin)"}) end,
+    ["Encouraging Statue"]                          = function() return HasAnyConnection({"Rickety Bridge Door (Hollow Basin Side)", "Broken Steps Door (Hollow Basin Side)", "Surface Hole (Hollow Basin)", "Hollow Basin"}) end,
 
-    ["Rightmost Water Room (Right)"]                = function() return HasAnyConnection({"Rickety Bridge Door (Hollow Basin Side)", "Broken Steps Door (Hollow Basin Side)", "Surface Hole (Hollow Basin)"}) end,
+    ["Rightmost Water Room (Right)"]                = function() return HasAnyConnection({"Rickety Bridge Door (Hollow Basin Side)", "Broken Steps Door (Hollow Basin Side)", "Surface Hole (Hollow Basin)", "Hollow Basin"}) end,
 
-    ["Rightmost Water Room (Left)"]                 = function() return HasAnyConnection({"Rickety Bridge Door (Hollow Basin Side)", "Broken Steps Door (Hollow Basin Side)", "Surface Hole (Hollow Basin)"}) end,
+    ["Rightmost Water Room (Left)"]                 = function() return HasAnyConnection({"Rickety Bridge Door (Hollow Basin Side)", "Broken Steps Door (Hollow Basin Side)", "Surface Hole (Hollow Basin)", "Hollow Basin"}) end,
 
-    ["Leftmost Water Room"]                         = function() return HasAnyConnection({"Rickety Bridge Door (Hollow Basin Side)", "Broken Steps Door (Hollow Basin Side)", "Surface Hole (Hollow Basin)"}) end,
+    ["Leftmost Water Room"]                         = function() return HasAnyConnection({"Rickety Bridge Door (Hollow Basin Side)", "Broken Steps Door (Hollow Basin Side)", "Surface Hole (Hollow Basin)", "Hollow Basin"}) end,
 
-    ["Chest Near Demi"]                             = function() return HasAnyConnection({"Rickety Bridge Door (Hollow Basin Side)", "Broken Steps Door (Hollow Basin Side)", "Surface Hole (Hollow Basin)"}) end,
+    ["Chest Near Demi"]                             = function() return HasAnyConnection({"Rickety Bridge Door (Hollow Basin Side)", "Broken Steps Door (Hollow Basin Side)", "Surface Hole (Hollow Basin)", "Hollow Basin"}) end,
 
-    ["Near Enchanted Door"]                         = function() return HasAnyConnection({"Rickety Bridge Door (Hollow Basin Side)", "Broken Steps Door (Hollow Basin Side)", "Surface Hole (Hollow Basin)"}) end,
+    ["Near Enchanted Door"]                         = function() return HasAnyConnection({"Rickety Bridge Door (Hollow Basin Side)", "Broken Steps Door (Hollow Basin Side)", "Surface Hole (Hollow Basin)", "Hollow Basin"}) end,
 
     ["Dark Tunnel After Enchanted Door"]            = function() return Or(VANILLA_LOCATION_LOGIC["Dark Tunnel After Enchanted Door"](),
                                                                             And(HasConnection('Rickety Bridge Door (Hollow Basin Side)'), HasDustyOrb())) end,
@@ -671,7 +671,7 @@ ER_LOCATION_LOGIC = {
 
     ["Cattle Cell (North)"]                     = function() return And(HasElement("ele_blood"), CanEnterCastleStage(0)) end,
 
-    ["Hidden Cattle Cell"]                      = function() return And(HasElement("ele_blood"), CanEnterCastleStage(0)) end,
+    ["Hidden Cattle Cell"]                      = function() return And(HasElement("ele_blood"), CanEnterCastleStage(0), HasDustyOrb()) end,
 
     ["Hallway Rubble Room"]                     = function() return CanEnterCastleStage(1) end,
 
@@ -697,9 +697,9 @@ ER_LOCATION_LOGIC = {
     ["Light Accursed Door (Castle Le Fanu Side)"] = function() return And(HasDoorKey("lightaccurseddoorkey"), Or(HasConnection("Light Accursed Door (Castle Le Fanu Side)"),
                                                                         And(CanEnterCastleStage(2), HasElement("ele_dark")))) end,
 
-    ["Surface Hole (Hollow Basin)"] = function() return And(VANILLA_LOCATION_LOGIC["Surface Hole (Hollow Basin)"](), HasAnyConnection({"Rickety Bridge Door (Hollow Basin Side)", "Broken Steps Door (Hollow Basin Side)", "Surface Hole (Hollow Basin)"})) end,
+    ["Surface Hole (Hollow Basin)"] = function() return And(VANILLA_LOCATION_LOGIC["Surface Hole (Hollow Basin)"](), HasAnyConnection({"Rickety Bridge Door (Hollow Basin Side)", "Broken Steps Door (Hollow Basin Side)", "Surface Hole (Hollow Basin)", "Hollow Basin"})) end,
 
-    ["Broken Steps Door (Hollow Basin Side)"] = function() return And(HasDoorKey("brokenstepsdoorkey"), HasAnyConnection({"Rickety Bridge Door (Hollow Basin Side)", "Broken Steps Door (Hollow Basin Side)", "Surface Hole (Hollow Basin)"})) end,
+    ["Broken Steps Door (Hollow Basin Side)"] = function() return And(HasDoorKey("brokenstepsdoorkey"), HasAnyConnection({"Rickety Bridge Door (Hollow Basin Side)", "Broken Steps Door (Hollow Basin Side)", "Surface Hole (Hollow Basin)", "Hollow Basin"})) end,
 
     ["Sewers Door (Hollow Basin Side)"] = function() return And(HasDoorKey("sewersdoorkey"),
                                                                 Or(HasConnection("Sewers Door (Hollow Basin Side)"),

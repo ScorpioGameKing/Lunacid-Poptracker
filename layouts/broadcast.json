@@ -28,6 +28,15 @@
                                 "type": "layout",
                                 "key": "element_grid"
                             }
+                        },
+                        {            
+                            "type": "group",
+                            "header": "Vouchers",
+                            "dock": "top",
+                            "content": {
+                                "type": "layout",
+                                "key": "voucher_grid"
+                            }
                         }
                     ]
                 },
@@ -38,11 +47,20 @@
                     "content": [ 
                         {            
                             "type": "group",
-                            "header": "Logic & Access",
+                            "header": "Switch Keys",
                             "dock": "top",
                             "content": {
                                 "type": "layout",
-                                "key": "logic_grid"
+                                "key": "switch_key_grid"
+                            }
+                        },
+                        {            
+                            "type": "group",
+                            "header": "Door Keys",
+                            "dock": "top",
+                            "content": {
+                                "type": "layout",
+                                "key": "map_access_grid"
                             }
                         }
                     ]
