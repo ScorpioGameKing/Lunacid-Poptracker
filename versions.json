@@ -1,6 +1,16 @@
 {
     "versions": [
         {
+            "package_version": "0.9.2",
+            "download_url": "https://github.com/ScorpioGameKing/Lunacid-Poptracker/releases/download/beta-0.9.2/Lunacid-Poptracker-0.9.2.zip",
+            "sha256": "e48b17780a9657f641c347ad82bfedfc027f941d61d934969c8dfa7f42b61b81",
+            "changelog": [
+                "updated broadcast view",
+                "fixed cattle cell hidden wall now beeing treated as such",
+                "fixed Hollow Basin and Castle Le Fanu logic when starting in them"
+            ]
+        },
+        {
             "package_version": "0.9.1",
             "download_url": "https://github.com/ScorpioGameKing/Lunacid-Poptracker/releases/download/beta-0.9.1/Lunacid-Poptracker-0.9.1.zip",
             "sha256": "e7f6620f9faa286c941dc1462d1c708cc253fa85b3d6ece77bdd3ea3cbff58ac",
