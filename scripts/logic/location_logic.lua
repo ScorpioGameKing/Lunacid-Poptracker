@@ -280,7 +280,7 @@ VANILLA_LOCATION_LOGIC = {
     ["Crilall's Book Repository"] = function() return AccessibilityLevel.Normal end,
 
 -- A Holy Battlefield
-    ["Sngula Umbra's Remains"] = function() return AccessibilityLevel.Normal end,
+    -- ["Sngula Umbra's Remains"] = function() return AccessibilityLevel.Normal end,
 
 -- Boiling Grotto
     ["Slab of a Broken Bridge"]         = function() return AccessibilityLevel.Normal end,

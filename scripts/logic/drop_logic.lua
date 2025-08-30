@@ -8,7 +8,7 @@ VANILLA_ENEMY_LOGIC = {
 
     -- ["Mummy"] = function() return And(CanEnter("Hollow Basin"), CanEnterTemple(), HasSwitch("templeofsilenceswitchkey")) end,
 
-    -- ["Mummy Knight"] = function() return And(CanEnterTemple(), HasSwitch("templeofsilenceswitchkey")) end,
+    ["Mummy Knight"] = function() return And(CanEnterTemple(), HasSwitch("templeofsilenceswitchkey")) end,
 
     -- ["Shulker"] = function() return AccessibilityLevel.Normal end,
 
@@ -113,7 +113,9 @@ VANILLA_ENEMY_LOGIC = {
     ["Cetea"] = function() return CanEnter("Labyrinth of Ash") end,
 
     ["Abyssal Demon"] = function() return Or(CanEnter("The Sanguine Sea"),
-        And(CanEnter("Accursed Tomb"), HasLightSource(), HasElement("ele_light"))) end
+        And(CanEnter("Accursed Tomb"), HasLightSource(), HasElement("ele_light"))) end,
+
+    ["Sanguine Umbra"] = function() return CanEnter("A Holy Battlefield") end,
 }
 
 ER_ENEMY_LOGIC = {
@@ -230,7 +232,9 @@ ER_ENEMY_LOGIC = {
     ["Cetea"] = function() return CanEnter("Labyrinth of Ash") end,
 
     ["Abyssal Demon"] = function() return Or(CanEnter("The Sanguine Sea"),
-        And(CanEnter("Accursed Tomb"), HasLightSource(), HasElement("ele_light"))) end
+        And(CanEnter("Accursed Tomb"), HasLightSource(), HasElement("ele_light"))) end,
+        
+    ["Sanguine Umbra"] = function() return CanEnter("A Holy Battlefield") end,
 }
 
 --ENEMY_POSITIONS = {

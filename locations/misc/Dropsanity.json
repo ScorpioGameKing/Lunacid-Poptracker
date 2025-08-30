@@ -373,6 +373,34 @@
                         "y": 440
                     }
                 ]
+            },
+            {
+                "name": "Sanguine Umbra",
+                "chest_unopened_img": "images/items/check_item_fade.png",
+                "chest_opened_img": "images/items/check_item.png",
+                "access_rules": [
+                    "^$CanKill|Sanguine Umbra"
+                ],
+                "sections": [
+                    {
+                        "name": "Black Book",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Dropsanity",
+                        "x": 2100,
+                        "y": 976
+                    },
+                    { 
+                       "map": "A Holy Battlefield",
+                       "x": 818,
+                       "y": 402
+                    }
+                 ]
             }
         ]
     }
