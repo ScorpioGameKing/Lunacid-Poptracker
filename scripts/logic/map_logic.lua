@@ -22,15 +22,15 @@ VANILLA_MAP_LOGIC = {
     ["Laetus Chasm"] = function() return Or(And(IsItemStageAtLeastN("progressivevampiricsymbol", 2), HasSwitch("forbiddenarchiveselevatorswitchkeyring")), -- via Library
                                                 CanJumpHeight("High")) end, -- via GWS
 
-    ["Great Well Surface"] = function() return Or(CanReach("Laetus Chasm"), CanJumpHeight("High")) end,
+    ["Great Well Surface"] = function() return Or(CanEnter("Laetus Chasm"), CanJumpHeight("High")) end,
 
-    ["Boiling Grotto"] = function() return And(CanReach("Castle Le Fanu"), IsItemStageAtLeastN("progressivevampiricsymbol", 2)) end,
+    ["Boiling Grotto"] = function() return And(CanEnter("Castle Le Fanu"), IsItemStageAtLeastN("progressivevampiricsymbol", 2)) end,
 
     ["Tower of Abyss"] = function() return CanEnter("Boiling Grotto") end,
 
-    ["Throne Chamber"] = function() return And(CanReach("Castle Le Fanu"), IsItemStageAtLeastN("progressivevampiricsymbol", 3)) end,
+    ["Throne Chamber"] = function() return And(CanEnter("Castle Le Fanu"), IsItemStageAtLeastN("progressivevampiricsymbol", 3)) end,
 
-    ["Sealed Ballroom"] = function() return And(CanReach("Castle Le Fanu"), IsItemStageAtLeastN("progressivevampiricsymbol", 2),
+    ["Sealed Ballroom"] = function() return And(CanEnter("Castle Le Fanu"), IsItemStageAtLeastN("progressivevampiricsymbol", 2),
                                                 And(HasElement("ele_dark"), Or(CanJumpHeight("High"), WasItemReceived("ranged_attacks")))) end, -- can activate switch
 
     ["Terminus Prison"] = function() return CanEnter("Throne Chamber") end,
@@ -121,6 +121,7 @@ function CanEnter(map)
         end
     end
     if type(VANILLA_MAP_LOGIC[map]) == "function" then
+        
         return VANILLA_MAP_LOGIC[map]()
     end
     return AccessibilityLevel.None
