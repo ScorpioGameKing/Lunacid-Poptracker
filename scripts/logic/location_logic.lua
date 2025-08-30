@@ -659,7 +659,7 @@ ER_LOCATION_LOGIC = {
                                                                             And(HasConnection('Rickety Bridge Door (Hollow Basin Side)'), HasElement("ele_blood"), HasDustyOrb())) end,
 
     ["Alcove on Path to Yosei Forest"]              = function() return Or(VANILLA_LOCATION_LOGIC["Alcove on Path to Yosei Forest"](),
-                                                                            HasConnection('Alcove on Path to Yosei Forest')) end,
+                                                                            HasConnection('Rickety Bridge Door (Hollow Basin Side)')) end,
 -- Castle Le Fanu
     ["Outside Corner"]                          = function() return CanEnterCastleStage(0) end,
 
@@ -703,7 +703,18 @@ ER_LOCATION_LOGIC = {
 
     ["Sewers Door (Hollow Basin Side)"] = function() return And(HasDoorKey("sewersdoorkey"),
                                                                 Or(HasConnection("Sewers Door (Hollow Basin Side)"),
-                                                                    And(VANILLA_LOCATION_LOGIC["Surface Hole (Hollow Basin)"](), HasAnyConnection({"Rickety Bridge Door (Hollow Basin Side)", "Broken Steps Door (Hollow Basin Side)", "Surface Hole (Hollow Basin)"})))) end,
+                                                                    And(HasConnection("Rickety Bridge Door (Hollow Basin Side)"), HasSwitch("templeofsilenceswitchkey"), HasDustyOrb()),
+                                                                    And(HasAnyConnection({"Broken Steps Door (Hollow Basin Side)", "Surface Hole (Hollow Basin)", "Hollow Basin"}), HasSwitch("templeofsilenceswitchkey"), HandleGate('basin')))) end,
+
+    ["Prison Main Door (Terminus Prison Side)"] = function() return And(HasDoorKey("prisonmaindoorkey"),
+                                                                        Or(HasConnection("Terminus Prison"),
+                                                                            And(HasAnyConnection({"Secondary Door (Terminus Prison Side)", "Forbidden Door (Terminus Prison Side)"}),
+                                                                                Or(HasSwitch("terminusprisonbackalleyswitchkey"),CanJumpHeight("High"))))) end,
+-- Switch looks
+    ["Temple of Silence Switch"] = function() return And(HasSwitch("templeofsilenceswitchkey"),
+                                                        Or(
+                                                            And(HasConnection("Rickety Bridge Door (Hollow Basin Side)"), HasDustyOrb()),
+                                                            And(HasAnyConnection({"Broken Steps Door (Hollow Basin Side)", "Surface Hole (Hollow Basin)", "Hollow Basin"}), HandleGate('basin')))) end,
 }
 
 function CanReach(location)
