@@ -66,7 +66,7 @@
     {
         "name": "Corrupted Key",
         "type": "toggle",
-        "img": "images/items/misc.png",
+        "img": "images/items/item_corrupted_key.png",
         "codes": "corruptkey"
     },
     {
@@ -180,7 +180,7 @@
     {
         "name": "Light Source",
         "type": "toggle",
-        "img": "images/items/misc.png",
+        "img": "images/items/item_lantern.png",
         "codes": "lightsource"
     },
     {
@@ -192,7 +192,7 @@
     {
         "name": "Limbo",
         "type": "toggle",
-        "img": "images/items/misc.png",
+        "img": "images/items/item_limbo.png",
         "codes": "limbo"
     },
     {
@@ -210,31 +210,31 @@
     {
         "name": "Skeleton Egg",
         "type": "toggle",
-        "img": "images/items/misc.png",
+        "img": "images/items/item_egg.png",
         "codes": "skeletonegg"
     },
     {
         "name": "Sheryl's Initial Offerings Voucher ",
         "type": "toggle",
-        "img": "images/items/misc.png",
+        "img": "images/items/item_cloth.png",
         "codes": "sheryl'sinitialofferingsvoucher"
     },
     {
         "name": "Sheryl's Golden Armor Voucher",
         "type": "toggle",
-        "img": "images/items/misc.png",
+        "img": "images/items/item_cloth.png",
         "codes": "sheryl'sgoldenarmorvoucher"
     },
     {
         "name": "Sheryl's Dreamer Voucher",
         "type": "toggle",
-        "img": "images/items/misc.png",
+        "img": "images/items/item_cloth.png",
         "codes": "sheryl'sdreamervoucher"
     },
     {
         "name": "Patchouli's Drink Voucher",
         "type": "toggle",
-        "img": "images/items/misc.png",
+        "img": "images/items/item_cloth.png",
         "codes": "patchouli'sdrinkvoucher"
     },
     {
@@ -248,7 +248,7 @@
     {
         "name": "Jotunn Slayer",
         "type": "toggle",
-        "img": "images/items/misc.png",
+        "img": "images/items/item_slayer.png",
         "codes": "jotunnslayer"
     },
     {
@@ -858,13 +858,6 @@
         "codes": "flamesword"
     },
     {
-        "name": "Limbo",
-        "type": "toggle",
-        "img": "images/items/limbo_on.png",
-        "disabled_img": "images/items/limbo_off.png",
-        "codes": "limbo"
-    },
-    {
         "name": "Shining Blade",
         "type": "toggle",
         "img": "images/items/shiningblade_on.png",
@@ -874,19 +867,19 @@
     {
         "name": "Broken Sword",
         "type": "toggle",
-        "img": "images/items/misc.png",
+        "img": "images/items/item_material.png",
         "codes": "brokensword"
     },
     {
         "name": "Fractured Death",
         "type": "toggle",
-        "img": "images/items/misc.png",
+        "img": "images/items/item_material.png",
         "codes": "fractureddeath"
     },
     {
         "name": "Fractured Life",
         "type": "toggle",
-        "img": "images/items/misc.png",
+        "img": "images/items/item_material.png",
         "codes": "fracturedlife"
     },
     {
