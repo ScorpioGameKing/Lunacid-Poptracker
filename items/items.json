@@ -874,29 +874,25 @@
     {
         "name": "Broken Sword",
         "type": "toggle",
-        "img": "images/items/brokensword_on.png",
-        "disabled_img": "images/items/brokensword_off.png",
+        "img": "images/items/misc.png",
         "codes": "brokensword"
     },
     {
         "name": "Fractured Death",
         "type": "toggle",
-        "img": "images/items/fractureddeath_on.png",
-        "disabled_img": "images/items/fractureddeath_off.png",
+        "img": "images/items/misc.png",
         "codes": "fractureddeath"
     },
     {
         "name": "Fractured Life",
         "type": "toggle",
-        "img": "images/items/fracturedlife_on.png",
-        "disabled_img": "images/items/fracturedlife_off.png",
+        "img": "images/items/misc.png",
         "codes": "fracturedlife"
     },
     {
         "name": "Sheryl Initial Voucher",
         "type": "toggle",
-        "img": "images/items/sherylinitialvoucher_on.png",
-        "disabled_img": "images/items/sherylinitialvoucher_off.png",
+        "img": "images/items/misc.png",
         "codes": "sherylinitialvoucher"
     },
     {

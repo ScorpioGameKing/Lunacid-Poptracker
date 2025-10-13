@@ -13,7 +13,7 @@
                     "content": [
                         {
                             "type": "group",
-                            "header": "Items",
+                            "header": "Progressive Items",
                             "dock": "top",
                             "content": {
                                 "type": "layout",
@@ -22,7 +22,7 @@
                         },
                         {
                             "type": "group",
-                            "header": "Elements",
+                            "header": "Elements, Spells & Choices",
                             "dock": "top",
                             "content": {
                                 "type": "layout",
@@ -31,11 +31,11 @@
                         },
                         {
                             "type": "group",
-                            "header": "Logic & Access",
+                            "header": "Vouchers & Materials",
                             "dock": "top",
                             "content": {
                                 "type": "layout",
-                                "key": "logic_grid"
+                                "key": "voucher_grid"
                             }
                         },
                         {
@@ -104,7 +104,7 @@
                         },
                         {
                             "type": "group",
-                            "header": "Vouchers",
+                            "header": "Vouchers & Materials",
                             "dock": "top",
                             "margin": "0,0,3,0",
                             "content": {

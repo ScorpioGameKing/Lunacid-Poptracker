@@ -62,7 +62,8 @@
                         "item_margin": "10, 10",
                         "h_alignment": "left",
                         "rows": [
-                            ["sheryl'sinitialofferingsvoucher", "sheryl'sgoldenarmorvoucher", "sheryl'sdreamervoucher", "patchouli'sdrinkvoucher"]
+                            ["sheryl'sinitialofferingsvoucher", "sheryl'sgoldenarmorvoucher", "sheryl'sdreamervoucher", "patchouli'sdrinkvoucher"],
+                            ["fracturedlife", "fractureddeath", "brokensword"]
                         ]
                     }
                 ]

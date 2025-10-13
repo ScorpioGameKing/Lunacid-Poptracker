@@ -100,6 +100,21 @@ function CanEnterTemple()
     return And(HandleGate('basin'), HasLightSource())
 end
 
+function EtnasPupil()
+    if Tracker:FindObjectForCode('etna_on').Active then
+        return AccessibilityLevel.Normal
+    end
+    return AccessibilityLevel.None 
+end
+
+function NotEtnasPupil()
+    if EtnasPupil() == AccessibilityLevel.Normal then
+        return AccessibilityLevel.None
+    end
+    return AccessibilityLevel.Normal
+end
+
+
 function HandleGate(gate)
     if Tracker:FindObjectForCode('livinggate_' .. gate).Active then
         return AccessibilityLevel.Normal

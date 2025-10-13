@@ -136,8 +136,9 @@ VANILLA_LOCATION_LOGIC = {
 
     ["Mausoleum Central Room (Right Path)"] = function() return And(HasLightSource(), HasElement("ele_light")) end,
 
-    ["Kill Death"]                          = function() return And(HasLightSource(), HasElement("ele_light"), Or(WasItemReceived("limbo"),
-                                                WasItemReceived("brokensword"), WasItemReceived("fractureddeath"), WasItemReceived("fracturedlife"))) end,
+    ["Kill Death"]                          = function() return And(HasLightSource(), HasElement("ele_light"), Or(
+                                                And(EtnasPupil(), WasItemReceived("limbo")),
+                                                And(NotEtnasPupil(), WereAllItemsReceived({"brokensword", "fractureddeath", "fracturedlife"})))) end,
 
     ["Tomb With Switch"]                    = function() return HasLightSource() end,
 
@@ -156,7 +157,7 @@ VANILLA_LOCATION_LOGIC = {
 
     ["Blood Pool"]                      = function() return AccessibilityLevel.Normal end,
 
-    ["Branches Within Tree"]             = function() return AccessibilityLevel.Normal end,
+    ["Branches Within Tree"]            = function() return AccessibilityLevel.Normal end,
 
     ["Chest Near Tree"]                 = function() return AccessibilityLevel.Normal end,
 
