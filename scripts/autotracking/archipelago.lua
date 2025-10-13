@@ -43,6 +43,9 @@ function onClear(slot_data)
     --     print(string.format("called onClear, slot_data:\n%s", dump_table(slot_data)))
     -- end
 
+    TRAVERSED_ENTRANCES = {}
+    ENEMY_LOCATIONS = {}
+
     Tracker:FindObjectForCode('ele_blood').Active = false
 
     Archipelago:SetNotify({
