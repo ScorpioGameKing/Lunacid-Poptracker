@@ -1,6 +1,17 @@
 {
     "versions": [
         {
+            "package_version": "0.9.4",
+            "download_url": "https://github.com/ScorpioGameKing/Lunacid-Poptracker/releases/download/beta-0.9.4/Lunacid-Poptracker-0.9.4.zip",
+            "sha256": "a508c2aac316a11738c66945c0b303e56b5e27bbe371ef90e7f7cd6a0af6984f",
+            "changelog": [
+                "Halloween Event",
+                "Dropsanity Support (Unique)",
+                "Etna's Pupil Support",
+                "visual bugfixes"
+            ]
+        },
+        {
             "package_version": "0.9.3",
             "download_url": "https://github.com/ScorpioGameKing/Lunacid-Poptracker/releases/download/beta-0.9.3/Lunacid-Poptracker-0.9.3.zip",
             "sha256": "0fdb1c027133b0b391eddce778d45052e0af5250db28ae827782688743f9afbb",
