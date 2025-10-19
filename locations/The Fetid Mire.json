@@ -201,6 +201,29 @@
                  ]
             },
             {
+                "name": "Jellisha's Jelly Treats",
+                "chest_unopened_img": "images/items/check_item_fade.png",
+                "chest_opened_img": "images/items/check_item.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "^$CanReach|Jellisha's Jelly Treats"
+                ],
+                "sections": [
+                    {
+                        "name": "Jelly Treats",
+                        "visibility_rules": ["halloween_event"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "The Fetid Mire",
+                        "x": 604,
+                        "y": 1166
+                    }
+                ]
+            },
+            {
                 "name": "Jellisha's Quest Reward",
                 "chest_unopened_img": "images/items/check_spell_fade.png",
                 "chest_opened_img": "images/items/check_spell.png",
@@ -219,7 +242,7 @@
                 "map_locations": [
                     { 
                        "map": "The Fetid Mire",
-                       "x": 658,
+                       "x": 666,
                        "y": 1154
                     }
                  ]
@@ -389,6 +412,30 @@
                        "map": "The Fetid Mire",
                        "x": 1318,
                        "y": 1656
+                    }
+                 ]
+            },
+            {
+                "name": "Headless Horseman",
+                "chest_unopened_img": "images/items/check_weapon_fade.png",
+                "chest_opened_img": "images/items/check_weapon.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "^$CanReach|Headless Horseman"
+                ],
+                "sections": [
+                    {
+                        "name": "Cavalry Saber Drop",
+                        "access_rules": [],
+                        "visibility_rules": ["halloween_event"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    { 
+                       "map": "The Fetid Mire",
+                       "x": 536,
+                       "y": 530
                     }
                  ]
             }

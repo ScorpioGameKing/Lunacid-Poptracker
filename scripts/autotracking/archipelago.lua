@@ -61,7 +61,7 @@ function onClear(slot_data)
         string.format("Slot:%d:LV_GATE_FOREST", Archipelago.PlayerNumber)
     });
 
-    -- ENEMY_LOCATIONS = GroupEnemiesByType(slot_data["enemy_placement"])
+    ENEMY_LOCATIONS = GroupEnemiesByType(slot_data["enemy_placement"])
 
     SLOT_DATA = slot_data
     CUR_INDEX = -1
@@ -87,6 +87,7 @@ function onClear(slot_data)
 
     end
     -- reset items
+    Tracker:FindObjectForCode("lightsource").Active = false
     for _, items_array in pairs(ITEM_MAPPING) do
         local items = items_array[1]
         local item_type = items_array[2]
@@ -346,7 +347,7 @@ function AutoFill()
     if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
         print(dump_table(SLOT_DATA))
     end
-
+    print(dump_table(SLOT_DATA))
     -- mapDropsanity = {[0]=0,[1]=1}
     -- mapShopsanity = {[0]=0,[1]=1}
     -- mapSwitchlocks = {[0]=0,[1]=1}
@@ -392,6 +393,19 @@ function AutoFill()
     if SLOT_DATA["random_elements"] then
         UpdateElements(SLOT_DATA["elements"])
     end
+    print(SLOT_DATA["rolled_month"])
+    if SLOT_DATA["rolled_month"] == 10 then
+        Tracker:FindObjectForCode("halloween_event").Active = true
+    end
+    if SLOT_DATA["rolled_month"] == 12 then
+        Tracker:FindObjectForCode("christmas_event").Active = true
+    end
+
+    if not Tracker:FindObjectForCode("shops_on").Active then
+        Tracker:FindObjectForCode("crossbow").Active = true
+        Tracker:FindObjectForCode("oillantern").Active = true
+        Tracker:FindObjectForCode("enchantedkey").CurrentStage = 1
+    end
 end
 
 function Update()
@@ -401,21 +415,18 @@ end
 function GroupEnemiesByType(enemy_data)
     local result = {}
 
-    for _, enemies in pairs(enemy_data) do
-        for _, value in pairs(enemies) do
-            local location, index, enemy = value:match("([^|]+)|([^|]+)|(.+)")
-            if location and index and enemy then
-                enemy = enemy:match("^%s*(.-)%s*$")
-                local full_location = location .. "|" .. index
-
-                if not result[enemy] then
-                    result[enemy] = {}
+    for group_key, entries in pairs(enemy_data) do
+        for _, value in pairs(entries) do
+            -- value is like "KeyPart1|KeyPart2|Type"
+            local keypart1, keypart2, enemy_type = value:match("([^|]+)|([^|]+)|([^|]+)")
+            if enemy_type then
+                if not result[enemy_type] then
+                    result[enemy_type] = {}
                 end
-                table.insert(result[enemy], full_location)
+                table.insert(result[enemy_type], group_key .. "|" .. keypart1 .. "|" .. keypart2)
             end
         end
     end
-
     return result
 end
 

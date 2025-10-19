@@ -225,7 +225,7 @@ ITEM_MAPPING = {
 	[370] = {{"towerofabysskeyring"}, "toggle"},
 	[371] = {{"ashendoorskeyring"}, "toggle"},
 
-	-- [401] = {{"soulcandy", "toggle"}},
+	[401] = {{"soulcandy", "consumable"}},
 	-- [402] = {{"pumpkinpop", "toggle"}},
 	-- [403] = {{"cavalrysaber", "toggle"}},
 	-- [404] = {{"jinglebells", "toggle"}},
@@ -233,7 +233,7 @@ ITEM_MAPPING = {
 	-- [406] = {{"coal", "toggle"}},
 }
 
-local ELEMENT <const> = {
+ELEMENT = {
     blood = "Blood",
     light = "Light",
     fire = "Fire",

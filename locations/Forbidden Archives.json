@@ -317,7 +317,7 @@
                 ]
             },
             {
-                "name": "Daedalus Knowledge",
+                "name": "Daedalus",
                 "sections": [
                     {
                         "name": "Daedalus Knowledge (First)", 
@@ -344,6 +344,18 @@
                         "item_count": 1,
                         "access_rules": [
                             "^$CanReach|Daedalus Knowledge (Third)"
+                        ]
+                    },
+                    {
+                        "name": "Daedalus' Blackened Treats",
+                        "chest_unopened_img": "images/items/check_misc_fade.png",
+                        "chest_opened_img": "images/items/check_misc.png",
+                        "item_count": 1,
+                        "access_rules": [
+                            "^$CanReach|Daedalus' Blackened Treats"
+                        ],
+                        "visibility_rules": [
+                            "halloween_event"
                         ]
                     }
                 ],

@@ -11,6 +11,43 @@ VANILLA_LOCATION_LOGIC = {
 
     ["Demi's Class Based Gift"] = function() return AccessibilityLevel.Normal end,
 
+    ["Demi's Spooky Treats"] = function() return AccessibilityLevel.Normal end,
+
+    ["Demi's Reward for All Soul Candies"] = function() return HasMoreThenNConsumables("soulcandy", 6) end,
+
+-- Etna's Pupil
+    ["Alchemize Concentrated Lunacy"] = function() return And(CanGetMaterial("ashes"), CanGetMaterial("moonpetal"), CanGetMaterial("obsidian")) end,
+
+    ["Alchemize Hostility Barrier"] = function() return And(CanGetMaterial("ectoplasm"), CanGetMaterial("ikurrilbroot"), CanGetMaterial("fireopal")) end,
+
+    ["Alchemize Explosives"] = function() return And(CanGetMaterial("firecoral"), CanGetMaterial("ashes")) end,
+
+    ["Alchemize Venomous Object"] = function() return And(CanGetMaterial("destroyingangelmushroom"), CanGetMaterial("oceanboneshard")) end,
+
+    ["Alchemize Defense Construct"] = function() return And(CanGetMaterial("onyx"), CanGetMaterial("ikurrilbroot"), CanGetMaterial("bones")) end,
+
+    ["Alchemize Concentrated Poison"] = function() return And(CanGetMaterial("destroyingangelmushroom"), CanGetMaterial("oceanboneshard"), CanGetMaterial("bloodweed")) end,
+
+    ["Alchemize Nature"] = function() return And(CanGetMaterial("moonpetal"), CanGetMaterial("bloodweed"), CanGetMaterial("yellowmorel")) end,
+
+    ["Alchemize Antivenom"] = function() return And(CanGetMaterial("destroyingangelmushroom"), CanGetMaterial("lotusseedpod")) end,
+
+    ["Alchemize Cleromancy Tool"] = function() return And(CanGetMaterial("ashes"), CanGetMaterial("bones")) end,
+
+    ["Alchemize Healing Remedy"] = function() return And(CanGetMaterial("opal"), CanGetMaterial("yellowmorel"), CanGetMaterial("lotusseedpod")) end,
+
+    ["Alchemize Water of Life"] = function() return And(CanGetMaterial("moonpetal"), CanGetMaterial("opal")) end,
+
+    ["Alchemize Sharp Object"] = function() return CanGetMaterial("oceanboneshard") end,
+
+    ["Alchemize Mana Remedy"] = function() return And(CanGetMaterial("opal"), CanGetMaterial("onyx"), CanGetMaterial("lotusseedpod")) end,
+
+    ["Alchemize Unstable Stone"] = function() return And(CanGetMaterial("snowflakeobsidian"), CanGetMaterial("onyx"), CanGetMaterial("obsidian")) end,
+
+    ["Alchemize Simple Life"] = function() return And(CanGetMaterial("snowflakeobsidian"), CanGetMaterial("ectoplasm"), CanGetMaterial("moonpetal")) end,
+
+    ["Alchemize Golden Sin of Abdul"] = function() return And(WereAllItemsReceived({"fractureddeath", "fracturedlife", "brokensword"})) end,
+
 -- Hollow Basin
     ["Encouraging Statue"]                          = function() return AccessibilityLevel.Normal end,
 
@@ -59,6 +96,8 @@ VANILLA_LOCATION_LOGIC = {
 
     ["Alcove on Path to Yosei Forest"]              = function() return And(CanEnterTemple(), HasSwitch("templeofsilenceswitchkey")) end,
 
+
+
 -- The Fetide Mire
     ["Room Left of Foyer"]                  = function() return AccessibilityLevel.Normal end,
 
@@ -92,7 +131,9 @@ VANILLA_LOCATION_LOGIC = {
 
     ["Path to Sanguine Sea (Right)"]        = function() return AccessibilityLevel.Normal end,
 
-    ["Jellisha's Jelly Treats"]             = function() return AccessibilityLevel.Normal end,
+    ["Jellisha's Jelly Treats"]             = function() return HasDustyOrb() end,
+
+    ["Headless Horseman"]                   = function() return HasElement(ELEMENT_CODE.fire) end,
 
 -- Sanguine Sea
     ["Pillar In Front of Castle Le Fanu"]   = function() return CanJumpHeight("High") end,
@@ -215,6 +256,8 @@ VANILLA_LOCATION_LOGIC = {
 
     ["Daedalus Knowledge (Third)"]  = function() return IsItemStageAtLeastN("blackbook", 3) end,
 
+    ["Daedalus' Blackened Treats"]  = function() return AccessibilityLevel.Normal end,
+
     ["Corner Near Daedalus"]        = function() return AccessibilityLevel.Normal end,
 
 -- Castle Le Fanu
@@ -229,6 +272,8 @@ VANILLA_LOCATION_LOGIC = {
     ["Cattle Cell (North)"]                     = function() return WasItemReceived("ele_blood") end,
 
     ["Hidden Cattle Cell"]                      = function() return And(WasItemReceived("ele_blood"), HasDustyOrb()) end,
+
+    ["Crilall's Bloody Treats"]                 = function() return IsItemStageAtLeastN("progressivevampiricsymbol", 1) end,
 
     ["Hallway Rubble Room"]                     = function() return IsItemStageAtLeastN("progressivevampiricsymbol", 1) end,
 
@@ -290,6 +335,8 @@ VANILLA_LOCATION_LOGIC = {
 
     ["Corpse Beneath Entrance"]         = function() return AccessibilityLevel.Normal end,
 
+    ["Shery's Delectable Treats"]       = function() return AccessibilityLevel.Normal end,
+
     ["Triple Hidden Chest"]             = function() return HasDustyOrb() end,
 
     ["Lava Overseeing Dragon Switch"]   = function() return AccessibilityLevel.Normal end,
@@ -345,6 +392,8 @@ VANILLA_LOCATION_LOGIC = {
     ["Prize Beneath Tree"]  = function() return HasDoorKey("towerofabysskeyring") end,
 
 -- Terminus Prison
+    ["Lobos' Late Treats"]                          = function() return WasItemReceived("terminusprisonkey") end,
+
     ["Third Floor Locked Cell Left"]                = function() return WasItemReceived("terminusprisonkey") end,
 
     ["Third Floor Locked Cell Right"]               = function() return WasItemReceived("terminusprisonkey") end,
@@ -673,6 +722,8 @@ ER_LOCATION_LOGIC = {
     ["Cattle Cell (North)"]                     = function() return And(HasElement("ele_blood"), CanEnterCastleStage(0)) end,
 
     ["Hidden Cattle Cell"]                      = function() return And(HasElement("ele_blood"), CanEnterCastleStage(0), HasDustyOrb()) end,
+
+    ["Crilall's Bloody Treats"]                 = function() return CanEnterCastleStage(1) end,
 
     ["Hallway Rubble Room"]                     = function() return CanEnterCastleStage(1) end,
 

@@ -672,6 +672,20 @@
         ]
     },
     {
+        "name": "Halloween Event",
+        "type": "toggle",
+        "img": "images/items/halloween_on.png",
+        "disabled_img": "images/items/halloween_off.png",
+        "codes": "halloween_event"
+    },
+    {
+        "name": "Christmas Event",
+        "type": "toggle",
+        "img": "images/items/christmas_on.png",
+        "disabled_img": "images/items/christmas_off.png",
+        "codes": "christmas_event"
+    },
+    {
         "name": "Temple of Earth Switch Key",
         "type": "toggle",
         "img": "images/items/setting_on.png",
@@ -1027,5 +1041,13 @@
         "img": "images/items/stoneclub_on.png",
         "disabled_img": "images/items/stoneclub_off.png",
         "codes": "stoneclub"
+    },
+    {
+        "name": "Soul Candy",
+        "type": "consumable",
+        "img": "images/items/item_soulcandy.png",
+        "min_quantity": 0,
+        "max_quantity": 7,
+        "codes": "soulcandy"
     }
 ]
