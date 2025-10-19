@@ -16,7 +16,7 @@
                         "rows": [
                             ["strangecoin", "progressivevampiricsymbol", "enchantedkey", "terminusprisonkey", "corruptkey", "lucidblade"],
                             ["vhstape", "whitevhstape", "watertalisman", "earthtalisman", "lightsource", "jotunnslayer"],
-                            ["dustycrystalorb", "blackbook", "skeletonegg", "skullofjosiah", "", "limbo"]
+                            ["dustycrystalorb", "blackbook", "skeletonegg", "skullofjosiah", "soulcandy", "limbo"]
                         ]
                     }
                 ]
@@ -62,7 +62,8 @@
                         "item_margin": "10, 10",
                         "h_alignment": "left",
                         "rows": [
-                            ["sheryl'sinitialofferingsvoucher", "sheryl'sgoldenarmorvoucher", "sheryl'sdreamervoucher", "patchouli'sdrinkvoucher"]
+                            ["sheryl'sinitialofferingsvoucher", "sheryl'sgoldenarmorvoucher", "sheryl'sdreamervoucher", "patchouli'sdrinkvoucher"],
+                            ["fracturedlife", "fractureddeath", "brokensword"]
                         ]
                     }
                 ]
@@ -130,10 +131,10 @@
                         "item_margin": "10, 10",
                         "h_alignment": "left",
                         "rows": [
-                            ["brokenstepsdoorkey", "lowerricketybridgedoorkey", "sewersdoorkey", "treetopdoorkey", "tombsecretdoorkey"],
-                            ["sewersseadoorkey", "accurseddoorkey", "castledoorskey", "libraryexitdoorkey", "surfacedoorkey"],
-                            ["lightaccurseddoorkey", "queen'sthronedoorkey", "prisonmaindoorkey", "secondarylockkey", "burninghotkey"],
-                            ["forbiddendoorkey", "sucsariankey", "dreamerkey", "ballroomsideroomskeyring", "towerofabysskeyring"]
+                            ["brokenstepsdoorkey", "lowerricketybridgedoorkey", "sewersdoorkey", "treetopdoorkey", "tombsecretdoorkey", "sewersseadoorkey"],
+                            ["accurseddoorkey", "castledoorskey", "libraryexitdoorkey", "surfacedoorkey", "lightaccurseddoorkey", "queen'sthronedoorkey"],
+                            ["prisonmaindoorkey", "secondarylockkey", "burninghotkey", "forbiddendoorkey", "sucsariankey", "dreamerkey"],
+                            ["ballroomsideroomskeyring", "towerofabysskeyring", "ashendoorskeyring"]
                         ]
                     }
                 ]

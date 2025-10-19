@@ -66,7 +66,7 @@
     {
         "name": "Corrupted Key",
         "type": "toggle",
-        "img": "images/items/misc.png",
+        "img": "images/items/item_corrupted_key.png",
         "codes": "corruptkey"
     },
     {
@@ -180,7 +180,7 @@
     {
         "name": "Light Source",
         "type": "toggle",
-        "img": "images/items/misc.png",
+        "img": "images/items/item_lantern.png",
         "codes": "lightsource"
     },
     {
@@ -192,7 +192,7 @@
     {
         "name": "Limbo",
         "type": "toggle",
-        "img": "images/items/misc.png",
+        "img": "images/items/item_limbo.png",
         "codes": "limbo"
     },
     {
@@ -210,31 +210,31 @@
     {
         "name": "Skeleton Egg",
         "type": "toggle",
-        "img": "images/items/misc.png",
+        "img": "images/items/item_egg.png",
         "codes": "skeletonegg"
     },
     {
         "name": "Sheryl's Initial Offerings Voucher ",
         "type": "toggle",
-        "img": "images/items/misc.png",
+        "img": "images/items/item_cloth.png",
         "codes": "sheryl'sinitialofferingsvoucher"
     },
     {
         "name": "Sheryl's Golden Armor Voucher",
         "type": "toggle",
-        "img": "images/items/misc.png",
+        "img": "images/items/item_cloth.png",
         "codes": "sheryl'sgoldenarmorvoucher"
     },
     {
         "name": "Sheryl's Dreamer Voucher",
         "type": "toggle",
-        "img": "images/items/misc.png",
+        "img": "images/items/item_cloth.png",
         "codes": "sheryl'sdreamervoucher"
     },
     {
         "name": "Patchouli's Drink Voucher",
         "type": "toggle",
-        "img": "images/items/misc.png",
+        "img": "images/items/item_cloth.png",
         "codes": "patchouli'sdrinkvoucher"
     },
     {
@@ -248,7 +248,7 @@
     {
         "name": "Jotunn Slayer",
         "type": "toggle",
-        "img": "images/items/misc.png",
+        "img": "images/items/item_slayer.png",
         "codes": "jotunnslayer"
     },
     {
@@ -672,6 +672,20 @@
         ]
     },
     {
+        "name": "Halloween Event",
+        "type": "toggle",
+        "img": "images/items/halloween_on.png",
+        "disabled_img": "images/items/halloween_off.png",
+        "codes": "halloween_event"
+    },
+    {
+        "name": "Christmas Event",
+        "type": "toggle",
+        "img": "images/items/christmas_on.png",
+        "disabled_img": "images/items/christmas_off.png",
+        "codes": "christmas_event"
+    },
+    {
         "name": "Temple of Earth Switch Key",
         "type": "toggle",
         "img": "images/items/setting_on.png",
@@ -858,13 +872,6 @@
         "codes": "flamesword"
     },
     {
-        "name": "Limbo",
-        "type": "toggle",
-        "img": "images/items/limbo_on.png",
-        "disabled_img": "images/items/limbo_off.png",
-        "codes": "limbo"
-    },
-    {
         "name": "Shining Blade",
         "type": "toggle",
         "img": "images/items/shiningblade_on.png",
@@ -874,29 +881,25 @@
     {
         "name": "Broken Sword",
         "type": "toggle",
-        "img": "images/items/brokensword_on.png",
-        "disabled_img": "images/items/brokensword_off.png",
+        "img": "images/items/item_material.png",
         "codes": "brokensword"
     },
     {
         "name": "Fractured Death",
         "type": "toggle",
-        "img": "images/items/fractureddeath_on.png",
-        "disabled_img": "images/items/fractureddeath_off.png",
+        "img": "images/items/item_material.png",
         "codes": "fractureddeath"
     },
     {
         "name": "Fractured Life",
         "type": "toggle",
-        "img": "images/items/fracturedlife_on.png",
-        "disabled_img": "images/items/fracturedlife_off.png",
+        "img": "images/items/item_material.png",
         "codes": "fracturedlife"
     },
     {
         "name": "Sheryl Initial Voucher",
         "type": "toggle",
-        "img": "images/items/sherylinitialvoucher_on.png",
-        "disabled_img": "images/items/sherylinitialvoucher_off.png",
+        "img": "images/items/misc.png",
         "codes": "sherylinitialvoucher"
     },
     {
@@ -1038,5 +1041,13 @@
         "img": "images/items/stoneclub_on.png",
         "disabled_img": "images/items/stoneclub_off.png",
         "codes": "stoneclub"
+    },
+    {
+        "name": "Soul Candy",
+        "type": "consumable",
+        "img": "images/items/item_soulcandy.png",
+        "min_quantity": 0,
+        "max_quantity": 7,
+        "codes": "soulcandy"
     }
 ]

@@ -33,9 +33,9 @@ ITEM_MAPPING = {
 	-- [31] = {{"ectoplasm"}, "consumable"},
 	-- [32] = {{"snowflakeobsidian"}, "consumable"},
 	-- [33] = {{"moonpetal"}, "consumable"},
-	-- [34] = {{"fracturedlife"}, "consumable"},
-	-- [35] = {{"fractureddeath"}, "consumable"},
-	-- [36] = {{"brokensword"}, "consumable"},
+	 [34] = {{"fracturedlife"}, "toggle"},
+	 [35] = {{"fractureddeath"}, "toggle"},
+	 [36] = {{"brokensword"}, "toggle"},
 	 [37] = {{"watertalisman"}, "toggle"},
 	 [38] = {{"earthtalisman"}, "toggle"},
 	 [39] = {{"strangecoin"}, "consumable"},
@@ -225,7 +225,7 @@ ITEM_MAPPING = {
 	[370] = {{"towerofabysskeyring"}, "toggle"},
 	[371] = {{"ashendoorskeyring"}, "toggle"},
 
-	-- [401] = {{"soulcandy", "toggle"}},
+	[401] = {{"soulcandy", "consumable"}},
 	-- [402] = {{"pumpkinpop", "toggle"}},
 	-- [403] = {{"cavalrysaber", "toggle"}},
 	-- [404] = {{"jinglebells", "toggle"}},
@@ -233,7 +233,7 @@ ITEM_MAPPING = {
 	-- [406] = {{"coal", "toggle"}},
 }
 
-local ELEMENT <const> = {
+ELEMENT = {
     blood = "Blood",
     light = "Light",
     fire = "Fire",

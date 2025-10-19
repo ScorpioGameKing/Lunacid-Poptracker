@@ -42,6 +42,32 @@ function HasAnyConnection(warps)
     return AccessibilityLevel.None
 end
 
+function HasElementOtherThan(excludedElements)
+    local elements = ELEMENT_CODE
+    local remove_lookup = {}
+
+    for _, v in ipairs(excludedElements) do
+        remove_lookup[v] = true
+    end
+
+    local i = 1
+    while i <= #elements do
+        if remove_lookup[elements[i]] then
+            table.remove(elements, i)
+        else
+            i = i + 1
+        end
+    end
+    for _, element in pairs(elements) do
+        local trackedElement = Tracker:FindObjectForCode(element)
+        if trackedElement and trackedElement.Active then
+            return AccessibilityLevel.Normal
+        end
+    end
+    return AccessibilityLevel.None
+end
+
+
 function CanEnterCastleStage(stage)
     local result3 = AccessibilityLevel.None
     local result2 = AccessibilityLevel.None
@@ -99,6 +125,21 @@ end
 function CanEnterTemple()
     return And(HandleGate('basin'), HasLightSource())
 end
+
+function EtnasPupil()
+    if Tracker:FindObjectForCode('etna_on').Active then
+        return AccessibilityLevel.Normal
+    end
+    return AccessibilityLevel.None 
+end
+
+function NotEtnasPupil()
+    if EtnasPupil() == AccessibilityLevel.Normal then
+        return AccessibilityLevel.None
+    end
+    return AccessibilityLevel.Normal
+end
+
 
 function HandleGate(gate)
     if Tracker:FindObjectForCode('livinggate_' .. gate).Active then
@@ -232,16 +273,16 @@ function Or(...)
     return highestAccessLvl
 end
 
-function has_more_then_n_consumable(n)
-    local count = Tracker:ProviderCountForCode('consumable')
+function HasMoreThenNConsumables(item, n)
+    local count = Tracker:ProviderCountForCode(item)
     local val = (count > tonumber(n))
     if ENABLE_DEBUG_LOG then
-        print(string.format("called has_more_then_n_consumable: count: %s, n: %s, val: %s", count, n, val))
+        print(string.format("called HasMoreThenNConsumables: count: %s, n: %s, val: %s", count, n, val))
     end
     if val then
-        return 1 -- 1 => access is in logic
+        return AccessibilityLevel.Normal -- 1 => access is in logic
     end
-    return 0 -- 0 => no access
+    return AccessibilityLevel.None -- 0 => no access
 end
 
 function secrets_or_off()

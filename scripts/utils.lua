@@ -19,3 +19,11 @@ function dump_table(o, depth)
         return tostring(o)
     end
 end
+
+ELEMENT_CODE = {
+    blood = "ele_blood",
+    light = "ele_light",
+    fire = "ele_fire",
+    dark = "ele_dark",
+    poison = "ele_poison",
+}
