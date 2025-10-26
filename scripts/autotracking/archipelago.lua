@@ -269,6 +269,7 @@ Archipelago:AddSetReplyHandler("DataStorageHandler", function (key, value, oldVa
             mapData[entry.Key] = entry.Value
         end
         TRAVERSED_ENTRANCES = mapData
+        print(dump_table(mapData, 2))
         if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
             print(dump_table(mapData, 2))
         end
@@ -330,7 +331,7 @@ Archipelago:AddRetrievedHandler("DataStorageHandler", function (key, value)
             mapData[entry.Key] = entry.Value
         end
         TRAVERSED_ENTRANCES = mapData
-
+        print(dump_table(mapData, 2))
         if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
             print(dump_table(mapData, 2))
         end

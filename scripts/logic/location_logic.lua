@@ -13,7 +13,7 @@ VANILLA_LOCATION_LOGIC = {
 
     ["Demi's Spooky Treats"] = function() return AccessibilityLevel.Normal end,
 
-    ["Demi's Reward for All Soul Candies"] = function() return HasMoreThenNConsumables("soulcandy", 6) end,
+    ["Demi's Reward for All Soul Candies"] = function() return HasMoreThenNConsumables("soulcandy", 34) end,
 
 -- Etna's Pupil
     ["Alchemize Concentrated Lunacy"] = function() return And(CanGetMaterial("ashes"), CanGetMaterial("moonpetal"), CanGetMaterial("obsidian")) end,

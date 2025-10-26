@@ -79,7 +79,7 @@ ER_MAP_LOGIC = {
     ["Laetus Chasm"] = function() return Or(HasConnection('Library Exit Door (Laetus Chasm Side)'),
                                             HasConnection('Surface Door (Laetus Chasm Side)')) end,
 
-    ["Great Well Surface"] = function() return CanJumpHeight("High") end,
+    ["Great Well Surface"] = function() return Or(HasConnection("Surface Door (Great Well Surface Side)"), CanJumpHeight("High")) end,
 
     ["Boiling Grotto"] = function() return HasConnection('Burning Hot Door (Boiling Grotto Side)') end,
 

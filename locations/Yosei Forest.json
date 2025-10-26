@@ -233,7 +233,17 @@
                         "access_rules": [
                             "^$CanReach|Patchouli's Yuletide Offering"
                         ],
-                        "visibility_rules": ["false"],
+                        "visibility_rules": ["christmas_event"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Patchouli's Poisoned Treats",
+                        "chest_unopened_img": "images/items/check_item_fade.png",
+                        "chest_opened_img": "images/items/check_item.png",
+                        "access_rules": [
+                            "^$CanReach|Patchouli's Poisoned Treats"
+                        ],
+                        "visibility_rules": ["halloween_event"],
                         "item_count": 1
                     },
                     {

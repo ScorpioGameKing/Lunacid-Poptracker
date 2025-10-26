@@ -1047,7 +1047,7 @@
         "type": "consumable",
         "img": "images/items/item_soulcandy.png",
         "min_quantity": 0,
-        "max_quantity": 7,
+        "max_quantity": 35,
         "codes": "soulcandy"
     }
 ]
