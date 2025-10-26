@@ -7,7 +7,7 @@ VANILLA_LOCATION_LOGIC = {
 
     ["Clive's Gift"]        = function() return AccessibilityLevel.Normal end,
 
-    ["Demi's Victory Gift"] = function() return CanEnterGrave() end,
+    ["Demi's Victory Gift"] = function() return And(CanEnter("Chamber of Fate"), WasItemReceived("lucidblade")) end,
 
     ["Demi's Class Based Gift"] = function() return AccessibilityLevel.Normal end,
 

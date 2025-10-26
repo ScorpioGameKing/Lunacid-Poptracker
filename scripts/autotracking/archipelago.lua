@@ -428,6 +428,15 @@ function AutoFill()
     if SLOT_DATA["random_elements"] then
         UpdateElements(SLOT_DATA["elements"])
     end
+
+    print(SLOT_DATA["rolled_month"])
+    if SLOT_DATA["rolled_month"] == 10 then
+        Tracker:FindObjectForCode("halloween_event").Active = true
+    end
+
+    if SLOT_DATA["rolled_month"] == 12 then
+        Tracker:FindObjectForCode("christmas_event").Active = true
+    end
 end
 
 function Update()

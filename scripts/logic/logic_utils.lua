@@ -172,10 +172,6 @@ function CheckGate(gate)
     end
 end
 
-function CanEnterGrave()
-    return And(HasConnection("Forlorn Arena to Terminus Prison"), WereAllItemsReceived({"watertalisman", "earthtalisman", "lucidblade"}))
-end
-
 function HasDustyOrb()
     if Tracker:FindObjectForCode('secret_doors').Active and not Tracker:FindObjectForCode("dustycrystalorb").Active then
         return AccessibilityLevel.None
