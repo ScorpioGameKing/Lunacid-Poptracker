@@ -43,9 +43,12 @@ VANILLA_MAP_LOGIC = {
 }
 
 ER_MAP_LOGIC = {
-    ["Hollow Basin"] = function() return Or(HasConnection("Broken Steps Door (Hollow Basin Side)"),
-                                            HasConnection("Sewers Door (Hollow Basin Side)"),
-                                            HasConnection("Rickety Bridge Door (Hollow Basin Side)")) end,
+    ["Hollow Basin"] = function() return HasAnyConnection({
+        "Hollow Basin Ceiling",
+        "Broken Steps Door (Hollow Basin Side)",
+        "Sewers Door (Hollow Basin Side)",
+        "Rickety Bridge Door (Hollow Basin Side)"
+    }) end,
 
     ["Forbidden Archives"] = function() return Or(HasConnection("Broken Steps Door (Forbidden Archives Side)"),
                                             And(HasConnection('Library Exit Door (Forbidden Archives Side)'), IsItemStageAtLeastN("progressivevampiricsymbol", 2))) end,
