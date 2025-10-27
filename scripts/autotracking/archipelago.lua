@@ -45,6 +45,12 @@ function onClear(slot_data)
 
     Tracker:FindObjectForCode('ele_blood').Active = false
 
+    SLOT_DATA = slot_data
+    CUR_INDEX = -1
+    CURRENT_SCENE = "Hollow Basin"
+    TRAVERSED_ENTRANCES = {}
+    ENEMY_LOCATIONS = {}
+
     Archipelago:SetNotify({
         string.format("Slot:%d:currentScene", Archipelago.PlayerNumber),
         string.format("Slot:%d:TraversedEntrances", Archipelago.PlayerNumber),
@@ -62,8 +68,6 @@ function onClear(slot_data)
 
     -- ENEMY_LOCATIONS = GroupEnemiesByType(slot_data["enemy_placement"])
 
-    SLOT_DATA = slot_data
-    CUR_INDEX = -1
     -- reset locations
     for _, locations_array in pairs(LOCATION_MAPPING) do
         for _, location in pairs(locations_array) do

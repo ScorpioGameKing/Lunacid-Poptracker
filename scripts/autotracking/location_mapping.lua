@@ -258,6 +258,7 @@ LOCATION_MAPPING = {
 	[419] = {"@Dropsanity/Cetea/Tornado Drop"},
 	[420] = {"@Dropsanity/Abyssal Demon/Ocean Elixir Drop"},
 	-- [421] = {"@Dropsanity/Lupine Skeleton/Dark Skull Drop"},
+	[420] = {"@Dropsanity/Sanguine Umbra/Black Book Drop"},
 	-- [451] = {"@Dropsanity/Snail/Small Silver Drop"},
 	-- [452] = {"@Dropsanity/Snail/Large Silver Drop"},
 	-- [453] = {"@Dropsanity/Snail/Ocean Bone Shard Drop"},

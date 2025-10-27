@@ -692,7 +692,7 @@ ENEMY_POSITIONS = {
 }
 
 function CanReachAndKill(enemy)
-    local highestLevel = AccessibilityLevel.None
+    local highestLevel = SpecialEnemy(enemy)
     if ENEMY_LOCATIONS and ENEMY_LOCATIONS[enemy] and CanKillEnemy(enemy) == AccessibilityLevel.Normal then
         
         for _, loc in ipairs(ENEMY_LOCATIONS[enemy]) do
@@ -711,5 +711,16 @@ function CanKillEnemy(enemy)
     if type(ENEMY_LOGIC[enemy]) == "function" then
         return ENEMY_LOGIC[enemy]()
     end
+    return AccessibilityLevel.None
+end
+
+function SpecialEnemy(enemy)
+    if enemy == "Abyssal Demon" then
+        return Or(CanEnter("The Sanguine Sea"), And(CanEnter("Accursed Tomb"), HasElement("ele_light")))
+    end
+    if enemy == "Sanguine Umbra" then
+        return CanEnter("A Holy Battlefield")
+    end
+
     return AccessibilityLevel.None
 end
