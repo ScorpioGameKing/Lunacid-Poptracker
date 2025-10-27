@@ -548,6 +548,10 @@ VANILLA_LOCATION_LOGIC = {
 
     ["Boiling Grotto Fire Switch (South)"] = function() return HasSwitch("grottofireswitchkeyring") end,
 
+    ["Sand Temple Backrooms Switch"] = function() return HasSwitch("sandtempleswitcheskeyring") end,
+
+    ["Sand Temple Witch Tomb Switch"] = function() return HasSwitch("sandtempleswitcheskeyring") end,
+    
     ["Terminus Prison Back Alley Switch"] = function() return HasSwitch("terminusprisonbackalleyswitchkey") end,
 
     ["Forlorn Arena Switch"] = function() return HasSwitch("forlornarenagateswitchkey") end,
