@@ -7,6 +7,198 @@
         ],
         "children": [
             {
+                "name": "Monument to Lyria",
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "access_rules": [
+                    "^$CanReach|Monument to Lyria"
+                ],
+                "visibility_rules": ["lore_on"],
+                "sections": [
+                    {
+                        "name": "",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Forbidden Archives",
+                        "x": 1554,
+                        "y": 1776
+                    }
+                ]
+            },
+            {
+                "name": "History of the Ages, Volume 17, excerpt 5",
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "access_rules": [
+                    "^$CanReach|History of the Ages Volume 17 excerpt 5"
+                ],
+                "visibility_rules": ["lore_on"],
+                "sections": [
+                    {
+                        "name": "",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Forbidden Archives",
+                        "x": 700,
+                        "y": 200
+                    }
+                ]
+            },
+            {
+                "name": "History of the Ages, Volume 17, excerpt 6",
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "access_rules": [
+                    "^$CanReach|History of the Ages Volume 17 excerpt 6"
+                ],
+                "visibility_rules": ["lore_on"],
+                "sections": [
+                    {
+                        "name": "",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Forbidden Archives",
+                        "x": 900,
+                        "y": 118
+                    }
+                ]
+            },
+            {
+                "name": "History of the Ages, Volume 17, excerpt 7",
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "access_rules": [
+                    "^$CanReach|History of the Ages Volume 17 excerpt 7"
+                ],
+                "visibility_rules": ["lore_on"],
+                "sections": [
+                    {
+                        "name": "",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Forbidden Archives",
+                        "x": 1250,
+                        "y": 426
+                    }
+                ]
+            },
+            {
+                "name": "History of the Ages, Volume 17, excerpt 8",
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "access_rules": [
+                    "^$CanReach|History of the Ages Volume 17 excerpt 8"
+                ],
+                "visibility_rules": ["lore_on"],
+                "sections": [
+                    {
+                        "name": "",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Forbidden Archives",
+                        "x": 900,
+                        "y": 820
+                    }
+                ]
+            },
+            {
+                "name": "History of the Ages, Volume 17, excerpt 9",
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "access_rules": [
+                    "^$CanReach|History of the Ages Volume 17 excerpt 9"
+                ],
+                "visibility_rules": ["lore_on"],
+                "sections": [
+                    {
+                        "name": "",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Forbidden Archives",
+                        "x": 1230,
+                        "y": 1384
+                    }
+                ]
+            },
+            {
+                "name": "History of the Ages, Volume 20, excerpt 2",
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "access_rules": [
+                    "^$CanReach|History of the Ages Volume 20 excerpt 2"
+                ],
+                "visibility_rules": ["lore_on"],
+                "sections": [
+                    {
+                        "name": "",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Forbidden Archives",
+                        "x": 1860,
+                        "y": 1020
+                    }
+                ]
+            },
+            {
+                "name": "History of the Ages, Volume 20, excerpt 3",
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "access_rules": [
+                    "^$CanReach|History of the Ages Volume 20 excerpt 3"
+                ],
+                "visibility_rules": ["lore_on"],
+                "sections": [
+                    {
+                        "name": "",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Forbidden Archives",
+                        "x": 1810,
+                        "y": 1056
+                    }
+                ]
+            },
+            {
                 "name": "Back Room Past Bridge",
                 "chest_unopened_img": "images/items/check_item_fade.png",
                 "chest_opened_img": "images/items/check_item.png",
@@ -25,8 +217,8 @@
                 "map_locations": [
                     {
                         "map": "Forbidden Archives",
-                        "x": 1150,
-                        "y": 118
+                        "x": 1154,
+                        "y": 110
                     }
                 ]
             },

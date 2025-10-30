@@ -9,6 +9,54 @@
         ],
         "children": [
             {
+                "name": "Garrat's Proclamation",
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "access_rules": [
+                    "^$CanReach|Garrat's Proclamation"
+                ],
+                "visibility_rules": ["lore_on"],
+                "sections": [
+                    {
+                        "name": "",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    { 
+                       "map": "The Fetid Mire",
+                       "x": 450,
+                       "y": 110
+                    }
+                 ]
+            },
+            {
+                "name": "Bonenard's Admission of Infidelity",
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "access_rules": [
+                    "^$CanReach|Bonenard's Admission of Infidelity"
+                ],
+                "visibility_rules": ["lore_on"],
+                "sections": [
+                    {
+                        "name": "",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    { 
+                       "map": "The Fetid Mire",
+                       "x": 1638,
+                       "y": 762
+                    }
+                 ]
+            },
+            {
                 "name": "Room Left of Foyer",
                 "chest_unopened_img": "images/items/check_item_fade.png",
                 "chest_opened_img": "images/items/check_item.png",
@@ -397,13 +445,19 @@
                 "chest_opened_img": "images/items/check_weapon.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "^$CanReach|Underworks Skeleton"
+                    
                 ],
                 "sections": [
                     {
                         "name": "Broken Hilt",
-                        "access_rules": [],
+                        "access_rules": ["^$CanReach|Underworks Skeleton"],
                         "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Sewer Traveler's Last Words",
+                        "access_rules": ["^$CanReach|Sewer Traveler's Last Words"],
+                        "visibility_rules": ["lore_on"],
                         "item_count": 1
                     }
                 ],

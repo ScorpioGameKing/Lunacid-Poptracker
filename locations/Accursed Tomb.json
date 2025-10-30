@@ -9,6 +9,30 @@
         ],
         "children": [
             {
+                "name": "To Light the Flames",
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "access_rules": [
+                    "^$CanReach|To Light the Flames"
+                ],
+                "visibility_rules": ["lore_on"],
+                "sections": [
+                    {
+                        "name": "",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    { 
+                       "map": "Accursed Tomb",
+                       "x": 458,
+                       "y": 1220
+                    }
+                ]
+            },
+            {
                 "name": "Catacombs Coffins Near Stairs",
                 "chest_unopened_img": "images/items/check_item_fade.png",
                 "chest_opened_img": "images/items/check_item.png",

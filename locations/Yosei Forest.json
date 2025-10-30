@@ -9,6 +9,126 @@
         ],
         "children": [
             {
+                "name": "Drained Adventurer's Warning",
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "access_rules": [
+                    "^$CanReach|Drained Adventurer's Warning"
+                ],
+                "visibility_rules": ["lore_on"],
+                "sections": [
+                    {
+                        "name": "",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    { 
+                       "map": "Yosei Forest",
+                       "x": 712,
+                       "y": 544
+                    }
+                 ]
+            },
+            {
+                "name": "On Carnivorous Plants",
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "access_rules": [
+                    "^$CanReach|On Carnivorous Plants"
+                ],
+                "visibility_rules": ["lore_on"],
+                "sections": [
+                    {
+                        "name": "",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    { 
+                       "map": "Yosei Forest",
+                       "x": 960,
+                       "y": 810
+                    }
+                 ]
+            },
+            {
+                "name": "On Frustrations with Plantlife",
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "access_rules": [
+                    "^$CanReach|On Frustrations with Plantlife"
+                ],
+                "visibility_rules": ["lore_on"],
+                "sections": [
+                    {
+                        "name": "",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    { 
+                        "map": "Yosei Forest",
+                        "x": 2040,
+                        "y": 265
+                    }
+                 ]
+            },
+            {
+                "name": "Tomb Warning",
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "access_rules": [
+                    "^$CanReach|Tomb Warning"
+                ],
+                "visibility_rules": ["lore_on"],
+                "sections": [
+                    {
+                        "name": "",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    { 
+                        "map": "Yosei Forest",
+                        "x": 422,
+                        "y": 336
+                    }
+                 ]
+            },
+            {
+                "name": "Musings of What Lies Below",
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "access_rules": [
+                    "^$CanReach|Musings of What Lies Below"
+                ],
+                "visibility_rules": ["lore_on"],
+                "sections": [
+                    {
+                        "name": "",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    { 
+                       "map": "Yosei Forest",
+                       "x": 700,
+                       "y": 900
+                    }
+                 ]
+            },
+            {
                 "name": "Barrel Group",
                 "chest_unopened_img": "images/items/check_item_fade.png",
                 "chest_opened_img": "images/items/check_item.png",
@@ -233,7 +353,17 @@
                         "access_rules": [
                             "^$CanReach|Patchouli's Yuletide Offering"
                         ],
-                        "visibility_rules": ["false"],
+                        "visibility_rules": ["christmas_event"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Patchouli's Poisoned Treats",
+                        "chest_unopened_img": "images/items/check_item_fade.png",
+                        "chest_opened_img": "images/items/check_item.png",
+                        "access_rules": [
+                            "^$CanReach|Patchouli's Poisoned Treats"
+                        ],
+                        "visibility_rules": ["halloween_event"],
                         "item_count": 1
                     },
                     {

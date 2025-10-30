@@ -9,6 +9,150 @@
         ],
         "children": [
             {
+                "name": "Calamis' Aftermath",
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "access_rules": [
+                    "^$CanReach|Calamis' Aftermath"
+                ],
+                "visibility_rules": ["lore_on"],
+                "sections": [
+                    {
+                        "name": "",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    { 
+                       "map": "Terminus Prison",
+                       "x": 743,
+                       "y": 413
+                    }
+                ]
+            },
+            {
+                "name": "Joyous Escapee",
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "access_rules": [
+                    "^$CanReach|Joyous Escapee"
+                ],
+                "visibility_rules": ["lore_on"],
+                "sections": [
+                    {
+                        "name": "",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    { 
+                       "map": "Terminus Prison",
+                       "x": 1700,
+                       "y": 900
+                    }
+                ]
+            },
+            {
+                "name": "Jail Complaint",
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "access_rules": [
+                    "^$CanReach|Jail Complaint"
+                ],
+                "visibility_rules": ["lore_on"],
+                "sections": [
+                    {
+                        "name": "",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    { 
+                       "map": "Terminus Prison",
+                       "x": 950,
+                       "y": 1050
+                    }
+                ]
+            },
+            {
+                "name": "On Becoming Friends with Skeletons",
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "access_rules": [
+                    "^$CanReach|On Becoming Friends with Skeletons"
+                ],
+                "visibility_rules": ["lore_on"],
+                "sections": [
+                    {
+                        "name": "",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    { 
+                       "map": "Terminus Prison",
+                       "x": 1016,
+                       "y": 916
+                    }
+                ]
+            },
+            {
+                "name": "On The Dreamer and Creatures",
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "access_rules": [
+                    "^$CanReach|On The Dreamer and Creatures"
+                ],
+                "visibility_rules": ["lore_on"],
+                "sections": [
+                    {
+                        "name": "",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    { 
+                       "map": "Terminus Prison",
+                       "x": 1589,
+                       "y": 467
+                    }
+                ]
+            },
+            {
+                "name": "Insane Ramblings of a Prisoner",
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "access_rules": [
+                    "^$CanReach|Insane Ramblings of a Prisoner"
+                ],
+                "visibility_rules": ["lore_on"],
+                "sections": [
+                    {
+                        "name": "",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    { 
+                       "map": "Terminus Prison",
+                       "x": 1240,
+                       "y": 1074
+                    }
+                ]
+            },
+            {
                 "name": "Lobos' Late Treats",
                 "chest_unopened_img": "images/items/check_misc_fade.png",
                 "chest_opened_img": "images/items/check_misc.png",
@@ -190,6 +334,12 @@
                         "access_rules": [],
                         "visibility_rules": [],
                         "item_count": 1
+                    },
+                    {
+                        "name": "Changing Creatures and Self",
+                        "access_rules": [],
+                        "visibility_rules": ["lore_on"],
+                        "item_count": 1
                     }
                 ],
                 "map_locations": [
@@ -237,6 +387,14 @@
                         "name": "Fishing Spear",
                         "access_rules": [],
                         "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Fisher's Last Words",
+                        "chest_unopened_img": "images/items/check_misc_fade.png",
+                        "chest_opened_img": "images/items/check_misc.png",
+                        "access_rules": [],
+                        "visibility_rules": ["lore_on"],
                         "item_count": 1
                     }
                 ],
@@ -489,6 +647,13 @@
                        "name": "Moonpetal",
                        "chest_unopened_img": "images/items/check_misc_fade.png",
                        "chest_opened_img": "images/items/check_misc.png",
+                       "item_count": 1
+                    },
+                    { 
+                       "name": "Etna's Final Moments",
+                       "chest_unopened_img": "images/items/check_misc_fade.png",
+                       "chest_opened_img": "images/items/check_misc.png",
+                       "visibility_rules": ["lore_on"],
                        "item_count": 1
                     }
                  ],

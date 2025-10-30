@@ -494,6 +494,60 @@
                         "y": 631
                      }
                   ]
+               },
+               {
+                  "name": "Sand Temple Backrooms Switch",
+                  "visibility_rules": [
+                     "switch_locks"
+                  ],
+                  "access_rules": [
+                     "^$CanReach|Sand Temple Backrooms Switch"
+                  ],
+                  "chest_unopened_img": "images/items/check_misc_fade.png",
+                  "chest_opened_img": "images/items/check_misc.png",
+                  "sections": [
+                     { 
+                        "name": "Locks Sand Temple Backrooms",
+                        "hosted_item": "boil_switch_3",
+                        "item_count": 1
+                     }
+                  ],
+                  "map_locations": [
+                     { 
+                        "map": "Boiling Grotto",
+                        "shape": "diamond",
+                        "size": 36,
+                        "x": 1590,
+                        "y": 654
+                     }
+                  ]
+               },
+               {
+                  "name": "Sand Temple Witch Tomb Switch",
+                  "visibility_rules": [
+                     "switch_locks"
+                  ],
+                  "access_rules": [
+                     "^$CanReach|Sand Temple Witch Tomb Switch"
+                  ],
+                  "chest_unopened_img": "images/items/check_misc_fade.png",
+                  "chest_opened_img": "images/items/check_misc.png",
+                  "sections": [
+                     { 
+                        "name": "Locks Witch Tomb",
+                        "hosted_item": "boil_switch_4",
+                        "item_count": 1
+                     }
+                  ],
+                  "map_locations": [
+                     { 
+                        "map": "Boiling Grotto",
+                        "shape": "diamond",
+                        "size": 36,
+                        "x": 1280,
+                        "y": 644
+                     }
+                  ]
                }
             ]
          },

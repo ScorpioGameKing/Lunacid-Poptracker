@@ -9,6 +9,86 @@
         ],
         "children": [
             {
+                "name": "Calamis Diaries",
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                
+                "visibility_rules": ["lore_on"],
+                "sections": [
+                    {
+                        "name": "Calamis Diary 1",
+                        "access_rules": [
+                            "^$CanReach|Calamis Diary 1"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Calamis Diary 2",
+                        "access_rules": [
+                            "^$CanReach|Calamis Diary 2"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    { 
+                       "map": "Boiling Grotto",
+                       "x": 1630,
+                       "y": 270
+                    }
+                 ]
+            },
+            {
+                "name": "Calamis Diary 3",
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "access_rules": [
+                    "^$CanReach|Calamis Diary 3"
+                ],
+                "visibility_rules": ["lore_on"],
+                "sections": [
+                    {
+                        "name": "",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    { 
+                       "map": "Boiling Grotto",
+                       "x": 1860,
+                       "y": 136
+                    }
+                 ]
+            },
+            {
+                "name": "Calamis Diary 4",
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "access_rules": [
+                    "^$CanReach|Calamis Diary 4"
+                ],
+                "visibility_rules": ["lore_on"],
+                "sections": [
+                    {
+                        "name": "",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    { 
+                       "map": "Boiling Grotto",
+                       "x": 2070,
+                       "y": 536
+                    }
+                 ]
+            },
+            {
                 "name": "Top Right Sarcophagus",
                 "chest_unopened_img": "images/items/check_item_fade.png",
                 "chest_opened_img": "images/items/check_item.png",

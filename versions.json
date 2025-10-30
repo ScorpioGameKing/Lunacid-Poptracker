@@ -1,6 +1,16 @@
 {
     "versions": [
         {
+            "package_version": "0.9.5",
+            "download_url": "https://github.com/ScorpioGameKing/Lunacid-Poptracker/releases/download/beta-0.9.5/Lunacid-Poptracker-0.9.5.zip",
+            "sha256": "2996220a462355a2fa54fd17a094d38dbc280aaae64dadfacaa9ac8c4bf130bd",
+            "changelog": [
+                "Halloween Event bugfixes",
+                "general bugfixes",
+                "Loresanity Support"
+            ]
+        },
+        {
             "package_version": "0.9.4",
             "download_url": "https://github.com/ScorpioGameKing/Lunacid-Poptracker/releases/download/beta-0.9.4/Lunacid-Poptracker-0.9.4.zip",
             "sha256": "a508c2aac316a11738c66945c0b303e56b5e27bbe371ef90e7f7cd6a0af6984f",

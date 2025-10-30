@@ -9,6 +9,54 @@
         ],
         "children": [
             {
+                "name": "Bestial Writings",
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "access_rules": [
+                    "^$CanReach|Bestial Writings"
+                ],
+                "visibility_rules": ["lore_on"],
+                "sections": [
+                    {
+                        "name": "",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Laetus Chasm",
+                        "x": 1085,
+                        "y": 960
+                    }
+                ]
+            },
+            {
+                "name": "Plea for a Leap of Faith",
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "access_rules": [
+                    "^$CanReach|Plea for a Leap of Faith"
+                ],
+                "visibility_rules": ["lore_on"],
+                "sections": [
+                    {
+                        "name": "",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Laetus Chasm",
+                        "x": 1312,
+                        "y": 285
+                    }
+                ]
+            },
+            {
                 "name": "Hidden Room", 
                 "chest_unopened_img": "images/items/check_spell_fade.png",
                 "chest_opened_img": "images/items/check_spell.png",

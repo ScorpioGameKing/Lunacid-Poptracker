@@ -9,6 +9,88 @@
         ],
         "children": [
             {
+                "name": "Abdul's Domain",
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "access_rules": [
+                    "^$CanReach|Abdul's Domain"
+                ],
+                "visibility_rules": ["lore_on"],
+                "sections": [
+                    {
+                        "name": "On How to Blaspheme",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "A Way to Escape With Byagototh",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "The Last Before Becoming Centaur-like",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Abdul's Journal",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    { 
+                       "map": "Labyrinth of Ash",
+                       "x": 120,
+                       "y": 1000
+                    }
+                ]
+            },
+            {
+                "name": "Prayer For the Golden",
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "access_rules": [
+                    "^$CanReach|Prayer For the Golden"
+                ],
+                "visibility_rules": ["lore_on"],
+                "sections": [
+                    {
+                        "name": "",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    { 
+                       "map": "Labyrinth of Ash",
+                       "x": 268,
+                       "y": 530
+                    }
+                ]
+            },
+            {
+                "name": "Warning Against Abdul's Domain",
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "access_rules": [
+                    "^$CanReach|Warning Against Abdul's Domain"
+                ],
+                "visibility_rules": ["lore_on"],
+                "sections": [
+                    {
+                        "name": "",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    { 
+                       "map": "Labyrinth of Ash",
+                       "x": 1140,
+                       "y": 548
+                    }
+                ]
+            },
+            {
                 "name": "Entry Coffin",
                 "chest_unopened_img": "images/items/check_item_fade.png",
                 "chest_opened_img": "images/items/check_item.png",

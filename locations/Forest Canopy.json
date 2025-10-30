@@ -9,6 +9,30 @@
         ],
         "children": [
             {
+                "name": "Tranquil Dead End Writings",
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "access_rules": [
+                    "^$CanReach|Tranquil Dead End Writings"
+                ],
+                "visibility_rules": ["lore_on"],
+                "sections": [
+                    {
+                        "name": "",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    { 
+                       "map": "Forest Canopy",
+                       "x": 870,
+                       "y": 240
+                    }
+                ]
+            },
+            {
                 "name": "Branch Lower Edge",
                 "chest_unopened_img": "images/items/check_misc_fade.png",
                 "chest_opened_img": "images/items/check_misc.png",

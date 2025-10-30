@@ -15,7 +15,20 @@
             "sections": [
                {
                   "name": "Replica Sword",
-                  "item_count": 1
+                  "item_count": 1,
+                  "access_rules": [
+                     "^$CanReach|Encouraging Statue"
+                  ]
+               },
+               {
+                  "name": "Encouraging Statue's Words",
+                  "item_count": 1,
+                  "visibility_rules": ["lore_on"],
+                  "chest_unopened_img": "images/items/check_item_fade.png",
+                  "chest_opened_img": "images/items/check_item.png",
+                  "access_rules": [
+                     "^$CanReach|Encouraging Statue's Words"
+                  ]
                }
             ],
             "map_locations": [
@@ -24,9 +37,174 @@
                   "x": 640,
                   "y": 835
                }
-            ],
+            ]
+         },
+         {
+            "name": "Final Advice",
+            "chest_unopened_img": "images/items/check_misc_fade.png",
+            "chest_opened_img": "images/items/check_misc.png",
             "access_rules": [
-               "^$CanReach|Encouraging Statue"
+               "^$CanReach|Final Advice"
+            ],
+            "visibility_rules": ["lore_on"],
+            "sections": [
+               {
+                  "name": "",
+                  "access_rules": [],
+                  "visibility_rules": [],
+                  "item_count": 1
+               }
+            ],
+            "map_locations": [
+               {
+                  "map": "Hollow Basin",
+                  "x": 680,
+                  "y": 980
+               }
+            ]
+         },
+         {
+            "name": "Cultist's Writings",
+            "chest_unopened_img": "images/items/check_misc_fade.png",
+            "chest_opened_img": "images/items/check_misc.png",
+            "access_rules": [
+               "^$CanReach|Cultist's Writings"
+            ],
+            "visibility_rules": ["lore_on"],
+            "sections": [
+               {
+                  "name": "",
+                  "access_rules": [],
+                  "visibility_rules": [],
+                  "item_count": 1
+               }
+            ],
+            "map_locations": [
+               {
+                  "map": "Hollow Basin",
+                  "x": 560,
+                  "y": 1790
+               }
+            ]
+         },
+         {
+            "name": "To Hunger, To Die",
+            "chest_unopened_img": "images/items/check_misc_fade.png",
+            "chest_opened_img": "images/items/check_misc.png",
+            "access_rules": [
+               "^$CanReach|To Hunger, To Die"
+            ],
+            "visibility_rules": ["lore_on"],
+            "sections": [
+               {
+                  "name": "",
+                  "access_rules": [],
+                  "visibility_rules": [],
+                  "item_count": 1
+               }
+            ],
+            "map_locations": [
+               {
+                  "map": "Hollow Basin",
+                  "x": 358,
+                  "y": 1628
+               }
+            ]
+         },
+         {
+            "name": "Visions of Byagototh",
+            "chest_unopened_img": "images/items/check_misc_fade.png",
+            "chest_opened_img": "images/items/check_misc.png",
+            "access_rules": [
+               "^$CanReach|Visions of Byagototh"
+            ],
+            "visibility_rules": ["lore_on"],
+            "sections": [
+               {
+                  "name": "",
+                  "access_rules": [],
+                  "visibility_rules": [],
+                  "item_count": 1
+               }
+            ],
+            "map_locations": [
+               {
+                  "map": "Hollow Basin",
+                  "x": 268,
+                  "y": 1600
+               }
+            ]
+         },
+         {
+            "name": "Autopsy Report",
+            "chest_unopened_img": "images/items/check_misc_fade.png",
+            "chest_opened_img": "images/items/check_misc.png",
+            "access_rules": [
+               "^$CanReach|Autopsy Report"
+            ],
+            "visibility_rules": ["lore_on"],
+            "sections": [
+               {
+                  "name": "",
+                  "access_rules": [],
+                  "visibility_rules": [],
+                  "item_count": 1
+               }
+            ],
+            "map_locations": [
+               {
+                  "map": "Hollow Basin",
+                  "x": 824,
+                  "y": 1410
+               }
+            ]
+         },
+         {
+            "name": "On the Bodies of Abdul Cultists",
+            "chest_unopened_img": "images/items/check_misc_fade.png",
+            "chest_opened_img": "images/items/check_misc.png",
+            "access_rules": [
+               "^$CanReach|On the Bodies of Abdul Cultists"
+            ],
+            "visibility_rules": ["lore_on"],
+            "sections": [
+               {
+                  "name": "",
+                  "access_rules": [],
+                  "visibility_rules": [],
+                  "item_count": 1
+               }
+            ],
+            "map_locations": [
+               {
+                  "map": "Hollow Basin",
+                  "x": 983,
+                  "y": 1748
+               }
+            ]
+         },
+         {
+            "name": "You're in the know right?",
+            "chest_unopened_img": "images/items/check_misc_fade.png",
+            "chest_opened_img": "images/items/check_misc.png",
+            "access_rules": [
+               "^$CanReach|You're in the know right?"
+            ],
+            "visibility_rules": ["lore_on"],
+            "sections": [
+               {
+                  "name": "",
+                  "access_rules": [],
+                  "visibility_rules": [],
+                  "item_count": 1
+               }
+            ],
+            "map_locations": [
+               {
+                  "map": "Hollow Basin",
+                  "x": 317,
+                  "y": 1759
+               }
             ]
          },
          {

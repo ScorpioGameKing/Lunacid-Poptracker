@@ -783,6 +783,13 @@
         "codes": "starting_area"
     },
     {
+        "name": "Bookworm",
+        "type": "toggle",
+        "img": "images/settings/bookworm_on.png",
+        "disabled_img": "images/settings/bookworm_off.png",
+        "codes": "lore_on"
+    },
+    {
         "name": "Update Toggle",
         "type": "toggle",
         "codes": "update"
@@ -1047,7 +1054,7 @@
         "type": "consumable",
         "img": "images/items/item_soulcandy.png",
         "min_quantity": 0,
-        "max_quantity": 7,
+        "max_quantity": 35,
         "codes": "soulcandy"
     }
 ]

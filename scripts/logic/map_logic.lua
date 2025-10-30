@@ -31,7 +31,7 @@ VANILLA_MAP_LOGIC = {
     ["Throne Chamber"] = function() return And(CanEnter("Castle Le Fanu"), IsItemStageAtLeastN("progressivevampiricsymbol", 3)) end,
 
     ["Sealed Ballroom"] = function() return And(CanEnter("Castle Le Fanu"), IsItemStageAtLeastN("progressivevampiricsymbol", 2),
-                                                And(HasElement("ele_dark"), Or(CanJumpHeight("High"), WasItemReceived("ranged_attacks")))) end, -- can activate switch
+                                                And(Or(HasElement("ele_dark"), HasElement("ele_poison")), Or(CanJumpHeight("High"), WasItemReceived("ranged_attacks")))) end, -- can activate switch
 
     ["Terminus Prison"] = function() return CanEnter("Throne Chamber") end,
 
@@ -43,9 +43,12 @@ VANILLA_MAP_LOGIC = {
 }
 
 ER_MAP_LOGIC = {
-    ["Hollow Basin"] = function() return Or(HasConnection("Broken Steps Door (Hollow Basin Side)"),
-                                            HasConnection("Sewers Door (Hollow Basin Side)"),
-                                            HasConnection("Rickety Bridge Door (Hollow Basin Side)")) end,
+    ["Hollow Basin"] = function() return HasAnyConnection({
+        "Hollow Basin Ceiling",
+        "Broken Steps Door (Hollow Basin Side)",
+        "Sewers Door (Hollow Basin Side)",
+        "Rickety Bridge Door (Hollow Basin Side)"
+    }) end,
 
     ["Forbidden Archives"] = function() return Or(HasConnection("Broken Steps Door (Forbidden Archives Side)"),
                                             And(HasConnection('Library Exit Door (Forbidden Archives Side)'), IsItemStageAtLeastN("progressivevampiricsymbol", 2))) end,
@@ -76,7 +79,7 @@ ER_MAP_LOGIC = {
     ["Laetus Chasm"] = function() return Or(HasConnection('Library Exit Door (Laetus Chasm Side)'),
                                             HasConnection('Surface Door (Laetus Chasm Side)')) end,
 
-    ["Great Well Surface"] = function() return CanJumpHeight("High") end,
+    ["Great Well Surface"] = function() return Or(HasConnection("Surface Door (Great Well Surface Side)"), CanJumpHeight("High")) end,
 
     ["Boiling Grotto"] = function() return HasConnection('Burning Hot Door (Boiling Grotto Side)') end,
 

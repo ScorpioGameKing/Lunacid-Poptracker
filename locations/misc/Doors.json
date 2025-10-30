@@ -67,11 +67,11 @@
                         ]
                     },
                     {
-                        "name": "Surface Hole",
+                        "name": "Hollow Basin Ceiling",
                         "chest_unopened_img": "images/items/check_misc_fade.png",
                         "chest_opened_img": "images/items/check_misc.png",
                         "access_rules": [
-                            "^$CanReach|Surface Hole (Hollow Basin)"
+                            "^$CanReach|Hollow Basin Ceiling"
                         ],
                         "sections": [
                             {
@@ -700,9 +700,9 @@
                ]
            },
             {
-               "name": "Leatus Chasm",
+               "name": "Laetus Chasm",
                "access_rules": [
-                   "^$CanEnter|Leatus Chasm"
+                   "^$CanEnter|Laetus Chasm"
                ],
                "children": [
                   {
