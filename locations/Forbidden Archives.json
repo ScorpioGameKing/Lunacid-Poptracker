@@ -35,7 +35,7 @@
                 "chest_unopened_img": "images/items/check_misc_fade.png",
                 "chest_opened_img": "images/items/check_misc.png",
                 "access_rules": [
-                    "^$CanReach|History of the Ages, Volume 17, excerpt 5"
+                    "^$CanReach|History of the Ages Volume 17 excerpt 5"
                 ],
                 "visibility_rules": ["lore_on"],
                 "sections": [
@@ -59,7 +59,7 @@
                 "chest_unopened_img": "images/items/check_misc_fade.png",
                 "chest_opened_img": "images/items/check_misc.png",
                 "access_rules": [
-                    "^$CanReach|History of the Ages, Volume 17, excerpt 6"
+                    "^$CanReach|History of the Ages Volume 17 excerpt 6"
                 ],
                 "visibility_rules": ["lore_on"],
                 "sections": [
@@ -83,7 +83,7 @@
                 "chest_unopened_img": "images/items/check_misc_fade.png",
                 "chest_opened_img": "images/items/check_misc.png",
                 "access_rules": [
-                    "^$CanReach|History of the Ages, Volume 17, excerpt 7"
+                    "^$CanReach|History of the Ages Volume 17 excerpt 7"
                 ],
                 "visibility_rules": ["lore_on"],
                 "sections": [
@@ -107,7 +107,7 @@
                 "chest_unopened_img": "images/items/check_misc_fade.png",
                 "chest_opened_img": "images/items/check_misc.png",
                 "access_rules": [
-                    "^$CanReach|History of the Ages, Volume 17, excerpt 8"
+                    "^$CanReach|History of the Ages Volume 17 excerpt 8"
                 ],
                 "visibility_rules": ["lore_on"],
                 "sections": [
@@ -131,7 +131,7 @@
                 "chest_unopened_img": "images/items/check_misc_fade.png",
                 "chest_opened_img": "images/items/check_misc.png",
                 "access_rules": [
-                    "^$CanReach|History of the Ages, Volume 17, excerpt 9"
+                    "^$CanReach|History of the Ages Volume 17 excerpt 9"
                 ],
                 "visibility_rules": ["lore_on"],
                 "sections": [
@@ -155,7 +155,7 @@
                 "chest_unopened_img": "images/items/check_misc_fade.png",
                 "chest_opened_img": "images/items/check_misc.png",
                 "access_rules": [
-                    "^$CanReach|History of the Ages, Volume 20, excerpt 2"
+                    "^$CanReach|History of the Ages Volume 20 excerpt 2"
                 ],
                 "visibility_rules": ["lore_on"],
                 "sections": [
@@ -179,7 +179,7 @@
                 "chest_unopened_img": "images/items/check_misc_fade.png",
                 "chest_opened_img": "images/items/check_misc.png",
                 "access_rules": [
-                    "^$CanReach|History of the Ages, Volume 20, excerpt 3"
+                    "^$CanReach|History of the Ages Volume 20 excerpt 3"
                 ],
                 "visibility_rules": ["lore_on"],
                 "sections": [

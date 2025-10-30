@@ -785,6 +785,8 @@
     {
         "name": "Bookworm",
         "type": "toggle",
+        "img": "images/settings/bookworm_on.png",
+        "disabled_img": "images/settings/bookworm_off.png",
         "codes": "lore_on"
     },
     {

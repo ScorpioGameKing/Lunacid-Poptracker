@@ -262,19 +262,19 @@ VANILLA_LOCATION_LOGIC = {
     ["Wooden Statue (Sitting)"]     = function() return AccessibilityLevel.Normal end,
 
 -- Forbidden Archives
-    ["History of the Ages, Volume 20, excerpt 2"] = function() return Or(CanJumpHeight("High"), HasSwitch("forbiddenarchiveselevatorswitchkeyring")) end,
+    ["History of the Ages Volume 20 excerpt 2"] = function() return Or(CanJumpHeight("High"), HasSwitch("forbiddenarchiveselevatorswitchkeyring")) end,
 
-    ["History of the Ages, Volume 20, excerpt 3"] = function() return Or(CanJumpHeight("High"), HasSwitch("forbiddenarchiveselevatorswitchkeyring")) end,
+    ["History of the Ages Volume 20 excerpt 3"] = function() return Or(CanJumpHeight("High"), HasSwitch("forbiddenarchiveselevatorswitchkeyring")) end,
 
-    ["History of the Ages, Volume 17, excerpt 5"] = function() return AccessibilityLevel.Normal end,
+    ["History of the Ages Volume 17 excerpt 5"] = function() return AccessibilityLevel.Normal end,
 
-    ["History of the Ages, Volume 17, excerpt 6"] = function() return AccessibilityLevel.Normal end,
+    ["History of the Ages Volume 17 excerpt 6"] = function() return AccessibilityLevel.Normal end,
 
-    ["History of the Ages, Volume 17, excerpt 7"] = function() return AccessibilityLevel.Normal end,
+    ["History of the Ages Volume 17 excerpt 7"] = function() return AccessibilityLevel.Normal end,
 
-    ["History of the Ages, Volume 17, excerpt 8"] = function() return AccessibilityLevel.Normal end,
+    ["History of the Ages Volume 17 excerpt 8"] = function() return AccessibilityLevel.Normal end,
 
-    ["History of the Ages, Volume 17, excerpt 9"] = function() return AccessibilityLevel.Normal end,
+    ["History of the Ages Volume 17 excerpt 9"] = function() return AccessibilityLevel.Normal end,
 
     ["Monument to Lyria"]           = function() return AccessibilityLevel.Normal end,
 
@@ -437,6 +437,8 @@ VANILLA_LOCATION_LOGIC = {
 
     ["Calamis Diary 3"]         = function() return And(CanJumpHeight("Medium"), HasSwitch("grottofireswitchkeyring")) end,
 
+    ["Calamis Diary 4"]         = function() return And(CanJumpHeight("Medium"), HasSwitch("grottofireswitchkeyring")) end,
+
     ["Room Buried in Sand"]     = function() return HasSwitch("grottofireswitchkeyring") end,
 
     ["Top Right Sarcophagus"]   = function() return HasSwitch("grottofireswitchkeyring") end,
@@ -462,6 +464,8 @@ VANILLA_LOCATION_LOGIC = {
     ["Triple Sarcophagus"]      = function() return HasSwitch("grottofireswitchkeyring") end,
 
 -- Tower of Abyss
+    ["Tower Introduction"]       = function() return AccessibilityLevel.Normal end,
+
     ["Floor 5"]       = function() return HasDoorKey("towerofabysskeyring") end,
 
     ["Floor 10"]      = function() return HasDoorKey("towerofabysskeyring") end,
@@ -945,6 +949,7 @@ ER_LOCATION_LOGIC = {
 }
 
 function CanReach(location)
+    print(location)
     if Tracker:FindObjectForCode('entrance_toggle').Active or Tracker:FindObjectForCode("starting_area").AcquiredCount > 0 then
         if type(ER_LOCATION_LOGIC[location]) == "function" then
             return ER_LOCATION_LOGIC[location]()

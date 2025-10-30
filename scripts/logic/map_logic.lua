@@ -31,7 +31,7 @@ VANILLA_MAP_LOGIC = {
     ["Throne Chamber"] = function() return And(CanEnter("Castle Le Fanu"), IsItemStageAtLeastN("progressivevampiricsymbol", 3)) end,
 
     ["Sealed Ballroom"] = function() return And(CanEnter("Castle Le Fanu"), IsItemStageAtLeastN("progressivevampiricsymbol", 2),
-                                                And(HasElement("ele_dark"), Or(CanJumpHeight("High"), WasItemReceived("ranged_attacks")))) end, -- can activate switch
+                                                And(Or(HasElement("ele_dark"), HasElement("ele_poison")), Or(CanJumpHeight("High"), WasItemReceived("ranged_attacks")))) end, -- can activate switch
 
     ["Terminus Prison"] = function() return CanEnter("Throne Chamber") end,
 
