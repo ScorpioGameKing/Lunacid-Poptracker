@@ -216,6 +216,7 @@ function onLocation(location_id, location_name)
         if location_obj then
 
             if location:sub(1, 1) == "@" then
+                print(location)
                 location_obj.AvailableChestCount = location_obj.AvailableChestCount - 1
             else
                 location_obj.Active = true
@@ -274,9 +275,6 @@ Archipelago:AddSetReplyHandler("DataStorageHandler", function (key, value, oldVa
         end
         TRAVERSED_ENTRANCES = mapData
         print(dump_table(mapData, 2))
-        if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
-            print(dump_table(mapData, 2))
-        end
     end
 
     if key == string.format("Slot:%d:LV_GATE_BASIN", Archipelago.PlayerNumber) then
@@ -336,9 +334,6 @@ Archipelago:AddRetrievedHandler("DataStorageHandler", function (key, value)
         end
         TRAVERSED_ENTRANCES = mapData
         print(dump_table(mapData, 2))
-        if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
-            print(dump_table(mapData, 2))
-        end
     end
 
     if key == string.format("Slot:%d:LV_GATE_BASIN", Archipelago.PlayerNumber) then
@@ -401,7 +396,8 @@ function AutoFill()
         etnas_pupil = {code="etna_on", mapping=nil},
         quenchsanity = {code="quench_on", mapping=nil},
         starting_area = {code="starting_area", mapping=nil},
-        starting_class = {code="starting_class", mapping=nil}
+        starting_class = {code="starting_class", mapping=nil},
+        bookworm = {code="lore_on", mapping=nil}
         -- enemy_randomization = {code="enemy_toggle", mapping=nil},
     }
 
@@ -441,6 +437,8 @@ function AutoFill()
     if SLOT_DATA["rolled_month"] == 12 then
         Tracker:FindObjectForCode("christmas_event").Active = true
     end
+    print(dump_table(SLOT_DATA))
+    print(Tracker:FindObjectForCode("lore_on").Active)
 end
 
 function Update()

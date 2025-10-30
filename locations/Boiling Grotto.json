@@ -9,6 +9,78 @@
         ],
         "children": [
             {
+                "name": "Gravestones of Sir Jeff and Sir David",
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "access_rules": [
+                    "^$CanReach|Gravestones of Sir Jeff and Sir David"
+                ],
+                "visibility_rules": ["lore_on"],
+                "sections": [
+                    {
+                        "name": "",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    { 
+                       "map": "Boiling Grotto",
+                       "x": 190,
+                       "y": 200
+                    }
+                 ]
+            },
+            {
+                "name": "Gravestone of Sir Hicket",
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "access_rules": [
+                    "^$CanReach|Gravestone of Sir Hicket"
+                ],
+                "visibility_rules": ["lore_on"],
+                "sections": [
+                    {
+                        "name": "",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    { 
+                       "map": "Boiling Grotto",
+                       "x": 340,
+                       "y": 290
+                    }
+                 ]
+            },
+            {
+                "name": "Story of Sir Hicket",
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "access_rules": [
+                    "^$CanReach|Story of Sir Hicket"
+                ],
+                "visibility_rules": ["lore_on"],
+                "sections": [
+                    {
+                        "name": "",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    { 
+                       "map": "Boiling Grotto",
+                       "x": 460,
+                       "y": 410
+                    }
+                 ]
+            },
+            {
                 "name": "Corpse Beneath Entrance",
                 "chest_unopened_img": "images/items/check_coin_fade.png",
                 "chest_opened_img": "images/items/check_coin.png",

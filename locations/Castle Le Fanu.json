@@ -9,6 +9,222 @@
         ],
         "children": [
             {
+                "name": "Status Report on Castle Le Fanu",
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "access_rules": [
+                    "^$CanReach|Status Report on Castle Le Fanu"
+                ],
+                "visibility_rules": ["lore_on"],
+                "sections": [
+                    {
+                        "name": "",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    { 
+                       "map": "Castle Le Fanu",
+                       "x": 1760,
+                       "y": 510
+                    }
+                 ]
+            },
+            {
+                "name": "Jusztina's Diary 1",
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "access_rules": [
+                    "^$CanReach|Jusztina's Diary 1"
+                ],
+                "visibility_rules": ["lore_on"],
+                "sections": [
+                    {
+                        "name": "",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    { 
+                       "map": "Castle Le Fanu",
+                       "x": 2025,
+                       "y": 342
+                    }
+                 ]
+            },
+            {
+                "name": "Jusztina's Diary 2",
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "access_rules": [
+                    "^$CanReach|Jusztina's Diary 2"
+                ],
+                "visibility_rules": ["lore_on"],
+                "sections": [
+                    {
+                        "name": "",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    { 
+                       "map": "Castle Le Fanu",
+                       "x": 1700,
+                       "y": 692
+                    }
+                 ]
+            },
+            {
+                "name": "Ophelia's Letter to Jusztina 1",
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "access_rules": [
+                    "^$CanReach|Ophelia's Letter to Jusztina 1"
+                ],
+                "visibility_rules": ["lore_on"],
+                "sections": [
+                    {
+                        "name": "",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    { 
+                       "map": "Castle Le Fanu",
+                       "x": 2304,
+                       "y": 400
+                    }
+                 ]
+            },
+            {
+                "name": "Ophelia's Letter to Jusztina 2",
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "access_rules": [
+                    "^$CanReach|Ophelia's Letter to Jusztina 2"
+                ],
+                "visibility_rules": ["lore_on"],
+                "sections": [
+                    {
+                        "name": "",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    { 
+                       "map": "Castle Le Fanu",
+                       "x": 1650,
+                       "y": 992
+                    }
+                 ]
+            },
+            {
+                "name": "Jusztina's Letter to Ophelia",
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "access_rules": [
+                    "^$CanReach|Jusztina's Letter to Ophelia"
+                ],
+                "visibility_rules": ["lore_on"],
+                "sections": [
+                    {
+                        "name": "",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    { 
+                       "map": "Castle Le Fanu",
+                       "x": 810,
+                       "y": 610
+                    }
+                 ]
+            },
+            {
+                "name": "Writings of Holy Relic Protection",
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "access_rules": [
+                    "^$CanReach|Writings of Holy Relic Protection"
+                ],
+                "visibility_rules": ["lore_on"],
+                "sections": [
+                    {
+                        "name": "",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    { 
+                       "map": "Castle Le Fanu",
+                       "x": 346,
+                       "y": 283
+                    }
+                 ]
+            },
+            {
+                "name": "Golden Lance Member's Plea",
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "access_rules": [
+                    "^$CanReach|Golden Lance Member's Plea"
+                ],
+                "visibility_rules": ["lore_on"],
+                "sections": [
+                    {
+                        "name": "",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    { 
+                       "map": "Castle Le Fanu",
+                       "x": 474,
+                       "y": 861
+                    }
+                 ]
+            },
+            {
+                "name": "Statue to the Great Knight of Lyria",
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "access_rules": [
+                    "^$CanReach|Statue to the Great Knight of Lyria"
+                ],
+                "visibility_rules": ["lore_on"],
+                "sections": [
+                    {
+                        "name": "",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    { 
+                       "map": "Castle Le Fanu",
+                       "x": 1222,
+                       "y": 1636
+                    }
+                 ]
+            },
+            {
                 "name": "Outside Corner",
                 "chest_unopened_img": "images/items/check_item_fade.png",
                 "chest_opened_img": "images/items/check_item.png",
@@ -147,7 +363,7 @@
                 "map_locations": [
                     { 
                        "map": "Castle Le Fanu",
-                       "x": 326,
+                       "x": 316,
                        "y": 283
                     }
                  ]

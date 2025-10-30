@@ -9,6 +9,102 @@
         ],
         "children": [
             {
+                "name": "One Who Has Too Much Humanity",
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "access_rules": [
+                    "^$CanReach|One Who Has Too Much Humanity"
+                ],
+                "visibility_rules": ["lore_on"],
+                "sections": [
+                    {
+                        "name": "",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    { 
+                       "map": "Forlorn Arena",
+                       "x": 700,
+                       "y": 1100
+                    }
+                ]
+            },
+            {
+                "name": "Seeker of Power",
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "access_rules": [
+                    "^$CanReach|Seeker of Power"
+                ],
+                "visibility_rules": ["lore_on"],
+                "sections": [
+                    {
+                        "name": "",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    { 
+                       "map": "Forlorn Arena",
+                       "x": 1040,
+                       "y": 1712
+                    }
+                ]
+            },
+            {
+                "name": "Seeker of the Great Curses",
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "access_rules": [
+                    "^$CanReach|Seeker of the Great Curses"
+                ],
+                "visibility_rules": ["lore_on"],
+                "sections": [
+                    {
+                        "name": "",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    { 
+                       "map": "Forlorn Arena",
+                       "x": 90,
+                       "y": 1650
+                    }
+                ]
+            },
+            {
+                "name": "On the Topic of Sucsarians",
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "access_rules": [
+                    "^$CanReach|On the Topic of Sucsarians"
+                ],
+                "visibility_rules": ["lore_on"],
+                "sections": [
+                    {
+                        "name": "",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    { 
+                       "map": "Forlorn Arena",
+                       "x": 910,
+                       "y": 430
+                    }
+                ]
+            },
+            {
                 "name": "Corpse Waiting For A Full Moon",
                 "chest_unopened_img": "images/items/check_weapon_fade.png",
                 "chest_opened_img": "images/items/check_weapon.png",

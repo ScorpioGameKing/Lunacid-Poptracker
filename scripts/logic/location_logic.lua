@@ -15,6 +15,8 @@ VANILLA_LOCATION_LOGIC = {
 
     ["Demi's Reward for All Soul Candies"] = function() return HasMoreThenNConsumables("soulcandy", 34) end,
 
+    ["Statue Honoring the Moon"] = function() return AccessibilityLevel.Normal end,
+
 -- Etna's Pupil
     ["Alchemize Concentrated Lunacy"] = function() return And(CanGetMaterial("ashes"), CanGetMaterial("moonpetal"), CanGetMaterial("obsidian")) end,
 
@@ -96,7 +98,21 @@ VANILLA_LOCATION_LOGIC = {
 
     ["Alcove on Path to Yosei Forest"]              = function() return And(CanEnterTemple(), HasSwitch("templeofsilenceswitchkey")) end,
 
+    ["Encouraging Statue's Words"]                  = function() return AccessibilityLevel.Normal end,
 
+    ["On the Bodies of Abdul Cultists"]             = function() return And(CanEnterTemple(), HasSwitch("templeofsilenceswitchkey"), HasDustyOrb()) end,
+
+    ["You're in the know right"]                    = function() return And(CanEnterTemple(), HasSwitch("templeofsilenceswitchkey"), HasDustyOrb()) end,
+
+    ["Visions of Byagototh"]                        = function() return And(CanEnterTemple(), HasDustyOrb(), CanJumpHeight("High")) end,
+
+    ["Final Advice"]                                = function() return AccessibilityLevel.Normal end,
+
+    ["To Hunger, To Die"]                           = function() return CanEnterTemple() end,
+
+    ["Autopsy Report"]                              = function() return And(CanEnterTemple(), HasSwitch("templeofsilenceswitchkey")) end,
+
+    ["Cultist's Writings"]                          = function() return CanEnterTemple() end,
 
 -- The Fetide Mire
     ["Room Left of Foyer"]                  = function() return AccessibilityLevel.Normal end,
@@ -135,6 +151,12 @@ VANILLA_LOCATION_LOGIC = {
 
     ["Headless Horseman"]                   = function() return HasElement(ELEMENT_CODE.fire) end,
 
+    ["Bonenard's Admission of Infidelity"]  = function() return AccessibilityLevel.Normal end,
+
+    ["Sewer Traveler's Last Words"]  = function() return AccessibilityLevel.Normal end,
+
+    ["Garrat's Proclamation"]  = function() return AccessibilityLevel.Normal end,
+
 -- Sanguine Sea
     ["Pillar In Front of Castle Le Fanu"]   = function() return CanJumpHeight("High") end,
 
@@ -145,6 +167,8 @@ VANILLA_LOCATION_LOGIC = {
     ["Killing the Jotunn"]                  = function() return WasItemReceived("jotunnslayer") end,
 
 -- Accursed Tomb
+    ["To Light the Flames"]                 = function() return HasLightSource() end,
+
     ["Catacombs Coffins Near Stairs"]       = function() return HasLightSource() end,
 
     ["Catacombs Coffins With Blue Light"]   = function() return HasLightSource() end,
@@ -214,18 +238,46 @@ VANILLA_LOCATION_LOGIC = {
 
     ["Patchouli's Reward"]              = function() return WasItemReceived("skullofjosiah") end,
 
+    ["Tomb Warning"]                    = function() return AccessibilityLevel.Normal end,
+
+    ["On Carnivorous Plants"]           = function() return AccessibilityLevel.Normal end,
+
+    ["Drained Adventurer's Warning"]    = function() return AccessibilityLevel.Normal end,
+
+    ["Musings of What Lies Below"]      = function() return AccessibilityLevel.Normal end,
+
+    ["On Frustrations with Plantlife"]  = function() return AccessibilityLevel.Normal end,
+
 -- Forest Canopy
-    ["Branch Lower Edge"]       = function() return AccessibilityLevel.Normal end,
+    ["Tranquil Dead End Writings"]  = function() return AccessibilityLevel.Normal end,
 
-    ["Branch Cave"]             = function() return AccessibilityLevel.Normal end,
+    ["Branch Lower Edge"]           = function() return AccessibilityLevel.Normal end,
 
-    ["Chest"]                   = function() return AccessibilityLevel.Normal end,
+    ["Branch Cave"]                 = function() return AccessibilityLevel.Normal end,
 
-    ["Wooden Statue (Josiah)"]  = function() return AccessibilityLevel.Normal end,
+    ["Chest"]                       = function() return AccessibilityLevel.Normal end,
 
-    ["Wooden Statue (Sitting)"] = function() return AccessibilityLevel.Normal end,
+    ["Wooden Statue (Josiah)"]      = function() return AccessibilityLevel.Normal end,
+
+    ["Wooden Statue (Sitting)"]     = function() return AccessibilityLevel.Normal end,
 
 -- Forbidden Archives
+    ["History of the Ages, Volume 20, excerpt 2"] = function() return Or(CanJumpHeight("High"), HasSwitch("forbiddenarchiveselevatorswitchkeyring")) end,
+
+    ["History of the Ages, Volume 20, excerpt 3"] = function() return Or(CanJumpHeight("High"), HasSwitch("forbiddenarchiveselevatorswitchkeyring")) end,
+
+    ["History of the Ages, Volume 17, excerpt 5"] = function() return AccessibilityLevel.Normal end,
+
+    ["History of the Ages, Volume 17, excerpt 6"] = function() return AccessibilityLevel.Normal end,
+
+    ["History of the Ages, Volume 17, excerpt 7"] = function() return AccessibilityLevel.Normal end,
+
+    ["History of the Ages, Volume 17, excerpt 8"] = function() return AccessibilityLevel.Normal end,
+
+    ["History of the Ages, Volume 17, excerpt 9"] = function() return AccessibilityLevel.Normal end,
+
+    ["Monument to Lyria"]           = function() return AccessibilityLevel.Normal end,
+
     ["Back Room Past Bridge"]       = function() return AccessibilityLevel.Normal end,
 
     ["Strange Corpse"]              = function() return HasDustyOrb() end,
@@ -263,15 +315,21 @@ VANILLA_LOCATION_LOGIC = {
 -- Castle Le Fanu
     ["Outside Corner"]                          = function() return AccessibilityLevel.Normal end,
 
+    ["Statue to the Great Knight of Lyria"]     = function() return AccessibilityLevel.Normal end,
+
     ["Cattle Cell (South)"]                     = function() return Or(CanEnterCattleCells(), IsItemStageAtLeastN("progressivevampiricsymbol", 2)) end,
 
     ["Cattle Cell (West)"]                      = function() return Or(CanEnterCattleCells(), IsItemStageAtLeastN("progressivevampiricsymbol", 2)) end,
 
     ["Cattle Cell (Center)"]                    = function() return And(Or(CanEnterCattleCells(), IsItemStageAtLeastN("progressivevampiricsymbol", 2)), HasElement("ele_fire")) end,
 
+    ["Golden Lance Member's Plea"]              = function() return And(Or(CanEnterCattleCells(), IsItemStageAtLeastN("progressivevampiricsymbol", 2)), HasElement("ele_fire")) end,
+    
     ["Cattle Cell (North)"]                     = function() return WasItemReceived("ele_blood") end,
 
     ["Hidden Cattle Cell"]                      = function() return And(WasItemReceived("ele_blood"), HasDustyOrb()) end,
+
+    ["Writings of Holy Relic Protection"]       = function() return And(WasItemReceived("ele_blood"), HasDustyOrb()) end,
 
     ["Crilall's Bloody Treats"]                 = function() return IsItemStageAtLeastN("progressivevampiricsymbol", 1) end,
 
@@ -283,20 +341,38 @@ VANILLA_LOCATION_LOGIC = {
 
     ["Garrat Resting Room (Wall)"]              = function() return IsItemStageAtLeastN("progressivevampiricsymbol", 1) end,
 
+    ["Jusztina's Letter to Ophelia"]            = function() return IsItemStageAtLeastN("progressivevampiricsymbol", 1) end,
+
+    ["Ophelia's Letter to Jusztina 2"]          = function() return IsItemStageAtLeastN("progressivevampiricsymbol", 1) end,
+
     ["Hallway Dead End Before Blue Doors"]      = function() return IsItemStageAtLeastN("progressivevampiricsymbol", 1) end,
+
+    ["Status Report on Castle Le Fanu"]         = function() return IsItemStageAtLeastN("progressivevampiricsymbol", 2) end,
 
     ["Upper Floor Coffin Room (Small Room)"]    = function() return IsItemStageAtLeastN("progressivevampiricsymbol", 2) end,
 
     ["Upper Floor Coffin Room (Large Room)"]    = function() return IsItemStageAtLeastN("progressivevampiricsymbol", 2) end,
+
+    ["Jusztina's Diary 1"]                      = function() return IsItemStageAtLeastN("progressivevampiricsymbol", 2) end,
+
+    ["Jusztina's Diary 2"]                      = function() return IsItemStageAtLeastN("progressivevampiricsymbol", 2) end,
+
+    ["Ophelia's Letter to Jusztina 1"]          = function() return IsItemStageAtLeastN("progressivevampiricsymbol", 3) end,
 
     ["Upper Floor Coffin Room (Double)"]        = function() return And(IsItemStageAtLeastN("progressivevampiricsymbol", 3), HasDustyOrb()) end,
 
     ["Upper Floor Coffin Room (Hallway)"]       = function() return IsItemStageAtLeastN("progressivevampiricsymbol", 2) end,
 
 -- Sealed Ballroom
+    ["Vampire's Complaint"]             = function() return AccessibilityLevel.Normal end,
+
     ["Entry Small Room Lounge"]         = function() return HasDoorKey("ballroomsideroomskeyring") end,
 
+    ["Realization of Holy Magic"]       = function() return HasDoorKey("ballroomsideroomskeyring") end,
+
     ["Entry Hidden Couch Top"]          = function() return And(HasDoorKey("ballroomsideroomskeyring"), HasDustyOrb()) end,
+
+    ["Trapped Invader's Writings"]      = function() return And(HasDoorKey("ballroomsideroomskeyring"), HasDustyOrb()) end,
 
     ["Entry Hidden Couch Bottom"]       = function() return And(HasDoorKey("ballroomsideroomskeyring"), HasDustyOrb()) end,
 
@@ -315,6 +391,10 @@ VANILLA_LOCATION_LOGIC = {
     ["Side XP Drain Party Room"]        = function() return HasDoorKey("ballroomsideroomskeyring") end,
 
 -- Laetus Chasm
+    ["Plea for a Leap of Faith"]    = function() return AccessibilityLevel.Normal end,
+
+    ["Bestial Writings"]            = function() return AccessibilityLevel.Normal end,
+
     ["Hidden Room"]                 = function() return HasDustyOrb() end,
 
     ["Invisible Path to Cliffside"] = function() return WereAnyItemsReceived({"coffin", "icarianflight"}) end,
@@ -329,21 +409,34 @@ VANILLA_LOCATION_LOGIC = {
     -- ["Sngula Umbra's Remains"] = function() return AccessibilityLevel.Normal end,
 
 -- Boiling Grotto
-    ["Slab of a Broken Bridge"]         = function() return AccessibilityLevel.Normal end,
 
-    ["BG: Hidden Chest"]                = function() return HasDustyOrb() end,
+    ["Gravestones of Sir Jeff and Sir David"]   = function() return AccessibilityLevel.Normal end,
 
-    ["Corpse Beneath Entrance"]         = function() return AccessibilityLevel.Normal end,
+    ["Gravestone of Sir Hicket"]                = function() return AccessibilityLevel.Normal end,
 
-    ["Shery's Delectable Treats"]       = function() return AccessibilityLevel.Normal end,
+    ["Story of Sir Hicket"]                     = function() return AccessibilityLevel.Normal end,
+    
+    ["Slab of a Broken Bridge"]                 = function() return AccessibilityLevel.Normal end,
 
-    ["Triple Hidden Chest"]             = function() return HasDustyOrb() end,
+    ["BG: Hidden Chest"]                        = function() return HasDustyOrb() end,
 
-    ["Lava Overseeing Dragon Switch"]   = function() return AccessibilityLevel.Normal end,
+    ["Corpse Beneath Entrance"]                 = function() return AccessibilityLevel.Normal end,
 
-    ["Through Dragon Switch Tunnel"]    = function() return AccessibilityLevel.Normal end,
+    ["Shery's Delectable Treats"]               = function() return AccessibilityLevel.Normal end,
+
+    ["Triple Hidden Chest"]                     = function() return HasDustyOrb() end,
+
+    ["Lava Overseeing Dragon Switch"]           = function() return AccessibilityLevel.Normal end,
+
+    ["Through Dragon Switch Tunnel"]            = function() return AccessibilityLevel.Normal end,
 
 -- Boiling Grotto (Sand Temple)
+    ["Calamis Diary 1"]         = function() return HasSwitch("grottofireswitchkeyring") end,
+
+    ["Calamis Diary 2"]         = function() return HasSwitch("grottofireswitchkeyring") end,
+
+    ["Calamis Diary 3"]         = function() return And(CanJumpHeight("Medium"), HasSwitch("grottofireswitchkeyring")) end,
+
     ["Room Buried in Sand"]     = function() return HasSwitch("grottofireswitchkeyring") end,
 
     ["Top Right Sarcophagus"]   = function() return HasSwitch("grottofireswitchkeyring") end,
@@ -430,15 +523,37 @@ VANILLA_LOCATION_LOGIC = {
 
     ["Fourth Floor Jailer Break Room"]              = function() return WasItemReceived("terminusprisonkey") end,
 
-    ["Etna's Resting Place Item 1"]                 = function() return WasItemReceived("terminusprisonkey") end,
-
-    ["Etna's Resting Place Item 2"]                 = function() return WasItemReceived("terminusprisonkey") end,
-
-    ["Etna's Resting Place Item 3"]                 = function() return WasItemReceived("terminusprisonkey") end,
+    ["Etna's Resting Place"]                        = function() return WasItemReceived("terminusprisonkey") end,
 
     ["Fourth Floor Collapsed Tunnel"]               = function() return WasItemReceived("terminusprisonkey") end,
 
+    ["Calamis' Aftermath"]                          = function() return WasItemReceived("terminusprisonkey") end,
+
+    ["Jail Complaint"]                              = function() return HasLightSource() end,
+
+    ["Insane Ramblings of a Prisoner"]              = function() return HasLightSource() end,
+
+    ["On Becoming Friends with Skeletons"]          = function() return HasLightSource() end,
+
+    ["On The Dreamer and Creatures"]                = function() return AccessibilityLevel.Normal end,
+
+    ["Joyous Escapee"]                              = function() return HasLightSource() end,
+
+    ["Fisher's Last Words"]                         = function() return HasLightSource() end,
+
+    ["Etna's Final Moments"]                        = function() return WasItemReceived("terminusprisonkey") end,
+
+    ["Changing Creatures and Self"]                 = function() return And(HasDustyOrb(), HasLightSource()) end,
+
 -- Forlorn Arena
+    ["Seeker of the Great Curses"]                     = function() return AccessibilityLevel.Normal end,
+
+    ["Seeker of Power"]                                = function() return AccessibilityLevel.Normal end,
+
+    ["On the Topic of Sucsarians"]                     = function() return Or(CanJumpHeight("High"), WasItemReceived("winddash")) end,
+
+    ["One Who Has Too Much Humanity"]                  = function() return AccessibilityLevel.Normal end,
+
     ["Corpse Waiting For A Full Moon"]                 = function() return AccessibilityLevel.Normal end,
 
     ["Entry Rock Parkour"]                             = function() return AccessibilityLevel.Normal end,
@@ -451,40 +566,46 @@ VANILLA_LOCATION_LOGIC = {
 
     ["Temple of Earth Chest Near Switch"]              = function() return AccessibilityLevel.Normal end,
 
-    ["Temple of Water Room Near Water"]                = function() return AccessibilityLevel.Normal end,
+    ["Temple of Water Room Near Water"]                = function() return Or(CanJumpHeight("High"), WasItemReceived("winddash")) end,
 
-    ["Temple of Water Corner Near Water"]              = function() return AccessibilityLevel.Normal end,
+    ["Temple of Water Corner Near Water"]              = function() return Or(CanJumpHeight("High"), WasItemReceived("winddash")) end,
 
-    ["Temple of Water Collapsed End Near Balcony"]     = function() return AccessibilityLevel.Normal end,
+    ["Temple of Water Collapsed End Near Balcony"]     = function() return Or(CanJumpHeight("High"), WasItemReceived("winddash")) end,
 
-    ["Temple of Water Hidden Basement"]                = function() return HasDustyOrb() end,
+    ["Temple of Water Hidden Basement"]                = function() return And(Or(CanJumpHeight("High"), WasItemReceived("winddash")), HasDustyOrb()) end,
 
-    ["Temple of Water Hidden Laser Room"]              = function() return HasDustyOrb() end,
+    ["Temple of Water Hidden Laser Room"]              = function() return And(Or(CanJumpHeight("High"), WasItemReceived("winddash")), HasDustyOrb()) end,
 
-    ["Temple of Water Hidden Alcove Before Stairs"]    = function() return HasDustyOrb() end,
+    ["Temple of Water Hidden Alcove Before Stairs"]    = function() return And(Or(CanJumpHeight("High"), WasItemReceived("winddash")), HasDustyOrb()) end,
 
-    ["Temple of Water Hidden Alcove"]                  = function() return HasDustyOrb() end,
+    ["Temple of Water Hidden Alcove"]                  = function() return And(Or(CanJumpHeight("High"), WasItemReceived("winddash")), HasDustyOrb()) end,
 
-    ["Temple of Water Hidden Alcove Before Switch"]    = function() return HasDustyOrb() end,
+    ["Temple of Water Hidden Alcove Before Switch"]    = function() return And(Or(CanJumpHeight("High"), WasItemReceived("winddash")), HasDustyOrb()) end,
 
-    ["Temple of Water Fractured Chest"]                = function() return And(HasDustyOrb(), CanJumpHeight("High")) end,
+    ["Temple of Water Fractured Chest"]                = function() return And(Or(CanJumpHeight("High")), HasDustyOrb()) end,
 
-    ["Temple of Water Chest Near Switch"]              = function() return AccessibilityLevel.Normal end,
+    ["Temple of Water Chest Near Switch"]              = function() return Or(CanJumpHeight("High"), WasItemReceived("winddash")) end,
 
 -- Labyrinth of Ash
-    ["Entry Coffin"]            = function() return AccessibilityLevel.Normal end,
+    ["Entry Coffin"]                    = function() return AccessibilityLevel.Normal end,
 
-    ["Giant Remains"]           = function() return HasDoorKey("ashendoorskeyring") end,
+    ["Giant Remains"]                   = function() return HasDoorKey("ashendoorskeyring") end,
 
-    ["Behind Statue"]           = function() return HasDoorKey("ashendoorskeyring") end,
+    ["Behind Statue"]                   = function() return HasDoorKey("ashendoorskeyring") end,
 
-    ["Rocks Near Switch"]       = function() return HasDoorKey("ashendoorskeyring") end,
+    ["Rocks Near Switch"]               = function() return HasDoorKey("ashendoorskeyring") end,
 
-    ["Forbidden Light Chest"]   = function() return HasDoorKey("ashendoorskeyring") end,
+    ["Forbidden Light Chest"]           = function() return HasDoorKey("ashendoorskeyring") end,
 
-    ["Hidden Light Stash"]      = function() return And(HasDoorKey("ashendoorskeyring"), HasDustyOrb()) end,
+    ["Hidden Light Stash"]              = function() return And(HasDoorKey("ashendoorskeyring"), HasDustyOrb()) end,
 
-    ["NNSNSSNSNN Lost Maze"]    = function() return And(HasDoorKey("ashendoorskeyring"), HasDustyOrb()) end,
+    ["NNSNSSNSNN Lost Maze"]            = function() return And(HasDoorKey("ashendoorskeyring"), HasDustyOrb()) end,
+
+    ["Prayer For the Golden"]           = function() return HasDoorKey("ashendoorskeyring") end,
+
+    ["Warning Against Abdul's Domain"]  = function() return AccessibilityLevel.Normal end,
+
+    ["Abdul's Domain"]                  = function() return HasDoorKey("ashendoorskeyring") end,
 
 -- Chamber of Fate
     ["Calamis' Weapon of Choice"]   = function() return AccessibilityLevel.Normal end,
@@ -551,7 +672,7 @@ VANILLA_LOCATION_LOGIC = {
     ["Sand Temple Backrooms Switch"] = function() return HasSwitch("sandtempleswitcheskeyring") end,
 
     ["Sand Temple Witch Tomb Switch"] = function() return HasSwitch("sandtempleswitcheskeyring") end,
-    
+
     ["Terminus Prison Back Alley Switch"] = function() return HasSwitch("terminusprisonbackalleyswitchkey") end,
 
     ["Forlorn Arena Switch"] = function() return HasSwitch("forlornarenagateswitchkey") end,
@@ -713,10 +834,36 @@ ER_LOCATION_LOGIC = {
     ["Temple Blood Altar"]                          = function() return Or(VANILLA_LOCATION_LOGIC["Temple Blood Altar"](),
                                                                             And(HasConnection('Rickety Bridge Door (Hollow Basin Side)'), HasElement("ele_blood"), HasDustyOrb())) end,
 
-    ["Alcove on Path to Yosei Forest"]              = function() return Or(VANILLA_LOCATION_LOGIC["Alcove on Path to Yosei Forest"](),
+    ["Alcove on Path to Yosei Forest"]              = function() return Or(VANILLA_LOCATION_LOGIC["Alcove on Path to Yosei Forest"](),  HasConnection('Rickety Bridge Door (Hollow Basin Side)')) end,
+
+    ["Encouraging Statue's Words"]                  = function() return HasAnyConnection({"Rickety Bridge Door (Hollow Basin Side)", "Broken Steps Door (Hollow Basin Side)", "Hollow Basin Ceiling", "Hollow Basin"}) end,
+
+    ["On the Bodies of Abdul Cultists"]             = function() return Or(VANILLA_LOCATION_LOGIC["On the Bodies of Abdul Cultists"](),
+                                                                            And(HasConnection('Rickety Bridge Door (Hollow Basin Side)'), HasDustyOrb())) end,
+
+    ["You're in the know right"]                    = function() return And(HasDustyOrb(),
+                                                                            Or(HasConnection('Sewers Door (Hollow Basin Side)'),
+                                                                                And(HasConnection('Rickety Bridge Door (Hollow Basin Side)'), HasSwitch("templeofsilenceswitchkey")),
+                                                                                VANILLA_LOCATION_LOGIC["You're in the know right"]())) end,
+
+    ["Visions of Byagototh"]                        = function() return Or(VANILLA_LOCATION_LOGIC["Visions of Byagototh"](),
+                                                                            And(HasConnection('Rickety Bridge Door (Hollow Basin Side)'), HasDustyOrb())) end,
+
+    ["Final Advice"]                                = function() return HasAnyConnection({"Rickety Bridge Door (Hollow Basin Side)", "Broken Steps Door (Hollow Basin Side)", "Hollow Basin Ceiling", "Hollow Basin"}) end,
+
+    ["To Hunger, To Die"]                           = function() return Or(VANILLA_LOCATION_LOGIC["To Hunger, To Die"](),
+                                                                            And(HasConnection('Rickety Bridge Door (Hollow Basin Side)'), HasDustyOrb())) end,
+
+    ["Autopsy Report"]                              = function() return Or(VANILLA_LOCATION_LOGIC["Autopsy Report"](),
                                                                             HasConnection('Rickety Bridge Door (Hollow Basin Side)')) end,
+
+    ["Cultist's Writings"]                          = function() return Or(VANILLA_LOCATION_LOGIC["Cultist's Writings"](),
+                                                                            And(HasConnection('Rickety Bridge Door (Hollow Basin Side)'), HasDustyOrb())) end,
+
 -- Castle Le Fanu
     ["Outside Corner"]                          = function() return CanEnterCastleStage(0) end,
+
+    ["Statue to the Great Knight of Lyria"]     = function() return CanEnterCastleStage(0) end,
 
     ["Cattle Cell (South)"]                     = function() return CanEnterCastleStage(0.5) end,
 
@@ -724,9 +871,13 @@ ER_LOCATION_LOGIC = {
 
     ["Cattle Cell (Center)"]                    = function() return And(HasElement("ele_fire"), CanEnterCastleStage(0.5)) end,
 
-    ["Cattle Cell (North)"]                     = function() return And(HasElement("ele_blood"), CanEnterCastleStage(0)) end,
+    ["Golden Lance Member's Plea"]              = function() return And(HasElement("ele_fire"), CanEnterCastleStage(0.5)) end,
 
-    ["Hidden Cattle Cell"]                      = function() return And(HasElement("ele_blood"), CanEnterCastleStage(0), HasDustyOrb()) end,
+    ["Cattle Cell (North)"]                     = function() return And(HasElement("ele_blood"), CanEnterCastleStage(0.5)) end,
+
+    ["Hidden Cattle Cell"]                      = function() return And(HasElement("ele_blood"), CanEnterCastleStage(0.5), HasDustyOrb()) end,
+
+    ["Writings of Holy Relic Protection"]       = function() return And(HasElement("ele_blood"), CanEnterCastleStage(0.5), HasDustyOrb()) end,
 
     ["Crilall's Bloody Treats"]                 = function() return CanEnterCastleStage(1) end,
 
@@ -738,21 +889,40 @@ ER_LOCATION_LOGIC = {
 
     ["Garrat Resting Room (Wall)"]              = function() return CanEnterCastleStage(1) end,
 
+    ["Jusztina's Letter to Ophelia"]            = function() return CanEnterCastleStage(1) end,
+
     ["Hallway Dead End Before Blue Doors"]      = function() return CanEnterCastleStage(1) end,
+
+    ["Ophelia's Letter to Jusztina 2"]          = function() return CanEnterCastleStage(1) end,
 
     ["Upper Floor Coffin Room (Small Room)"]    = function() return CanEnterCastleStage(2) end,
 
+    ["Jusztina's Diary 1"]                      = function() return CanEnterCastleStage(2) end,
+
+    ["Jusztina's Diary 2"]                      = function() return CanEnterCastleStage(2) end,
+
     ["Upper Floor Coffin Room (Large Room)"]    = function() return CanEnterCastleStage(2) end,
+
+    ["Status Report on Castle Le Fanu"]         = function() return CanEnterCastleStage(2) end,
 
     ["Upper Floor Coffin Room (Double)"]        = function() return And(CanEnterCastleStage(3), HasDustyOrb()) end,
 
+    ["Ophelia's Letter to Jusztina 1"]          = function() return CanEnterCastleStage(3) end,
+
     ["Upper Floor Coffin Room (Hallway)"]       = function() return CanEnterCastleStage(2) end,
+
+-- Doorsanity
 
     ["Queen's Throne Door (Castle Le Fanu Side)"] = function() return And(HasDoorKey("queen'sthronedoorkey"), Or(IsItemStageAtLeastN("progressivevampiricsymbol", 3), HasConnection("Queen's Throne Door (Castle Le Fanu Side)"))) end,
 
--- Doorsanity
     ["Light Accursed Door (Castle Le Fanu Side)"] = function() return And(HasDoorKey("lightaccurseddoorkey"), Or(HasConnection("Light Accursed Door (Castle Le Fanu Side)"),
                                                                         And(CanEnterCastleStage(2), HasElement("ele_dark")))) end,
+
+    ["Burning Hot Door (Castle Le Fanu Side)"] = function() return And(HasDoorKey("burninghotkey"), CanEnterCastleStage(2)) end,
+
+    ["Jump of the Bridge"] = function() return CanEnterCastleStage(0) end,
+
+    ["Castle Doors (Castle Le Fanu Side)"] = function() return And(HasDoorKey("castledoorskey"), CanEnterCastleStage(0)) end,
 
     ["Hollow Basin Ceiling"] = function() return And(VANILLA_LOCATION_LOGIC["Hollow Basin Ceiling"](), HasAnyConnection({"Rickety Bridge Door (Hollow Basin Side)", "Broken Steps Door (Hollow Basin Side)", "Hollow Basin Ceiling", "Hollow Basin"})) end,
 

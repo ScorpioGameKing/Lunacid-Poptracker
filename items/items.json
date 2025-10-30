@@ -783,6 +783,11 @@
         "codes": "starting_area"
     },
     {
+        "name": "Bookworm",
+        "type": "toggle",
+        "codes": "lore_on"
+    },
+    {
         "name": "Update Toggle",
         "type": "toggle",
         "codes": "update"
