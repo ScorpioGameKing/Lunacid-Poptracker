@@ -1,0 +1,2473 @@
+[
+    {
+        "name": "BreakGrass Castle Le Fanu",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            "^$CanEnter|Castle Le Fanu"
+        ],
+        "children": [
+            {
+                "name": "Flora 18",
+                "access_rules": [
+                    "^$CanBreak|CLF: Flora 18"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle Le Fanu",
+                        "x": 810,
+                        "y": 1370,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Flora 1",
+                "access_rules": [
+                    "^$CanBreak|CLF: Flora 1"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle Le Fanu",
+                        "x": 810,
+                        "y": 1408,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Flora 6",
+                "access_rules": [
+                    "^$CanBreak|CLF: Flora 6"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle Le Fanu",
+                        "x": 810,
+                        "y": 1415,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Flora 5",
+                "access_rules": [
+                    "^$CanBreak|CLF: Flora 5"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle Le Fanu",
+                        "x": 790,
+                        "y": 1390,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Flora 8",
+                "access_rules": [
+                    "^$CanBreak|CLF: Flora 8"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle Le Fanu",
+                        "x": 780,
+                        "y": 1385,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Flora 16",
+                "access_rules": [
+                    "^$CanBreak|CLF: Flora 16"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle Le Fanu",
+                        "x": 770,
+                        "y": 1370,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Flora 13",
+                "access_rules": [
+                    "^$CanBreak|CLF: Flora 13"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle Le Fanu",
+                        "x": 770,
+                        "y": 1390,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Flora 4",
+                "access_rules": [
+                    "^$CanBreak|CLF: Flora 4"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle Le Fanu",
+                        "x": 770,
+                        "y": 1415,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Flora 11",
+                "access_rules": [
+                    "^$CanBreak|CLF: Flora 11"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle Le Fanu",
+                        "x": 750,
+                        "y": 1415,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Flora 7",
+                "access_rules": [
+                    "^$CanBreak|CLF: Flora 7"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle Le Fanu",
+                        "x": 730,
+                        "y": 1370,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Flora 15",
+                "access_rules": [
+                    "^$CanBreak|CLF: Flora 15"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle Le Fanu",
+                        "x": 730,
+                        "y": 1408,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Flora 9",
+                "access_rules": [
+                    "^$CanBreak|CLF: Flora 9"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle Le Fanu",
+                        "x": 720,
+                        "y": 1385,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Flora 10",
+                "access_rules": [
+                    "^$CanBreak|CLF: Flora 10"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle Le Fanu",
+                        "x": 720,
+                        "y": 1408,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Flora 12",
+                "access_rules": [
+                    "^$CanBreak|CLF: Flora 12"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle Le Fanu",
+                        "x": 710,
+                        "y": 1370,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Flora 3",
+                "access_rules": [
+                    "^$CanBreak|CLF: Flora 3"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle Le Fanu",
+                        "x": 710,
+                        "y": 1380,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Flora 17",
+                "access_rules": [
+                    "^$CanBreak|CLF: Flora 17"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle Le Fanu",
+                        "x": 710,
+                        "y": 1390,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Flora 14",
+                "access_rules": [
+                    "^$CanBreak|CLF: Flora 14"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle Le Fanu",
+                        "x": 710,
+                        "y": 1405,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Flora 2",
+                "access_rules": [
+                    "^$CanBreak|CLF: Flora 2"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle Le Fanu",
+                        "x": 710,
+                        "y": 1415,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Bloodweed 66",
+                "access_rules": [
+                    "^$CanBreak|CLF: Bloodweed 66"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle Le Fanu",
+                        "x": 1020,
+                        "y": 1321,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Bloodweed 39",
+                "access_rules": [
+                    "^$CanBreak|CLF: Bloodweed 39"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle Le Fanu",
+                        "x": 1046,
+                        "y": 1321,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Bloodweed 37",
+                "access_rules": [
+                    "^$CanBreak|CLF: Bloodweed 37"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle Le Fanu",
+                        "x": 1046,
+                        "y": 1150,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Bloodweed 58",
+                "access_rules": [
+                    "^$CanBreak|CLF: Bloodweed 58"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle Le Fanu",
+                        "x": 1046,
+                        "y": 1065,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Bloodweed 86",
+                "access_rules": [
+                    "^$CanBreak|CLF: Bloodweed 86"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle Le Fanu",
+                        "x": 1020,
+                        "y": 1022,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Bloodweed 30",
+                "access_rules": [
+                    "^$CanBreak|CLF: Bloodweed 30"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle Le Fanu",
+                        "x": 1020,
+                        "y": 1018,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Bloodweed 92",
+                "access_rules": [
+                    "^$CanBreak|CLF: Bloodweed 92"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle Le Fanu",
+                        "x": 1020,
+                        "y": 1000,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Bloodweed 60",
+                "access_rules": [
+                    "^$CanBreak|CLF: Bloodweed 60"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle Le Fanu",
+                        "x": 1020,
+                        "y": 996,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Bloodweed 99",
+                "access_rules": [
+                    "^$CanBreak|CLF: Bloodweed 99"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle Le Fanu",
+                        "x": 1046,
+                        "y": 1061,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Bloodweed 14",
+                "access_rules": [
+                    "^$CanBreak|CLF: Bloodweed 14"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle Le Fanu",
+                        "x": 1046,
+                        "y": 897,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Bloodweed 103",
+                "access_rules": [
+                    "^$CanBreak|CLF: Bloodweed 103"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle Le Fanu",
+                        "x": 1047,
+                        "y": 907,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Bloodweed 38",
+                "access_rules": [
+                    "^$CanBreak|CLF: Bloodweed 38"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle Le Fanu",
+                        "x": 1050,
+                        "y": 912,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Bloodweed 72",
+                "access_rules": [
+                    "^$CanBreak|CLF: Bloodweed 72"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle Le Fanu",
+                        "x": 1074,
+                        "y": 913,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Bloodweed 5",
+                "access_rules": [
+                    "^$CanBreak|CLF: Bloodweed 5"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle Le Fanu",
+                        "x": 1080,
+                        "y": 905,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Bloodweed 31",
+                "access_rules": [
+                    "^$CanBreak|CLF: Bloodweed 31"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle Le Fanu",
+                        "x": 1077,
+                        "y": 837,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Bloodweed 81",
+                "access_rules": [
+                    "^$CanBreak|CLF: Bloodweed 81"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle Le Fanu",
+                        "x": 1074,
+                        "y": 837,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Bloodweed 26",
+                "access_rules": [
+                    "^$CanBreak|CLF: Bloodweed 26"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle Le Fanu",
+                        "x": 1068,
+                        "y": 753,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Bloodweed 23",
+                "access_rules": [
+                    "^$CanBreak|CLF: Bloodweed 23"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle Le Fanu",
+                        "x": 1121,
+                        "y": 820,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Bloodweed 55",
+                "access_rules": [
+                    "^$CanBreak|CLF: Bloodweed 55"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle Le Fanu",
+                        "x": 1121,
+                        "y": 813,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Bloodweed 32",
+                "access_rules": [
+                    "^$CanBreak|CLF: Bloodweed 32"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle Le Fanu",
+                        "x": 1103,
+                        "y": 940,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Bloodweed 62",
+                "access_rules": [
+                    "^$CanBreak|CLF: Bloodweed 62"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle Le Fanu",
+                        "x": 1154,
+                        "y": 952,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Bloodweed 49",
+                "access_rules": [
+                    "^$CanBreak|CLF: Bloodweed 49"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle Le Fanu",
+                        "x": 1154,
+                        "y": 963,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Bloodweed 100",
+                "access_rules": [
+                    "^$CanBreak|CLF: Bloodweed 100"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle Le Fanu",
+                        "x": 1183,
+                        "y": 953,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Bloodweed 61",
+                "access_rules": [
+                    "^$CanBreak|CLF: Bloodweed 61"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle Le Fanu",
+                        "x": 1183,
+                        "y": 959,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Bloodweed 95",
+                "access_rules": [
+                    "^$CanBreak|CLF: Bloodweed 95"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle Le Fanu",
+                        "x": 1183,
+                        "y": 966,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Bloodweed 84",
+                "access_rules": [
+                    "^$CanBreak|CLF: Bloodweed 84"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle Le Fanu",
+                        "x": 1154,
+                        "y": 780,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Bloodweed 82",
+                "access_rules": [
+                    "^$CanBreak|CLF: Bloodweed 82"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle Le Fanu",
+                        "x": 1183,
+                        "y": 726,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Bloodweed 34",
+                "access_rules": [
+                    "^$CanBreak|CLF: Bloodweed 34"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle Le Fanu",
+                        "x": 1183,
+                        "y": 719,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Bloodweed 63",
+                "access_rules": [
+                    "^$CanBreak|CLF: Bloodweed 63"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle Le Fanu",
+                        "x": 1132,
+                        "y": 622,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Bloodweed 6",
+                "access_rules": [
+                    "^$CanBreak|CLF: Bloodweed 6"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle Le Fanu",
+                        "x": 1138,
+                        "y": 596,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Bloodweed 96",
+                "access_rules": [
+                    "^$CanBreak|CLF: Bloodweed 96"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle Le Fanu",
+                        "x": 1132,
+                        "y": 596,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Bloodweed 35",
+                "access_rules": [
+                    "^$CanBreak|CLF: Bloodweed 35"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle Le Fanu",
+                        "x": 1128,
+                        "y": 596,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Bloodweed 73",
+                "access_rules": [
+                    "^$CanBreak|CLF: Bloodweed 73"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle Le Fanu",
+                        "x": 972,
+                        "y": 637,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Bloodweed 51",
+                "access_rules": [
+                    "^$CanBreak|CLF: Bloodweed 51"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle Le Fanu",
+                        "x": 939,
+                        "y": 596,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Bloodweed 64",
+                "access_rules": [
+                    "^$CanBreak|CLF: Bloodweed 64"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle Le Fanu",
+                        "x": 936,
+                        "y": 622,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Bloodweed 90",
+                "access_rules": [
+                    "^$CanBreak|CLF: Bloodweed 90"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle Le Fanu",
+                        "x": 932,
+                        "y": 622,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Bloodweed 70",
+                "access_rules": [
+                    "^$CanBreak|CLF: Bloodweed 70"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle Le Fanu",
+                        "x": 926,
+                        "y": 622,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Bloodweed 9",
+                "access_rules": [
+                    "^$CanBreak|CLF: Bloodweed 9"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle Le Fanu",
+                        "x": 871,
+                        "y": 639,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Bloodweed 17",
+                "access_rules": [
+                    "^$CanBreak|CLF: Bloodweed 17"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle Le Fanu",
+                        "x": 865,
+                        "y": 639,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Bloodweed 27",
+                "access_rules": [
+                    "^$CanBreak|CLF: Bloodweed 27"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle Le Fanu",
+                        "x": 1000,
+                        "y": 690,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Bloodweed 98",
+                "access_rules": [
+                    "^$CanBreak|CLF: Bloodweed 98"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle Le Fanu",
+                        "x": 997,
+                        "y": 691,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Bloodweed 79",
+                "access_rules": [
+                    "^$CanBreak|CLF: Bloodweed 79"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle Le Fanu",
+                        "x": 931,
+                        "y": 690,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Bloodweed 77",
+                "access_rules": [
+                    "^$CanBreak|CLF: Bloodweed 77"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle Le Fanu",
+                        "x": 897,
+                        "y": 663,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Bloodweed 101",
+                "access_rules": [
+                    "^$CanBreak|CLF: Bloodweed 101"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle Le Fanu",
+                        "x": 892,
+                        "y": 663,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Bloodweed 105",
+                "access_rules": [
+                    "^$CanBreak|CLF: Bloodweed 105"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle Le Fanu",
+                        "x": 857,
+                        "y": 663,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Bloodweed 94",
+                "access_rules": [
+                    "^$CanBreak|CLF: Bloodweed 94"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle Le Fanu",
+                        "x": 847,
+                        "y": 663,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Bloodweed 76",
+                "access_rules": [
+                    "^$CanBreak|CLF: Bloodweed 76"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle Le Fanu",
+                        "x": 917,
+                        "y": 976,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Bloodweed 19",
+                "access_rules": [
+                    "^$CanBreak|CLF: Bloodweed 19"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle Le Fanu",
+                        "x": 934,
+                        "y": 992,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Bloodweed 78",
+                "access_rules": [
+                    "^$CanBreak|CLF: Bloodweed 78"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle Le Fanu",
+                        "x": 951,
+                        "y": 964,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Bloodweed 52",
+                "access_rules": [
+                    "^$CanBreak|CLF: Bloodweed 52"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle Le Fanu",
+                        "x": 978,
+                        "y": 965,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Bloodweed 43",
+                "access_rules": [
+                    "^$CanBreak|CLF: Bloodweed 43"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle Le Fanu",
+                        "x": 976,
+                        "y": 1004,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Bloodweed 40",
+                "access_rules": [
+                    "^$CanBreak|CLF: Bloodweed 40"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle Le Fanu",
+                        "x": 837,
+                        "y": 1011,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Bloodweed 87",
+                "access_rules": [
+                    "^$CanBreak|CLF: Bloodweed 87"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle Le Fanu",
+                        "x": 837,
+                        "y": 1015,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Bloodweed 59",
+                "access_rules": [
+                    "^$CanBreak|CLF: Bloodweed 59"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle Le Fanu",
+                        "x": 837,
+                        "y": 1019,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Bloodweed 44",
+                "access_rules": [
+                    "^$CanBreak|CLF: Bloodweed 44"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle Le Fanu",
+                        "x": 867,
+                        "y": 1046,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Bloodweed 11",
+                "access_rules": [
+                    "^$CanBreak|CLF: Bloodweed 11"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle Le Fanu",
+                        "x": 842,
+                        "y": 1104,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Bloodweed 29",
+                "access_rules": [
+                    "^$CanBreak|CLF: Bloodweed 29"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle Le Fanu",
+                        "x": 837,
+                        "y": 1104,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Bloodweed 4",
+                "access_rules": [
+                    "^$CanBreak|CLF: Bloodweed 4"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle Le Fanu",
+                        "x": 837,
+                        "y": 1099,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Bloodweed 67",
+                "access_rules": [
+                    "^$CanBreak|CLF: Bloodweed 67"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle Le Fanu",
+                        "x": 989,
+                        "y": 1078,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Bloodweed 28",
+                "access_rules": [
+                    "^$CanBreak|CLF: Bloodweed 28"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle Le Fanu",
+                        "x": 1003,
+                        "y": 1050,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Bloodweed 68",
+                "access_rules": [
+                    "^$CanBreak|CLF: Bloodweed 68"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle Le Fanu",
+                        "x": 1009,
+                        "y": 1078,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Bloodweed 74",
+                "access_rules": [
+                    "^$CanBreak|CLF: Bloodweed 74"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle Le Fanu",
+                        "x": 1185,
+                        "y": 596,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Bloodweed 71",
+                "access_rules": [
+                    "^$CanBreak|CLF: Bloodweed 71"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle Le Fanu",
+                        "x": 1189,
+                        "y": 596,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Bloodweed 85",
+                "access_rules": [
+                    "^$CanBreak|CLF: Bloodweed 85"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle Le Fanu",
+                        "x": 1196,
+                        "y": 622,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Bloodweed 97",
+                "access_rules": [
+                    "^$CanBreak|CLF: Bloodweed 97"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle Le Fanu",
+                        "x": 1202,
+                        "y": 622,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Bloodweed 33",
+                "access_rules": [
+                    "^$CanBreak|CLF: Bloodweed 33"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle Le Fanu",
+                        "x": 1227,
+                        "y": 601,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Bloodweed 45",
+                "access_rules": [
+                    "^$CanBreak|CLF: Bloodweed 45"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle Le Fanu",
+                        "x": 1235,
+                        "y": 588,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Bloodweed 22",
+                "access_rules": [
+                    "^$CanBreak|CLF: Bloodweed 22"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle Le Fanu",
+                        "x": 1262,
+                        "y": 573,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Bloodweed 41",
+                "access_rules": [
+                    "^$CanBreak|CLF: Bloodweed 41"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle Le Fanu",
+                        "x": 1267,
+                        "y": 596,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Bloodweed 25",
+                "access_rules": [
+                    "^$CanBreak|CLF: Bloodweed 25"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle Le Fanu",
+                        "x": 1272,
+                        "y": 651,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Bloodweed 12",
+                "access_rules": [
+                    "^$CanBreak|CLF: Bloodweed 12"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle Le Fanu",
+                        "x": 1276,
+                        "y": 647,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Bloodweed 89",
+                "access_rules": [
+                    "^$CanBreak|CLF: Bloodweed 89"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle Le Fanu",
+                        "x": 1280,
+                        "y": 651,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Bloodweed 104",
+                "access_rules": [
+                    "^$CanBreak|CLF: Bloodweed 104"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle Le Fanu",
+                        "x": 1284,
+                        "y": 647,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Bloodweed 7",
+                "access_rules": [
+                    "^$CanBreak|CLF: Bloodweed 7"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle Le Fanu",
+                        "x": 1288,
+                        "y": 651,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Bloodweed 8",
+                "access_rules": [
+                    "^$CanBreak|CLF: Bloodweed 8"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle Le Fanu",
+                        "x": 1294,
+                        "y": 647,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Bloodweed 3",
+                "access_rules": [
+                    "^$CanBreak|CLF: Bloodweed 3"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle Le Fanu",
+                        "x": 1298,
+                        "y": 651,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Bloodweed 47",
+                "access_rules": [
+                    "^$CanBreak|CLF: Bloodweed 47"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle Le Fanu",
+                        "x": 1302,
+                        "y": 647,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Bloodweed 65",
+                "access_rules": [
+                    "^$CanBreak|CLF: Bloodweed 65"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle Le Fanu",
+                        "x": 1382,
+                        "y": 647,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Bloodweed 83",
+                "access_rules": [
+                    "^$CanBreak|CLF: Bloodweed 83"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle Le Fanu",
+                        "x": 1420,
+                        "y": 569,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Bloodweed 69",
+                "access_rules": [
+                    "^$CanBreak|CLF: Bloodweed 69"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle Le Fanu",
+                        "x": 1425,
+                        "y": 571,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Bloodweed 93",
+                "access_rules": [
+                    "^$CanBreak|CLF: Bloodweed 93"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle Le Fanu",
+                        "x": 1430,
+                        "y": 573,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Bloodweed 54",
+                "access_rules": [
+                    "^$CanBreak|CLF: Bloodweed 54"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle Le Fanu",
+                        "x": 1456,
+                        "y": 626,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Bloodweed 56",
+                "access_rules": [
+                    "^$CanBreak|CLF: Bloodweed 56"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle Le Fanu",
+                        "x": 1532,
+                        "y": 589,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Bloodweed 42",
+                "access_rules": [
+                    "^$CanBreak|CLF: Bloodweed 42"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle Le Fanu",
+                        "x": 1539,
+                        "y": 580,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Bloodweed 18",
+                "access_rules": [
+                    "^$CanBreak|CLF: Bloodweed 18"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle Le Fanu",
+                        "x": 1548,
+                        "y": 580,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Bloodweed 15",
+                "access_rules": [
+                    "^$CanBreak|CLF: Bloodweed 15"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle Le Fanu",
+                        "x": 1555,
+                        "y": 580,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Bloodweed 88",
+                "access_rules": [
+                    "^$CanBreak|CLF: Bloodweed 88"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle Le Fanu",
+                        "x": 1530,
+                        "y": 774,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Bloodweed 75",
+                "access_rules": [
+                    "^$CanBreak|CLF: Bloodweed 75"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle Le Fanu",
+                        "x": 1530,
+                        "y": 782,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Bloodweed 36",
+                "access_rules": [
+                    "^$CanBreak|CLF: Bloodweed 36"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle Le Fanu",
+                        "x": 1593,
+                        "y": 1004,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Bloodweed 48",
+                "access_rules": [
+                    "^$CanBreak|CLF: Bloodweed 48"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle Le Fanu",
+                        "x": 1589,
+                        "y": 1008,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Bloodweed 102",
+                "access_rules": [
+                    "^$CanBreak|CLF: Bloodweed 102"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle Le Fanu",
+                        "x": 1449,
+                        "y": 983,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Bloodweed 50",
+                "access_rules": [
+                    "^$CanBreak|CLF: Bloodweed 50"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle Le Fanu",
+                        "x": 1440,
+                        "y": 983,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Bloodweed 46",
+                "access_rules": [
+                    "^$CanBreak|CLF: Bloodweed 46"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle Le Fanu",
+                        "x": 1395,
+                        "y": 1018,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Bloodweed 1",
+                "access_rules": [
+                    "^$CanBreak|CLF: Bloodweed 1"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle Le Fanu",
+                        "x": 1399,
+                        "y": 1022,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Bloodweed 10",
+                "access_rules": [
+                    "^$CanBreak|CLF: Bloodweed 10"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle Le Fanu",
+                        "x": 1395,
+                        "y": 1026,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Bloodweed 21",
+                "access_rules": [
+                    "^$CanBreak|CLF: Bloodweed 21"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle Le Fanu",
+                        "x": 1399,
+                        "y": 1030,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Bloodweed 13",
+                "access_rules": [
+                    "^$CanBreak|CLF: Bloodweed 13"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle Le Fanu",
+                        "x": 1395,
+                        "y": 1034,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Bloodweed 20",
+                "access_rules": [
+                    "^$CanBreak|CLF: Bloodweed 20"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle Le Fanu",
+                        "x": 1421,
+                        "y": 1092,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Bloodweed 80",
+                "access_rules": [
+                    "^$CanBreak|CLF: Bloodweed 80"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle Le Fanu",
+                        "x": 1393,
+                        "y": 1178,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Bloodweed 91",
+                "access_rules": [
+                    "^$CanBreak|CLF: Bloodweed 91"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle Le Fanu",
+                        "x": 1393,
+                        "y": 1184,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Bloodweed 53",
+                "access_rules": [
+                    "^$CanBreak|CLF: Bloodweed 53"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle Le Fanu",
+                        "x": 1393,
+                        "y": 1190,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Bloodweed 16",
+                "access_rules": [
+                    "^$CanBreak|CLF: Bloodweed 16"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle Le Fanu",
+                        "x": 1393,
+                        "y": 1196,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Bloodweed 57",
+                "access_rules": [
+                    "^$CanBreak|CLF: Bloodweed 57"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle Le Fanu",
+                        "x": 1421,
+                        "y": 1242,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Bloodweed 24",
+                "access_rules": [
+                    "^$CanBreak|CLF: Bloodweed 24"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle Le Fanu",
+                        "x": 1395,
+                        "y": 1248,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Bloodweed 2",
+                "access_rules": [
+                    "^$CanBreak|CLF: Bloodweed 2"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle Le Fanu",
+                        "x": 1374,
+                        "y": 1243,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            }
+        ]
+    }
+]

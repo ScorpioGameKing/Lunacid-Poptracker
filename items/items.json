@@ -148,6 +148,12 @@
         "codes": "summonsnail"
     },
     {
+        "name": "Wind Dash",
+        "type": "toggle",
+        "img": "images/items/misc.png",
+        "codes": "winddash"
+    },
+    {
         "name": "Terminus Prison Key",
         "type": "toggle",
         "img": "images/items/item_term_key.png",
@@ -673,7 +679,10 @@
     },
     {
         "name": "Dropsanity Enabled",
-        "type": "toggle",
+        "type": "consumable",
+        "min_quantity": 0,
+        "max_quantity": 2,
+        "initial_stage_idx": 0,
         "img": "images/settings/dropsanity_on.png",
         "disabled_img": "images/settings/dropsanity_off.png",
         "codes": "drops_on"

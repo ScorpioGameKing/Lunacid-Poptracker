@@ -204,7 +204,7 @@ end
 -- called when a location gets cleared
 function onLocation(location_id, location_name)
     local location_array = LOCATION_MAPPING[location_id]
-    print(location_id, location_name)
+    -- print(location_id, location_name)
     if not location_array or not location_array[1] then
         print(string.format("onLocation: could not find location mapping for id %s", location_id))
         return
@@ -216,7 +216,7 @@ function onLocation(location_id, location_name)
         if location_obj then
 
             if location:sub(1, 1) == "@" then
-                print(location)
+                -- print(location)
                 location_obj.AvailableChestCount = location_obj.AvailableChestCount - 1
             else
                 location_obj.Active = true
@@ -411,7 +411,6 @@ function AutoFill()
                     item.Active = slotCodes[settings_name].mapping[settings_value]
                 end
             elseif item and item.Type == "progressive" then
-                print(settings_value, type(settings_value))
                 if slotCodes[settings_name].mapping == nil then
                     item.CurrentStage = settings_value
                 else

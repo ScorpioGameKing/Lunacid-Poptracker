@@ -4,195 +4,34 @@
         "chest_unopened_img": "/images/items/close.png",
         "chest_opened_img": "/images/items/open.png",
         "overlay_background": "#000000",
-        "visibility_rules": "drops_on",
+        "visibility_rules": [
+            "^$DropsOnAtLeast1"
+        ],
         "access_rules": [
             " "
         ],
         "children": [
             {
-                "name": "Snail",
-                "chest_unopened_img": "images/items/check_spell_fade.png",
-                "chest_opened_img": "images/items/check_spell.png",
-                "overlay_background": "#000000",
+                "name": "Abyssal Demon",
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
                 "access_rules": [
-                    "^$CanReachAndKill|Snail"
+                    "^$CanReachAndKill|Abyssal Demon"
                 ],
                 "sections": [
                     {
-                        "name": "Summon Snail Drop",
-                        "item_count": 1
+                        "name": "Ocean Elixir Drop",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/items/check_misc_fade.png",
+                        "chest_opened_img": "images/items/check_misc.png"
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Dropsanity",
-                        "x": 573,
-                        "y": 166
-                    }
-                ]
-            },
-            {
-                "name": "Mummy Knight",
-                "chest_unopened_img": "images/items/check_weapon_fade.png",
-                "chest_opened_img": "images/items/check_weapon.png",
-                "access_rules": [
-                    "^$CanReachAndKill|Mummy Knight"
-                ],
-                "sections": [
-                    {
-                        "name": "Rusted Sword Drop",
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "Dropsanity",
-                        "x": 573,
-                        "y": 436
-                    }
-                ]
-            },
-            {
-                "name": "Kodama",
-                "chest_unopened_img": "images/items/check_spell_fade.png",
-                "chest_opened_img": "images/items/check_spell.png",
-                "access_rules": [
-                    "^$CanReachAndKill|Kodama"
-                ],
-                "sections": [
-                    {
-                        "name": "Summon Kodama Drop",
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "Dropsanity",
-                        "x": 573,
-                        "y": 706
-                    }
-                ]
-            },
-            {
-                "name": "Chimera",
-                "chest_unopened_img": "images/items/check_spell_fade.png",
-                "chest_opened_img": "images/items/check_spell.png",
-                "access_rules": [
-                    "^$CanReachAndKill|Chimera"
-                ],
-                "sections": [
-                    {
-                        "name": "Quick Stride Drop",
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "Dropsanity",
-                        "x": 573,
-                        "y": 976
-                    }
-                ]
-            },
-            {
-                "name": "Milk Snail",
-                "chest_unopened_img": "images/items/check_weapon_fade.png",
-                "chest_opened_img": "images/items/check_weapon.png",
-                "access_rules": [
-                    "^$CanReachAndKill|Milk Snail"
-                ],
-                "sections": [
-                    {
-                        "name": "Ice Sickle Drop",
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "Dropsanity",
-                        "x": 573,
-                        "y": 1246
-                    }
-                ]
-            },
-            {
-                "name": "Skeleton",
-                "chest_unopened_img": "images/items/check_weapon_fade.png",
-                "chest_opened_img": "images/items/check_weapon.png",
-                "access_rules": [
-                    "^$CanReachAndKill|Skeleton"
-                ],
-                "sections": [
-                    {
-                        "name": "Skeleton Axe Drop",
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Dark Skull Drop",
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "Dropsanity",
-                        "x": 573,
-                        "y": 1516
-                    },
-                    {
-                        "map": "Dropsanity",
-                        "x": 573,
-                        "y": 1786
-                    }
-                ]
-            },
-            {
-                "name": "Phantom",
-                "chest_unopened_img": "images/items/check_weapon_fade.png",
-                "chest_opened_img": "images/items/check_weapon.png",
-                "access_rules": [
-                    "^$CanReachAndKill|Phantom"
-                ],
-                "sections": [
-                    {
-                        "name": "Cursed Blade Drop",
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "Dropsanity",
-                        "x": 573,
-                        "y": 2056
-                    }
-                ]
-            },
-            {
-                "name": "Obsidian Skeleton",
-                "chest_unopened_img": "images/items/check_weapon_fade.png",
-                "chest_opened_img": "images/items/check_weapon.png",
-                "access_rules": [
-                    "^$CanReachAndKill|Obsidian Skeleton"
-                ],
-                "sections": [
-                    {
-                        "name": "Obsidian Cursebrand Drop",
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Obsidian Poisonguard Drop",
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "Dropsanity",
-                        "x": 1337,
-                        "y": 166
-                    },
-                    {
-                        "map": "Dropsanity",
-                        "x": 1337,
-                        "y": 436
+                        "x": 740,
+                        "y": 180,
+                        "size": 52
                     }
                 ]
             },
@@ -206,14 +45,35 @@
                 "sections": [
                     {
                         "name": "Golden Sickle Drop",
-                        "item_count": 1
+                        "item_count": 1,
+                        "chest_unopened_img": "images/items/check_weapon_fade.png",
+                        "chest_opened_img": "images/items/check_weapon.png"
+                    },
+                    {
+                        "name": "Fire Opal Drop",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/items/check_misc_fade.png",
+                        "chest_opened_img": "images/items/check_misc.png",
+                        "visibility_rules": [
+                            "^$DropsOnAtLeast2"
+                        ]
+                    },
+                    {
+                        "name": "Large Silver Drop",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/items/check_misc_fade.png",
+                        "chest_opened_img": "images/items/check_misc.png",
+                        "visibility_rules": [
+                            "^$DropsOnAtLeast2"
+                        ]
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Dropsanity",
-                        "x": 1337,
-                        "y": 976
+                        "x": 2380,
+                        "y": 180,
+                        "size": 52
                     }
                 ]
             },
@@ -227,35 +87,674 @@
                 "sections": [
                     {
                         "name": "Golden Khopesh Drop",
-                        "item_count": 1
+                        "item_count": 1,
+                        "chest_unopened_img": "images/items/check_weapon_fade.png",
+                        "chest_opened_img": "images/items/check_weapon.png"
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Dropsanity",
-                        "x": 1337,
-                        "y": 706
+                        "x": 3180,
+                        "y": 180,
+                        "size": 52
                     }
                 ]
             },
             {
-                "name": "Malformed Horse",
-                "chest_unopened_img": "images/items/check_weapon_fade.png",
-                "chest_opened_img": "images/items/check_weapon.png",
+                "name": "Ceres",
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
                 "access_rules": [
-                    "^$CanReachAndKill|Malformed Horse"
+                    "^$CanReachAndKill|Ceres"
                 ],
                 "sections": [
                     {
-                        "name": "Brittle Arming Sword Drop",
-                        "item_count": 1
+                        "name": "Destroying Angel Mushroom Drop",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/items/check_misc_fade.png",
+                        "chest_opened_img": "images/items/check_misc.png",
+                        "visibility_rules": [
+                            "^$DropsOnAtLeast2"
+                        ]
+                    },
+                    {
+                        "name": "Fairy Moss Drop",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/items/check_misc_fade.png",
+                        "chest_opened_img": "images/items/check_misc.png",
+                        "visibility_rules": [
+                            "^$DropsOnAtLeast2"
+                        ]
+                    },
+                    {
+                        "name": "Yellow Morel Drop",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/items/check_misc_fade.png",
+                        "chest_opened_img": "images/items/check_misc.png",
+                        "visibility_rules": [
+                            "^$DropsOnAtLeast2"
+                        ]
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Dropsanity",
-                        "x": 1337,
-                        "y": 1246
+                        "x": 740,
+                        "y": 420,
+                        "size": 52
+                    }
+                ]
+            },
+            {
+                "name": "Cerritulus Lunam",
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "access_rules": [
+                    "^$CanReachAndKill|Cerritulus Lunam"
+                ],
+                "sections": [
+                    {
+                        "name": "Ectoplasm Drop",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/items/check_misc_fade.png",
+                        "chest_opened_img": "images/items/check_misc.png",
+                        "visibility_rules": [
+                            "^$DropsOnAtLeast2"
+                        ]
+                    },
+                    {
+                        "name": "Medium Silver Drop",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/items/check_misc_fade.png",
+                        "chest_opened_img": "images/items/check_misc.png",
+                        "visibility_rules": [
+                            "^$DropsOnAtLeast2"
+                        ]
+                    },
+                    {
+                        "name": "Snowflake Obsidian Drop",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/items/check_misc_fade.png",
+                        "chest_opened_img": "images/items/check_misc.png",
+                        "visibility_rules": [
+                            "^$DropsOnAtLeast2"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Dropsanity",
+                        "x": 2380,
+                        "y": 420,
+                        "size": 52
+                    }
+                ]
+            },
+            {
+                "name": "Cetea",
+                "chest_unopened_img": "images/items/check_spell_fade.png",
+                "chest_opened_img": "images/items/check_spell.png",
+                "access_rules": [
+                    "^$CanReachAndKill|Cetea"
+                ],
+                "sections": [
+                    {
+                        "name": "Tornado Drop",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/items/check_spell_fade.png",
+                        "chest_opened_img": "images/items/check_spell.png"
+                    },
+                    {
+                        "name": "Medium Silver Drop",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/items/check_misc_fade.png",
+                        "chest_opened_img": "images/items/check_misc.png",
+                        "visibility_rules": [
+                            "^$DropsOnAtLeast2"
+                        ]
+                    },
+                    {
+                        "name": "Ocean Bone Shell Drop",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/items/check_misc_fade.png",
+                        "chest_opened_img": "images/items/check_misc.png",
+                        "visibility_rules": [
+                            "^$DropsOnAtLeast2"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Dropsanity",
+                        "x": 3180,
+                        "y": 420,
+                        "size": 52
+                    }
+                ]
+            },
+            {
+                "name": "Chimera",
+                "chest_unopened_img": "images/items/check_spell_fade.png",
+                "chest_opened_img": "images/items/check_spell.png",
+                "access_rules": [
+                    "^$CanReachAndKill|Chimera"
+                ],
+                "sections": [
+                    {
+                        "name": "Quick Stride Drop",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/items/check_spell_fade.png",
+                        "chest_opened_img": "images/items/check_spell.png"
+                    },
+                    {
+                        "name": "Holy Water Drop",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/items/check_misc_fade.png",
+                        "chest_opened_img": "images/items/check_misc.png",
+                        "visibility_rules": [
+                            "^$DropsOnAtLeast2"
+                        ]
+                    },
+                    {
+                        "name": "Light Urn Drop",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/items/check_misc_fade.png",
+                        "chest_opened_img": "images/items/check_misc.png",
+                        "visibility_rules": [
+                            "^$DropsOnAtLeast2"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Dropsanity",
+                        "x": 740,
+                        "y": 660,
+                        "size": 52
+                    }
+                ]
+            },
+            {
+                "name": "Cursed Painting",
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "access_rules": [
+                    "^$CanReachAndKill|Cursed Painting"
+                ],
+                "sections": [
+                    {
+                        "name": "Fire Opal Drop",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/items/check_misc_fade.png",
+                        "chest_opened_img": "images/items/check_misc.png",
+                        "visibility_rules": [
+                            "^$DropsOnAtLeast2"
+                        ]
+                    },
+                    {
+                        "name": "Large Silver Drop",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/items/check_misc_fade.png",
+                        "chest_opened_img": "images/items/check_misc.png",
+                        "visibility_rules": [
+                            "^$DropsOnAtLeast2"
+                        ]
+                    },
+                    {
+                        "name": "Mana Vial Drop",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/items/check_misc_fade.png",
+                        "chest_opened_img": "images/items/check_misc.png",
+                        "visibility_rules": [
+                            "^$DropsOnAtLeast2"
+                        ]
+                    },
+                    {
+                        "name": "Medium Silver Drop",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/items/check_misc_fade.png",
+                        "chest_opened_img": "images/items/check_misc.png",
+                        "visibility_rules": [
+                            "^$DropsOnAtLeast2"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Dropsanity",
+                        "x": 1540,
+                        "y": 660,
+                        "size": 52
+                    }
+                ]
+            },
+            {
+                "name": "Embalmed",
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "access_rules": [
+                    "^$CanReachAndKill|Embalmed"
+                ],
+                "sections": [
+                    {
+                        "name": "Ashes Drop",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/items/check_misc_fade.png",
+                        "chest_opened_img": "images/items/check_misc.png",
+                        "visibility_rules": [
+                            "^$DropsOnAtLeast2"
+                        ]
+                    },
+                    {
+                        "name": "Bones Drop",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/items/check_misc_fade.png",
+                        "chest_opened_img": "images/items/check_misc.png",
+                        "visibility_rules": [
+                            "^$DropsOnAtLeast2"
+                        ]
+                    },
+                    {
+                        "name": "Cloth Bandage Drop",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/items/check_misc_fade.png",
+                        "chest_opened_img": "images/items/check_misc.png",
+                        "visibility_rules": [
+                            "^$DropsOnAtLeast2"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Dropsanity",
+                        "x": 3180,
+                        "y": 660,
+                        "size": 52
+                    }
+                ]
+            },
+            {
+                "name": "Enlightened One",
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "access_rules": [
+                    "^$CanReachAndKill|Enlightened One"
+                ],
+                "sections": [
+                    {
+                        "name": "Mana Vial Drop",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/items/check_misc_fade.png",
+                        "chest_opened_img": "images/items/check_misc.png",
+                        "visibility_rules": [
+                            "^$DropsOnAtLeast2"
+                        ]
+                    },
+                    {
+                        "name": "Ocean Bone Shell Drop",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/items/check_misc_fade.png",
+                        "chest_opened_img": "images/items/check_misc.png",
+                        "visibility_rules": [
+                            "^$DropsOnAtLeast2"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Dropsanity",
+                        "x": 740,
+                        "y": 900,
+                        "size": 52
+                    }
+                ]
+            },
+            {
+                "name": "Giant Skeleton",
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "access_rules": [
+                    "^$CanReachAndKill|Giant Skeleton"
+                ],
+                "sections": [
+                    {
+                        "name": "Bones Drop",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/items/check_misc_fade.png",
+                        "chest_opened_img": "images/items/check_misc.png",
+                        "visibility_rules": [
+                            "^$DropsOnAtLeast2"
+                        ]
+                    },
+                    {
+                        "name": "Dark Skull Drop",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/items/check_spell_fade.png",
+                        "chest_opened_img": "images/items/check_spell.png"
+                    },
+                    {
+                        "name": "Dark Urn Drop",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/items/check_misc_fade.png",
+                        "chest_opened_img": "images/items/check_misc.png",
+                        "visibility_rules": [
+                            "^$DropsOnAtLeast2"
+                        ]
+                    },
+                    {
+                        "name": "Mana Vial Drop",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/items/check_misc_fade.png",
+                        "chest_opened_img": "images/items/check_misc.png",
+                        "visibility_rules": [
+                            "^$DropsOnAtLeast2"
+                        ]
+                    },
+                    {
+                        "name": "Onyx Drop",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/items/check_misc_fade.png",
+                        "chest_opened_img": "images/items/check_misc.png",
+                        "visibility_rules": [
+                            "^$DropsOnAtLeast2"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Dropsanity",
+                        "x": 2380,
+                        "y": 900,
+                        "size": 52
+                    }
+                ]
+            },
+            {
+                "name": "Gloom Wood",
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "access_rules": [
+                    "^$CanReachAndKill|Gloom Wood"
+                ],
+                "sections": [
+                    {
+                        "name": "Fairy Moss Drop",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/items/check_misc_fade.png",
+                        "chest_opened_img": "images/items/check_misc.png",
+                        "visibility_rules": [
+                            "^$DropsOnAtLeast2"
+                        ]
+                    },
+                    {
+                        "name": "Health Vial Drop",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/items/check_misc_fade.png",
+                        "chest_opened_img": "images/items/check_misc.png",
+                        "visibility_rules": [
+                            "^$DropsOnAtLeast2"
+                        ]
+                    },
+                    {
+                        "name": "Mana Vial Drop",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/items/check_misc_fade.png",
+                        "chest_opened_img": "images/items/check_misc.png",
+                        "visibility_rules": [
+                            "^$DropsOnAtLeast2"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Dropsanity",
+                        "x": 3180,
+                        "y": 900,
+                        "size": 52
+                    }
+                ]
+            },
+            {
+                "name": "Great Bat",
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "access_rules": [
+                    "^$CanReachAndKill|Great Bat"
+                ],
+                "sections": [
+                    {
+                        "name": "Health Vial Drop",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/items/check_misc_fade.png",
+                        "chest_opened_img": "images/items/check_misc.png",
+                        "visibility_rules": [
+                            "^$DropsOnAtLeast2"
+                        ]
+                    },
+                    {
+                        "name": "Large Silver Drop",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/items/check_misc_fade.png",
+                        "chest_opened_img": "images/items/check_misc.png",
+                        "visibility_rules": [
+                            "^$DropsOnAtLeast2"
+                        ]
+                    },
+                    {
+                        "name": "Obsidian Drop",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/items/check_misc_fade.png",
+                        "chest_opened_img": "images/items/check_misc.png",
+                        "visibility_rules": [
+                            "^$DropsOnAtLeast2"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Dropsanity",
+                        "x": 740,
+                        "y": 1140,
+                        "size": 52
+                    }
+                ]
+            },
+            {
+                "name": "Hallowed Husk",
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "access_rules": [
+                    "^$CanReachAndKill|Hallowed Husk"
+                ],
+                "sections": [
+                    {
+                        "name": "Bones Drop",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/items/check_misc_fade.png",
+                        "chest_opened_img": "images/items/check_misc.png",
+                        "visibility_rules": [
+                            "^$DropsOnAtLeast2"
+                        ]
+                    },
+                    {
+                        "name": "Cloth Bandage Drop",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/items/check_misc_fade.png",
+                        "chest_opened_img": "images/items/check_misc.png",
+                        "visibility_rules": [
+                            "^$DropsOnAtLeast2"
+                        ]
+                    },
+                    {
+                        "name": "Fool's Gold Drop",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/items/check_misc_fade.png",
+                        "chest_opened_img": "images/items/check_misc.png",
+                        "visibility_rules": [
+                            "^$DropsOnAtLeast2"
+                        ]
+                    },
+                    {
+                        "name": "Holy Water Drop",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/items/check_misc_fade.png",
+                        "chest_opened_img": "images/items/check_misc.png",
+                        "visibility_rules": [
+                            "^$DropsOnAtLeast2"
+                        ]
+                    },
+                    {
+                        "name": "Large Silver Drop",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/items/check_misc_fade.png",
+                        "chest_opened_img": "images/items/check_misc.png",
+                        "visibility_rules": [
+                            "^$DropsOnAtLeast2"
+                        ]
+                    },
+                    {
+                        "name": "Light Urn Drop",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/items/check_misc_fade.png",
+                        "chest_opened_img": "images/items/check_misc.png",
+                        "visibility_rules": [
+                            "^$DropsOnAtLeast2"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Dropsanity",
+                        "x": 1540,
+                        "y": 1140,
+                        "size": 52
+                    }
+                ]
+            },
+            {
+                "name": "Hemalith",
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "access_rules": [
+                    "^$CanReachAndKill|Hemalith"
+                ],
+                "sections": [
+                    {
+                        "name": "Bloodweed Drop",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/items/check_misc_fade.png",
+                        "chest_opened_img": "images/items/check_misc.png",
+                        "visibility_rules": [
+                            "^$DropsOnAtLeast2"
+                        ]
+                    },
+                    {
+                        "name": "Health Vial Drop",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/items/check_misc_fade.png",
+                        "chest_opened_img": "images/items/check_misc.png",
+                        "visibility_rules": [
+                            "^$DropsOnAtLeast2"
+                        ]
+                    },
+                    {
+                        "name": "Pink Shrimp Drop",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/items/check_misc_fade.png",
+                        "chest_opened_img": "images/items/check_misc.png",
+                        "visibility_rules": [
+                            "^$DropsOnAtLeast2"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Dropsanity",
+                        "x": 2380,
+                        "y": 1140,
+                        "size": 52
+                    }
+                ]
+            },
+            {
+                "name": "Ikurr'ilb",
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "access_rules": [
+                    "^$CanReachAndKill|Ikurr'ilb"
+                ],
+                "sections": [
+                    {
+                        "name": "Ikurr'ilb Root Drop",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/items/check_misc_fade.png",
+                        "chest_opened_img": "images/items/check_misc.png",
+                        "visibility_rules": [
+                            "^$DropsOnAtLeast2"
+                        ]
+                    },
+                    {
+                        "name": "Medium Silver Drop",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/items/check_misc_fade.png",
+                        "chest_opened_img": "images/items/check_misc.png",
+                        "visibility_rules": [
+                            "^$DropsOnAtLeast2"
+                        ]
+                    },
+                    {
+                        "name": "Snowflake Obsidian Drop",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/items/check_misc_fade.png",
+                        "chest_opened_img": "images/items/check_misc.png",
+                        "visibility_rules": [
+                            "^$DropsOnAtLeast2"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Dropsanity",
+                        "x": 3180,
+                        "y": 1140,
+                        "size": 52
+                    }
+                ]
+            },
+            {
+                "name": "Infested Corpse",
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "access_rules": [
+                    "^$CanReachAndKill|Infested Corpse"
+                ],
+                "sections": [
+                    {
+                        "name": "Antidote Drop",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/items/check_misc_fade.png",
+                        "chest_opened_img": "images/items/check_misc.png",
+                        "visibility_rules": [
+                            "^$DropsOnAtLeast2"
+                        ]
+                    },
+                    {
+                        "name": "Bones Drop",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/items/check_misc_fade.png",
+                        "chest_opened_img": "images/items/check_misc.png",
+                        "visibility_rules": [
+                            "^$DropsOnAtLeast2"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Dropsanity",
+                        "x": 740,
+                        "y": 1380,
+                        "size": 52
                     }
                 ]
             },
@@ -269,14 +768,1325 @@
                 "sections": [
                     {
                         "name": "Jailor's Candle Drop",
-                        "item_count": 1
+                        "item_count": 1,
+                        "chest_unopened_img": "images/items/check_weapon_fade.png",
+                        "chest_opened_img": "images/items/check_weapon.png"
+                    },
+                    {
+                        "name": "Angel's Feather Drop",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/items/check_misc_fade.png",
+                        "chest_opened_img": "images/items/check_misc.png",
+                        "visibility_rules": [
+                            "^$DropsOnAtLeast2"
+                        ]
+                    },
+                    {
+                        "name": "Cloth Bandage Drop",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/items/check_misc_fade.png",
+                        "chest_opened_img": "images/items/check_misc.png",
+                        "visibility_rules": [
+                            "^$DropsOnAtLeast2"
+                        ]
+                    },
+                    {
+                        "name": "Health Vial Drop",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/items/check_misc_fade.png",
+                        "chest_opened_img": "images/items/check_misc.png",
+                        "visibility_rules": [
+                            "^$DropsOnAtLeast2"
+                        ]
+                    },
+                    {
+                        "name": "Large Silver Drop",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/items/check_misc_fade.png",
+                        "chest_opened_img": "images/items/check_misc.png",
+                        "visibility_rules": [
+                            "^$DropsOnAtLeast2"
+                        ]
+                    },
+                    {
+                        "name": "Spectral Candle Drop",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/items/check_misc_fade.png",
+                        "chest_opened_img": "images/items/check_misc.png",
+                        "visibility_rules": [
+                            "^$DropsOnAtLeast2"
+                        ]
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Dropsanity",
-                        "x": 1337,
-                        "y": 1516
+                        "x": 1540,
+                        "y": 1380,
+                        "size": 52
+                    }
+                ]
+            },
+            {
+                "name": "Kodama",
+                "chest_unopened_img": "images/items/check_spell_fade.png",
+                "chest_opened_img": "images/items/check_spell.png",
+                "access_rules": [
+                    "^$CanReachAndKill|Kodama"
+                ],
+                "sections": [
+                    {
+                        "name": "Summon Kodama Drop",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/items/check_spell_fade.png",
+                        "chest_opened_img": "images/items/check_spell.png"
+                    },
+                    {
+                        "name": "Medium Silver Drop",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/items/check_misc_fade.png",
+                        "chest_opened_img": "images/items/check_misc.png",
+                        "visibility_rules": [
+                            "^$DropsOnAtLeast2"
+                        ]
+                    },
+                    {
+                        "name": "Opal Drop",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/items/check_misc_fade.png",
+                        "chest_opened_img": "images/items/check_misc.png",
+                        "visibility_rules": [
+                            "^$DropsOnAtLeast2"
+                        ]
+                    },
+                    {
+                        "name": "Small Silver Drop",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/items/check_misc_fade.png",
+                        "chest_opened_img": "images/items/check_misc.png",
+                        "visibility_rules": [
+                            "^$DropsOnAtLeast2"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Dropsanity",
+                        "x": 2380,
+                        "y": 1380,
+                        "size": 52
+                    }
+                ]
+            },
+            {
+                "name": "Lupine Skeleton",
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "access_rules": [
+                    "^$CanReachAndKill|Lupine Skeleton"
+                ],
+                "sections": [
+                    {
+                        "name": "Bones Drop",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/items/check_misc_fade.png",
+                        "chest_opened_img": "images/items/check_misc.png",
+                        "visibility_rules": [
+                            "^$DropsOnAtLeast2"
+                        ]
+                    },
+                    {
+                        "name": "Dark Skull Drop",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/items/check_misc_fade.png",
+                        "chest_opened_img": "images/items/check_misc.png"
+                    },
+                    {
+                        "name": "Medium Silver Drop",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/items/check_misc_fade.png",
+                        "chest_opened_img": "images/items/check_misc.png",
+                        "visibility_rules": [
+                            "^$DropsOnAtLeast2"
+                        ]
+                    },
+                    {
+                        "name": "Onyx Drop",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/items/check_misc_fade.png",
+                        "chest_opened_img": "images/items/check_misc.png",
+                        "visibility_rules": [
+                            "^$DropsOnAtLeast2"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Dropsanity",
+                        "x": 740,
+                        "y": 1620,
+                        "size": 52
+                    }
+                ]
+            },
+            {
+                "name": "Malformed",
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "access_rules": [
+                    "^$CanReachAndKill|Malformed"
+                ],
+                "sections": [
+                    {
+                        "name": "Vampiric Ashes Drop",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/items/check_misc_fade.png",
+                        "chest_opened_img": "images/items/check_misc.png",
+                        "visibility_rules": [
+                            "^$DropsOnAtLeast2"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Dropsanity",
+                        "x": 2380,
+                        "y": 1620,
+                        "size": 52
+                    }
+                ]
+            },
+            {
+                "name": "Malformed Horse",
+                "chest_unopened_img": "images/items/check_weapon_fade.png",
+                "chest_opened_img": "images/items/check_weapon.png",
+                "access_rules": [
+                    "^$CanReachAndKill|Malformed Horse"
+                ],
+                "sections": [
+                    {
+                        "name": "Brittle Arming Sword Drop",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/items/check_weapon_fade.png",
+                        "chest_opened_img": "images/items/check_weapon.png"
+                    },
+                    {
+                        "name": "Large Silver Drop",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/items/check_misc_fade.png",
+                        "chest_opened_img": "images/items/check_misc.png",
+                        "visibility_rules": [
+                            "^$DropsOnAtLeast2"
+                        ]
+                    },
+                    {
+                        "name": "Mana Vial Drop",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/items/check_misc_fade.png",
+                        "chest_opened_img": "images/items/check_misc.png",
+                        "visibility_rules": [
+                            "^$DropsOnAtLeast2"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Dropsanity",
+                        "x": 3180,
+                        "y": 1620,
+                        "size": 52
+                    }
+                ]
+            },
+            {
+                "name": "Mare",
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "access_rules": [
+                    "^$CanReachAndKill|Mare"
+                ],
+                "sections": [
+                    {
+                        "name": "Medium Silver Drop",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/items/check_misc_fade.png",
+                        "chest_opened_img": "images/items/check_misc.png",
+                        "visibility_rules": [
+                            "^$DropsOnAtLeast2"
+                        ]
+                    },
+                    {
+                        "name": "Obsidian Drop",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/items/check_misc_fade.png",
+                        "chest_opened_img": "images/items/check_misc.png",
+                        "visibility_rules": [
+                            "^$DropsOnAtLeast2"
+                        ]
+                    },
+                    {
+                        "name": "Onyx Drop",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/items/check_misc_fade.png",
+                        "chest_opened_img": "images/items/check_misc.png",
+                        "visibility_rules": [
+                            "^$DropsOnAtLeast2"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Dropsanity",
+                        "x": 1540,
+                        "y": 1620,
+                        "size": 52
+                    }
+                ]
+            },
+            {
+                "name": "Mi-Go",
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "access_rules": [
+                    "^$CanReachAndKill|Mi-Go"
+                ],
+                "sections": [
+                    {
+                        "name": "Medium Silver Drop",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/items/check_misc_fade.png",
+                        "chest_opened_img": "images/items/check_misc.png",
+                        "visibility_rules": [
+                            "^$DropsOnAtLeast2"
+                        ]
+                    },
+                    {
+                        "name": "Ocean Bone Shell Drop",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/items/check_misc_fade.png",
+                        "chest_opened_img": "images/items/check_misc.png",
+                        "visibility_rules": [
+                            "^$DropsOnAtLeast2"
+                        ]
+                    },
+                    {
+                        "name": "Snowflake Obsidian Drop",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/items/check_misc_fade.png",
+                        "chest_opened_img": "images/items/check_misc.png",
+                        "visibility_rules": [
+                            "^$DropsOnAtLeast2"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Dropsanity",
+                        "x": 740,
+                        "y": 1860,
+                        "size": 52
+                    }
+                ]
+            },
+            {
+                "name": "Milk Snail",
+                "chest_unopened_img": "images/items/check_weapon_fade.png",
+                "chest_opened_img": "images/items/check_weapon.png",
+                "access_rules": [
+                    "^$CanReachAndKill|Milk Snail"
+                ],
+                "sections": [
+                    {
+                        "name": "Ice Sickle Drop",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/items/check_weapon_fade.png",
+                        "chest_opened_img": "images/items/check_weapon.png"
+                    },
+                    {
+                        "name": "Large Silver Drop",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/items/check_misc_fade.png",
+                        "chest_opened_img": "images/items/check_misc.png",
+                        "visibility_rules": [
+                            "^$DropsOnAtLeast2"
+                        ]
+                    },
+                    {
+                        "name": "Ocean Bone Shard Drop",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/items/check_misc_fade.png",
+                        "chest_opened_img": "images/items/check_misc.png",
+                        "visibility_rules": [
+                            "^$DropsOnAtLeast2"
+                        ]
+                    },
+                    {
+                        "name": "Small Silver Drop",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/items/check_misc_fade.png",
+                        "chest_opened_img": "images/items/check_misc.png",
+                        "visibility_rules": [
+                            "^$DropsOnAtLeast2"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Dropsanity",
+                        "x": 1540,
+                        "y": 1860,
+                        "size": 52
+                    }
+                ]
+            },
+            {
+                "name": "Mimic",
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "access_rules": [
+                    "^$CanReachAndKill|Mimic"
+                ],
+                "sections": [
+                    {
+                        "name": "Fool's Gold Drop",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/items/check_misc_fade.png",
+                        "chest_opened_img": "images/items/check_misc.png",
+                        "visibility_rules": [
+                            "^$DropsOnAtLeast2"
+                        ]
+                    },
+                    {
+                        "name": "Moonlight Vial Drop",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/items/check_misc_fade.png",
+                        "chest_opened_img": "images/items/check_misc.png",
+                        "visibility_rules": [
+                            "^$DropsOnAtLeast2"
+                        ]
+                    },
+                    {
+                        "name": "Obsidian Drop",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/items/check_misc_fade.png",
+                        "chest_opened_img": "images/items/check_misc.png",
+                        "visibility_rules": [
+                            "^$DropsOnAtLeast2"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Dropsanity",
+                        "x": 2380,
+                        "y": 1860,
+                        "size": 52
+                    }
+                ]
+            },
+            {
+                "name": "Mummy",
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "access_rules": [
+                    "^$CanReachAndKill|Mummy"
+                ],
+                "sections": [
+                    {
+                        "name": "Large Silver Drop",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/items/check_misc_fade.png",
+                        "chest_opened_img": "images/items/check_misc.png",
+                        "visibility_rules": [
+                            "^$DropsOnAtLeast2"
+                        ]
+                    },
+                    {
+                        "name": "Mana Vial Drop",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/items/check_misc_fade.png",
+                        "chest_opened_img": "images/items/check_misc.png",
+                        "visibility_rules": [
+                            "^$DropsOnAtLeast2"
+                        ]
+                    },
+                    {
+                        "name": "Onyx Drop",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/items/check_misc_fade.png",
+                        "chest_opened_img": "images/items/check_misc.png",
+                        "visibility_rules": [
+                            "^$DropsOnAtLeast2"
+                        ]
+                    },
+                    {
+                        "name": "Small Silver Drop",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/items/check_misc_fade.png",
+                        "chest_opened_img": "images/items/check_misc.png",
+                        "visibility_rules": [
+                            "^$DropsOnAtLeast2"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Dropsanity",
+                        "x": 3180,
+                        "y": 1860,
+                        "size": 52
+                    }
+                ]
+            },
+            {
+                "name": "Mummy Knight",
+                "chest_unopened_img": "images/items/check_weapon_fade.png",
+                "chest_opened_img": "images/items/check_weapon.png",
+                "access_rules": [
+                    "^$CanReachAndKill|Mummy Knight"
+                ],
+                "sections": [
+                    {
+                        "name": "Rusted Sword Drop",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/items/check_weapon_fade.png",
+                        "chest_opened_img": "images/items/check_weapon.png"
+                    },
+                    {
+                        "name": "Large Silver Drop",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/items/check_misc_fade.png",
+                        "chest_opened_img": "images/items/check_misc.png",
+                        "visibility_rules": [
+                            "^$DropsOnAtLeast2"
+                        ]
+                    },
+                    {
+                        "name": "Onyx Drop",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/items/check_misc_fade.png",
+                        "chest_opened_img": "images/items/check_misc.png",
+                        "visibility_rules": [
+                            "^$DropsOnAtLeast2"
+                        ]
+                    },
+                    {
+                        "name": "Small Silver Drop",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/items/check_misc_fade.png",
+                        "chest_opened_img": "images/items/check_misc.png",
+                        "visibility_rules": [
+                            "^$DropsOnAtLeast2"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Dropsanity",
+                        "x": 740,
+                        "y": 2100,
+                        "size": 52
+                    }
+                ]
+            },
+            {
+                "name": "Necronomicon",
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "access_rules": [
+                    "^$CanReachAndKill|Necronomicon"
+                ],
+                "sections": [
+                    {
+                        "name": "Fire Opal Drop",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/items/check_misc_fade.png",
+                        "chest_opened_img": "images/items/check_misc.png",
+                        "visibility_rules": [
+                            "^$DropsOnAtLeast2"
+                        ]
+                    },
+                    {
+                        "name": "Large Silver Drop",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/items/check_misc_fade.png",
+                        "chest_opened_img": "images/items/check_misc.png",
+                        "visibility_rules": [
+                            "^$DropsOnAtLeast2"
+                        ]
+                    },
+                    {
+                        "name": "Mana Vial Drop",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/items/check_misc_fade.png",
+                        "chest_opened_img": "images/items/check_misc.png",
+                        "visibility_rules": [
+                            "^$DropsOnAtLeast2"
+                        ]
+                    },
+                    {
+                        "name": "Medium Silver Drop",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/items/check_misc_fade.png",
+                        "chest_opened_img": "images/items/check_misc.png",
+                        "visibility_rules": [
+                            "^$DropsOnAtLeast2"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Dropsanity",
+                        "x": 1540,
+                        "y": 2100,
+                        "size": 52
+                    }
+                ]
+            },
+            {
+                "name": "Neptune",
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "access_rules": [
+                    "^$CanReachAndKill|Neptune"
+                ],
+                "sections": [
+                    {
+                        "name": "Destroying Angel Mushroom Drop",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/items/check_misc_fade.png",
+                        "chest_opened_img": "images/items/check_misc.png",
+                        "visibility_rules": [
+                            "^$DropsOnAtLeast2"
+                        ]
+                    },
+                    {
+                        "name": "Medium Silver Drop",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/items/check_misc_fade.png",
+                        "chest_opened_img": "images/items/check_misc.png",
+                        "visibility_rules": [
+                            "^$DropsOnAtLeast2"
+                        ]
+                    },
+                    {
+                        "name": "Yellow Morel Drop",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/items/check_misc_fade.png",
+                        "chest_opened_img": "images/items/check_misc.png",
+                        "visibility_rules": [
+                            "^$DropsOnAtLeast2"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Dropsanity",
+                        "x": 2380,
+                        "y": 2100,
+                        "size": 52
+                    }
+                ]
+            },
+            {
+                "name": "Obsidian Skeleton",
+                "chest_unopened_img": "images/items/check_weapon_fade.png",
+                "chest_opened_img": "images/items/check_weapon.png",
+                "access_rules": [
+                    "^$CanReachAndKill|Obsidian Skeleton"
+                ],
+                "sections": [
+                    {
+                        "name": "Obsidian Cursebrand Drop",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/items/check_weapon_fade.png",
+                        "chest_opened_img": "images/items/check_weapon.png"
+                    },
+                    {
+                        "name": "Obsidian Poisonguard Drop",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/items/check_weapon_fade.png",
+                        "chest_opened_img": "images/items/check_weapon.png"
+                    },
+                    {
+                        "name": "Bones Drop",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/items/check_misc_fade.png",
+                        "chest_opened_img": "images/items/check_misc.png",
+                        "visibility_rules": [
+                            "^$DropsOnAtLeast2"
+                        ]
+                    },
+                    {
+                        "name": "Large Silver Drop",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/items/check_misc_fade.png",
+                        "chest_opened_img": "images/items/check_misc.png",
+                        "visibility_rules": [
+                            "^$DropsOnAtLeast2"
+                        ]
+                    },
+                    {
+                        "name": "Mana Vial Drop",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/items/check_misc_fade.png",
+                        "chest_opened_img": "images/items/check_misc.png",
+                        "visibility_rules": [
+                            "^$DropsOnAtLeast2"
+                        ]
+                    },
+                    {
+                        "name": "Obsidian Drop",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/items/check_misc_fade.png",
+                        "chest_opened_img": "images/items/check_misc.png",
+                        "visibility_rules": [
+                            "^$DropsOnAtLeast2"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Dropsanity",
+                        "x": 3180,
+                        "y": 2100,
+                        "size": 52
+                    }
+                ]
+            },
+            {
+                "name": "Phantom",
+                "chest_unopened_img": "images/items/check_weapon_fade.png",
+                "chest_opened_img": "images/items/check_weapon.png",
+                "access_rules": [
+                    "^$CanReachAndKill|Phantom"
+                ],
+                "sections": [
+                    {
+                        "name": "Cursed Blade Drop",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/items/check_weapon_fade.png",
+                        "chest_opened_img": "images/items/check_weapon.png"
+                    },
+                    {
+                        "name": "Ectoplasm Drop",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/items/check_misc_fade.png",
+                        "chest_opened_img": "images/items/check_misc.png",
+                        "visibility_rules": [
+                            "^$DropsOnAtLeast2"
+                        ]
+                    },
+                    {
+                        "name": "Holy Water Drop",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/items/check_misc_fade.png",
+                        "chest_opened_img": "images/items/check_misc.png",
+                        "visibility_rules": [
+                            "^$DropsOnAtLeast2"
+                        ]
+                    },
+                    {
+                        "name": "Medium Silver Drop",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/items/check_misc_fade.png",
+                        "chest_opened_img": "images/items/check_misc.png",
+                        "visibility_rules": [
+                            "^$DropsOnAtLeast2"
+                        ]
+                    },
+                    {
+                        "name": "Moonlight Vial Drop",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/items/check_misc_fade.png",
+                        "chest_opened_img": "images/items/check_misc.png",
+                        "visibility_rules": [
+                            "^$DropsOnAtLeast2"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Dropsanity",
+                        "x": 740,
+                        "y": 2340,
+                        "size": 52
+                    }
+                ]
+            },
+            {
+                "name": "Poltergeist",
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "access_rules": [
+                    "^$CanReachAndKill|Poltergeist"
+                ],
+                "sections": [
+                    {
+                        "name": "Ectoplasm Drop",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/items/check_misc_fade.png",
+                        "chest_opened_img": "images/items/check_misc.png",
+                        "visibility_rules": [
+                            "^$DropsOnAtLeast2"
+                        ]
+                    },
+                    {
+                        "name": "Large Silver Drop",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/items/check_misc_fade.png",
+                        "chest_opened_img": "images/items/check_misc.png",
+                        "visibility_rules": [
+                            "^$DropsOnAtLeast2"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Dropsanity",
+                        "x": 1540,
+                        "y": 2340,
+                        "size": 52
+                    }
+                ]
+            },
+            {
+                "name": "Rat",
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "access_rules": [
+                    "^$CanReachAndKill|Rat"
+                ],
+                "sections": [
+                    {
+                        "name": "Small Silver Drop",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/items/check_misc_fade.png",
+                        "chest_opened_img": "images/items/check_misc.png",
+                        "visibility_rules": [
+                            "^$DropsOnAtLeast2"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Dropsanity",
+                        "x": 2380,
+                        "y": 2340,
+                        "size": 52
+                    }
+                ]
+            },
+            {
+                "name": "Rat King",
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "access_rules": [
+                    "^$CanReachAndKill|Rat King"
+                ],
+                "sections": [
+                    {
+                        "name": "Large Silver Drop",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/items/check_misc_fade.png",
+                        "chest_opened_img": "images/items/check_misc.png",
+                        "visibility_rules": [
+                            "^$DropsOnAtLeast2"
+                        ]
+                    },
+                    {
+                        "name": "Lotus Seed Pod Drop",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/items/check_misc_fade.png",
+                        "chest_opened_img": "images/items/check_misc.png",
+                        "visibility_rules": [
+                            "^$DropsOnAtLeast2"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Dropsanity",
+                        "x": 3180,
+                        "y": 2340,
+                        "size": 52
+                    }
+                ]
+            },
+            {
+                "name": "Sanguine Umbra",
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "access_rules": [
+                    "^$CanReachAndKill|Sanguine Umbra"
+                ],
+                "sections": [
+                    {
+                        "name": "Black Book Drop",
+                        "access_rules": [],
+                        "item_count": 1,
+                        "chest_unopened_img": "images/items/check_misc_fade.png",
+                        "chest_opened_img": "images/items/check_misc.png"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "A Holy Battlefield",
+                        "x": 818,
+                        "y": 407
+                    },
+                    {
+                        "map": "Dropsanity",
+                        "x": 1540,
+                        "y": 2580,
+                        "size": 52
+                    }
+                ]
+            },
+            {
+                "name": "Serpent",
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "access_rules": [
+                    "^$CanReachAndKill|Serpent"
+                ],
+                "sections": [
+                    {
+                        "name": "Antidote Drop",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/items/check_misc_fade.png",
+                        "chest_opened_img": "images/items/check_misc.png",
+                        "visibility_rules": [
+                            "^$DropsOnAtLeast2"
+                        ]
+                    },
+                    {
+                        "name": "Small Silver Drop",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/items/check_misc_fade.png",
+                        "chest_opened_img": "images/items/check_misc.png",
+                        "visibility_rules": [
+                            "^$DropsOnAtLeast2"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Dropsanity",
+                        "x": 2380,
+                        "y": 2580,
+                        "size": 52
+                    }
+                ]
+            },
+            {
+                "name": "Shulker",
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "access_rules": [
+                    "^$CanReachAndKill|Shulker"
+                ],
+                "sections": [
+                    {
+                        "name": "Obsidian Drop",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/items/check_misc_fade.png",
+                        "chest_opened_img": "images/items/check_misc.png",
+                        "visibility_rules": [
+                            "^$DropsOnAtLeast2"
+                        ]
+                    },
+                    {
+                        "name": "Onyx Drop",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/items/check_misc_fade.png",
+                        "chest_opened_img": "images/items/check_misc.png",
+                        "visibility_rules": [
+                            "^$DropsOnAtLeast2"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Dropsanity",
+                        "x": 3180,
+                        "y": 2580,
+                        "size": 52
+                    }
+                ]
+            },
+            {
+                "name": "Skeleton",
+                "chest_unopened_img": "images/items/check_weapon_fade.png",
+                "chest_opened_img": "images/items/check_weapon.png",
+                "access_rules": [
+                    "^$CanReachAndKill|Skeleton"
+                ],
+                "sections": [
+                    {
+                        "name": "Bones Drop",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/items/check_misc_fade.png",
+                        "chest_opened_img": "images/items/check_misc.png",
+                        "visibility_rules": [
+                            "^$DropsOnAtLeast2"
+                        ]
+                    },
+                    {
+                        "name": "Large Silver Drop",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/items/check_misc_fade.png",
+                        "chest_opened_img": "images/items/check_misc.png",
+                        "visibility_rules": [
+                            "^$DropsOnAtLeast2"
+                        ]
+                    },
+                    {
+                        "name": "Mana Vial Drop",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/items/check_misc_fade.png",
+                        "chest_opened_img": "images/items/check_misc.png",
+                        "visibility_rules": [
+                            "^$DropsOnAtLeast2"
+                        ]
+                    },
+                    {
+                        "name": "Onyx Drop",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/items/check_misc_fade.png",
+                        "chest_opened_img": "images/items/check_misc.png",
+                        "visibility_rules": [
+                            "^$DropsOnAtLeast2"
+                        ]
+                    },
+                    {
+                        "name": "Small Silver Drop",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/items/check_misc_fade.png",
+                        "chest_opened_img": "images/items/check_misc.png",
+                        "visibility_rules": [
+                            "^$DropsOnAtLeast2"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Dropsanity",
+                        "x": 740,
+                        "y": 2820,
+                        "size": 52
+                    }
+                ]
+            },
+            {
+                "name": "Skeleton (Weapon)",
+                "chest_unopened_img": "images/items/check_weapon_fade.png",
+                "chest_opened_img": "images/items/check_weapon.png",
+                "access_rules": [
+                    "^$CanReachAndKill|Skeleton (Weapon)"
+                ],
+                "sections": [
+                    {
+                        "name": "Skeleton Axe Drop",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/items/check_weapon_fade.png",
+                        "chest_opened_img": "images/items/check_weapon.png"
+                    },
+                    {
+                        "name": "Dark Skull Drop",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/items/check_misc_fade.png",
+                        "chest_opened_img": "images/items/check_misc.png"
+                    },
+                    {
+                        "ref": "Dropsanity/Skeleton/Medium Silver Drop"
+                    },
+                    {
+                        "ref": "Dropsanity/Skeleton/Large Silver Drop"
+                    },
+                    {
+                        "ref": "Dropsanity/Skeleton/Mana Vial Drop"
+                    },
+                    {
+                        "ref": "Dropsanity/Skeleton/Onyx Drop"
+                    },
+                    {
+                        "ref": "Dropsanity/Skeleton/Small Silver Drop"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Dropsanity",
+                        "x": 1540,
+                        "y": 2820,
+                        "size": 52
+                    }
+                ]
+            },
+            {
+                "name": "Slime Skeleton",
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "access_rules": [
+                    "^$CanReachAndKill|Slime Skeleton"
+                ],
+                "sections": [
+                    {
+                        "name": "Ashes Drop",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/items/check_misc_fade.png",
+                        "chest_opened_img": "images/items/check_misc.png",
+                        "visibility_rules": [
+                            "^$DropsOnAtLeast2"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Dropsanity",
+                        "x": 3180,
+                        "y": 2820,
+                        "size": 52
+                    }
+                ]
+            },
+            {
+                "name": "Snail",
+                "chest_unopened_img": "images/items/check_spell_fade.png",
+                "chest_opened_img": "images/items/check_spell.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "^$CanReachAndKill|Snail"
+                ],
+                "sections": [
+                    {
+                        "name": "Summon Snail Drop",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/items/check_spell_fade.png",
+                        "chest_opened_img": "images/items/check_spell.png"
+                    },
+                    {
+                        "name": "Large Silver Drop",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/items/check_misc_fade.png",
+                        "chest_opened_img": "images/items/check_misc.png",
+                        "visibility_rules": [
+                            "^$DropsOnAtLeast2"
+                        ]
+                    },
+                    {
+                        "name": "Ocean Bone Shard Drop",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/items/check_misc_fade.png",
+                        "chest_opened_img": "images/items/check_misc.png",
+                        "visibility_rules": [
+                            "^$DropsOnAtLeast2"
+                        ]
+                    },
+                    {
+                        "name": "Small Silver Drop",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/items/check_misc_fade.png",
+                        "chest_opened_img": "images/items/check_misc.png",
+                        "visibility_rules": [
+                            "^$DropsOnAtLeast2"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Dropsanity",
+                        "x": 740,
+                        "y": 3060,
+                        "size": 52
+                    }
+                ]
+            },
+            {
+                "name": "Sucsarian (Dagger)",
+                "chest_unopened_img": "images/items/check_weapon_fade.png",
+                "chest_opened_img": "images/items/check_weapon.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "^$CanReachAndKill|Sucsarian (Dagger)"
+                ],
+                "sections": [
+                    {
+                        "name": "Sucsarian Dagger Drop",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/items/check_weapon_fade.png",
+                        "chest_opened_img": "images/items/check_weapon.png"
+                    },
+                    {
+                        "name": "Large Silver Drop",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/items/check_misc_fade.png",
+                        "chest_opened_img": "images/items/check_misc.png",
+                        "visibility_rules": [
+                            "^$DropsOnAtLeast2"
+                        ]
+                    },
+                    {
+                        "name": "Obsidian Drop",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/items/check_misc_fade.png",
+                        "chest_opened_img": "images/items/check_misc.png",
+                        "visibility_rules": [
+                            "^$DropsOnAtLeast2"
+                        ]
+                    },
+                    {
+                        "name": "Snowflake Obsidian Drop",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/items/check_misc_fade.png",
+                        "chest_opened_img": "images/items/check_misc.png",
+                        "visibility_rules": [
+                            "^$DropsOnAtLeast2"
+                        ]
+                    },
+                    {
+                        "name": "Throwing Knife Drop",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/items/check_weapon_fade.png",
+                        "chest_opened_img": "images/items/check_weapon.png",
+                        "visibility_rules": [
+                            "^$DropsOnAtLeast2"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Dropsanity",
+                        "x": 2380,
+                        "y": 3060,
+                        "size": 52
+                    }
+                ]
+            },
+            {
+                "name": "Sucsarian (Spear)",
+                "chest_unopened_img": "images/items/check_weapon_fade.png",
+                "chest_opened_img": "images/items/check_weapon.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "^$CanReachAndKill|Sucsarian (Spear)"
+                ],
+                "sections": [
+                    {
+                        "name": "Sucsarian Spear Drop",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/items/check_weapon_fade.png",
+                        "chest_opened_img": "images/items/check_weapon.png"
+                    },
+                    {
+                        "ref": "Dropsanity/Sucsarian (Dagger)/Large Silver Drop"
+                    },
+                    {
+                        "ref": "Dropsanity/Sucsarian (Dagger)/Obsidian Drop"
+                    },
+                    {
+                        "ref": "Dropsanity/Sucsarian (Dagger)/Snowflake Obsidian Drop"
+                    },
+                    {
+                        "ref": "Dropsanity/Sucsarian (Dagger)/Throwing Knife Drop"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Dropsanity",
+                        "x": 3180,
+                        "y": 3060,
+                        "size": 52
+                    }
+                ]
+            },
+            {
+                "name": "Unilateralis",
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "access_rules": [
+                    "^$CanReachAndKill|Unilateralis"
+                ],
+                "sections": [
+                    {
+                        "name": "Destroying Angel Mushroom Drop",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/items/check_misc_fade.png",
+                        "chest_opened_img": "images/items/check_misc.png",
+                        "visibility_rules": [
+                            "^$DropsOnAtLeast2"
+                        ]
+                    },
+                    {
+                        "name": "Medium Silver Drop",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/items/check_misc_fade.png",
+                        "chest_opened_img": "images/items/check_misc.png",
+                        "visibility_rules": [
+                            "^$DropsOnAtLeast2"
+                        ]
+                    },
+                    {
+                        "name": "Yellow Morel Drop",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/items/check_misc_fade.png",
+                        "chest_opened_img": "images/items/check_misc.png",
+                        "visibility_rules": [
+                            "^$DropsOnAtLeast2"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Dropsanity",
+                        "x": 1540,
+                        "y": 3300,
+                        "size": 52
+                    }
+                ]
+            },
+            {
+                "name": "Vampire",
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "access_rules": [
+                    "^$CanReachAndKill|Vampire"
+                ],
+                "sections": [
+                    {
+                        "name": "Cloth Bandage Drop",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/items/check_misc_fade.png",
+                        "chest_opened_img": "images/items/check_misc.png",
+                        "visibility_rules": [
+                            "^$DropsOnAtLeast2"
+                        ]
+                    },
+                    {
+                        "name": "Large Silver Drop",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/items/check_misc_fade.png",
+                        "chest_opened_img": "images/items/check_misc.png",
+                        "visibility_rules": [
+                            "^$DropsOnAtLeast2"
+                        ]
+                    },
+                    {
+                        "name": "Vampiric Ashes Drop",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/items/check_misc_fade.png",
+                        "chest_opened_img": "images/items/check_misc.png",
+                        "visibility_rules": [
+                            "^$DropsOnAtLeast2"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Dropsanity",
+                        "x": 2380,
+                        "y": 3300,
+                        "size": 52
                     }
                 ]
             },
@@ -291,127 +2101,181 @@
                 "sections": [
                     {
                         "name": "Lyrian Longsword Drop",
-                        "item_count": 1
+                        "item_count": 1,
+                        "chest_unopened_img": "images/items/check_weapon_fade.png",
+                        "chest_opened_img": "images/items/check_weapon.png"
+                    },
+                    {
+                        "name": "Large Silver Drop",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/items/check_misc_fade.png",
+                        "chest_opened_img": "images/items/check_misc.png",
+                        "visibility_rules": [
+                            "^$DropsOnAtLeast2"
+                        ]
+                    },
+                    {
+                        "name": "Vampiric Ashes Drop",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/items/check_misc_fade.png",
+                        "chest_opened_img": "images/items/check_misc.png",
+                        "visibility_rules": [
+                            "^$DropsOnAtLeast2"
+                        ]
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Dropsanity",
-                        "x": 1337,
-                        "y": 1786
+                        "x": 3180,
+                        "y": 3300,
+                        "size": 52
                     }
                 ]
             },
             {
-                "name": "Sucsarian",
-                "chest_unopened_img": "images/items/check_weapon_fade.png",
-                "chest_opened_img": "images/items/check_weapon.png",
-                "overlay_background": "#000000",
+                "name": "Venus",
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
                 "access_rules": [
-                    "^$CanReachAndKill|Sucsarian"
+                    "^$CanReachAndKill|Venus"
                 ],
                 "sections": [
                     {
-                        "name": "Sucsarian Dagger Drop",
-                        "item_count": 1
+                        "name": "Destroying Angel Mushroom Drop",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/items/check_misc_fade.png",
+                        "chest_opened_img": "images/items/check_misc.png",
+                        "visibility_rules": [
+                            "^$DropsOnAtLeast2"
+                        ]
                     },
                     {
-                        "name": "Sucsarian Spear Drop",
-                        "item_count": 1
+                        "name": "Medium Silver Drop",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/items/check_misc_fade.png",
+                        "chest_opened_img": "images/items/check_misc.png",
+                        "visibility_rules": [
+                            "^$DropsOnAtLeast2"
+                        ]
+                    },
+                    {
+                        "name": "Yellow Morel Drop",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/items/check_misc_fade.png",
+                        "chest_opened_img": "images/items/check_misc.png",
+                        "visibility_rules": [
+                            "^$DropsOnAtLeast2"
+                        ]
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Dropsanity",
-                        "x": 1337,
-                        "y": 2056
-                    },
-                    {
-                        "map": "Dropsanity",
-                        "x": 2100,
-                        "y": 166
+                        "x": 920,
+                        "y": 3540,
+                        "size": 52
                     }
                 ]
             },
             {
-                "name": "Cetea",
-                "chest_unopened_img": "images/items/check_spell_fade.png",
-                "chest_opened_img": "images/items/check_spell.png",
+                "name": "Vesta",
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
                 "access_rules": [
-                    "^$CanReachAndKill|Cetea"
+                    "^$CanReachAndKill|Vesta"
                 ],
                 "sections": [
                     {
-                        "name": "Tornado Drop",
-                        "item_count": 1
+                        "name": "Destroying Angel Mushroom Drop",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/items/check_misc_fade.png",
+                        "chest_opened_img": "images/items/check_misc.png",
+                        "visibility_rules": [
+                            "^$DropsOnAtLeast2"
+                        ]
+                    },
+                    {
+                        "name": "Fairy Moss Drop",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/items/check_misc_fade.png",
+                        "chest_opened_img": "images/items/check_misc.png",
+                        "visibility_rules": [
+                            "^$DropsOnAtLeast2"
+                        ]
+                    },
+                    {
+                        "name": "Yellow Morel Drop",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/items/check_misc_fade.png",
+                        "chest_opened_img": "images/items/check_misc.png",
+                        "visibility_rules": [
+                            "^$DropsOnAtLeast2"
+                        ]
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Dropsanity",
-                        "x": 2100,
-                        "y": 436
+                        "x": 1970,
+                        "y": 3540,
+                        "size": 52
                     }
                 ]
             },
             {
-                "name": "Abyssal Demon",
-                "chest_unopened_img": "images/items/check_item_fade.png",
-                "chest_opened_img": "images/items/check_item.png",
+                "name": "Yakul",
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
                 "access_rules": [
-                    "^$CanReachAndKill|Abyssal Demon"
+                    "^$CanReachAndKill|Yakul"
                 ],
                 "sections": [
                     {
-                        "name": "Ocean Elixir Drop",
-                        "item_count": 1
+                        "name": "Fire Opal Drop",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/items/check_misc_fade.png",
+                        "chest_opened_img": "images/items/check_misc.png",
+                        "visibility_rules": [
+                            "^$DropsOnAtLeast2"
+                        ]
+                    },
+                    {
+                        "name": "Health Vial Drop",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/items/check_misc_fade.png",
+                        "chest_opened_img": "images/items/check_misc.png",
+                        "visibility_rules": [
+                            "^$DropsOnAtLeast2"
+                        ]
+                    },
+                    {
+                        "name": "Medium Silver Drop",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/items/check_misc_fade.png",
+                        "chest_opened_img": "images/items/check_misc.png",
+                        "visibility_rules": [
+                            "^$DropsOnAtLeast2"
+                        ]
+                    },
+                    {
+                        "name": "Opal Drop",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/items/check_misc_fade.png",
+                        "chest_opened_img": "images/items/check_misc.png",
+                        "visibility_rules": [
+                            "^$DropsOnAtLeast2"
+                        ]
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Dropsanity",
-                        "x": 2100,
-                        "y": 706
-                    },
-                    {
-                        "map": "The Sanguine Sea",
-                        "x": 150,
-                        "y": 1070
-                    },
-                    {
-                        "map": "Accursed Tomb",
-                        "x": 1815,
-                        "y": 440
+                        "x": 2980,
+                        "y": 3540,
+                        "size": 52
                     }
                 ]
-            },
-            {
-                "name": "Sanguine Umbra",
-                "chest_unopened_img": "images/items/check_item_fade.png",
-                "chest_opened_img": "images/items/check_item.png",
-                "access_rules": [
-                    "^$CanReachAndKill|Sanguine Umbra"
-                ],
-                "sections": [
-                    {
-                        "name": "Black Book Drop",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "Dropsanity",
-                        "x": 2100,
-                        "y": 976
-                    },
-                    { 
-                       "map": "A Holy Battlefield",
-                       "x": 818,
-                       "y": 402
-                    }
-                 ]
             }
         ]
     }

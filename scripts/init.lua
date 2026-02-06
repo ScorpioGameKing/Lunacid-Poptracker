@@ -65,6 +65,9 @@ Tracker:AddLocations("locations/misc/Quenchsanity.json")
 Tracker:AddLocations("locations/misc/Shopsanity.json")
 Tracker:AddLocations("locations/misc/Switchlocks.json")
 
+Tracker:AddLocations("locations/breakable/Hollow Basin.json")
+Tracker:AddLocations("locations/breakable/Castle Le Fanu.json")
+
 -- Layout
 Tracker:AddLayouts("layouts/tabs.json")
 Tracker:AddLayouts("layouts/settings_popup.json")

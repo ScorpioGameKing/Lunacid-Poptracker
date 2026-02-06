@@ -11,9 +11,10 @@
                 "content": [
                     {
                         "type": "itemgrid",
-                        "item_margin": "4, 4",
+                        "item_margin": "4, 5",
                         "h_alignment": "left",
-                        "item_size": "36",
+        "item_height": 36,
+        "item_width": 36,
                         "rows": [
                             ["strangecoin", "progressivevampiricsymbol", "enchantedkey", "terminusprisonkey", "corruptkey", "lucidblade"],
                             ["vhstape", "whitevhstape", "watertalisman", "earthtalisman", "lightsource", "jotunnslayer"],
@@ -36,13 +37,14 @@
                 "content": [
                     {
                         "type": "itemgrid",
-                        "item_margin": "4, 4",
+                        "item_margin": "4, 5",
                         "h_alignment": "left",
-                        "item_size": "36",
+                        "item_height": 36,
+                        "item_width": 36,
                         "rows": [
                             ["livinggate_basin", "livinggate_forest", "", "", "igniscalor"],
                             ["wandofpower", "ele_poison", "ele_light", "ele_blood", "ele_fire", "ele_dark"],
-                            ["coffin", "icarianflight", "rockbridge", "barrier", "summonsnail"]
+                            ["coffin", "icarianflight", "rockbridge", "barrier", "summonsnail", "winddash"]
                         ]
                     }
                 ]
@@ -61,9 +63,10 @@
                 "content": [
                     {
                         "type": "itemgrid",
-                        "item_margin": "4, 4",
+                        "item_margin": "4, 5",
                         "h_alignment": "left",
-                        "item_size": "36",
+                        "item_height": 36,
+                        "item_width": 36,
                         "rows": [
                             ["sheryl'sinitialofferingsvoucher", "sheryl'sgoldenarmorvoucher", "sheryl'sdreamervoucher", "patchouli'sdrinkvoucher"],
                             ["fracturedlife", "fractureddeath", "brokensword"]
@@ -85,9 +88,10 @@
                 "content": [
                     {
                         "type": "itemgrid",
-                        "item_margin": "4, 4",
+                        "item_margin": "4, 5",
                         "h_alignment": "left",
-                        "item_size": "36",
+                        "item_height": 36,
+                        "item_width": 36,
                         "rows": [
                             ["ranged_attacks", "dsf_checks"]
                         ]
@@ -108,9 +112,10 @@
                 "content": [
                     {
                         "type": "itemgrid",
-                        "item_margin": "4, 4",
+                        "item_margin": "4, 5",
                         "h_alignment": "left",
-                        "item_size": "36",
+                        "item_height": 36,
+                        "item_width": 36,
                         "rows": [
                             ["templeofsilenceswitchkey", "hollowbasinswitchkey", "fetidmireswitchkey", "forbiddenarchivesshortcutswitchkey", "forbiddenarchiveselevatorswitchkeyring"],
                             ["accursedtombswitchkeyring", "prometheusfireswitchkeyring", "sealedballroomswitchkey", "grottofireswitchkeyring", "sandtempleswitcheskeyring"],
@@ -133,9 +138,10 @@
                 "content": [
                     {
                         "type": "itemgrid",
-                        "item_margin": "4, 4",
+                        "item_margin": "4, 5",
                         "h_alignment": "left",
-                        "item_size": "36",
+                        "item_height": 36,
+                        "item_width": 36,
                         "rows": [
                             ["brokenstepsdoorkey", "lowerricketybridgedoorkey", "sewersdoorkey", "treetopdoorkey", "tombsecretdoorkey", "sewersseadoorkey"],
                             ["accurseddoorkey", "castledoorskey", "libraryexitdoorkey", "surfacedoorkey", "lightaccurseddoorkey", "queen'sthronedoorkey"],

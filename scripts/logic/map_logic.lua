@@ -3,43 +3,47 @@ VANILLA_MAP_LOGIC = {
 
     ["Wing's Rest"] = function() return AccessibilityLevel.Normal end,
 
-    ["Forbidden Archives"] = function() return AccessibilityLevel.Normal end,
+    ["Forbidden Archives"] = function() return Or(HasDoorKey("brokenstepsdoorkey"), And(CanEnter("Laetus Chasm"), HasDoorKey("brokenstepsdoorkey"))) end,
 
-    ["The Fetid Mire"] = function() return And(CanEnterTemple(), HasSwitch("templeofsilenceswitchkey")) end,
+    ["The Fetid Mire"] = function() return Or(And(CanEnterTemple(), HasSwitch("templeofsilenceswitchkey"), HasDoorKey("sewersdoorkey")),
+                                            And(CanEnter("The Sanguine Sea"), HasDoorKey("sewersseadoorkey"))) end,
 
-    ["Yosei Forest"] = function() return And(CanEnterTemple(), HasSwitch("templeofsilenceswitchkey")) end,
+    ["Yosei Forest"] = function() return Or(And(CanEnterTemple(), HasSwitch("templeofsilenceswitchkey"), HasDoorKey("lowerricketybridgedoorkey")),
+                                            And(CanEnter("Accursed Tomb"), CanJumpHeight("High"), HasDoorKey("tombsecretdoorkey"), HasLightSource())) end,
 
-    ["Forest Canopy"] = function() return And(CanEnter("Yosei Forest"), HandleGate('forest')) end,
+    ["Forest Canopy"] = function() return And(CanEnter("Yosei Forest"), HandleGate('forest'), HasDoorKey("treetopdoorkey")) end,
 
-    ["The Sanguine Sea"] = function() return CanEnter("The Fetid Mire") end,
+    ["The Sanguine Sea"] = function() return Or(And(CanEnter("The Fetid Mire"), HasDoorKey("sewersseadoorkey")),
+                                                And(CanEnter("Accursed Tomb"), HasDoorKey("accurseddoorkey"), HasLightSource())) end,
 
-    ["Castle Le Fanu"] = function() return CanEnter("The Fetid Mire") end,
+    ["Castle Le Fanu"] = function() return And(CanEnter("The Sanguine Sea"), HasDoorKey("castledoorskey")) end,
 
     ["A Holy Battlefield"] = function() return CanEnter("Castle Le Fanu") end,
 
-    ["Accursed Tomb"] = function() return CanEnter("The Fetid Mire") end,
+    ["Accursed Tomb"] = function() return Or(And(CanEnter("The Sanguine Sea"), HasDoorKey("accurseddoorkey")),
+                                             And(CanEnter("Yosei Forest"), HasDoorKey("tombsecretdoorkey"))) end,
 
-    ["Laetus Chasm"] = function() return Or(And(IsItemStageAtLeastN("progressivevampiricsymbol", 2), HasSwitch("forbiddenarchiveselevatorswitchkeyring")), -- via Library
-                                                CanJumpHeight("High")) end, -- via GWS
+    ["Laetus Chasm"] = function() return Or(And(IsItemStageAtLeastN("progressivevampiricsymbol", 2), Or(HasSwitch("forbiddenarchiveselevatorswitchkeyring"), CanJumpHeight("High"))), -- via Library
+                                                CanEnter("Great Well Surface"), HasDoorKey("surfacedoorkey")) end, -- via GWS
 
-    ["Great Well Surface"] = function() return Or(CanEnter("Laetus Chasm"), CanJumpHeight("High")) end,
+    ["Great Well Surface"] = function() return Or(And(CanEnter("Laetus Chasm"), HasDoorKey("surfacedoorkey")), CanJumpHeight("High")) end,
 
-    ["Boiling Grotto"] = function() return And(CanEnter("Castle Le Fanu"), IsItemStageAtLeastN("progressivevampiricsymbol", 2)) end,
+    ["Boiling Grotto"] = function() return And(CanEnter("Castle Le Fanu"), IsItemStageAtLeastN("progressivevampiricsymbol", 2), HasDoorKey("burninghotkey")) end,
 
-    ["Tower of Abyss"] = function() return CanEnter("Boiling Grotto") end,
+    ["Tower of Abyss"] = function() return And(CanEnter("Boiling Grotto"), HasDustyOrb()) end,
 
-    ["Throne Chamber"] = function() return And(CanEnter("Castle Le Fanu"), IsItemStageAtLeastN("progressivevampiricsymbol", 3)) end,
+    ["Throne Chamber"] = function() return And(CanEnter("Castle Le Fanu"), IsItemStageAtLeastN("progressivevampiricsymbol", 3), HasDoorKey("queen'sthronedoorkey")) end,
 
-    ["Sealed Ballroom"] = function() return And(CanEnter("Castle Le Fanu"), IsItemStageAtLeastN("progressivevampiricsymbol", 2),
+    ["Sealed Ballroom"] = function() return And(CanEnter("Castle Le Fanu"), IsItemStageAtLeastN("progressivevampiricsymbol", 2), HasDoorKey("lightaccurseddoorkey"),
                                                 And(Or(HasElement("ele_dark"), HasElement("ele_poison")), Or(CanJumpHeight("High"), WasItemReceived("ranged_attacks")))) end, -- can activate switch
 
-    ["Terminus Prison"] = function() return CanEnter("Throne Chamber") end,
+    ["Terminus Prison"] = function() return And(CanEnter("Throne Chamber"), HasDoorKey("prisonmaindoorkey")) end,
 
-    ["Labyrinth of Ash"] = function() return CanEnter("Terminus Prison") end,
+    ["Labyrinth of Ash"] = function() return And(CanEnter("Terminus Prison"), HasDoorKey("forbiddendoorkey")) end,
 
-    ["Forlorn Arena"] = function() return And(CanEnter("Terminus Prison"), WasItemReceived("terminusprisonkey")) end,
+    ["Forlorn Arena"] = function() return And(CanEnter("Terminus Prison"), WasItemReceived("terminusprisonkey"), HasDoorKey("secondarylockkey"), HasSwitch("forlornarenagateswitchkey")) end,
 
-    ["Chamber of Fate"] = function() return And(CanEnter("Forlorn Arena"), WereAllItemsReceived({"watertalisman", "earthtalisman"})) end,
+    ["Chamber of Fate"] = function() return And(CanEnter("Forlorn Arena"), WereAllItemsReceived({"watertalisman", "earthtalisman"}), HasDoorKey("sucsariankey")) end,
 }
 
 ER_MAP_LOGIC = {
@@ -114,18 +118,31 @@ STARTING_AREA = {
     "Labyrinth of Ash"
 }
 
+local visiting = {}
+
 function CanEnter(map)
-    if StartingIn(map) == AccessibilityLevel.Normal then
-        return AccessibilityLevel.Normal
+    if visiting[map] then
+        return AccessibilityLevel.None
     end
-    if Tracker:FindObjectForCode('entrance_toggle').Active or Tracker:FindObjectForCode("starting_area").AcquiredCount > 0 then
+
+    visiting[map] = true
+
+    local result
+
+    if StartingIn(map) == AccessibilityLevel.Normal then
+        result = AccessibilityLevel.Normal
+
+    elseif Tracker:FindObjectForCode('entrance_toggle').Active or Tracker:FindObjectForCode("starting_area").AcquiredCount > 0 then
         if type(ER_MAP_LOGIC[map]) == "function" then
-            return ER_MAP_LOGIC[map]()
+            result = ER_MAP_LOGIC[map]()
         end
     end
-    if type(VANILLA_MAP_LOGIC[map]) == "function" then
-        
-        return VANILLA_MAP_LOGIC[map]()
+
+    if not result and type(VANILLA_MAP_LOGIC[map]) == "function" then
+        result = VANILLA_MAP_LOGIC[map]()
     end
-    return AccessibilityLevel.None
+
+    visiting[map] = nil
+
+    return result or AccessibilityLevel.None
 end
