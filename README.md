@@ -35,11 +35,6 @@ To enable auto tracking click on the AP icon in the upper left area, enter the A
     - [x] Maps
     - [x] Locations
     - [x] Per Map Logic
-    - [ ] Sphere 1 Logic
-    - [ ] Sphere 2 Logic
-    - [ ] Sphere 3 Logic
-    - [ ] Sphere 4 Logic
-    - [ ] Sphere 5 Logic
 - [x] Item Tracker
     - [x] Progression Items
     - [x] Quest Items
@@ -48,26 +43,31 @@ To enable auto tracking click on the AP icon in the upper left area, enter the A
 - [ ] Variants + Logic
     - [x] Shopsanity
     - [x] Dropsanity
-    - [ ] Quenchsanity
-    - [ ] Alchemysanity (Etna's Pupil)
+    - [x] Quenchsanity
+    - [x] Etna's Pupil
     - [x] Element Rando
     - [x] Switch Locks
     - [X] Secret Door Lock
-    - [ ] Door Locks
-    - [ ] Entrance Rando
+    - [x] Door Locks
+    - [x] Entrance Rando
+    - [x] Bookworm
+    - [x] Starting Class
+    - [x] Starting Area
+    - [ ] Breakables
+    - [ ] Grassanity
 - [ ] AP Auto Tracking completed
 
 The above list is will be subject to change as randomizer features are added/removed but will stand as the goal for what a 1.0.0 build will contain.
 
 ## AP Support Checklist
 - [x] AP Auto Tracking
-- [ ] Item Tracking
-- [ ] Element Tracking
-- [ ] All Locations
-- [ ] Switch Locks
-- [ ] Secret Door Lock
-- [ ] Door Lock
-- [ ] Auto Map Switching (Tenative)
+- [x] Item Tracking
+- [x] Element Tracking
+- [x] All Locations
+- [x] Switch Locks
+- [x] Secret Door Lock
+- [x] Door Lock
+- [x] Auto Map Switching
 
 
 ## Closing Thanks & Links
