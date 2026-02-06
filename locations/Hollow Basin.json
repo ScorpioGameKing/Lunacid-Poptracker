@@ -27,7 +27,7 @@
                   "chest_unopened_img": "images/items/check_item_fade.png",
                   "chest_opened_img": "images/items/check_item.png",
                   "access_rules": [
-                     "^$CanReach|Encouraging Statue's Words"
+                     "^$CanReach|Encouraging Statues Words"
                   ]
                }
             ],
@@ -68,7 +68,7 @@
             "chest_unopened_img": "images/items/check_misc_fade.png",
             "chest_opened_img": "images/items/check_misc.png",
             "access_rules": [
-               "^$CanReach|Cultist's Writings"
+               "^$CanReach|Cultists Writings"
             ],
             "visibility_rules": ["lore_on"],
             "sections": [
@@ -92,7 +92,7 @@
             "chest_unopened_img": "images/items/check_misc_fade.png",
             "chest_opened_img": "images/items/check_misc.png",
             "access_rules": [
-               "^$CanReach|To Hunger, To Die"
+               "^$CanReach|To Hunger To Die"
             ],
             "visibility_rules": ["lore_on"],
             "sections": [
@@ -184,11 +184,11 @@
             ]
          },
          {
-            "name": "You're in the know right?",
+            "name": "You are in the know right?",
             "chest_unopened_img": "images/items/check_misc_fade.png",
             "chest_opened_img": "images/items/check_misc.png",
             "access_rules": [
-               "^$CanReach|You're in the know right?"
+               "^$CanReach|You are in the know right?"
             ],
             "visibility_rules": ["lore_on"],
             "sections": [

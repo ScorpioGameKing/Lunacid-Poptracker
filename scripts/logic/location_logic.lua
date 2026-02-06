@@ -98,21 +98,21 @@ VANILLA_LOCATION_LOGIC = {
 
     ["Alcove on Path to Yosei Forest"]              = function() return And(CanEnterTemple(), HasSwitch("templeofsilenceswitchkey")) end,
 
-    ["Encouraging Statue's Words"]                  = function() return AccessibilityLevel.Normal end,
+    ["Encouraging Statues Words"]                  = function() return AccessibilityLevel.Normal end,
 
     ["On the Bodies of Abdul Cultists"]             = function() return And(CanEnterTemple(), HasSwitch("templeofsilenceswitchkey"), HasDustyOrb()) end,
 
-    ["You're in the know right"]                    = function() return And(CanEnterTemple(), HasSwitch("templeofsilenceswitchkey"), HasDustyOrb()) end,
+    ["You are in the know right?"]                    = function() return And(CanEnterTemple(), HasSwitch("templeofsilenceswitchkey"), HasDustyOrb()) end,
 
     ["Visions of Byagototh"]                        = function() return And(CanEnterTemple(), HasDustyOrb(), CanJumpHeight("High")) end,
 
     ["Final Advice"]                                = function() return AccessibilityLevel.Normal end,
 
-    ["To Hunger, To Die"]                           = function() return CanEnterTemple() end,
+    ["To Hunger To Die"]                           = function() return CanEnterTemple() end,
 
     ["Autopsy Report"]                              = function() return And(CanEnterTemple(), HasSwitch("templeofsilenceswitchkey")) end,
 
-    ["Cultist's Writings"]                          = function() return CanEnterTemple() end,
+    ["Cultists Writings"]                          = function() return CanEnterTemple() end,
 
 -- The Fetide Mire
     ["Room Left of Foyer"]                  = function() return AccessibilityLevel.Normal end,
@@ -740,7 +740,7 @@ VANILLA_LOCATION_LOGIC = {
 
     ["Queen's Throne Door (Throne Chamber Side)"] = function() return HasDoorKey("queen'sthronedoorkey") end,
 
-    ["Secondary Door (Terminus Prison Side)"] = function() return HasDoorKey("secondarylockkey") end,
+    ["Secondary Door (Terminus Prison Side)"] = function() return And(HasDoorKey("secondarylockkey"), HasSwitch("forlornarenagateswitchkey")) end,
 
     ["Secondary Door (Forlorn Arena Side)"] = function() return HasDoorKey("secondarylockkey") end,
 
@@ -840,28 +840,28 @@ ER_LOCATION_LOGIC = {
 
     ["Alcove on Path to Yosei Forest"]              = function() return Or(VANILLA_LOCATION_LOGIC["Alcove on Path to Yosei Forest"](),  HasConnection('Rickety Bridge Door (Hollow Basin Side)')) end,
 
-    ["Encouraging Statue's Words"]                  = function() return HasAnyConnection({"Rickety Bridge Door (Hollow Basin Side)", "Broken Steps Door (Hollow Basin Side)", "Hollow Basin Ceiling", "Hollow Basin"}) end,
+    ["Encouraging Statues Words"]                  = function() return HasAnyConnection({"Rickety Bridge Door (Hollow Basin Side)", "Broken Steps Door (Hollow Basin Side)", "Hollow Basin Ceiling", "Hollow Basin"}) end,
 
     ["On the Bodies of Abdul Cultists"]             = function() return Or(VANILLA_LOCATION_LOGIC["On the Bodies of Abdul Cultists"](),
                                                                             And(HasConnection('Rickety Bridge Door (Hollow Basin Side)'), HasDustyOrb())) end,
 
-    ["You're in the know right"]                    = function() return And(HasDustyOrb(),
+    ["You are in the know right?"]                    = function() return And(HasDustyOrb(),
                                                                             Or(HasConnection('Sewers Door (Hollow Basin Side)'),
                                                                                 And(HasConnection('Rickety Bridge Door (Hollow Basin Side)'), HasSwitch("templeofsilenceswitchkey")),
-                                                                                VANILLA_LOCATION_LOGIC["You're in the know right"]())) end,
+                                                                                VANILLA_LOCATION_LOGIC["You are in the know right?"]())) end,
 
     ["Visions of Byagototh"]                        = function() return Or(VANILLA_LOCATION_LOGIC["Visions of Byagototh"](),
                                                                             And(HasConnection('Rickety Bridge Door (Hollow Basin Side)'), HasDustyOrb())) end,
 
     ["Final Advice"]                                = function() return HasAnyConnection({"Rickety Bridge Door (Hollow Basin Side)", "Broken Steps Door (Hollow Basin Side)", "Hollow Basin Ceiling", "Hollow Basin"}) end,
 
-    ["To Hunger, To Die"]                           = function() return Or(VANILLA_LOCATION_LOGIC["To Hunger, To Die"](),
+    ["To Hunger To Die"]                           = function() return Or(VANILLA_LOCATION_LOGIC["To Hunger To Die"](),
                                                                             And(HasConnection('Rickety Bridge Door (Hollow Basin Side)'), HasDustyOrb())) end,
 
     ["Autopsy Report"]                              = function() return Or(VANILLA_LOCATION_LOGIC["Autopsy Report"](),
                                                                             HasConnection('Rickety Bridge Door (Hollow Basin Side)')) end,
 
-    ["Cultist's Writings"]                          = function() return Or(VANILLA_LOCATION_LOGIC["Cultist's Writings"](),
+    ["Cultists Writings"]                          = function() return Or(VANILLA_LOCATION_LOGIC["Cultists Writings"](),
                                                                             And(HasConnection('Rickety Bridge Door (Hollow Basin Side)'), HasDustyOrb())) end,
 
 -- Castle Le Fanu
@@ -949,7 +949,7 @@ ER_LOCATION_LOGIC = {
 }
 
 function CanReach(location)
-    print(location)
+    --print(location)
     if Tracker:FindObjectForCode('entrance_toggle').Active or Tracker:FindObjectForCode("starting_area").AcquiredCount > 0 then
         if type(ER_LOCATION_LOGIC[location]) == "function" then
             return ER_LOCATION_LOGIC[location]()

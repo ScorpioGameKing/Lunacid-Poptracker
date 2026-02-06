@@ -281,6 +281,16 @@ function HasMoreThenNConsumables(item, n)
     return AccessibilityLevel.None -- 0 => no access
 end
 
+function DropsOnAtLeast1()
+    local count = Tracker:ProviderCountForCode('drops_on')
+    return count >= 1
+end
+
+function DropsOnAtLeast2()
+    local count = Tracker:ProviderCountForCode('drops_on')
+    return count >= 2
+end
+
 function secrets_or_off()
     --> Checking Secret Door Logic
     local secret_toggle = Tracker:ProviderCountForCode('secret_doors')
