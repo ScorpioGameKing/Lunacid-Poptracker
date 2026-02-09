@@ -6,6 +6,13 @@
 - [Lunacid AP Randomizer](https://github.com/Witchybun/LunacidAPClient/releases)
 
 ## Install & Setup
+
+## Automatic Install
+A quick way to install poptracker packs is to simply drag and drop the zip folder into the Poptracker window. It will
+prompt you if you want to install the pack and you just click "Yes". If there's any issues with this then please refer
+to the Manual Install guide below.
+
+### Manual Install
 If you just intend to just use the tracker and not set up the randomizer the process will be quick and simple. 
 - Start off by downloading Poptracker and the latest version of this pack. 
 - Once you've downloaded both, extract Poptracker somewhere you can easily access and find the folder "packs" inside.
@@ -55,7 +62,7 @@ To enable auto tracking click on the AP icon in the upper left area, enter the A
     - [x] Starting Area
     - [ ] Breakables
     - [ ] Grassanity
-- [ ] AP Auto Tracking completed
+- [x] AP Auto Tracking completed
 
 The above list is will be subject to change as randomizer features are added/removed but will stand as the goal for what a 1.0.0 build will contain.
 
