@@ -1,0 +1,1393 @@
+[
+    {
+        "name": "BreakGrass Accursed Tomb",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            "^$CanEnter|Accursed Tomb"
+        ],
+        "children": [
+            {
+                "name": "Coffin 28 - (Accursed Tomb)",
+                "access_rules": [
+                    "^$CanBreak|AT: Coffin 28 - (Accursed Tomb)"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Accursed Tomb",
+                        "x": 118,
+                        "y": 1195,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Coffin 33 - (Accursed Tomb)",
+                "access_rules": [
+                    "^$CanBreak|AT: Coffin 33 - (Accursed Tomb)"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Accursed Tomb",
+                        "x": 195,
+                        "y": 1272,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Coffin 20 - (Accursed Tomb)",
+                "access_rules": [
+                    "^$CanBreak|AT: Coffin 20 - (Accursed Tomb)"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Accursed Tomb",
+                        "x": 293,
+                        "y": 1272,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Coffin 36 - (Accursed Tomb)",
+                "access_rules": [
+                    "^$CanBreak|AT: Coffin 36 - (Accursed Tomb)"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Accursed Tomb",
+                        "x": 368,
+                        "y": 1195,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Coffin 23 - (Accursed Tomb)",
+                "access_rules": [
+                    "^$CanBreak|AT: Coffin 23 - (Accursed Tomb)"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Accursed Tomb",
+                        "x": 379,
+                        "y": 1195,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Coffin 30 - (Accursed Tomb)",
+                "access_rules": [
+                    "^$CanBreak|AT: Coffin 30 - (Accursed Tomb)"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Accursed Tomb",
+                        "x": 530,
+                        "y": 1195,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Coffin 6 - (Accursed Tomb)",
+                "access_rules": [
+                    "^$CanBreak|AT: Coffin 6 - (Accursed Tomb)"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Accursed Tomb",
+                        "x": 530,
+                        "y": 1272,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Coffin 5 - (Accursed Tomb)",
+                "access_rules": [
+                    "^$CanBreak|AT: Coffin 5 - (Accursed Tomb)"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Accursed Tomb",
+                        "x": 518,
+                        "y": 1195,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Coffin 22 - (Accursed Tomb)",
+                "access_rules": [
+                    "^$CanBreak|AT: Coffin 22 - (Accursed Tomb)"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Accursed Tomb",
+                        "x": 811,
+                        "y": 1231,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Coffin 2 - (Accursed Tomb)",
+                "access_rules": [
+                    "^$CanBreak|AT: Coffin 2 - (Accursed Tomb)"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Accursed Tomb",
+                        "x": 811,
+                        "y": 1272,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Coffin 13 - (Accursed Tomb)",
+                "access_rules": [
+                    "^$CanBreak|AT: Coffin 13 - (Accursed Tomb)"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Accursed Tomb",
+                        "x": 2259,
+                        "y": 1284,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Coffin 10 - (Accursed Tomb)",
+                "access_rules": [
+                    "^$CanBreak|AT: Coffin 10 - (Accursed Tomb)"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Accursed Tomb",
+                        "x": 2259,
+                        "y": 1297,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Coffin 7 - (Accursed Tomb)",
+                "access_rules": [
+                    "^$CanBreak|AT: Coffin 7 - (Accursed Tomb)"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Accursed Tomb",
+                        "x": 2241,
+                        "y": 1284,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Coffin 21 - (Accursed Tomb)",
+                "access_rules": [
+                    "^$CanBreak|AT: Coffin 21 - (Accursed Tomb)"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Accursed Tomb",
+                        "x": 2241,
+                        "y": 1297,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Coffin 31 - (Accursed Tomb)",
+                "access_rules": [
+                    "^$CanBreak|AT: Coffin 31 - (Accursed Tomb)"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Accursed Tomb",
+                        "x": 1794,
+                        "y": 1200,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Coffin 1 - (Accursed Tomb)",
+                "access_rules": [
+                    "^$CanBreak|AT: Coffin 1 - (Accursed Tomb)"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Accursed Tomb",
+                        "x": 1794,
+                        "y": 1217,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Coffin 11 - (Accursed Tomb)",
+                "access_rules": [
+                    "^$CanBreak|AT: Coffin 11 - (Accursed Tomb)"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Accursed Tomb",
+                        "x": 1794,
+                        "y": 1234,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Coffin 8 - (Accursed Tomb)",
+                "access_rules": [
+                    "^$CanBreak|AT: Coffin 8 - (Accursed Tomb)"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Accursed Tomb",
+                        "x": 1794,
+                        "y": 1251,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Coffin 9 - (Accursed Tomb)",
+                "access_rules": [
+                    "^$CanBreak|AT: Coffin 9 - (Accursed Tomb)"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Accursed Tomb",
+                        "x": 1740,
+                        "y": 1200,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Coffin 17 - (Accursed Tomb)",
+                "access_rules": [
+                    "^$CanBreak|AT: Coffin 17 - (Accursed Tomb)"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Accursed Tomb",
+                        "x": 1740,
+                        "y": 1225,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Coffin 12 - (Accursed Tomb)",
+                "access_rules": [
+                    "^$CanBreak|AT: Coffin 12 - (Accursed Tomb)"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Accursed Tomb",
+                        "x": 1740,
+                        "y": 1251,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Coffin 34",
+                "access_rules": [
+                    "^$CanBreak|AT: Coffin 34"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Accursed Tomb",
+                        "x": 1695,
+                        "y": 811,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Coffin 26",
+                "access_rules": [
+                    "^$CanBreak|AT: Coffin 26"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Accursed Tomb",
+                        "x": 1681,
+                        "y": 811,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Coffin 3",
+                "access_rules": [
+                    "^$CanBreak|AT: Coffin 3"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Accursed Tomb",
+                        "x": 1663,
+                        "y": 811,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Coffin 35",
+                "access_rules": [
+                    "^$CanBreak|AT: Coffin 35"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Accursed Tomb",
+                        "x": 1684,
+                        "y": 775,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Coffin 29",
+                "access_rules": [
+                    "^$CanBreak|AT: Coffin 29"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Accursed Tomb",
+                        "x": 1663,
+                        "y": 775,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Coffin 19",
+                "access_rules": [
+                    "^$CanBreak|AT: Coffin 19"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Accursed Tomb",
+                        "x": 1818,
+                        "y": 953,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Coffin 18",
+                "access_rules": [
+                    "^$CanBreak|AT: Coffin 18"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Accursed Tomb",
+                        "x": 1830,
+                        "y": 953,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Coffin 24",
+                "access_rules": [
+                    "^$CanBreak|AT: Coffin 24"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Accursed Tomb",
+                        "x": 1845,
+                        "y": 953,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Coffin 4",
+                "access_rules": [
+                    "^$CanBreak|AT: Coffin 4"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Accursed Tomb",
+                        "x": 1809,
+                        "y": 1000,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Coffin 16",
+                "access_rules": [
+                    "^$CanBreak|AT: Coffin 16"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Accursed Tomb",
+                        "x": 1820,
+                        "y": 1000,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Coffin 25",
+                "access_rules": [
+                    "^$CanBreak|AT: Coffin 25"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Accursed Tomb",
+                        "x": 1834,
+                        "y": 1000,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Coffin 15",
+                "access_rules": [
+                    "^$CanBreak|AT: Coffin 15"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Accursed Tomb",
+                        "x": 1847,
+                        "y": 1000,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Flora 19",
+                "access_rules": [
+                    "^$CanBreak|AT: Flora 19"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Accursed Tomb",
+                        "x": 1922,
+                        "y": 470,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Flora 30",
+                "access_rules": [
+                    "^$CanBreak|AT: Flora 30"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Accursed Tomb",
+                        "x": 1922,
+                        "y": 436,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Flora 35",
+                "access_rules": [
+                    "^$CanBreak|AT: Flora 35"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Accursed Tomb",
+                        "x": 1893,
+                        "y": 354,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Flora 32",
+                "access_rules": [
+                    "^$CanBreak|AT: Flora 32"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Accursed Tomb",
+                        "x": 1877,
+                        "y": 354,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Flora 16",
+                "access_rules": [
+                    "^$CanBreak|AT: Flora 16"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Accursed Tomb",
+                        "x": 1866,
+                        "y": 354,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Flora 18",
+                "access_rules": [
+                    "^$CanBreak|AT: Flora 18"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Accursed Tomb",
+                        "x": 1855,
+                        "y": 354,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Flora 34",
+                "access_rules": [
+                    "^$CanBreak|AT: Flora 34"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Accursed Tomb",
+                        "x": 1784,
+                        "y": 490,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Flora 27",
+                "access_rules": [
+                    "^$CanBreak|AT: Flora 27"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Accursed Tomb",
+                        "x": 1780,
+                        "y": 490,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Flora 1",
+                "access_rules": [
+                    "^$CanBreak|AT: Flora 1"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Accursed Tomb",
+                        "x": 1777,
+                        "y": 529,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Flora 21",
+                "access_rules": [
+                    "^$CanBreak|AT: Flora 21"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Accursed Tomb",
+                        "x": 1772,
+                        "y": 536,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Flora 11",
+                "access_rules": [
+                    "^$CanBreak|AT: Flora 11"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Accursed Tomb",
+                        "x": 1768,
+                        "y": 529,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Flora 28",
+                "access_rules": [
+                    "^$CanBreak|AT: Flora 28"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Accursed Tomb",
+                        "x": 1790,
+                        "y": 422,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Flora 14",
+                "access_rules": [
+                    "^$CanBreak|AT: Flora 14"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Accursed Tomb",
+                        "x": 1784,
+                        "y": 427,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Flora 8",
+                "access_rules": [
+                    "^$CanBreak|AT: Flora 8"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Accursed Tomb",
+                        "x": 1763,
+                        "y": 354,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Flora 10",
+                "access_rules": [
+                    "^$CanBreak|AT: Flora 10"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Accursed Tomb",
+                        "x": 1734,
+                        "y": 354,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Flora 26",
+                "access_rules": [
+                    "^$CanBreak|AT: Flora 26"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Accursed Tomb",
+                        "x": 1727,
+                        "y": 361,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Flora 15",
+                "access_rules": [
+                    "^$CanBreak|AT: Flora 15"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Accursed Tomb",
+                        "x": 1718,
+                        "y": 363,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Flora 3",
+                "access_rules": [
+                    "^$CanBreak|AT: Flora 3"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Accursed Tomb",
+                        "x": 1720,
+                        "y": 402,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Flora 33",
+                "access_rules": [
+                    "^$CanBreak|AT: Flora 33"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Accursed Tomb",
+                        "x": 1622,
+                        "y": 361,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Flora 4",
+                "access_rules": [
+                    "^$CanBreak|AT: Flora 4"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Accursed Tomb",
+                        "x": 1622,
+                        "y": 352,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Flora 2",
+                "access_rules": [
+                    "^$CanBreak|AT: Flora 2"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Accursed Tomb",
+                        "x": 1622,
+                        "y": 343,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Flora 7",
+                "access_rules": [
+                    "^$CanBreak|AT: Flora 7"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Accursed Tomb",
+                        "x": 1525,
+                        "y": 222,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Flora 5",
+                "access_rules": [
+                    "^$CanBreak|AT: Flora 5"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Accursed Tomb",
+                        "x": 1518,
+                        "y": 231,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Flora 36",
+                "access_rules": [
+                    "^$CanBreak|AT: Flora 36"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Accursed Tomb",
+                        "x": 1511,
+                        "y": 240,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Flora 22",
+                "access_rules": [
+                    "^$CanBreak|AT: Flora 22"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Accursed Tomb",
+                        "x": 1570,
+                        "y": 665,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Flora 23",
+                "access_rules": [
+                    "^$CanBreak|AT: Flora 23"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Accursed Tomb",
+                        "x": 1581,
+                        "y": 665,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Flora 13",
+                "access_rules": [
+                    "^$CanBreak|AT: Flora 13"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Accursed Tomb",
+                        "x": 1600,
+                        "y": 665,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Flora 9",
+                "access_rules": [
+                    "^$CanBreak|AT: Flora 9"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Accursed Tomb",
+                        "x": 1610,
+                        "y": 665,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Flora 24",
+                "access_rules": [
+                    "^$CanBreak|AT: Flora 24"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Accursed Tomb",
+                        "x": 1625,
+                        "y": 654,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Flora 17",
+                "access_rules": [
+                    "^$CanBreak|AT: Flora 17"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Accursed Tomb",
+                        "x": 1625,
+                        "y": 640,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Flora 29",
+                "access_rules": [
+                    "^$CanBreak|AT: Flora 29"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Accursed Tomb",
+                        "x": 1629,
+                        "y": 527,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Flora 25",
+                "access_rules": [
+                    "^$CanBreak|AT: Flora 25"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Accursed Tomb",
+                        "x": 1629,
+                        "y": 500,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Flora 12",
+                "access_rules": [
+                    "^$CanBreak|AT: Flora 12"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Accursed Tomb",
+                        "x": 1579,
+                        "y": 481,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Flora 31",
+                "access_rules": [
+                    "^$CanBreak|AT: Flora 31"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Accursed Tomb",
+                        "x": 1579,
+                        "y": 470,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Flora 20",
+                "access_rules": [
+                    "^$CanBreak|AT: Flora 20"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Accursed Tomb",
+                        "x": 1579,
+                        "y": 434,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Flora 6",
+                "access_rules": [
+                    "^$CanBreak|AT: Flora 6"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Accursed Tomb",
+                        "x": 1579,
+                        "y": 418,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            }
+        ]
+    }
+]

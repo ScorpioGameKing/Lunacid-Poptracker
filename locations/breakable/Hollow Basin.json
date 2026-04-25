@@ -422,7 +422,7 @@
                     {
                         "map": "Hollow Basin",
                         "x": 1138,
-                        "y": 2020,
+                        "y": 2016,
                         "size": 12,
                         "shape": "diamond"
                     }
@@ -1441,7 +1441,7 @@
                 "map_locations": [
                     {
                         "map": "Hollow Basin",
-                        "x": 885,
+                        "x": 585,
                         "y": 1633,
                         "size": 12,
                         "shape": "diamond"
@@ -1461,7 +1461,7 @@
                 "map_locations": [
                     {
                         "map": "Hollow Basin",
-                        "x": 879,
+                        "x": 579,
                         "y": 1633,
                         "size": 12,
                         "shape": "diamond"
@@ -1481,7 +1481,7 @@
                 "map_locations": [
                     {
                         "map": "Hollow Basin",
-                        "x": 857,
+                        "x": 557,
                         "y": 1633,
                         "size": 12,
                         "shape": "diamond"
@@ -1501,7 +1501,7 @@
                 "map_locations": [
                     {
                         "map": "Hollow Basin",
-                        "x": 840,
+                        "x": 540,
                         "y": 1633,
                         "size": 12,
                         "shape": "diamond"
@@ -1521,7 +1521,7 @@
                 "map_locations": [
                     {
                         "map": "Hollow Basin",
-                        "x": 823,
+                        "x": 523,
                         "y": 1633,
                         "size": 12,
                         "shape": "diamond"
@@ -1541,7 +1541,7 @@
                 "map_locations": [
                     {
                         "map": "Hollow Basin",
-                        "x": 774,
+                        "x": 474,
                         "y": 1640,
                         "size": 12,
                         "shape": "diamond"
@@ -1561,7 +1561,7 @@
                 "map_locations": [
                     {
                         "map": "Hollow Basin",
-                        "x": 767,
+                        "x": 467,
                         "y": 1649,
                         "size": 12,
                         "shape": "diamond"
@@ -1581,7 +1581,7 @@
                 "map_locations": [
                     {
                         "map": "Hollow Basin",
-                        "x": 756,
+                        "x": 456,
                         "y": 1654,
                         "size": 12,
                         "shape": "diamond"
@@ -1601,7 +1601,7 @@
                 "map_locations": [
                     {
                         "map": "Hollow Basin",
-                        "x": 742,
+                        "x": 442,
                         "y": 1654,
                         "size": 12,
                         "shape": "diamond"
@@ -1621,7 +1621,7 @@
                 "map_locations": [
                     {
                         "map": "Hollow Basin",
-                        "x": 722,
+                        "x": 422,
                         "y": 1654,
                         "size": 12,
                         "shape": "diamond"
@@ -1641,7 +1641,7 @@
                 "map_locations": [
                     {
                         "map": "Hollow Basin",
-                        "x": 673,
+                        "x": 373,
                         "y": 1644,
                         "size": 12,
                         "shape": "diamond"
@@ -1661,7 +1661,7 @@
                 "map_locations": [
                     {
                         "map": "Hollow Basin",
-                        "x": 665,
+                        "x": 365,
                         "y": 1632,
                         "size": 12,
                         "shape": "diamond"
@@ -1681,7 +1681,7 @@
                 "map_locations": [
                     {
                         "map": "Hollow Basin",
-                        "x": 665,
+                        "x": 365,
                         "y": 1621,
                         "size": 12,
                         "shape": "diamond"
@@ -1701,7 +1701,7 @@
                 "map_locations": [
                     {
                         "map": "Hollow Basin",
-                        "x": 665,
+                        "x": 365,
                         "y": 1611,
                         "size": 12,
                         "shape": "diamond"
@@ -1721,7 +1721,7 @@
                 "map_locations": [
                     {
                         "map": "Hollow Basin",
-                        "x": 665,
+                        "x": 365,
                         "y": 1589,
                         "size": 12,
                         "shape": "diamond"
@@ -1741,7 +1741,7 @@
                 "map_locations": [
                     {
                         "map": "Hollow Basin",
-                        "x": 671,
+                        "x": 371,
                         "y": 1577,
                         "size": 12,
                         "shape": "diamond"
@@ -1761,7 +1761,7 @@
                 "map_locations": [
                     {
                         "map": "Hollow Basin",
-                        "x": 682,
+                        "x": 382,
                         "y": 1567,
                         "size": 12,
                         "shape": "diamond"
@@ -1781,7 +1781,7 @@
                 "map_locations": [
                     {
                         "map": "Hollow Basin",
-                        "x": 691,
+                        "x": 391,
                         "y": 1563,
                         "size": 12,
                         "shape": "diamond"
@@ -1801,7 +1801,7 @@
                 "map_locations": [
                     {
                         "map": "Hollow Basin",
-                        "x": 710,
+                        "x": 410,
                         "y": 1563,
                         "size": 12,
                         "shape": "diamond"
@@ -1821,7 +1821,7 @@
                 "map_locations": [
                     {
                         "map": "Hollow Basin",
-                        "x": 722,
+                        "x": 422,
                         "y": 1563,
                         "size": 12,
                         "shape": "diamond"
@@ -1841,7 +1841,7 @@
                 "map_locations": [
                     {
                         "map": "Hollow Basin",
-                        "x": 739,
+                        "x": 439,
                         "y": 1563,
                         "size": 12,
                         "shape": "diamond"
@@ -1861,7 +1861,7 @@
                 "map_locations": [
                     {
                         "map": "Hollow Basin",
-                        "x": 774,
+                        "x": 474,
                         "y": 1576,
                         "size": 12,
                         "shape": "diamond"
@@ -1881,7 +1881,7 @@
                 "map_locations": [
                     {
                         "map": "Hollow Basin",
-                        "x": 798,
+                        "x": 498,
                         "y": 1584,
                         "size": 12,
                         "shape": "diamond"
@@ -1901,7 +1901,7 @@
                 "map_locations": [
                     {
                         "map": "Hollow Basin",
-                        "x": 822,
+                        "x": 522,
                         "y": 1584,
                         "size": 12,
                         "shape": "diamond"
@@ -1921,7 +1921,7 @@
                 "map_locations": [
                     {
                         "map": "Hollow Basin",
-                        "x": 861,
+                        "x": 561,
                         "y": 1584,
                         "size": 12,
                         "shape": "diamond"
@@ -1941,7 +1941,7 @@
                 "map_locations": [
                     {
                         "map": "Hollow Basin",
-                        "x": 880,
+                        "x": 580,
                         "y": 1584,
                         "size": 12,
                         "shape": "diamond"
@@ -1961,7 +1961,7 @@
                 "map_locations": [
                     {
                         "map": "Hollow Basin",
-                        "x": 766,
+                        "x": 466,
                         "y": 1845,
                         "size": 12,
                         "shape": "diamond"
@@ -1981,7 +1981,7 @@
                 "map_locations": [
                     {
                         "map": "Hollow Basin",
-                        "x": 766,
+                        "x": 466,
                         "y": 1882,
                         "size": 12,
                         "shape": "diamond"
@@ -2001,7 +2001,7 @@
                 "map_locations": [
                     {
                         "map": "Hollow Basin",
-                        "x": 738,
+                        "x": 438,
                         "y": 1882,
                         "size": 12,
                         "shape": "diamond"
@@ -2021,7 +2021,7 @@
                 "map_locations": [
                     {
                         "map": "Hollow Basin",
-                        "x": 725,
+                        "x": 425,
                         "y": 1882,
                         "size": 12,
                         "shape": "diamond"
@@ -2041,7 +2041,7 @@
                 "map_locations": [
                     {
                         "map": "Hollow Basin",
-                        "x": 956,
+                        "x": 656,
                         "y": 1536,
                         "size": 12,
                         "shape": "diamond"
@@ -2061,7 +2061,7 @@
                 "map_locations": [
                     {
                         "map": "Hollow Basin",
-                        "x": 944,
+                        "x": 644,
                         "y": 1525,
                         "size": 12,
                         "shape": "diamond"
@@ -2081,7 +2081,7 @@
                 "map_locations": [
                     {
                         "map": "Hollow Basin",
-                        "x": 945,
+                        "x": 645,
                         "y": 1377,
                         "size": 12,
                         "shape": "diamond"
@@ -2101,7 +2101,7 @@
                 "map_locations": [
                     {
                         "map": "Hollow Basin",
-                        "x": 1031,
+                        "x": 731,
                         "y": 1472,
                         "size": 12,
                         "shape": "diamond"
@@ -2121,7 +2121,7 @@
                 "map_locations": [
                     {
                         "map": "Hollow Basin",
-                        "x": 1031,
+                        "x": 731,
                         "y": 1508,
                         "size": 12,
                         "shape": "diamond"
@@ -2141,7 +2141,7 @@
                 "map_locations": [
                     {
                         "map": "Hollow Basin",
-                        "x": 1027,
+                        "x": 727,
                         "y": 1525,
                         "size": 12,
                         "shape": "diamond"
@@ -2161,7 +2161,7 @@
                 "map_locations": [
                     {
                         "map": "Hollow Basin",
-                        "x": 1074,
+                        "x": 774,
                         "y": 1504,
                         "size": 12,
                         "shape": "diamond"
@@ -2181,7 +2181,7 @@
                 "map_locations": [
                     {
                         "map": "Hollow Basin",
-                        "x": 1112,
+                        "x": 812,
                         "y": 1515,
                         "size": 12,
                         "shape": "diamond"
@@ -2201,7 +2201,7 @@
                 "map_locations": [
                     {
                         "map": "Hollow Basin",
-                        "x": 1130,
+                        "x": 830,
                         "y": 1478,
                         "size": 12,
                         "shape": "diamond"
@@ -2221,7 +2221,7 @@
                 "map_locations": [
                     {
                         "map": "Hollow Basin",
-                        "x": 1101,
+                        "x": 801,
                         "y": 1478,
                         "size": 12,
                         "shape": "diamond"
@@ -2241,7 +2241,7 @@
                 "map_locations": [
                     {
                         "map": "Hollow Basin",
-                        "x": 820,
+                        "x": 520,
                         "y": 1518,
                         "size": 12,
                         "shape": "diamond"
@@ -2261,7 +2261,7 @@
                 "map_locations": [
                     {
                         "map": "Hollow Basin",
-                        "x": 811,
+                        "x": 511,
                         "y": 1505,
                         "size": 12,
                         "shape": "diamond"
@@ -2281,7 +2281,7 @@
                 "map_locations": [
                     {
                         "map": "Hollow Basin",
-                        "x": 813,
+                        "x": 513,
                         "y": 1408,
                         "size": 12,
                         "shape": "diamond"
@@ -2301,7 +2301,7 @@
                 "map_locations": [
                     {
                         "map": "Hollow Basin",
-                        "x": 840,
+                        "x": 540,
                         "y": 1408,
                         "size": 12,
                         "shape": "diamond"
@@ -2321,7 +2321,7 @@
                 "map_locations": [
                     {
                         "map": "Hollow Basin",
-                        "x": 864,
+                        "x": 564,
                         "y": 1408,
                         "size": 12,
                         "shape": "diamond"
@@ -2341,7 +2341,7 @@
                 "map_locations": [
                     {
                         "map": "Hollow Basin",
-                        "x": 874,
+                        "x": 574,
                         "y": 1445,
                         "size": 12,
                         "shape": "diamond"
@@ -2361,7 +2361,7 @@
                 "map_locations": [
                     {
                         "map": "Hollow Basin",
-                        "x": 937,
+                        "x": 637,
                         "y": 1175,
                         "size": 12,
                         "shape": "diamond"
@@ -2381,7 +2381,7 @@
                 "map_locations": [
                     {
                         "map": "Hollow Basin",
-                        "x": 610,
+                        "x": 310,
                         "y": 2298,
                         "size": 12,
                         "shape": "diamond"
@@ -2401,7 +2401,7 @@
                 "map_locations": [
                     {
                         "map": "Hollow Basin",
-                        "x": 579,
+                        "x": 279,
                         "y": 2298,
                         "size": 12,
                         "shape": "diamond"
