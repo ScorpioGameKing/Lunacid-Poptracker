@@ -108,13 +108,13 @@
     {
         "name": "Basin Living Gate opened",
         "type": "toggle",
-        "img": "images/items/misc.png",
+        "img": "images/items/living_gate.png",
         "codes": "livinggate_basin"
     },
     {
         "name": "Forest Living Gate opened",
         "type": "toggle",
-        "img": "images/items/misc.png",
+        "img": "images/items/living_gate.png",
         "codes": "livinggate_forest"
     },
     {
@@ -126,19 +126,19 @@
     {
         "name": "Icarian Flight",
         "type": "toggle",
-        "img": "images/items/misc.png",
+        "img": "images/items/sp_if.png",
         "codes": "icarianflight"
     },
     {
         "name": "Rock Bridge",
         "type": "toggle",
-        "img": "images/items/misc.png",
+        "img": "images/items/sp_rb.png",
         "codes": "rockbridge"
     },
     {
         "name": "Barrier",
         "type": "toggle",
-        "img": "images/items/misc.png",
+        "img": "images/items/sp_bar.png",
         "codes": "barrier"
     },
     {
@@ -150,7 +150,7 @@
     {
         "name": "Wind Dash",
         "type": "toggle",
-        "img": "images/items/misc.png",
+        "img": "images/items/sp_wd.png",
         "codes": "winddash"
     },
     {
@@ -385,7 +385,7 @@
     {
         "name": "Treetop Door Key",
         "type": "toggle",
-        "img": "images/doors/dk_sew.png",
+        "img": "images/doors/dk_tree.png",
         "codes": "treetopdoorkey"
     },
     {
