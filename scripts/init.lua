@@ -70,6 +70,7 @@ Tracker:AddLocations("locations/breakable/Castle Le Fanu.json")
 Tracker:AddLocations("locations/breakable/Accursed Tomb.json")
 Tracker:AddLocations("locations/breakable/Yosei Forest.json")
 Tracker:AddLocations("locations/breakable/Boiling Grotto.json")
+Tracker:AddLocations("locations/breakable/Sealed Ballroom.json")
 
 -- Layout
 Tracker:AddLayouts("layouts/tabs.json")
