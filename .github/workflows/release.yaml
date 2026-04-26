@@ -1,0 +1,143 @@
+name: Release Builder
+
+on:
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: "Git tag (e.g. beta-0.9.6)"
+        required: true
+      version:
+        description: "Package version (e.g. 0.9.6)"
+        required: true
+      description:
+        description: "Release description"
+        required: true
+      zip_name:
+        description: "Zip filename (without .zip)"
+        required: true
+      changelog:
+        description: "Changelog (one line per entry)"
+        required: true
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Configure git
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+
+      - name: Validate tag/version relationship
+        run: |
+          TAG="${{ github.event.inputs.tag }}"
+          VERSION="${{ github.event.inputs.version }}"
+
+          if [[ "$TAG" != *"$VERSION"* ]]; then
+            echo "Tag must contain version"
+            exit 1
+          fi
+
+      - name: Ensure versions.json exists
+        run: |
+          if [ ! -f versions.json ]; then
+            echo '{ "versions": [] }' > versions.json
+          fi
+
+      - name: Update manifest.json
+        run: |
+          VERSION="${{ github.event.inputs.version }}"
+
+          if [ ! -f manifest.json ]; then
+            echo '{ "package_version": "" }' > manifest.json
+          fi
+
+          jq --arg v "$VERSION" '.package_version = $v' manifest.json > tmp.json
+          mv tmp.json manifest.json
+
+      - name: Prepare zip (for hashing)
+        run: |
+          mkdir build
+
+          # >>> MODIFY THESE PATHS <<<
+          cp -r images build/ || true
+          cp -r items build/ || true
+          cp -r layouts build/ || true
+          cp -r maps build/ || true
+          cp -r locations build/ || true
+          cp -r scripts build/ || true
+          cp manifest.json build/ || true
+          cp README.md build/ || true
+          cp LICENSE build/ || true
+
+          cd build
+          zip -r "../${{ github.event.inputs.zip_name }}.zip" .
+
+      - name: Compute SHA256
+        run: |
+          sha256sum "${{ github.event.inputs.zip_name }}.zip" | awk '{print $1}' > sha.txt
+
+      - name: Update versions.json
+        run: |
+          TAG="${{ github.event.inputs.tag }}"
+          VERSION="${{ github.event.inputs.version }}"
+          ZIP_NAME="${{ github.event.inputs.zip_name }}"
+          SHA=$(cat sha.txt)
+
+          CHANGELOG=$(printf '%s\n' "${{ github.event.inputs.changelog }}" | jq -R . | jq -s .)
+
+          DOWNLOAD_URL="https://github.com/${{ github.repository }}/releases/download/${TAG}/${ZIP_NAME}.zip"
+
+          jq \
+            --arg version "$VERSION" \
+            --arg url "$DOWNLOAD_URL" \
+            --arg sha "$SHA" \
+            --argjson changelog "$CHANGELOG" \
+            '
+            .versions = [
+              {
+                package_version: $version,
+                download_url: $url,
+                sha256: $sha,
+                changelog: $changelog
+              }
+            ] + .versions
+            ' versions.json > tmp.json
+
+          mv tmp.json versions.json
+
+      - name: Commit metadata changes
+        run: |
+          git add versions.json manifest.json
+          git commit -m "Release ${{ github.event.inputs.version }}" || exit 0
+          git push origin main
+
+      - name: Create tag from new commit
+        run: |
+          TAG="${{ github.event.inputs.tag }}"
+
+          if git rev-parse "$TAG" >/dev/null 2>&1; then
+            echo "Tag already exists"
+            exit 1
+          fi
+
+          git tag "$TAG"
+          git push origin "$TAG"
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ github.event.inputs.tag }}
+          name: Release ${{ github.event.inputs.version }}
+          body: ${{ github.event.inputs.description }}
+          files: ${{ github.event.inputs.zip_name }}.zip
