@@ -71,6 +71,7 @@ Tracker:AddLocations("locations/breakable/Accursed Tomb.json")
 Tracker:AddLocations("locations/breakable/Yosei Forest.json")
 Tracker:AddLocations("locations/breakable/Boiling Grotto.json")
 Tracker:AddLocations("locations/breakable/Sealed Ballroom.json")
+Tracker:AddLocations("locations/breakable/The Fetid Mire.json")
 
 -- Layout
 Tracker:AddLayouts("layouts/tabs.json")
