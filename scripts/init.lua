@@ -73,6 +73,8 @@ Tracker:AddLocations("locations/breakable/Boiling Grotto.json")
 Tracker:AddLocations("locations/breakable/Sealed Ballroom.json")
 Tracker:AddLocations("locations/breakable/The Fetid Mire.json")
 Tracker:AddLocations("locations/breakable/Terminus Prison.json")
+Tracker:AddLocations("locations/breakable/Forlorn Arena.json")
+Tracker:AddLocations("locations/breakable/A Holy Battlefield.json")
 
 -- Layout
 Tracker:AddLayouts("layouts/tabs.json")
