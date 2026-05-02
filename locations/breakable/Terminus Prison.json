@@ -1,125 +1,2270 @@
 [
     {
-        "name": "BreakGrass Terminus Prison",
+        "name": "Grassanity Terminus Prison",
         "chest_unopened_img": "/images/items/close.png",
         "chest_opened_img": "/images/items/open.png",
         "overlay_background": "#000000",
         "access_rules": [
             "^$CanEnter|Terminus Prison"
         ],
+        "visibility_rules": [
+            "grass_on"
+        ],
         "children": [
-            {"name": "Vase 5", "access_rules": ["^$CanBreak|TP: Vase 5"], "chest_unopened_img": "images/items/check_misc_fade.png", "chest_opened_img": "images/items/check_misc.png", "sections": [{}], "map_locations": [{"map": "Terminus Prison", "x": 1591, "y": 509, "size": 12, "shape": "diamond"}]},
-            {"name": "Vase 2", "access_rules": ["^$CanBreak|TP: Vase 2"], "chest_unopened_img": "images/items/check_misc_fade.png", "chest_opened_img": "images/items/check_misc.png", "sections": [{}], "map_locations": [{"map": "Terminus Prison", "x": 1592, "y": 485, "size": 12, "shape": "diamond"}]},
-            {"name": "Vase 7", "access_rules": ["^$CanBreak|TP: Vase 7"], "chest_unopened_img": "images/items/check_misc_fade.png", "chest_opened_img": "images/items/check_misc.png", "sections": [{}], "map_locations": [{"map": "Terminus Prison", "x": 1589, "y": 476, "size": 12, "shape": "diamond"}]},
-            {"name": "Vase 3", "access_rules": ["^$CanBreak|TP: Vase 3"], "chest_unopened_img": "images/items/check_misc_fade.png", "chest_opened_img": "images/items/check_misc.png", "sections": [{}], "map_locations": [{"map": "Terminus Prison", "x": 1590, "y": 467, "size": 12, "shape": "diamond"}]},
-            {"name": "Crate 1", "access_rules": ["^$CanBreak|TP: Crate 1"], "chest_unopened_img": "images/items/check_misc_fade.png", "chest_opened_img": "images/items/check_misc.png", "sections": [{}], "map_locations": [{"map": "Terminus Prison", "x": 1561, "y": 471, "size": 12, "shape": "diamond"}]},
-            {"name": "Vase 1", "access_rules": ["^$CanBreak|TP: Vase 1"], "chest_unopened_img": "images/items/check_misc_fade.png", "chest_opened_img": "images/items/check_misc.png", "sections": [{}], "map_locations": [{"map": "Terminus Prison", "x": 502, "y": 354, "size": 12, "shape": "diamond"}]},
-            {"name": "Flora 1", "access_rules": ["^$CanBreak|TP: Flora 1"], "chest_unopened_img": "images/items/check_misc_fade.png", "chest_opened_img": "images/items/check_misc.png", "sections": [{}], "map_locations": [{"map": "Terminus Prison", "x": 509, "y": 347, "size": 12, "shape": "diamond"}]},
-            {"name": "Flora 5", "access_rules": ["^$CanBreak|TP: Flora 5"], "chest_unopened_img": "images/items/check_misc_fade.png", "chest_opened_img": "images/items/check_misc.png", "sections": [{}], "map_locations": [{"map": "Terminus Prison", "x": 513, "y": 344, "size": 12, "shape": "diamond"}]},
-            {"name": "Flora 3", "access_rules": ["^$CanBreak|TP: Flora 3"], "chest_unopened_img": "images/items/check_misc_fade.png", "chest_opened_img": "images/items/check_misc.png", "sections": [{}], "map_locations": [{"map": "Terminus Prison", "x": 517, "y": 344, "size": 12, "shape": "diamond"}]},
-            {"name": "Vase 4", "access_rules": ["^$CanBreak|TP: Vase 4"], "chest_unopened_img": "images/items/check_misc_fade.png", "chest_opened_img": "images/items/check_misc.png", "sections": [{}], "map_locations": [{"map": "Terminus Prison", "x": 525, "y": 345, "size": 12, "shape": "diamond"}]},
-            {"name": "Vase 6", "access_rules": ["^$CanBreak|TP: Vase 6"], "chest_unopened_img": "images/items/check_misc_fade.png", "chest_opened_img": "images/items/check_misc.png", "sections": [{}], "map_locations": [{"map": "Terminus Prison", "x": 529, "y": 366, "size": 12, "shape": "diamond"}]},
-            {"name": "Flora 2", "access_rules": ["^$CanBreak|TP: Flora 2"], "chest_unopened_img": "images/items/check_misc_fade.png", "chest_opened_img": "images/items/check_misc.png", "sections": [{}], "map_locations": [{"map": "Terminus Prison", "x": 531, "y": 373, "size": 12, "shape": "diamond"}]},
-            {"name": "Flora 4", "access_rules": ["^$CanBreak|TP: Flora 4"], "chest_unopened_img": "images/items/check_misc_fade.png", "chest_opened_img": "images/items/check_misc.png", "sections": [{}], "map_locations": [{"map": "Terminus Prison", "x": 532, "y": 380, "size": 12, "shape": "diamond"}]},
-            {"name": "Bloodweed 76", "access_rules": ["^$CanBreak|TP: Bloodweed 76"], "chest_unopened_img": "images/items/check_misc_fade.png", "chest_opened_img": "images/items/check_misc.png", "sections": [{}], "map_locations": [{"map": "Terminus Prison", "x": 2121, "y": 420, "size": 12, "shape": "diamond"}]},
-            {"name": "Bloodweed 67", "access_rules": ["^$CanBreak|TP: Bloodweed 67"], "chest_unopened_img": "images/items/check_misc_fade.png", "chest_opened_img": "images/items/check_misc.png", "sections": [{}], "map_locations": [{"map": "Terminus Prison", "x": 2116, "y": 419, "size": 12, "shape": "diamond"}]},
-            {"name": "Bloodweed 62", "access_rules": ["^$CanBreak|TP: Bloodweed 62"], "chest_unopened_img": "images/items/check_misc_fade.png", "chest_opened_img": "images/items/check_misc.png", "sections": [{}], "map_locations": [{"map": "Terminus Prison", "x": 2110, "y": 404, "size": 12, "shape": "diamond"}]},
-            {"name": "Bloodweed 21", "access_rules": ["^$CanBreak|TP: Bloodweed 21"], "chest_unopened_img": "images/items/check_misc_fade.png", "chest_opened_img": "images/items/check_misc.png", "sections": [{}], "map_locations": [{"map": "Terminus Prison", "x": 2109, "y": 413, "size": 12, "shape": "diamond"}]},
-            {"name": "Bloodweed 44", "access_rules": ["^$CanBreak|TP: Bloodweed 44"], "chest_unopened_img": "images/items/check_misc_fade.png", "chest_opened_img": "images/items/check_misc.png", "sections": [{}], "map_locations": [{"map": "Terminus Prison", "x": 2118, "y": 411, "size": 12, "shape": "diamond"}]},
-            {"name": "Bloodweed 27", "access_rules": ["^$CanBreak|TP: Bloodweed 27"], "chest_unopened_img": "images/items/check_misc_fade.png", "chest_opened_img": "images/items/check_misc.png", "sections": [{}], "map_locations": [{"map": "Terminus Prison", "x": 2106, "y": 412, "size": 12, "shape": "diamond"}]},
-            {"name": "Bloodweed 61", "access_rules": ["^$CanBreak|TP: Bloodweed 61"], "chest_unopened_img": "images/items/check_misc_fade.png", "chest_opened_img": "images/items/check_misc.png", "sections": [{}], "map_locations": [{"map": "Terminus Prison", "x": 2103, "y": 415, "size": 12, "shape": "diamond"}]},
-            {"name": "Bloodweed 37", "access_rules": ["^$CanBreak|TP: Bloodweed 37"], "chest_unopened_img": "images/items/check_misc_fade.png", "chest_opened_img": "images/items/check_misc.png", "sections": [{}], "map_locations": [{"map": "Terminus Prison", "x": 2109, "y": 408, "size": 12, "shape": "diamond"}]},
-            {"name": "Bloodweed 48", "access_rules": ["^$CanBreak|TP: Bloodweed 48"], "chest_unopened_img": "images/items/check_misc_fade.png", "chest_opened_img": "images/items/check_misc.png", "sections": [{}], "map_locations": [{"map": "Terminus Prison", "x": 2102, "y": 403, "size": 12, "shape": "diamond"}]},
-            {"name": "Bloodweed 28", "access_rules": ["^$CanBreak|TP: Bloodweed 28"], "chest_unopened_img": "images/items/check_misc_fade.png", "chest_opened_img": "images/items/check_misc.png", "sections": [{}], "map_locations": [{"map": "Terminus Prison", "x": 2098, "y": 401, "size": 12, "shape": "diamond"}]},
-            {"name": "Bloodweed 2", "access_rules": ["^$CanBreak|TP: Bloodweed 2"], "chest_unopened_img": "images/items/check_misc_fade.png", "chest_opened_img": "images/items/check_misc.png", "sections": [{}], "map_locations": [{"map": "Terminus Prison", "x": 2097, "y": 396, "size": 12, "shape": "diamond"}]},
-            {"name": "Bloodweed 45", "access_rules": ["^$CanBreak|TP: Bloodweed 45"], "chest_unopened_img": "images/items/check_misc_fade.png", "chest_opened_img": "images/items/check_misc.png", "sections": [{}], "map_locations": [{"map": "Terminus Prison", "x": 2100, "y": 396, "size": 12, "shape": "diamond"}]},
-            {"name": "Bloodweed 25", "access_rules": ["^$CanBreak|TP: Bloodweed 25"], "chest_unopened_img": "images/items/check_misc_fade.png", "chest_opened_img": "images/items/check_misc.png", "sections": [{}], "map_locations": [{"map": "Terminus Prison", "x": 2100, "y": 393, "size": 12, "shape": "diamond"}]},
-            {"name": "Bloodweed 36", "access_rules": ["^$CanBreak|TP: Bloodweed 36"], "chest_unopened_img": "images/items/check_misc_fade.png", "chest_opened_img": "images/items/check_misc.png", "sections": [{}], "map_locations": [{"map": "Terminus Prison", "x": 2097, "y": 392, "size": 12, "shape": "diamond"}]},
-            {"name": "Bloodweed 39", "access_rules": ["^$CanBreak|TP: Bloodweed 39"], "chest_unopened_img": "images/items/check_misc_fade.png", "chest_opened_img": "images/items/check_misc.png", "sections": [{}], "map_locations": [{"map": "Terminus Prison", "x": 2104, "y": 388, "size": 12, "shape": "diamond"}]},
-            {"name": "Bloodweed 6", "access_rules": ["^$CanBreak|TP: Bloodweed 6"], "chest_unopened_img": "images/items/check_misc_fade.png", "chest_opened_img": "images/items/check_misc.png", "sections": [{}], "map_locations": [{"map": "Terminus Prison", "x": 2097, "y": 387, "size": 12, "shape": "diamond"}]},
-            {"name": "Bloodweed 42", "access_rules": ["^$CanBreak|TP: Bloodweed 42"], "chest_unopened_img": "images/items/check_misc_fade.png", "chest_opened_img": "images/items/check_misc.png", "sections": [{}], "map_locations": [{"map": "Terminus Prison", "x": 2100, "y": 385, "size": 12, "shape": "diamond"}]},
-            {"name": "Bloodweed 22", "access_rules": ["^$CanBreak|TP: Bloodweed 22"], "chest_unopened_img": "images/items/check_misc_fade.png", "chest_opened_img": "images/items/check_misc.png", "sections": [{}], "map_locations": [{"map": "Terminus Prison", "x": 2097, "y": 383, "size": 12, "shape": "diamond"}]},
-            {"name": "Bloodweed 19", "access_rules": ["^$CanBreak|TP: Bloodweed 19"], "chest_unopened_img": "images/items/check_misc_fade.png", "chest_opened_img": "images/items/check_misc.png", "sections": [{}], "map_locations": [{"map": "Terminus Prison", "x": 2104, "y": 382, "size": 12, "shape": "diamond"}]},
-            {"name": "Bloodweed 5", "access_rules": ["^$CanBreak|TP: Bloodweed 5"], "chest_unopened_img": "images/items/check_misc_fade.png", "chest_opened_img": "images/items/check_misc.png", "sections": [{}], "map_locations": [{"map": "Terminus Prison", "x": 2103, "y": 379, "size": 12, "shape": "diamond"}]},
-            {"name": "Bloodweed 23", "access_rules": ["^$CanBreak|TP: Bloodweed 23"], "chest_unopened_img": "images/items/check_misc_fade.png", "chest_opened_img": "images/items/check_misc.png", "sections": [{}], "map_locations": [{"map": "Terminus Prison", "x": 2108, "y": 382, "size": 12, "shape": "diamond"}]},
-            {"name": "Bloodweed 49", "access_rules": ["^$CanBreak|TP: Bloodweed 49"], "chest_unopened_img": "images/items/check_misc_fade.png", "chest_opened_img": "images/items/check_misc.png", "sections": [{}], "map_locations": [{"map": "Terminus Prison", "x": 2117, "y": 383, "size": 12, "shape": "diamond"}]},
-            {"name": "Bloodweed 18", "access_rules": ["^$CanBreak|TP: Bloodweed 18"], "chest_unopened_img": "images/items/check_misc_fade.png", "chest_opened_img": "images/items/check_misc.png", "sections": [{}], "map_locations": [{"map": "Terminus Prison", "x": 2116, "y": 389, "size": 12, "shape": "diamond"}]},
-            {"name": "Bloodweed 7", "access_rules": ["^$CanBreak|TP: Bloodweed 7"], "chest_unopened_img": "images/items/check_misc_fade.png", "chest_opened_img": "images/items/check_misc.png", "sections": [{}], "map_locations": [{"map": "Terminus Prison", "x": 2122, "y": 389, "size": 12, "shape": "diamond"}]},
-            {"name": "Bloodweed 3", "access_rules": ["^$CanBreak|TP: Bloodweed 3"], "chest_unopened_img": "images/items/check_misc_fade.png", "chest_opened_img": "images/items/check_misc.png", "sections": [{}], "map_locations": [{"map": "Terminus Prison", "x": 2119, "y": 394, "size": 12, "shape": "diamond"}]},
-            {"name": "Bloodweed 8", "access_rules": ["^$CanBreak|TP: Bloodweed 8"], "chest_unopened_img": "images/items/check_misc_fade.png", "chest_opened_img": "images/items/check_misc.png", "sections": [{}], "map_locations": [{"map": "Terminus Prison", "x": 2114, "y": 398, "size": 12, "shape": "diamond"}]},
-            {"name": "Bloodweed 1", "access_rules": ["^$CanBreak|TP: Bloodweed 1"], "chest_unopened_img": "images/items/check_misc_fade.png", "chest_opened_img": "images/items/check_misc.png", "sections": [{}], "map_locations": [{"map": "Terminus Prison", "x": 2108, "y": 396, "size": 12, "shape": "diamond"}]},
-            {"name": "Bloodweed 40", "access_rules": ["^$CanBreak|TP: Bloodweed 40"], "chest_unopened_img": "images/items/check_misc_fade.png", "chest_opened_img": "images/items/check_misc.png", "sections": [{}], "map_locations": [{"map": "Terminus Prison", "x": 2108, "y": 402, "size": 12, "shape": "diamond"}]},
-            {"name": "Bloodweed 41", "access_rules": ["^$CanBreak|TP: Bloodweed 41"], "chest_unopened_img": "images/items/check_misc_fade.png", "chest_opened_img": "images/items/check_misc.png", "sections": [{}], "map_locations": [{"map": "Terminus Prison", "x": 2110, "y": 404, "size": 12, "shape": "diamond"}]},
-            {"name": "Bloodweed 20", "access_rules": ["^$CanBreak|TP: Bloodweed 20"], "chest_unopened_img": "images/items/check_misc_fade.png", "chest_opened_img": "images/items/check_misc.png", "sections": [{}], "map_locations": [{"map": "Terminus Prison", "x": 2112, "y": 408, "size": 12, "shape": "diamond"}]},
-            {"name": "Bloodweed 11", "access_rules": ["^$CanBreak|TP: Bloodweed 11"], "chest_unopened_img": "images/items/check_misc_fade.png", "chest_opened_img": "images/items/check_misc.png", "sections": [{}], "map_locations": [{"map": "Terminus Prison", "x": 2115, "y": 411, "size": 12, "shape": "diamond"}]},
-            {"name": "Bloodweed 26", "access_rules": ["^$CanBreak|TP: Bloodweed 26"], "chest_unopened_img": "images/items/check_misc_fade.png", "chest_opened_img": "images/items/check_misc.png", "sections": [{}], "map_locations": [{"map": "Terminus Prison", "x": 2113, "y": 406, "size": 12, "shape": "diamond"}]},
-            {"name": "Bloodweed 38", "access_rules": ["^$CanBreak|TP: Bloodweed 38"], "chest_unopened_img": "images/items/check_misc_fade.png", "chest_opened_img": "images/items/check_misc.png", "sections": [{}], "map_locations": [{"map": "Terminus Prison", "x": 2116, "y": 404, "size": 12, "shape": "diamond"}]},
-            {"name": "Bloodweed 33", "access_rules": ["^$CanBreak|TP: Bloodweed 33"], "chest_unopened_img": "images/items/check_misc_fade.png", "chest_opened_img": "images/items/check_misc.png", "sections": [{}], "map_locations": [{"map": "Terminus Prison", "x": 2117, "y": 408, "size": 12, "shape": "diamond"}]},
-            {"name": "Coffin 2", "access_rules": ["^$CanBreak|TP: Coffin 2"], "chest_unopened_img": "images/items/check_misc_fade.png", "chest_opened_img": "images/items/check_misc.png", "sections": [{}], "map_locations": [{"map": "Terminus Prison", "x": 1335, "y": 1072, "size": 12, "shape": "diamond"}]},
-            {"name": "Coffin 1", "access_rules": ["^$CanBreak|TP: Coffin 1"], "chest_unopened_img": "images/items/check_misc_fade.png", "chest_opened_img": "images/items/check_misc.png", "sections": [{}], "map_locations": [{"map": "Terminus Prison", "x": 1366, "y": 1013, "size": 12, "shape": "diamond"}]},
-            {"name": "Coffin 17", "access_rules": ["^$CanBreak|TP: Coffin 17"], "chest_unopened_img": "images/items/check_misc_fade.png", "chest_opened_img": "images/items/check_misc.png", "sections": [{}], "map_locations": [{"map": "Terminus Prison", "x": 1300, "y": 1003, "size": 12, "shape": "diamond"}]},
-            {"name": "Coffin 16", "access_rules": ["^$CanBreak|TP: Coffin 16"], "chest_unopened_img": "images/items/check_misc_fade.png", "chest_opened_img": "images/items/check_misc.png", "sections": [{}], "map_locations": [{"map": "Terminus Prison", "x": 1295, "y": 988, "size": 12, "shape": "diamond"}]},
-            {"name": "Coffin 8", "access_rules": ["^$CanBreak|TP: Coffin 8"], "chest_unopened_img": "images/items/check_misc_fade.png", "chest_opened_img": "images/items/check_misc.png", "sections": [{}], "map_locations": [{"map": "Terminus Prison", "x": 1294, "y": 966, "size": 12, "shape": "diamond"}]},
-            {"name": "Coffin 6", "access_rules": ["^$CanBreak|TP: Coffin 6"], "chest_unopened_img": "images/items/check_misc_fade.png", "chest_opened_img": "images/items/check_misc.png", "sections": [{}], "map_locations": [{"map": "Terminus Prison", "x": 1307, "y": 930, "size": 12, "shape": "diamond"}]},
-            {"name": "Coffin 15", "access_rules": ["^$CanBreak|TP: Coffin 15"], "chest_unopened_img": "images/items/check_misc_fade.png", "chest_opened_img": "images/items/check_misc.png", "sections": [{}], "map_locations": [{"map": "Terminus Prison", "x": 1333, "y": 928, "size": 12, "shape": "diamond"}]},
-            {"name": "Coffin 21", "access_rules": ["^$CanBreak|TP: Coffin 21"], "chest_unopened_img": "images/items/check_misc_fade.png", "chest_opened_img": "images/items/check_misc.png", "sections": [{}], "map_locations": [{"map": "Terminus Prison", "x": 1340, "y": 928, "size": 12, "shape": "diamond"}]},
-            {"name": "Coffin 14", "access_rules": ["^$CanBreak|TP: Coffin 14"], "chest_unopened_img": "images/items/check_misc_fade.png", "chest_opened_img": "images/items/check_misc.png", "sections": [{}], "map_locations": [{"map": "Terminus Prison", "x": 1409, "y": 929, "size": 12, "shape": "diamond"}]},
-            {"name": "Coffin 9", "access_rules": ["^$CanBreak|TP: Coffin 9"], "chest_unopened_img": "images/items/check_misc_fade.png", "chest_opened_img": "images/items/check_misc.png", "sections": [{}], "map_locations": [{"map": "Terminus Prison", "x": 1536, "y": 982, "size": 12, "shape": "diamond"}]},
-            {"name": "Coffin 18", "access_rules": ["^$CanBreak|TP: Coffin 18"], "chest_unopened_img": "images/items/check_misc_fade.png", "chest_opened_img": "images/items/check_misc.png", "sections": [{}], "map_locations": [{"map": "Terminus Prison", "x": 1536, "y": 990, "size": 12, "shape": "diamond"}]},
-            {"name": "Coffin 3", "access_rules": ["^$CanBreak|TP: Coffin 3"], "chest_unopened_img": "images/items/check_misc_fade.png", "chest_opened_img": "images/items/check_misc.png", "sections": [{}], "map_locations": [{"map": "Terminus Prison", "x": 1536, "y": 1003, "size": 12, "shape": "diamond"}]},
-            {"name": "Coffin 20", "access_rules": ["^$CanBreak|TP: Coffin 20"], "chest_unopened_img": "images/items/check_misc_fade.png", "chest_opened_img": "images/items/check_misc.png", "sections": [{}], "map_locations": [{"map": "Terminus Prison", "x": 1496, "y": 997, "size": 12, "shape": "diamond"}]},
-            {"name": "Coffin 12", "access_rules": ["^$CanBreak|TP: Coffin 12"], "chest_unopened_img": "images/items/check_misc_fade.png", "chest_opened_img": "images/items/check_misc.png", "sections": [{}], "map_locations": [{"map": "Terminus Prison", "x": 1489, "y": 1003, "size": 12, "shape": "diamond"}]},
-            {"name": "Coffin 10", "access_rules": ["^$CanBreak|TP: Coffin 10"], "chest_unopened_img": "images/items/check_misc_fade.png", "chest_opened_img": "images/items/check_misc.png", "sections": [{}], "map_locations": [{"map": "Terminus Prison", "x": 1470, "y": 1003, "size": 12, "shape": "diamond"}]},
-            {"name": "Coffin 22", "access_rules": ["^$CanBreak|TP: Coffin 22"], "chest_unopened_img": "images/items/check_misc_fade.png", "chest_opened_img": "images/items/check_misc.png", "sections": [{}], "map_locations": [{"map": "Terminus Prison", "x": 1452, "y": 1002, "size": 12, "shape": "diamond"}]},
-            {"name": "Coffin 13", "access_rules": ["^$CanBreak|TP: Coffin 13"], "chest_unopened_img": "images/items/check_misc_fade.png", "chest_opened_img": "images/items/check_misc.png", "sections": [{}], "map_locations": [{"map": "Terminus Prison", "x": 1398, "y": 1000, "size": 12, "shape": "diamond"}]},
-            {"name": "Coffin 5", "access_rules": ["^$CanBreak|TP: Coffin 5"], "chest_unopened_img": "images/items/check_misc_fade.png", "chest_opened_img": "images/items/check_misc.png", "sections": [{}], "map_locations": [{"map": "Terminus Prison", "x": 1501, "y": 974, "size": 12, "shape": "diamond"}]},
-            {"name": "Coffin 11", "access_rules": ["^$CanBreak|TP: Coffin 11"], "chest_unopened_img": "images/items/check_misc_fade.png", "chest_opened_img": "images/items/check_misc.png", "sections": [{}], "map_locations": [{"map": "Terminus Prison", "x": 1458, "y": 972, "size": 12, "shape": "diamond"}]},
-            {"name": "Coffin 4", "access_rules": ["^$CanBreak|TP: Coffin 4"], "chest_unopened_img": "images/items/check_misc_fade.png", "chest_opened_img": "images/items/check_misc.png", "sections": [{}], "map_locations": [{"map": "Terminus Prison", "x": 1435, "y": 972, "size": 12, "shape": "diamond"}]},
-            {"name": "Coffin 7", "access_rules": ["^$CanBreak|TP: Coffin 7"], "chest_unopened_img": "images/items/check_misc_fade.png", "chest_opened_img": "images/items/check_misc.png", "sections": [{}], "map_locations": [{"map": "Terminus Prison", "x": 1425, "y": 972, "size": 12, "shape": "diamond"}]},
-            {"name": "Coffin 19", "access_rules": ["^$CanBreak|TP: Coffin 19"], "chest_unopened_img": "images/items/check_misc_fade.png", "chest_opened_img": "images/items/check_misc.png", "sections": [{}], "map_locations": [{"map": "Terminus Prison", "x": 1412, "y": 972, "size": 12, "shape": "diamond"}]},
-            {"name": "Bloodweed 12", "access_rules": ["^$CanBreak|TP: Bloodweed 12"], "chest_unopened_img": "images/items/check_misc_fade.png", "chest_opened_img": "images/items/check_misc.png", "sections": [{}], "map_locations": [{"map": "Terminus Prison", "x": 1338, "y": 1118, "size": 12, "shape": "diamond"}]},
-            {"name": "Bloodweed 53", "access_rules": ["^$CanBreak|TP: Bloodweed 53"], "chest_unopened_img": "images/items/check_misc_fade.png", "chest_opened_img": "images/items/check_misc.png", "sections": [{}], "map_locations": [{"map": "Terminus Prison", "x": 1328, "y": 1115, "size": 12, "shape": "diamond"}]},
-            {"name": "Bloodweed 70", "access_rules": ["^$CanBreak|TP: Bloodweed 70"], "chest_unopened_img": "images/items/check_misc_fade.png", "chest_opened_img": "images/items/check_misc.png", "sections": [{}], "map_locations": [{"map": "Terminus Prison", "x": 1326, "y": 1130, "size": 12, "shape": "diamond"}]},
-            {"name": "Bloodweed 43", "access_rules": ["^$CanBreak|TP: Bloodweed 43"], "chest_unopened_img": "images/items/check_misc_fade.png", "chest_opened_img": "images/items/check_misc.png", "sections": [{}], "map_locations": [{"map": "Terminus Prison", "x": 1329, "y": 1125, "size": 12, "shape": "diamond"}]},
-            {"name": "Bloodweed 10", "access_rules": ["^$CanBreak|TP: Bloodweed 10"], "chest_unopened_img": "images/items/check_misc_fade.png", "chest_opened_img": "images/items/check_misc.png", "sections": [{}], "map_locations": [{"map": "Terminus Prison", "x": 1321, "y": 1135, "size": 12, "shape": "diamond"}]},
-            {"name": "Bloodweed 9", "access_rules": ["^$CanBreak|TP: Bloodweed 9"], "chest_unopened_img": "images/items/check_misc_fade.png", "chest_opened_img": "images/items/check_misc.png", "sections": [{}], "map_locations": [{"map": "Terminus Prison", "x": 1282, "y": 1159, "size": 12, "shape": "diamond"}]},
-            {"name": "Bloodweed 63", "access_rules": ["^$CanBreak|TP: Bloodweed 63"], "chest_unopened_img": "images/items/check_misc_fade.png", "chest_opened_img": "images/items/check_misc.png", "sections": [{}], "map_locations": [{"map": "Terminus Prison", "x": 1291, "y": 1157, "size": 12, "shape": "diamond"}]},
-            {"name": "Bloodweed 54", "access_rules": ["^$CanBreak|TP: Bloodweed 54"], "chest_unopened_img": "images/items/check_misc_fade.png", "chest_opened_img": "images/items/check_misc.png", "sections": [{}], "map_locations": [{"map": "Terminus Prison", "x": 1298, "y": 1157, "size": 12, "shape": "diamond"}]},
-            {"name": "Bloodweed 74", "access_rules": ["^$CanBreak|TP: Bloodweed 74"], "chest_unopened_img": "images/items/check_misc_fade.png", "chest_opened_img": "images/items/check_misc.png", "sections": [{}], "map_locations": [{"map": "Terminus Prison", "x": 1304, "y": 1155, "size": 12, "shape": "diamond"}]},
-            {"name": "Bloodweed 51", "access_rules": ["^$CanBreak|TP: Bloodweed 51"], "chest_unopened_img": "images/items/check_misc_fade.png", "chest_opened_img": "images/items/check_misc.png", "sections": [{}], "map_locations": [{"map": "Terminus Prison", "x": 1309, "y": 1151, "size": 12, "shape": "diamond"}]},
-            {"name": "Bloodweed 13", "access_rules": ["^$CanBreak|TP: Bloodweed 13"], "chest_unopened_img": "images/items/check_misc_fade.png", "chest_opened_img": "images/items/check_misc.png", "sections": [{}], "map_locations": [{"map": "Terminus Prison", "x": 1308, "y": 1146, "size": 12, "shape": "diamond"}]},
-            {"name": "Bloodweed 55", "access_rules": ["^$CanBreak|TP: Bloodweed 55"], "chest_unopened_img": "images/items/check_misc_fade.png", "chest_opened_img": "images/items/check_misc.png", "sections": [{}], "map_locations": [{"map": "Terminus Prison", "x": 1309, "y": 1209, "size": 12, "shape": "diamond"}]},
-            {"name": "Bloodweed 29", "access_rules": ["^$CanBreak|TP: Bloodweed 29"], "chest_unopened_img": "images/items/check_misc_fade.png", "chest_opened_img": "images/items/check_misc.png", "sections": [{}], "map_locations": [{"map": "Terminus Prison", "x": 1312, "y": 1214, "size": 12, "shape": "diamond"}]},
-            {"name": "Bloodweed 59", "access_rules": ["^$CanBreak|TP: Bloodweed 59"], "chest_unopened_img": "images/items/check_misc_fade.png", "chest_opened_img": "images/items/check_misc.png", "sections": [{}], "map_locations": [{"map": "Terminus Prison", "x": 1317, "y": 1215, "size": 12, "shape": "diamond"}]},
-            {"name": "Bloodweed 30", "access_rules": ["^$CanBreak|TP: Bloodweed 30"], "chest_unopened_img": "images/items/check_misc_fade.png", "chest_opened_img": "images/items/check_misc.png", "sections": [{}], "map_locations": [{"map": "Terminus Prison", "x": 1487, "y": 1238, "size": 12, "shape": "diamond"}]},
-            {"name": "Bloodweed 66", "access_rules": ["^$CanBreak|TP: Bloodweed 66"], "chest_unopened_img": "images/items/check_misc_fade.png", "chest_opened_img": "images/items/check_misc.png", "sections": [{}], "map_locations": [{"map": "Terminus Prison", "x": 1486, "y": 1235, "size": 12, "shape": "diamond"}]},
-            {"name": "Bloodweed 77", "access_rules": ["^$CanBreak|TP: Bloodweed 77"], "chest_unopened_img": "images/items/check_misc_fade.png", "chest_opened_img": "images/items/check_misc.png", "sections": [{}], "map_locations": [{"map": "Terminus Prison", "x": 1489, "y": 1234, "size": 12, "shape": "diamond"}]},
-            {"name": "Bloodweed 4", "access_rules": ["^$CanBreak|TP: Bloodweed 4"], "chest_unopened_img": "images/items/check_misc_fade.png", "chest_opened_img": "images/items/check_misc.png", "sections": [{}], "map_locations": [{"map": "Terminus Prison", "x": 1491, "y": 1230, "size": 12, "shape": "diamond"}]},
-            {"name": "Bloodweed 17", "access_rules": ["^$CanBreak|TP: Bloodweed 17"], "chest_unopened_img": "images/items/check_misc_fade.png", "chest_opened_img": "images/items/check_misc.png", "sections": [{}], "map_locations": [{"map": "Terminus Prison", "x": 1490, "y": 1227, "size": 12, "shape": "diamond"}]},
-            {"name": "Bloodweed 64", "access_rules": ["^$CanBreak|TP: Bloodweed 64"], "chest_unopened_img": "images/items/check_misc_fade.png", "chest_opened_img": "images/items/check_misc.png", "sections": [{}], "map_locations": [{"map": "Terminus Prison", "x": 1489, "y": 1202, "size": 12, "shape": "diamond"}]},
-            {"name": "Bloodweed 15", "access_rules": ["^$CanBreak|TP: Bloodweed 15"], "chest_unopened_img": "images/items/check_misc_fade.png", "chest_opened_img": "images/items/check_misc.png", "sections": [{}], "map_locations": [{"map": "Terminus Prison", "x": 1473, "y": 1194, "size": 12, "shape": "diamond"}]},
-            {"name": "Bloodweed 56", "access_rules": ["^$CanBreak|TP: Bloodweed 56"], "chest_unopened_img": "images/items/check_misc_fade.png", "chest_opened_img": "images/items/check_misc.png", "sections": [{}], "map_locations": [{"map": "Terminus Prison", "x": 1469, "y": 1193, "size": 12, "shape": "diamond"}]},
-            {"name": "Bloodweed 24", "access_rules": ["^$CanBreak|TP: Bloodweed 24"], "chest_unopened_img": "images/items/check_misc_fade.png", "chest_opened_img": "images/items/check_misc.png", "sections": [{}], "map_locations": [{"map": "Terminus Prison", "x": 1469, "y": 1189, "size": 12, "shape": "diamond"}]},
-            {"name": "Bloodweed 69", "access_rules": ["^$CanBreak|TP: Bloodweed 69"], "chest_unopened_img": "images/items/check_misc_fade.png", "chest_opened_img": "images/items/check_misc.png", "sections": [{}], "map_locations": [{"map": "Terminus Prison", "x": 1469, "y": 1186, "size": 12, "shape": "diamond"}]},
-            {"name": "Bloodweed 34", "access_rules": ["^$CanBreak|TP: Bloodweed 34"], "chest_unopened_img": "images/items/check_misc_fade.png", "chest_opened_img": "images/items/check_misc.png", "sections": [{}], "map_locations": [{"map": "Terminus Prison", "x": 1460, "y": 1186, "size": 12, "shape": "diamond"}]},
-            {"name": "Bloodweed 60", "access_rules": ["^$CanBreak|TP: Bloodweed 60"], "chest_unopened_img": "images/items/check_misc_fade.png", "chest_opened_img": "images/items/check_misc.png", "sections": [{}], "map_locations": [{"map": "Terminus Prison", "x": 1456, "y": 1186, "size": 12, "shape": "diamond"}]},
-            {"name": "Bloodweed 75", "access_rules": ["^$CanBreak|TP: Bloodweed 75"], "chest_unopened_img": "images/items/check_misc_fade.png", "chest_opened_img": "images/items/check_misc.png", "sections": [{}], "map_locations": [{"map": "Terminus Prison", "x": 1489, "y": 1137, "size": 12, "shape": "diamond"}]},
-            {"name": "Bloodweed 32", "access_rules": ["^$CanBreak|TP: Bloodweed 32"], "chest_unopened_img": "images/items/check_misc_fade.png", "chest_opened_img": "images/items/check_misc.png", "sections": [{}], "map_locations": [{"map": "Terminus Prison", "x": 1489, "y": 1134, "size": 12, "shape": "diamond"}]},
-            {"name": "Bloodweed 57", "access_rules": ["^$CanBreak|TP: Bloodweed 57"], "chest_unopened_img": "images/items/check_misc_fade.png", "chest_opened_img": "images/items/check_misc.png", "sections": [{}], "map_locations": [{"map": "Terminus Prison", "x": 1489, "y": 1130, "size": 12, "shape": "diamond"}]},
-            {"name": "Bloodweed 14", "access_rules": ["^$CanBreak|TP: Bloodweed 14"], "chest_unopened_img": "images/items/check_misc_fade.png", "chest_opened_img": "images/items/check_misc.png", "sections": [{}], "map_locations": [{"map": "Terminus Prison", "x": 1365, "y": 1164, "size": 12, "shape": "diamond"}]},
-            {"name": "Bloodweed 31", "access_rules": ["^$CanBreak|TP: Bloodweed 31"], "chest_unopened_img": "images/items/check_misc_fade.png", "chest_opened_img": "images/items/check_misc.png", "sections": [{}], "map_locations": [{"map": "Terminus Prison", "x": 1368, "y": 1161, "size": 12, "shape": "diamond"}]},
-            {"name": "Bloodweed 73", "access_rules": ["^$CanBreak|TP: Bloodweed 73"], "chest_unopened_img": "images/items/check_misc_fade.png", "chest_opened_img": "images/items/check_misc.png", "sections": [{}], "map_locations": [{"map": "Terminus Prison", "x": 1373, "y": 1161, "size": 12, "shape": "diamond"}]},
-            {"name": "Bloodweed 16", "access_rules": ["^$CanBreak|TP: Bloodweed 16"], "chest_unopened_img": "images/items/check_misc_fade.png", "chest_opened_img": "images/items/check_misc.png", "sections": [{}], "map_locations": [{"map": "Terminus Prison", "x": 1411, "y": 1163, "size": 12, "shape": "diamond"}]},
-            {"name": "Bloodweed 52", "access_rules": ["^$CanBreak|TP: Bloodweed 52"], "chest_unopened_img": "images/items/check_misc_fade.png", "chest_opened_img": "images/items/check_misc.png", "sections": [{}], "map_locations": [{"map": "Terminus Prison", "x": 1415, "y": 1163, "size": 12, "shape": "diamond"}]},
-            {"name": "Bloodweed 65", "access_rules": ["^$CanBreak|TP: Bloodweed 65"], "chest_unopened_img": "images/items/check_misc_fade.png", "chest_opened_img": "images/items/check_misc.png", "sections": [{}], "map_locations": [{"map": "Terminus Prison", "x": 1418, "y": 1163, "size": 12, "shape": "diamond"}]},
-            {"name": "Bloodweed 58", "access_rules": ["^$CanBreak|TP: Bloodweed 58"], "chest_unopened_img": "images/items/check_misc_fade.png", "chest_opened_img": "images/items/check_misc.png", "sections": [{}], "map_locations": [{"map": "Terminus Prison", "x": 1428, "y": 1160, "size": 12, "shape": "diamond"}]},
-            {"name": "Bloodweed 35", "access_rules": ["^$CanBreak|TP: Bloodweed 35"], "chest_unopened_img": "images/items/check_misc_fade.png", "chest_opened_img": "images/items/check_misc.png", "sections": [{}], "map_locations": [{"map": "Terminus Prison", "x": 1429, "y": 1157, "size": 12, "shape": "diamond"}]},
-            {"name": "Bloodweed 68", "access_rules": ["^$CanBreak|TP: Bloodweed 68"], "chest_unopened_img": "images/items/check_misc_fade.png", "chest_opened_img": "images/items/check_misc.png", "sections": [{}], "map_locations": [{"map": "Terminus Prison", "x": 1366, "y": 1188, "size": 12, "shape": "diamond"}]},
-            {"name": "Bloodweed 71", "access_rules": ["^$CanBreak|TP: Bloodweed 71"], "chest_unopened_img": "images/items/check_misc_fade.png", "chest_opened_img": "images/items/check_misc.png", "sections": [{}], "map_locations": [{"map": "Terminus Prison", "x": 1370, "y": 1193, "size": 12, "shape": "diamond"}]},
-            {"name": "Bloodweed 50", "access_rules": ["^$CanBreak|TP: Bloodweed 50"], "chest_unopened_img": "images/items/check_misc_fade.png", "chest_opened_img": "images/items/check_misc.png", "sections": [{}], "map_locations": [{"map": "Terminus Prison", "x": 1372, "y": 1188, "size": 12, "shape": "diamond"}]},
-            {"name": "Bloodweed 72", "access_rules": ["^$CanBreak|TP: Bloodweed 72"], "chest_unopened_img": "images/items/check_misc_fade.png", "chest_opened_img": "images/items/check_misc.png", "sections": [{}], "map_locations": [{"map": "Terminus Prison", "x": 1376, "y": 1189, "size": 12, "shape": "diamond"}]},
-            {"name": "Bloodweed 47", "access_rules": ["^$CanBreak|TP: Bloodweed 47"], "chest_unopened_img": "images/items/check_misc_fade.png", "chest_opened_img": "images/items/check_misc.png", "sections": [{}], "map_locations": [{"map": "Terminus Prison", "x": 1380, "y": 1189, "size": 12, "shape": "diamond"}]},
-            {"name": "Bloodweed 46", "access_rules": ["^$CanBreak|TP: Bloodweed 46"], "chest_unopened_img": "images/items/check_misc_fade.png", "chest_opened_img": "images/items/check_misc.png", "sections": [{}], "map_locations": [{"map": "Terminus Prison", "x": 1383, "y": 1189, "size": 12, "shape": "diamond"}]}
+            {
+                "name": "Bloodweed 1",
+                "access_rules": [
+                    "^$CanBreak|TP: Bloodweed 1"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Terminus Prison",
+                        "x": 2108,
+                        "y": 396,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Bloodweed 2",
+                "access_rules": [
+                    "^$CanBreak|TP: Bloodweed 2"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Terminus Prison",
+                        "x": 2097,
+                        "y": 396,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Bloodweed 3",
+                "access_rules": [
+                    "^$CanBreak|TP: Bloodweed 3"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Terminus Prison",
+                        "x": 2119,
+                        "y": 394,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Bloodweed 4",
+                "access_rules": [
+                    "^$CanBreak|TP: Bloodweed 4"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Terminus Prison",
+                        "x": 1491,
+                        "y": 1230,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Bloodweed 5",
+                "access_rules": [
+                    "^$CanBreak|TP: Bloodweed 5"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Terminus Prison",
+                        "x": 2103,
+                        "y": 379,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Bloodweed 6",
+                "access_rules": [
+                    "^$CanBreak|TP: Bloodweed 6"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Terminus Prison",
+                        "x": 2097,
+                        "y": 387,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Bloodweed 7",
+                "access_rules": [
+                    "^$CanBreak|TP: Bloodweed 7"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Terminus Prison",
+                        "x": 2122,
+                        "y": 389,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Bloodweed 8",
+                "access_rules": [
+                    "^$CanBreak|TP: Bloodweed 8"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Terminus Prison",
+                        "x": 2114,
+                        "y": 398,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Bloodweed 9",
+                "access_rules": [
+                    "^$CanBreak|TP: Bloodweed 9"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Terminus Prison",
+                        "x": 1282,
+                        "y": 1159,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Bloodweed 10",
+                "access_rules": [
+                    "^$CanBreak|TP: Bloodweed 10"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Terminus Prison",
+                        "x": 1321,
+                        "y": 1135,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Bloodweed 11",
+                "access_rules": [
+                    "^$CanBreak|TP: Bloodweed 11"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Terminus Prison",
+                        "x": 2115,
+                        "y": 411,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Bloodweed 12",
+                "access_rules": [
+                    "^$CanBreak|TP: Bloodweed 12"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Terminus Prison",
+                        "x": 1338,
+                        "y": 1118,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Bloodweed 13",
+                "access_rules": [
+                    "^$CanBreak|TP: Bloodweed 13"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Terminus Prison",
+                        "x": 1308,
+                        "y": 1146,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Bloodweed 14",
+                "access_rules": [
+                    "^$CanBreak|TP: Bloodweed 14"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Terminus Prison",
+                        "x": 1365,
+                        "y": 1164,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Bloodweed 15",
+                "access_rules": [
+                    "^$CanBreak|TP: Bloodweed 15"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Terminus Prison",
+                        "x": 1473,
+                        "y": 1194,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Bloodweed 16",
+                "access_rules": [
+                    "^$CanBreak|TP: Bloodweed 16"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Terminus Prison",
+                        "x": 1411,
+                        "y": 1163,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Bloodweed 17",
+                "access_rules": [
+                    "^$CanBreak|TP: Bloodweed 17"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Terminus Prison",
+                        "x": 1490,
+                        "y": 1227,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Bloodweed 18",
+                "access_rules": [
+                    "^$CanBreak|TP: Bloodweed 18"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Terminus Prison",
+                        "x": 2116,
+                        "y": 389,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Bloodweed 19",
+                "access_rules": [
+                    "^$CanBreak|TP: Bloodweed 19"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Terminus Prison",
+                        "x": 2104,
+                        "y": 382,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Bloodweed 20",
+                "access_rules": [
+                    "^$CanBreak|TP: Bloodweed 20"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Terminus Prison",
+                        "x": 2112,
+                        "y": 408,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Bloodweed 21",
+                "access_rules": [
+                    "^$CanBreak|TP: Bloodweed 21"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Terminus Prison",
+                        "x": 2109,
+                        "y": 413,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Bloodweed 22",
+                "access_rules": [
+                    "^$CanBreak|TP: Bloodweed 22"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Terminus Prison",
+                        "x": 2097,
+                        "y": 383,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Bloodweed 23",
+                "access_rules": [
+                    "^$CanBreak|TP: Bloodweed 23"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Terminus Prison",
+                        "x": 2108,
+                        "y": 382,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Bloodweed 24",
+                "access_rules": [
+                    "^$CanBreak|TP: Bloodweed 24"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Terminus Prison",
+                        "x": 1469,
+                        "y": 1189,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Bloodweed 25",
+                "access_rules": [
+                    "^$CanBreak|TP: Bloodweed 25"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Terminus Prison",
+                        "x": 2100,
+                        "y": 393,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Bloodweed 26",
+                "access_rules": [
+                    "^$CanBreak|TP: Bloodweed 26"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Terminus Prison",
+                        "x": 2113,
+                        "y": 406,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Bloodweed 27",
+                "access_rules": [
+                    "^$CanBreak|TP: Bloodweed 27"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Terminus Prison",
+                        "x": 2106,
+                        "y": 412,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Bloodweed 28",
+                "access_rules": [
+                    "^$CanBreak|TP: Bloodweed 28"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Terminus Prison",
+                        "x": 2098,
+                        "y": 401,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Bloodweed 29",
+                "access_rules": [
+                    "^$CanBreak|TP: Bloodweed 29"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Terminus Prison",
+                        "x": 1312,
+                        "y": 1214,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Bloodweed 30",
+                "access_rules": [
+                    "^$CanBreak|TP: Bloodweed 30"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Terminus Prison",
+                        "x": 1487,
+                        "y": 1238,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Bloodweed 31",
+                "access_rules": [
+                    "^$CanBreak|TP: Bloodweed 31"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Terminus Prison",
+                        "x": 1368,
+                        "y": 1161,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Bloodweed 32",
+                "access_rules": [
+                    "^$CanBreak|TP: Bloodweed 32"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Terminus Prison",
+                        "x": 1489,
+                        "y": 1134,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Bloodweed 33",
+                "access_rules": [
+                    "^$CanBreak|TP: Bloodweed 33"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Terminus Prison",
+                        "x": 2117,
+                        "y": 408,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Bloodweed 34",
+                "access_rules": [
+                    "^$CanBreak|TP: Bloodweed 34"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Terminus Prison",
+                        "x": 1460,
+                        "y": 1186,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Bloodweed 35",
+                "access_rules": [
+                    "^$CanBreak|TP: Bloodweed 35"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Terminus Prison",
+                        "x": 1429,
+                        "y": 1157,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Bloodweed 36",
+                "access_rules": [
+                    "^$CanBreak|TP: Bloodweed 36"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Terminus Prison",
+                        "x": 2097,
+                        "y": 392,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Bloodweed 37",
+                "access_rules": [
+                    "^$CanBreak|TP: Bloodweed 37"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Terminus Prison",
+                        "x": 2109,
+                        "y": 408,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Bloodweed 38",
+                "access_rules": [
+                    "^$CanBreak|TP: Bloodweed 38"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Terminus Prison",
+                        "x": 2116,
+                        "y": 404,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Bloodweed 39",
+                "access_rules": [
+                    "^$CanBreak|TP: Bloodweed 39"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Terminus Prison",
+                        "x": 2104,
+                        "y": 388,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Bloodweed 40",
+                "access_rules": [
+                    "^$CanBreak|TP: Bloodweed 40"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Terminus Prison",
+                        "x": 2108,
+                        "y": 402,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Bloodweed 41",
+                "access_rules": [
+                    "^$CanBreak|TP: Bloodweed 41"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Terminus Prison",
+                        "x": 2110,
+                        "y": 404,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Bloodweed 42",
+                "access_rules": [
+                    "^$CanBreak|TP: Bloodweed 42"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Terminus Prison",
+                        "x": 2100,
+                        "y": 385,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Bloodweed 43",
+                "access_rules": [
+                    "^$CanBreak|TP: Bloodweed 43"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Terminus Prison",
+                        "x": 1329,
+                        "y": 1125,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Bloodweed 44",
+                "access_rules": [
+                    "^$CanBreak|TP: Bloodweed 44"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Terminus Prison",
+                        "x": 2118,
+                        "y": 411,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Bloodweed 45",
+                "access_rules": [
+                    "^$CanBreak|TP: Bloodweed 45"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Terminus Prison",
+                        "x": 2100,
+                        "y": 396,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Bloodweed 46",
+                "access_rules": [
+                    "^$CanBreak|TP: Bloodweed 46"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Terminus Prison",
+                        "x": 1383,
+                        "y": 1189,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Bloodweed 47",
+                "access_rules": [
+                    "^$CanBreak|TP: Bloodweed 47"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Terminus Prison",
+                        "x": 1380,
+                        "y": 1189,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Bloodweed 48",
+                "access_rules": [
+                    "^$CanBreak|TP: Bloodweed 48"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Terminus Prison",
+                        "x": 2102,
+                        "y": 403,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Bloodweed 49",
+                "access_rules": [
+                    "^$CanBreak|TP: Bloodweed 49"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Terminus Prison",
+                        "x": 2117,
+                        "y": 383,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Bloodweed 50",
+                "access_rules": [
+                    "^$CanBreak|TP: Bloodweed 50"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Terminus Prison",
+                        "x": 1372,
+                        "y": 1188,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Bloodweed 51",
+                "access_rules": [
+                    "^$CanBreak|TP: Bloodweed 51"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Terminus Prison",
+                        "x": 1309,
+                        "y": 1151,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Bloodweed 52",
+                "access_rules": [
+                    "^$CanBreak|TP: Bloodweed 52"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Terminus Prison",
+                        "x": 1415,
+                        "y": 1163,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Bloodweed 53",
+                "access_rules": [
+                    "^$CanBreak|TP: Bloodweed 53"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Terminus Prison",
+                        "x": 1328,
+                        "y": 1115,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Bloodweed 54",
+                "access_rules": [
+                    "^$CanBreak|TP: Bloodweed 54"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Terminus Prison",
+                        "x": 1298,
+                        "y": 1157,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Bloodweed 55",
+                "access_rules": [
+                    "^$CanBreak|TP: Bloodweed 55"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Terminus Prison",
+                        "x": 1309,
+                        "y": 1209,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Bloodweed 56",
+                "access_rules": [
+                    "^$CanBreak|TP: Bloodweed 56"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Terminus Prison",
+                        "x": 1469,
+                        "y": 1193,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Bloodweed 57",
+                "access_rules": [
+                    "^$CanBreak|TP: Bloodweed 57"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Terminus Prison",
+                        "x": 1489,
+                        "y": 1130,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Bloodweed 58",
+                "access_rules": [
+                    "^$CanBreak|TP: Bloodweed 58"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Terminus Prison",
+                        "x": 1428,
+                        "y": 1160,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Bloodweed 59",
+                "access_rules": [
+                    "^$CanBreak|TP: Bloodweed 59"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Terminus Prison",
+                        "x": 1317,
+                        "y": 1215,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Bloodweed 60",
+                "access_rules": [
+                    "^$CanBreak|TP: Bloodweed 60"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Terminus Prison",
+                        "x": 1456,
+                        "y": 1186,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Bloodweed 61",
+                "access_rules": [
+                    "^$CanBreak|TP: Bloodweed 61"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Terminus Prison",
+                        "x": 2103,
+                        "y": 415,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Bloodweed 62",
+                "access_rules": [
+                    "^$CanBreak|TP: Bloodweed 62"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Terminus Prison",
+                        "x": 2110,
+                        "y": 404,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Bloodweed 63",
+                "access_rules": [
+                    "^$CanBreak|TP: Bloodweed 63"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Terminus Prison",
+                        "x": 1291,
+                        "y": 1157,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Bloodweed 64",
+                "access_rules": [
+                    "^$CanBreak|TP: Bloodweed 64"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Terminus Prison",
+                        "x": 1489,
+                        "y": 1202,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Bloodweed 65",
+                "access_rules": [
+                    "^$CanBreak|TP: Bloodweed 65"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Terminus Prison",
+                        "x": 1418,
+                        "y": 1163,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Bloodweed 66",
+                "access_rules": [
+                    "^$CanBreak|TP: Bloodweed 66"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Terminus Prison",
+                        "x": 1486,
+                        "y": 1235,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Bloodweed 67",
+                "access_rules": [
+                    "^$CanBreak|TP: Bloodweed 67"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Terminus Prison",
+                        "x": 2116,
+                        "y": 419,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Bloodweed 68",
+                "access_rules": [
+                    "^$CanBreak|TP: Bloodweed 68"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Terminus Prison",
+                        "x": 1366,
+                        "y": 1188,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Bloodweed 69",
+                "access_rules": [
+                    "^$CanBreak|TP: Bloodweed 69"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Terminus Prison",
+                        "x": 1469,
+                        "y": 1186,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Bloodweed 70",
+                "access_rules": [
+                    "^$CanBreak|TP: Bloodweed 70"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Terminus Prison",
+                        "x": 1326,
+                        "y": 1130,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Bloodweed 71",
+                "access_rules": [
+                    "^$CanBreak|TP: Bloodweed 71"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Terminus Prison",
+                        "x": 1370,
+                        "y": 1193,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Bloodweed 72",
+                "access_rules": [
+                    "^$CanBreak|TP: Bloodweed 72"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Terminus Prison",
+                        "x": 1376,
+                        "y": 1189,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Bloodweed 73",
+                "access_rules": [
+                    "^$CanBreak|TP: Bloodweed 73"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Terminus Prison",
+                        "x": 1373,
+                        "y": 1161,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Bloodweed 74",
+                "access_rules": [
+                    "^$CanBreak|TP: Bloodweed 74"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Terminus Prison",
+                        "x": 1304,
+                        "y": 1155,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Bloodweed 75",
+                "access_rules": [
+                    "^$CanBreak|TP: Bloodweed 75"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Terminus Prison",
+                        "x": 1489,
+                        "y": 1137,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Bloodweed 76",
+                "access_rules": [
+                    "^$CanBreak|TP: Bloodweed 76"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Terminus Prison",
+                        "x": 2121,
+                        "y": 420,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Bloodweed 77",
+                "access_rules": [
+                    "^$CanBreak|TP: Bloodweed 77"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Terminus Prison",
+                        "x": 1489,
+                        "y": 1234,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Flora 1",
+                "access_rules": [
+                    "^$CanBreak|TP: Flora 1"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Terminus Prison",
+                        "x": 509,
+                        "y": 347,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Flora 2",
+                "access_rules": [
+                    "^$CanBreak|TP: Flora 2"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Terminus Prison",
+                        "x": 531,
+                        "y": 373,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Flora 3",
+                "access_rules": [
+                    "^$CanBreak|TP: Flora 3"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Terminus Prison",
+                        "x": 517,
+                        "y": 344,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Flora 4",
+                "access_rules": [
+                    "^$CanBreak|TP: Flora 4"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Terminus Prison",
+                        "x": 532,
+                        "y": 380,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Flora 5",
+                "access_rules": [
+                    "^$CanBreak|TP: Flora 5"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Terminus Prison",
+                        "x": 513,
+                        "y": 344,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Breakables Terminus Prison",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            "^$CanEnter|Terminus Prison"
+        ],
+        "visibility_rules": [
+            "break_on"
+        ],
+        "children": [
+            {
+                "name": "Coffin 1",
+                "access_rules": [
+                    "^$CanBreak|TP: Coffin 1"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Terminus Prison",
+                        "x": 1366,
+                        "y": 1013,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Coffin 2",
+                "access_rules": [
+                    "^$CanBreak|TP: Coffin 2"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Terminus Prison",
+                        "x": 1335,
+                        "y": 1072,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Coffin 3",
+                "access_rules": [
+                    "^$CanBreak|TP: Coffin 3"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Terminus Prison",
+                        "x": 1536,
+                        "y": 1003,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Coffin 4",
+                "access_rules": [
+                    "^$CanBreak|TP: Coffin 4"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Terminus Prison",
+                        "x": 1435,
+                        "y": 972,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Coffin 5",
+                "access_rules": [
+                    "^$CanBreak|TP: Coffin 5"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Terminus Prison",
+                        "x": 1501,
+                        "y": 974,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Coffin 6",
+                "access_rules": [
+                    "^$CanBreak|TP: Coffin 6"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Terminus Prison",
+                        "x": 1307,
+                        "y": 930,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Coffin 7",
+                "access_rules": [
+                    "^$CanBreak|TP: Coffin 7"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Terminus Prison",
+                        "x": 1425,
+                        "y": 972,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Coffin 8",
+                "access_rules": [
+                    "^$CanBreak|TP: Coffin 8"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Terminus Prison",
+                        "x": 1294,
+                        "y": 966,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Coffin 9",
+                "access_rules": [
+                    "^$CanBreak|TP: Coffin 9"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Terminus Prison",
+                        "x": 1536,
+                        "y": 982,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Coffin 10",
+                "access_rules": [
+                    "^$CanBreak|TP: Coffin 10"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Terminus Prison",
+                        "x": 1470,
+                        "y": 1003,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Coffin 11",
+                "access_rules": [
+                    "^$CanBreak|TP: Coffin 11"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Terminus Prison",
+                        "x": 1458,
+                        "y": 972,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Coffin 12",
+                "access_rules": [
+                    "^$CanBreak|TP: Coffin 12"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Terminus Prison",
+                        "x": 1489,
+                        "y": 1003,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Coffin 13",
+                "access_rules": [
+                    "^$CanBreak|TP: Coffin 13"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Terminus Prison",
+                        "x": 1398,
+                        "y": 1000,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Coffin 14",
+                "access_rules": [
+                    "^$CanBreak|TP: Coffin 14"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Terminus Prison",
+                        "x": 1409,
+                        "y": 929,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Coffin 15",
+                "access_rules": [
+                    "^$CanBreak|TP: Coffin 15"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Terminus Prison",
+                        "x": 1333,
+                        "y": 928,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Coffin 16",
+                "access_rules": [
+                    "^$CanBreak|TP: Coffin 16"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Terminus Prison",
+                        "x": 1295,
+                        "y": 988,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Coffin 17",
+                "access_rules": [
+                    "^$CanBreak|TP: Coffin 17"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Terminus Prison",
+                        "x": 1300,
+                        "y": 1003,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Coffin 18",
+                "access_rules": [
+                    "^$CanBreak|TP: Coffin 18"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Terminus Prison",
+                        "x": 1536,
+                        "y": 990,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Coffin 19",
+                "access_rules": [
+                    "^$CanBreak|TP: Coffin 19"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Terminus Prison",
+                        "x": 1412,
+                        "y": 972,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Coffin 20",
+                "access_rules": [
+                    "^$CanBreak|TP: Coffin 20"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Terminus Prison",
+                        "x": 1496,
+                        "y": 997,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Coffin 21",
+                "access_rules": [
+                    "^$CanBreak|TP: Coffin 21"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Terminus Prison",
+                        "x": 1340,
+                        "y": 928,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Coffin 22",
+                "access_rules": [
+                    "^$CanBreak|TP: Coffin 22"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Terminus Prison",
+                        "x": 1452,
+                        "y": 1002,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Crate 1",
+                "access_rules": [
+                    "^$CanBreak|TP: Crate 1"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Terminus Prison",
+                        "x": 1561,
+                        "y": 471,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Vase 1",
+                "access_rules": [
+                    "^$CanBreak|TP: Vase 1"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Terminus Prison",
+                        "x": 502,
+                        "y": 354,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Vase 2",
+                "access_rules": [
+                    "^$CanBreak|TP: Vase 2"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Terminus Prison",
+                        "x": 1592,
+                        "y": 485,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Vase 3",
+                "access_rules": [
+                    "^$CanBreak|TP: Vase 3"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Terminus Prison",
+                        "x": 1590,
+                        "y": 467,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Vase 4",
+                "access_rules": [
+                    "^$CanBreak|TP: Vase 4"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Terminus Prison",
+                        "x": 525,
+                        "y": 345,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Vase 5",
+                "access_rules": [
+                    "^$CanBreak|TP: Vase 5"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Terminus Prison",
+                        "x": 1591,
+                        "y": 509,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Vase 6",
+                "access_rules": [
+                    "^$CanBreak|TP: Vase 6"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Terminus Prison",
+                        "x": 529,
+                        "y": 366,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Vase 7",
+                "access_rules": [
+                    "^$CanBreak|TP: Vase 7"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Terminus Prison",
+                        "x": 1589,
+                        "y": 476,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            }
         ]
     }
 ]

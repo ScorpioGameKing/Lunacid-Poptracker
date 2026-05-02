@@ -7,9 +7,9 @@
         ],
         "children": [
          {
-            "name": "Wing's Rest",
+            "name": "Wings Rest",
             "access_rules": [
-                "^$CanEnter|Wing's Rest"
+                "^$CanEnter|Wings Rest"
             ],
             "children": [
                 {
@@ -17,7 +17,7 @@
                     "chest_unopened_img": "images/items/check_misc_fade.png",
                     "chest_opened_img": "images/items/check_misc.png",
                     "access_rules": [
-                        "^$CanReach|Surface Hole (Wing's Rest)"
+                        "^$CanReach|Surface Hole (Wings Rest)"
                     ],
                     "sections": [
                         {
@@ -27,7 +27,7 @@
                     ],
                     "map_locations": [
                         {
-                          "map": "Wing's Rest",
+                          "map": "Wings Rest",
                           "x": 600,
                           "y": 900,
                           "shape": "trapezoid",
@@ -88,7 +88,7 @@
                                 "size": 36
                             },
                             {
-                              "map": "Wing's Rest",
+                              "map": "Wings Rest",
                               "x": 600,
                               "y": 900,
                               "shape": "trapezoid",

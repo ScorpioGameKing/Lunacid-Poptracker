@@ -1,6 +1,6 @@
 [
     {
-        "name": "Etna's Pupil",
+        "name": "Etnas Pupil",
         "overlay_background": "#000000",
         "visibility_rules": [
             "etna_on"
@@ -169,7 +169,7 @@
         ],
         "map_locations": [
             {
-                "map": "Wing's Rest",
+                "map": "Wings Rest",
                 "x": 323,
                 "y": 660
             }

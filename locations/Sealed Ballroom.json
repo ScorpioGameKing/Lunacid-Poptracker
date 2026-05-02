@@ -37,11 +37,11 @@
                 ]
             },
             {
-                "name": "Vampire's Complaint",
+                "name": "Vampires Complaint",
                 "chest_unopened_img": "images/items/check_misc_fade.png",
                 "chest_opened_img": "images/items/check_misc.png",
                 "access_rules": [
-                    "^$CanReach|Vampire's Complaint"
+                    "^$CanReach|Vampires Complaint"
                 ],
                 "visibility_rules": [
                     "lore_on"
@@ -154,9 +154,9 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Trapped Invader's Writings",
+                        "name": "Trapped Invaders Writings",
                         "access_rules": [
-                            "^$CanReach|Trapped Invader's Writings"
+                            "^$CanReach|Trapped Invaders Writings"
                         ],
                         "visibility_rules": [
                             "lore_on"

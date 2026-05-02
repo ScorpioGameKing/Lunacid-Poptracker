@@ -397,8 +397,10 @@ function AutoFill()
         quenchsanity = {code="quench_on", mapping=nil},
         starting_area = {code="starting_area", mapping=nil},
         starting_class = {code="starting_class", mapping=nil},
-        bookworm = {code="lore_on", mapping=nil}
-        -- enemy_randomization = {code="enemy_toggle", mapping=nil},
+        bookworm = {code="lore_on", mapping=nil},
+        grasssanity = {code="grass_on", mapping=nil},
+        breakables = {code="break_on", mapping=nil}
+        enemy_randomization = {code="enemy_toggle", mapping=nil},
     }
 
     for settings_name , settings_value in pairs(SLOT_DATA) do
@@ -428,7 +430,6 @@ function AutoFill()
         UpdateElements(SLOT_DATA["elements"])
     end
 
-    print(SLOT_DATA["rolled_month"])
     if SLOT_DATA["rolled_month"] == 10 then
         Tracker:FindObjectForCode("halloween_event").Active = true
     end

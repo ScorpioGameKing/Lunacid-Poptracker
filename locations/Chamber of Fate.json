@@ -9,12 +9,12 @@
         ],
         "children": [
             {
-                "name": "Calamis' Weapon of Choice",
+                "name": "Calamis Weapon of Choice",
                 "chest_unopened_img": "images/items/check_weapon_fade.png",
                 "chest_opened_img": "images/items/check_weapon.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "^$CanReach|Calamis' Weapon of Choice"
+                    "^$CanReach|Calamis Weapon of Choice"
                 ],
                 "sections": [
                     {

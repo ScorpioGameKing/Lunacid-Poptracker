@@ -94,7 +94,7 @@
                 ]
             },
             {
-                "name": "Etna's Pupil",
+                "name": "Etnas Pupil",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
@@ -383,7 +383,7 @@
                 ]
             },
             {
-                "name": "Wing's Rest",
+                "name": "Wings Rest",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
@@ -670,8 +670,8 @@
                 ],
                 "sections": [
                     {
-                        "name": "Calamis' Weapon of Choice - Lucid Blade",
-                        "ref": "Chamber of Fate/Calamis' Weapon of Choice/Lucid Blade"
+                        "name": "Calamis Weapon of Choice - Lucid Blade",
+                        "ref": "Chamber of Fate/Calamis Weapon of Choice/Lucid Blade"
                     }
                 ],
                 "map_locations": [
@@ -865,8 +865,8 @@
                         "ref": "Dropsanity/Malformed Horse/Mana Vial Drop"
                     },
                     {
-                        "name": "Jailor - Jailor's Candle Drop",
-                        "ref": "Dropsanity/Jailor/Jailor's Candle Drop"
+                        "name": "Jailor - Jailors Candle Drop",
+                        "ref": "Dropsanity/Jailor/Jailors Candle Drop"
                     },
                     {
                         "name": "Jailor - Large Silver Drop",
@@ -885,8 +885,8 @@
                         "ref": "Dropsanity/Jailor/Health Vial Drop"
                     },
                     {
-                        "name": "Jailor - Angel's Feather Drop",
-                        "ref": "Dropsanity/Jailor/Angel's Feather Drop"
+                        "name": "Jailor - Angels Feather Drop",
+                        "ref": "Dropsanity/Jailor/Angels Feather Drop"
                     },
                     {
                         "name": "Vampire Page - Lyrian Longsword Drop",
@@ -1197,24 +1197,24 @@
                         "ref": "Dropsanity/Hallowed Husk/Light Urn Drop"
                     },
                     {
-                        "name": "Hallowed Husk - Fool's Gold Drop",
-                        "ref": "Dropsanity/Hallowed Husk/Fool's Gold Drop"
+                        "name": "Hallowed Husk - Fools Gold Drop",
+                        "ref": "Dropsanity/Hallowed Husk/Fools Gold Drop"
                     },
                     {
                         "name": "Hallowed Husk - Holy Water Drop",
                         "ref": "Dropsanity/Hallowed Husk/Holy Water Drop"
                     },
                     {
-                        "name": "Ikurr'ilb - Ikurr'ilb Root Drop",
-                        "ref": "Dropsanity/Ikurr'ilb/Ikurr'ilb Root Drop"
+                        "name": "Ikurrilb - Ikurrilb Root Drop",
+                        "ref": "Dropsanity/Ikurrilb/Ikurrilb Root Drop"
                     },
                     {
-                        "name": "Ikurr'ilb - Medium Silver Drop",
-                        "ref": "Dropsanity/Ikurr'ilb/Medium Silver Drop"
+                        "name": "Ikurrilb - Medium Silver Drop",
+                        "ref": "Dropsanity/Ikurrilb/Medium Silver Drop"
                     },
                     {
-                        "name": "Ikurr'ilb - Snowflake Obsidian Drop",
-                        "ref": "Dropsanity/Ikurr'ilb/Snowflake Obsidian Drop"
+                        "name": "Ikurrilb - Snowflake Obsidian Drop",
+                        "ref": "Dropsanity/Ikurrilb/Snowflake Obsidian Drop"
                     },
                     {
                         "name": "Mimic - Moonlight Vial Drop",
@@ -1225,8 +1225,8 @@
                         "ref": "Dropsanity/Mimic/Obsidian Drop"
                     },
                     {
-                        "name": "Mimic - Fool's Gold Drop",
-                        "ref": "Dropsanity/Mimic/Fool's Gold Drop"
+                        "name": "Mimic - Fools Gold Drop",
+                        "ref": "Dropsanity/Mimic/Fools Gold Drop"
                     },
                     {
                         "name": "Serpent - Antidote Drop",
@@ -1319,7 +1319,7 @@
                 ]
             },
             {
-                "name": "Etna's Pupil",
+                "name": "Etnas Pupil",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
@@ -1328,68 +1328,68 @@
                 ],
                 "sections": [
                     {
-                        "name": "Etna's Pupil - Alchemize Concentrated Lunacy",
-                        "ref": "Etna's Pupil/Alchemize Concentrated Lunacy"
+                        "name": "Etnas Pupil - Alchemize Concentrated Lunacy",
+                        "ref": "Etnas Pupil/Alchemize Concentrated Lunacy"
                     },
                     {
-                        "name": "Etna's Pupil - Alchemize Hostility Barrier",
-                        "ref": "Etna's Pupil/Alchemize Hostility Barrier"
+                        "name": "Etnas Pupil - Alchemize Hostility Barrier",
+                        "ref": "Etnas Pupil/Alchemize Hostility Barrier"
                     },
                     {
-                        "name": "Etna's Pupil - Alchemize Explosives",
-                        "ref": "Etna's Pupil/Alchemize Explosives"
+                        "name": "Etnas Pupil - Alchemize Explosives",
+                        "ref": "Etnas Pupil/Alchemize Explosives"
                     },
                     {
-                        "name": "Etna's Pupil - Alchemize Venomous Object",
-                        "ref": "Etna's Pupil/Alchemize Venomous Object"
+                        "name": "Etnas Pupil - Alchemize Venomous Object",
+                        "ref": "Etnas Pupil/Alchemize Venomous Object"
                     },
                     {
-                        "name": "Etna's Pupil - Alchemize Defense Construct",
-                        "ref": "Etna's Pupil/Alchemize Defense Construct"
+                        "name": "Etnas Pupil - Alchemize Defense Construct",
+                        "ref": "Etnas Pupil/Alchemize Defense Construct"
                     },
                     {
-                        "name": "Etna's Pupil - Alchemize Concentrated Poison",
-                        "ref": "Etna's Pupil/Alchemize Concentrated Poison"
+                        "name": "Etnas Pupil - Alchemize Concentrated Poison",
+                        "ref": "Etnas Pupil/Alchemize Concentrated Poison"
                     },
                     {
-                        "name": "Etna's Pupil - Alchemize Nature",
-                        "ref": "Etna's Pupil/Alchemize Nature"
+                        "name": "Etnas Pupil - Alchemize Nature",
+                        "ref": "Etnas Pupil/Alchemize Nature"
                     },
                     {
-                        "name": "Etna's Pupil - Alchemize Antivenom",
-                        "ref": "Etna's Pupil/Alchemize Antivenom"
+                        "name": "Etnas Pupil - Alchemize Antivenom",
+                        "ref": "Etnas Pupil/Alchemize Antivenom"
                     },
                     {
-                        "name": "Etna's Pupil - Alchemize Cleromancy Tool",
-                        "ref": "Etna's Pupil/Alchemize Cleromancy Tool"
+                        "name": "Etnas Pupil - Alchemize Cleromancy Tool",
+                        "ref": "Etnas Pupil/Alchemize Cleromancy Tool"
                     },
                     {
-                        "name": "Etna's Pupil - Alchemize Healing Remedy",
-                        "ref": "Etna's Pupil/Alchemize Healing Remedy"
+                        "name": "Etnas Pupil - Alchemize Healing Remedy",
+                        "ref": "Etnas Pupil/Alchemize Healing Remedy"
                     },
                     {
-                        "name": "Etna's Pupil - Alchemize Water of Life",
-                        "ref": "Etna's Pupil/Alchemize Water of Life"
+                        "name": "Etnas Pupil - Alchemize Water of Life",
+                        "ref": "Etnas Pupil/Alchemize Water of Life"
                     },
                     {
-                        "name": "Etna's Pupil - Alchemize Sharp Object",
-                        "ref": "Etna's Pupil/Alchemize Sharp Object"
+                        "name": "Etnas Pupil - Alchemize Sharp Object",
+                        "ref": "Etnas Pupil/Alchemize Sharp Object"
                     },
                     {
-                        "name": "Etna's Pupil - Alchemize Golden Sin of Abdul",
-                        "ref": "Etna's Pupil/Alchemize Golden Sin of Abdul"
+                        "name": "Etnas Pupil - Alchemize Golden Sin of Abdul",
+                        "ref": "Etnas Pupil/Alchemize Golden Sin of Abdul"
                     },
                     {
-                        "name": "Etna's Pupil - Alchemize Mana Remedy",
-                        "ref": "Etna's Pupil/Alchemize Mana Remedy"
+                        "name": "Etnas Pupil - Alchemize Mana Remedy",
+                        "ref": "Etnas Pupil/Alchemize Mana Remedy"
                     },
                     {
-                        "name": "Etna's Pupil - Alchemize Unstable Stone",
-                        "ref": "Etna's Pupil/Alchemize Unstable Stone"
+                        "name": "Etnas Pupil - Alchemize Unstable Stone",
+                        "ref": "Etnas Pupil/Alchemize Unstable Stone"
                     },
                     {
-                        "name": "Etna's Pupil - Alchemize Simple Life",
-                        "ref": "Etna's Pupil/Alchemize Simple Life"
+                        "name": "Etnas Pupil - Alchemize Simple Life",
+                        "ref": "Etnas Pupil/Alchemize Simple Life"
                     }
                 ],
                 "map_locations": [
@@ -1624,8 +1624,8 @@
                 ],
                 "sections": [
                     {
-                        "name": "Demi's Gift - Crystal Shard x 3",
-                        "ref": "Great Well Surface/Demi's Gift/Crystal Shard x 3"
+                        "name": "Demis Gift - Crystal Shard x 3",
+                        "ref": "Great Well Surface/Demis Gift/Crystal Shard x 3"
                     }
                 ],
                 "map_locations": [
@@ -2128,8 +2128,8 @@
                         "ref": "Terminus Prison/Second Floor Broken Cell/Cloth Bandage"
                     },
                     {
-                        "name": "Second Floor Jailer's Table - Terminus Prison Key",
-                        "ref": "Terminus Prison/Second Floor Jailer's Table/Terminus Prison Key"
+                        "name": "Second Floor Jailers Table - Terminus Prison Key",
+                        "ref": "Terminus Prison/Second Floor Jailers Table/Terminus Prison Key"
                     },
                     {
                         "name": "First Floor Hidden Cell - Holy Water",
@@ -2176,24 +2176,24 @@
                         "ref": "Terminus Prison/Fourth Floor Jailer Break Room/Mana Vial"
                     },
                     {
-                        "name": "Etna's Resting Place Item 1 - Moonpetal",
-                        "ref": "Terminus Prison/Etna's Resting Place Item 1/Moonpetal"
+                        "name": "Etnas Resting Place Item 1 - Moonpetal",
+                        "ref": "Terminus Prison/Etnas Resting Place Item 1/Moonpetal"
                     },
                     {
-                        "name": "Etna's Resting Place Item 2 - Ectoplasm",
-                        "ref": "Terminus Prison/Etna's Resting Place Item 2/Ectoplasm"
+                        "name": "Etnas Resting Place Item 2 - Ectoplasm",
+                        "ref": "Terminus Prison/Etnas Resting Place Item 2/Ectoplasm"
                     },
                     {
-                        "name": "Etna's Resting Place Item 3 - Snowflake Obsidian",
-                        "ref": "Terminus Prison/Etna's Resting Place Item 3/Snowflake Obsidian"
+                        "name": "Etnas Resting Place Item 3 - Snowflake Obsidian",
+                        "ref": "Terminus Prison/Etnas Resting Place Item 3/Snowflake Obsidian"
                     },
                     {
                         "name": "Fourth Floor Collapsed Tunnel - Hammer of Cruelty",
                         "ref": "Terminus Prison/Fourth Floor Collapsed Tunnel/Hammer of Cruelty"
                     },
                     {
-                        "name": "Egg's Resting Place - Skeletal Rattle",
-                        "ref": "Terminus Prison/Egg's Resting Place/Skeletal Rattle"
+                        "name": "Eggs Resting Place - Skeletal Rattle",
+                        "ref": "Terminus Prison/Eggs Resting Place/Skeletal Rattle"
                     }
                 ],
                 "map_locations": [
@@ -2231,8 +2231,8 @@
                         "ref": "The Fetid Mire/Hidden Upper Overlook (Right)/Ocean Elixir"
                     },
                     {
-                        "name": "Bonenard's Trash - Antidote",
-                        "ref": "The Fetid Mire/Bonenard's Trash/Antidote"
+                        "name": "Bonenards Trash - Antidote",
+                        "ref": "The Fetid Mire/Bonenards Trash/Antidote"
                     },
                     {
                         "name": "Rubble Near Overlook Bridge - Antidote",
@@ -2243,12 +2243,12 @@
                         "ref": "The Fetid Mire/Slime Skeleton Chest/Spell Ring (Barrier)"
                     },
                     {
-                        "name": "Jellisha's Trash - Mana Vial",
-                        "ref": "The Fetid Mire/Jellisha's Trash/Mana Vial"
+                        "name": "Jellishas Trash - Mana Vial",
+                        "ref": "The Fetid Mire/Jellishas Trash/Mana Vial"
                     },
                     {
-                        "name": "Jellisha's Quest Reward - Spell Ring (Slime Orb)",
-                        "ref": "The Fetid Mire/Jellisha's Quest Reward/Spell Ring (Slime Orb)"
+                        "name": "Jellishas Quest Reward - Spell Ring (Slime Orb)",
+                        "ref": "The Fetid Mire/Jellishas Quest Reward/Spell Ring (Slime Orb)"
                     },
                     {
                         "name": "Path to Sanguine Sea (Left) - Battle Axe",
@@ -2333,8 +2333,8 @@
                 ],
                 "sections": [
                     {
-                        "name": "Crilall's Book Repository - Black Book",
-                        "ref": "Throne Chamber/Crilall's Book Repository/Black Book"
+                        "name": "Crilalls Book Repository - Black Book",
+                        "ref": "Throne Chamber/Crilalls Book Repository/Black Book"
                     }
                 ],
                 "map_locations": [
@@ -2410,7 +2410,7 @@
                 ]
             },
             {
-                "name": "Wing's Rest",
+                "name": "Wings Rest",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
@@ -2420,27 +2420,27 @@
                 "sections": [
                     {
                         "name": "Rafters - Ocean Elixir",
-                        "ref": "Wing's Rest/Rafters/Ocean Elixir"
+                        "ref": "Wings Rest/Rafters/Ocean Elixir"
                     },
                     {
                         "name": "Bench - Crystal Shard",
-                        "ref": "Wing's Rest/Bench/Crystal Shard"
+                        "ref": "Wings Rest/Bench/Crystal Shard"
                     },
                     {
-                        "name": "Clive's Gift - Health Vial",
-                        "ref": "Wing's Rest/Clive's Gift/Health Vial"
+                        "name": "Clives Gift - Health Vial",
+                        "ref": "Wings Rest/Clives Gift/Health Vial"
                     },
                     {
-                        "name": "Demi's Victory Gift - Dusty Crystal Orb",
-                        "ref": "Wing's Rest/Demi's Victory Gift/Dusty Crystal Orb"
+                        "name": "Demis Victory Gift - Dusty Crystal Orb",
+                        "ref": "Wings Rest/Demis Victory Gift/Dusty Crystal Orb"
                     },
                     {
-                        "name": "Demi's Introduction Gift - Class Based Gift",
-                        "ref": "Wing's Rest/Demi's Introduction Gift/Class Based Gift"
+                        "name": "Demis Introduction Gift - Class Based Gift",
+                        "ref": "Wings Rest/Demis Gift/Class Based Gift"
                     },
                     {
                         "name": "Christmas Present - Jingle Bells",
-                        "ref": "Wing's Rest/Christmas Present/Jingle Bells"
+                        "ref": "Wings Rest/Christmas Present/Jingle Bells"
                     }
                 ],
                 "map_locations": [
@@ -2478,8 +2478,8 @@
                         "ref": "Yosei Forest/Chest Near Tree/Elfen Bow"
                     },
                     {
-                        "name": "Blood Plant's Insides - Health Vial",
-                        "ref": "Yosei Forest/Blood Plant's Insides/Health Vial"
+                        "name": "Blood Plants Insides - Health Vial",
+                        "ref": "Yosei Forest/Blood Plants Insides/Health Vial"
                     },
                     {
                         "name": "Hanging In The Trees - Elfen Sword",
@@ -2502,8 +2502,8 @@
                         "ref": "Yosei Forest/Patchouli/Ocean Elixir"
                     },
                     {
-                        "name": "Yosei Forest - Patchouli's Yuletide Offering",
-                        "ref": "Yosei Forest/Patchouli's Yuletide Offering"
+                        "name": "Yosei Forest - Patchoulis Yuletide Offering",
+                        "ref": "Yosei Forest/Patchoulis Yuletide Offering"
                     }
                 ],
                 "map_locations": [

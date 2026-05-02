@@ -587,7 +587,7 @@
                         ]
                     },
                     {
-                        "name": "Fool's Gold Drop",
+                        "name": "Fools Gold Drop",
                         "item_count": 1,
                         "chest_unopened_img": "images/items/check_misc_fade.png",
                         "chest_opened_img": "images/items/check_misc.png",
@@ -678,15 +678,15 @@
                 ]
             },
             {
-                "name": "Ikurr'ilb",
+                "name": "Ikurrilb",
                 "chest_unopened_img": "images/items/check_misc_fade.png",
                 "chest_opened_img": "images/items/check_misc.png",
                 "access_rules": [
-                    "^$CanReachAndKill|Ikurr'ilb"
+                    "^$CanReachAndKill|Ikurrilb"
                 ],
                 "sections": [
                     {
-                        "name": "Ikurr'ilb Root Drop",
+                        "name": "Ikurrilb Root Drop",
                         "item_count": 1,
                         "chest_unopened_img": "images/items/check_misc_fade.png",
                         "chest_opened_img": "images/items/check_misc.png",
@@ -767,13 +767,13 @@
                 ],
                 "sections": [
                     {
-                        "name": "Jailor's Candle Drop",
+                        "name": "Jailors Candle Drop",
                         "item_count": 1,
                         "chest_unopened_img": "images/items/check_weapon_fade.png",
                         "chest_opened_img": "images/items/check_weapon.png"
                     },
                     {
-                        "name": "Angel's Feather Drop",
+                        "name": "Angels Feather Drop",
                         "item_count": 1,
                         "chest_unopened_img": "images/items/check_misc_fade.png",
                         "chest_opened_img": "images/items/check_misc.png",
@@ -1148,7 +1148,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Fool's Gold Drop",
+                        "name": "Fools Gold Drop",
                         "item_count": 1,
                         "chest_unopened_img": "images/items/check_misc_fade.png",
                         "chest_opened_img": "images/items/check_misc.png",

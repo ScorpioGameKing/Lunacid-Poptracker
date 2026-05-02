@@ -687,7 +687,7 @@
         "codes": "quench_on"
     },
     {
-        "name": "Etna's Pupil Enabled",
+        "name": "Etnas Pupil Enabled",
         "type": "toggle",
         "img": "images/settings/etnas_pupil_on.png",
         "disabled_img": "images/settings/etnas_pupil_off.png",
@@ -761,6 +761,27 @@
         "img": "images/settings/bookworm_on.png",
         "disabled_img": "images/settings/bookworm_off.png",
         "codes": "lore_on"
+    },
+    {
+        "name": "Breakable Sanity",
+        "type": "toggle",
+        "img": "images/settings/break_on.png",
+        "disabled_img": "images/settings/break_off.png",
+        "codes": "break_on"
+    },
+    {
+        "name": "Grass Sanity",
+        "type": "toggle",
+        "img": "images/settings/grass_on.png",
+        "disabled_img": "images/settings/grass_off.png",
+        "codes": "grass_on"
+    },
+    {
+        "name": "Enemizer",
+        "type": "toggle",
+        "img": "images/settings/enemizer_on.png",
+        "disabled_img": "images/settings/enemizer_off.png",
+        "codes": "enemy_toggle"
     },
     {
         "name": "Update Toggle",

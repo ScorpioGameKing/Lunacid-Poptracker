@@ -46,7 +46,7 @@ ENEMY = {
     malformed_horse = "Malformed Horse",
     hallowed_husk = "Hallowed Husk",
 
-    ikurrilb = "Ikurr'ilb",
+    ikurrilb = "Ikurrilb",
     obsidian_skeleton = "Obsidian Skeleton",
     serpent = "Serpent",
     anpu = "Anpu",

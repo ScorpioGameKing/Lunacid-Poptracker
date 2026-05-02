@@ -1,65 +1,1056 @@
 [
     {
-        "name": "BreakGrass Forlorn Arena",
+        "name": "Grassanity Forlorn Arena",
         "chest_unopened_img": "/images/items/close.png",
         "chest_opened_img": "/images/items/open.png",
         "overlay_background": "#000000",
         "access_rules": [
             "^$CanEnter|Forlorn Arena"
         ],
+        "visibility_rules": [
+            "grass_on"
+        ],
         "children": [
-            {"name": "Fiddlehead 16", "access_rules": ["^$CanBreak|FlA: Fiddlehead 16"], "chest_unopened_img": "images/items/check_misc_fade.png", "chest_opened_img": "images/items/check_misc.png", "sections": [{}], "map_locations": [{"map": "Forlorn Arena", "x": 428, "y": 1195, "size": 12, "shape": "diamond"}]},
-            {"name": "Fiddlehead 20", "access_rules": ["^$CanBreak|FlA: Fiddlehead 20"], "chest_unopened_img": "images/items/check_misc_fade.png", "chest_opened_img": "images/items/check_misc.png", "sections": [{}], "map_locations": [{"map": "Forlorn Arena", "x": 470, "y": 1156, "size": 12, "shape": "diamond"}]},
-            {"name": "Fiddlehead 33", "access_rules": ["^$CanBreak|FlA: Fiddlehead 33"], "chest_unopened_img": "images/items/check_misc_fade.png", "chest_opened_img": "images/items/check_misc.png", "sections": [{}], "map_locations": [{"map": "Forlorn Arena", "x": 470, "y": 1107, "size": 12, "shape": "diamond"}]},
-            {"name": "Fiddlehead 21", "access_rules": ["^$CanBreak|FlA: Fiddlehead 21"], "chest_unopened_img": "images/items/check_misc_fade.png", "chest_opened_img": "images/items/check_misc.png", "sections": [{}], "map_locations": [{"map": "Forlorn Arena", "x": 376, "y": 967, "size": 12, "shape": "diamond"}]},
-            {"name": "Fiddlehead 10", "access_rules": ["^$CanBreak|FlA: Fiddlehead 10"], "chest_unopened_img": "images/items/check_misc_fade.png", "chest_opened_img": "images/items/check_misc.png", "sections": [{}], "map_locations": [{"map": "Forlorn Arena", "x": 628, "y": 1040, "size": 12, "shape": "diamond"}]},
-            {"name": "Fiddlehead 9", "access_rules": ["^$CanBreak|FlA: Fiddlehead 9"], "chest_unopened_img": "images/items/check_misc_fade.png", "chest_opened_img": "images/items/check_misc.png", "sections": [{}], "map_locations": [{"map": "Forlorn Arena", "x": 958, "y": 1044, "size": 12, "shape": "diamond"}]},
-            {"name": "Fiddlehead 28", "access_rules": ["^$CanBreak|FlA: Fiddlehead 28"], "chest_unopened_img": "images/items/check_misc_fade.png", "chest_opened_img": "images/items/check_misc.png", "sections": [{}], "map_locations": [{"map": "Forlorn Arena", "x": 936, "y": 1308, "size": 12, "shape": "diamond"}]},
-            {"name": "Fiddlehead 4", "access_rules": ["^$CanBreak|FlA: Fiddlehead 4"], "chest_unopened_img": "images/items/check_misc_fade.png", "chest_opened_img": "images/items/check_misc.png", "sections": [{}], "map_locations": [{"map": "Forlorn Arena", "x": 663, "y": 1384, "size": 12, "shape": "diamond"}]},
-            {"name": "Fiddlehead 7", "access_rules": ["^$CanBreak|FlA: Fiddlehead 7"], "chest_unopened_img": "images/items/check_misc_fade.png", "chest_opened_img": "images/items/check_misc.png", "sections": [{}], "map_locations": [{"map": "Forlorn Arena", "x": 657, "y": 1390, "size": 12, "shape": "diamond"}]},
-            {"name": "Fiddlehead 18", "access_rules": ["^$CanBreak|FlA: Fiddlehead 18"], "chest_unopened_img": "images/items/check_misc_fade.png", "chest_opened_img": "images/items/check_misc.png", "sections": [{}], "map_locations": [{"map": "Forlorn Arena", "x": 653, "y": 1418, "size": 12, "shape": "diamond"}]},
-            {"name": "Fiddlehead 25", "access_rules": ["^$CanBreak|FlA: Fiddlehead 25"], "chest_unopened_img": "images/items/check_misc_fade.png", "chest_opened_img": "images/items/check_misc.png", "sections": [{}], "map_locations": [{"map": "Forlorn Arena", "x": 651, "y": 1423, "size": 12, "shape": "diamond"}]},
-            {"name": "Fiddlehead 24", "access_rules": ["^$CanBreak|FlA: Fiddlehead 24"], "chest_unopened_img": "images/items/check_misc_fade.png", "chest_opened_img": "images/items/check_misc.png", "sections": [{}], "map_locations": [{"map": "Forlorn Arena", "x": 597, "y": 1388, "size": 12, "shape": "diamond"}]},
-            {"name": "Fiddlehead 23", "access_rules": ["^$CanBreak|FlA: Fiddlehead 23"], "chest_unopened_img": "images/items/check_misc_fade.png", "chest_opened_img": "images/items/check_misc.png", "sections": [{}], "map_locations": [{"map": "Forlorn Arena", "x": 496, "y": 1241, "size": 12, "shape": "diamond"}]},
-            {"name": "Fiddlehead 32", "access_rules": ["^$CanBreak|FlA: Fiddlehead 32"], "chest_unopened_img": "images/items/check_misc_fade.png", "chest_opened_img": "images/items/check_misc.png", "sections": [{}], "map_locations": [{"map": "Forlorn Arena", "x": 623, "y": 1165, "size": 12, "shape": "diamond"}]},
-            {"name": "Fiddlehead 1", "access_rules": ["^$CanBreak|FlA: Fiddlehead 1"], "chest_unopened_img": "images/items/check_misc_fade.png", "chest_opened_img": "images/items/check_misc.png", "sections": [{}], "map_locations": [{"map": "Forlorn Arena", "x": 689, "y": 1128, "size": 12, "shape": "diamond"}]},
-            {"name": "Fiddlehead 19", "access_rules": ["^$CanBreak|FlA: Fiddlehead 19"], "chest_unopened_img": "images/items/check_misc_fade.png", "chest_opened_img": "images/items/check_misc.png", "sections": [{}], "map_locations": [{"map": "Forlorn Arena", "x": 731, "y": 1515, "size": 12, "shape": "diamond"}]},
-            {"name": "Fiddlehead 2", "access_rules": ["^$CanBreak|FlA: Fiddlehead 2"], "chest_unopened_img": "images/items/check_misc_fade.png", "chest_opened_img": "images/items/check_misc.png", "sections": [{}], "map_locations": [{"map": "Forlorn Arena", "x": 784, "y": 1546, "size": 12, "shape": "diamond"}]},
-            {"name": "Fiddlehead 31", "access_rules": ["^$CanBreak|FlA: Fiddlehead 31"], "chest_unopened_img": "images/items/check_misc_fade.png", "chest_opened_img": "images/items/check_misc.png", "sections": [{}], "map_locations": [{"map": "Forlorn Arena", "x": 716, "y": 1630, "size": 12, "shape": "diamond"}]},
-            {"name": "Fiddlehead 3", "access_rules": ["^$CanBreak|FlA: Fiddlehead 3"], "chest_unopened_img": "images/items/check_misc_fade.png", "chest_opened_img": "images/items/check_misc.png", "sections": [{}], "map_locations": [{"map": "Forlorn Arena", "x": 833, "y": 1597, "size": 12, "shape": "diamond"}]},
-            {"name": "Fiddlehead 17", "access_rules": ["^$CanBreak|FlA: Fiddlehead 17"], "chest_unopened_img": "images/items/check_misc_fade.png", "chest_opened_img": "images/items/check_misc.png", "sections": [{}], "map_locations": [{"map": "Forlorn Arena", "x": 997, "y": 1705, "size": 12, "shape": "diamond"}]},
-            {"name": "Fiddlehead 8", "access_rules": ["^$CanBreak|FlA: Fiddlehead 8"], "chest_unopened_img": "images/items/check_misc_fade.png", "chest_opened_img": "images/items/check_misc.png", "sections": [{}], "map_locations": [{"map": "Forlorn Arena", "x": 959, "y": 1729, "size": 12, "shape": "diamond"}]},
-            {"name": "Fiddlehead 26", "access_rules": ["^$CanBreak|FlA: Fiddlehead 26"], "chest_unopened_img": "images/items/check_misc_fade.png", "chest_opened_img": "images/items/check_misc.png", "sections": [{}], "map_locations": [{"map": "Forlorn Arena", "x": 779, "y": 1816, "size": 12, "shape": "diamond"}]},
-            {"name": "Fiddlehead 5", "access_rules": ["^$CanBreak|FlA: Fiddlehead 5"], "chest_unopened_img": "images/items/check_misc_fade.png", "chest_opened_img": "images/items/check_misc.png", "sections": [{}], "map_locations": [{"map": "Forlorn Arena", "x": 317, "y": 1653, "size": 12, "shape": "diamond"}]},
-            {"name": "Fiddlehead 12", "access_rules": ["^$CanBreak|FlA: Fiddlehead 12"], "chest_unopened_img": "images/items/check_misc_fade.png", "chest_opened_img": "images/items/check_misc.png", "sections": [{}], "map_locations": [{"map": "Forlorn Arena", "x": 188, "y": 1584, "size": 12, "shape": "diamond"}]},
-            {"name": "Fiddlehead 29", "access_rules": ["^$CanBreak|FlA: Fiddlehead 29"], "chest_unopened_img": "images/items/check_misc_fade.png", "chest_opened_img": "images/items/check_misc.png", "sections": [{}], "map_locations": [{"map": "Forlorn Arena", "x": 34, "y": 1858, "size": 12, "shape": "diamond"}]},
-            {"name": "Fiddlehead 30", "access_rules": ["^$CanBreak|FlA: Fiddlehead 30"], "chest_unopened_img": "images/items/check_misc_fade.png", "chest_opened_img": "images/items/check_misc.png", "sections": [{}], "map_locations": [{"map": "Forlorn Arena", "x": 371, "y": 1741, "size": 12, "shape": "diamond"}]},
-            {"name": "Fiddlehead 6", "access_rules": ["^$CanBreak|FlA: Fiddlehead 6"], "chest_unopened_img": "images/items/check_misc_fade.png", "chest_opened_img": "images/items/check_misc.png", "sections": [{}], "map_locations": [{"map": "Forlorn Arena", "x": 346, "y": 1758, "size": 12, "shape": "diamond"}]},
-            {"name": "Fiddlehead 15", "access_rules": ["^$CanBreak|FlA: Fiddlehead 15"], "chest_unopened_img": "images/items/check_misc_fade.png", "chest_opened_img": "images/items/check_misc.png", "sections": [{}], "map_locations": [{"map": "Forlorn Arena", "x": 212, "y": 1852, "size": 12, "shape": "diamond"}]},
-            {"name": "Fiddlehead 13", "access_rules": ["^$CanBreak|FlA: Fiddlehead 13"], "chest_unopened_img": "images/items/check_misc_fade.png", "chest_opened_img": "images/items/check_misc.png", "sections": [{}], "map_locations": [{"map": "Forlorn Arena", "x": 426, "y": 1879, "size": 12, "shape": "diamond"}]},
-            {"name": "Fiddlehead 27", "access_rules": ["^$CanBreak|FlA: Fiddlehead 27"], "chest_unopened_img": "images/items/check_misc_fade.png", "chest_opened_img": "images/items/check_misc.png", "sections": [{}], "map_locations": [{"map": "Forlorn Arena", "x": 467, "y": 2227, "size": 12, "shape": "diamond"}]},
-            {"name": "Fiddlehead 14", "access_rules": ["^$CanBreak|FlA: Fiddlehead 14"], "chest_unopened_img": "images/items/check_misc_fade.png", "chest_opened_img": "images/items/check_misc.png", "sections": [{}], "map_locations": [{"map": "Forlorn Arena", "x": 412, "y": 2166, "size": 12, "shape": "diamond"}]},
-            {"name": "Fiddlehead 22", "access_rules": ["^$CanBreak|FlA: Fiddlehead 22"], "chest_unopened_img": "images/items/check_misc_fade.png", "chest_opened_img": "images/items/check_misc.png", "sections": [{}], "map_locations": [{"map": "Forlorn Arena", "x": 434, "y": 2294, "size": 12, "shape": "diamond"}]},
-            {"name": "Fiddlehead 11", "access_rules": ["^$CanBreak|FlA: Fiddlehead 11"], "chest_unopened_img": "images/items/check_misc_fade.png", "chest_opened_img": "images/items/check_misc.png", "sections": [{}], "map_locations": [{"map": "Forlorn Arena", "x": 467, "y": 2417, "size": 12, "shape": "diamond"}]},
-            {"name": "Lotus 9", "access_rules": ["^$CanBreak|FlA: Lotus 9"], "chest_unopened_img": "images/items/check_misc_fade.png", "chest_opened_img": "images/items/check_misc.png", "sections": [{}], "map_locations": [{"map": "Forlorn Arena", "x": 621, "y": 708, "size": 12, "shape": "diamond"}]},
-            {"name": "Lotus 5", "access_rules": ["^$CanBreak|FlA: Lotus 5"], "chest_unopened_img": "images/items/check_misc_fade.png", "chest_opened_img": "images/items/check_misc.png", "sections": [{}], "map_locations": [{"map": "Forlorn Arena", "x": 647, "y": 708, "size": 12, "shape": "diamond"}]},
-            {"name": "Lotus 13", "access_rules": ["^$CanBreak|FlA: Lotus 13"], "chest_unopened_img": "images/items/check_misc_fade.png", "chest_opened_img": "images/items/check_misc.png", "sections": [{}], "map_locations": [{"map": "Forlorn Arena", "x": 634, "y": 708, "size": 12, "shape": "diamond"}]},
-            {"name": "Lotus 4", "access_rules": ["^$CanBreak|FlA: Lotus 4"], "chest_unopened_img": "images/items/check_misc_fade.png", "chest_opened_img": "images/items/check_misc.png", "sections": [{}], "map_locations": [{"map": "Forlorn Arena", "x": 857, "y": 741, "size": 12, "shape": "diamond"}]},
-            {"name": "Lotus 10", "access_rules": ["^$CanBreak|FlA: Lotus 10"], "chest_unopened_img": "images/items/check_misc_fade.png", "chest_opened_img": "images/items/check_misc.png", "sections": [{}], "map_locations": [{"map": "Forlorn Arena", "x": 906, "y": 741, "size": 12, "shape": "diamond"}]},
-            {"name": "Lotus 3", "access_rules": ["^$CanBreak|FlA: Lotus 3"], "chest_unopened_img": "images/items/check_misc_fade.png", "chest_opened_img": "images/items/check_misc.png", "sections": [{}], "map_locations": [{"map": "Forlorn Arena", "x": 892, "y": 630, "size": 12, "shape": "diamond"}]},
-            {"name": "Lotus 8", "access_rules": ["^$CanBreak|FlA: Lotus 8"], "chest_unopened_img": "images/items/check_misc_fade.png", "chest_opened_img": "images/items/check_misc.png", "sections": [{}], "map_locations": [{"map": "Forlorn Arena", "x": 1004, "y": 639, "size": 12, "shape": "diamond"}]},
-            {"name": "Lotus 14", "access_rules": ["^$CanBreak|FlA: Lotus 14"], "chest_unopened_img": "images/items/check_misc_fade.png", "chest_opened_img": "images/items/check_misc.png", "sections": [{}], "map_locations": [{"map": "Forlorn Arena", "x": 1043, "y": 658, "size": 12, "shape": "diamond"}]},
-            {"name": "Lotus 17", "access_rules": ["^$CanBreak|FlA: Lotus 17"], "chest_unopened_img": "images/items/check_misc_fade.png", "chest_opened_img": "images/items/check_misc.png", "sections": [{}], "map_locations": [{"map": "Forlorn Arena", "x": 870, "y": 450, "size": 12, "shape": "diamond"}]},
-            {"name": "Lotus 11", "access_rules": ["^$CanBreak|FlA: Lotus 11"], "chest_unopened_img": "images/items/check_misc_fade.png", "chest_opened_img": "images/items/check_misc.png", "sections": [{}], "map_locations": [{"map": "Forlorn Arena", "x": 787, "y": 543, "size": 12, "shape": "diamond"}]},
-            {"name": "Lotus 1", "access_rules": ["^$CanBreak|FlA: Lotus 1"], "chest_unopened_img": "images/items/check_misc_fade.png", "chest_opened_img": "images/items/check_misc.png", "sections": [{}], "map_locations": [{"map": "Forlorn Arena", "x": 803, "y": 678, "size": 12, "shape": "diamond"}]},
-            {"name": "Lotus 16", "access_rules": ["^$CanBreak|FlA: Lotus 16"], "chest_unopened_img": "images/items/check_misc_fade.png", "chest_opened_img": "images/items/check_misc.png", "sections": [{}], "map_locations": [{"map": "Forlorn Arena", "x": 1009, "y": 217, "size": 12, "shape": "diamond"}]},
-            {"name": "Lotus 12", "access_rules": ["^$CanBreak|FlA: Lotus 12"], "chest_unopened_img": "images/items/check_misc_fade.png", "chest_opened_img": "images/items/check_misc.png", "sections": [{}], "map_locations": [{"map": "Forlorn Arena", "x": 802, "y": 217, "size": 12, "shape": "diamond"}]},
-            {"name": "Lotus 6", "access_rules": ["^$CanBreak|FlA: Lotus 6"], "chest_unopened_img": "images/items/check_misc_fade.png", "chest_opened_img": "images/items/check_misc.png", "sections": [{}], "map_locations": [{"map": "Forlorn Arena", "x": 663, "y": 385, "size": 12, "shape": "diamond"}]},
-            {"name": "Lotus 19", "access_rules": ["^$CanBreak|FlA: Lotus 19"], "chest_unopened_img": "images/items/check_misc_fade.png", "chest_opened_img": "images/items/check_misc.png", "sections": [{}], "map_locations": [{"map": "Forlorn Arena", "x": 88, "y": 475, "size": 12, "shape": "diamond"}]},
-            {"name": "Lotus 2", "access_rules": ["^$CanBreak|FlA: Lotus 2"], "chest_unopened_img": "images/items/check_misc_fade.png", "chest_opened_img": "images/items/check_misc.png", "sections": [{}], "map_locations": [{"map": "Forlorn Arena", "x": 82, "y": 728, "size": 12, "shape": "diamond"}]},
-            {"name": "Lotus 7", "access_rules": ["^$CanBreak|FlA: Lotus 7"], "chest_unopened_img": "images/items/check_misc_fade.png", "chest_opened_img": "images/items/check_misc.png", "sections": [{}], "map_locations": [{"map": "Forlorn Arena", "x": 48, "y": 728, "size": 12, "shape": "diamond"}]},
-            {"name": "Lotus 15", "access_rules": ["^$CanBreak|FlA: Lotus 15"], "chest_unopened_img": "images/items/check_misc_fade.png", "chest_opened_img": "images/items/check_misc.png", "sections": [{}], "map_locations": [{"map": "Forlorn Arena", "x": 205, "y": 150, "size": 12, "shape": "diamond"}]},
-            {"name": "Lotus 18", "access_rules": ["^$CanBreak|FlA: Lotus 18"], "chest_unopened_img": "images/items/check_misc_fade.png", "chest_opened_img": "images/items/check_misc.png", "sections": [{}], "map_locations": [{"map": "Forlorn Arena", "x": 230, "y": 150, "size": 12, "shape": "diamond"}]}
+            {
+                "name": "Fiddlehead 1",
+                "access_rules": [
+                    "^$CanBreak|FlA: Fiddlehead 1"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Forlorn Arena",
+                        "x": 689,
+                        "y": 1128,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Fiddlehead 2",
+                "access_rules": [
+                    "^$CanBreak|FlA: Fiddlehead 2"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Forlorn Arena",
+                        "x": 784,
+                        "y": 1546,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Fiddlehead 3",
+                "access_rules": [
+                    "^$CanBreak|FlA: Fiddlehead 3"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Forlorn Arena",
+                        "x": 833,
+                        "y": 1597,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Fiddlehead 4",
+                "access_rules": [
+                    "^$CanBreak|FlA: Fiddlehead 4"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Forlorn Arena",
+                        "x": 663,
+                        "y": 1384,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Fiddlehead 5",
+                "access_rules": [
+                    "^$CanBreak|FlA: Fiddlehead 5"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Forlorn Arena",
+                        "x": 317,
+                        "y": 1653,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Fiddlehead 6",
+                "access_rules": [
+                    "^$CanBreak|FlA: Fiddlehead 6"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Forlorn Arena",
+                        "x": 346,
+                        "y": 1758,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Fiddlehead 7",
+                "access_rules": [
+                    "^$CanBreak|FlA: Fiddlehead 7"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Forlorn Arena",
+                        "x": 657,
+                        "y": 1390,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Fiddlehead 8",
+                "access_rules": [
+                    "^$CanBreak|FlA: Fiddlehead 8"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Forlorn Arena",
+                        "x": 959,
+                        "y": 1729,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Fiddlehead 9",
+                "access_rules": [
+                    "^$CanBreak|FlA: Fiddlehead 9"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Forlorn Arena",
+                        "x": 958,
+                        "y": 1044,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Fiddlehead 10",
+                "access_rules": [
+                    "^$CanBreak|FlA: Fiddlehead 10"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Forlorn Arena",
+                        "x": 628,
+                        "y": 1040,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Fiddlehead 11",
+                "access_rules": [
+                    "^$CanBreak|FlA: Fiddlehead 11"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Forlorn Arena",
+                        "x": 467,
+                        "y": 2417,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Fiddlehead 12",
+                "access_rules": [
+                    "^$CanBreak|FlA: Fiddlehead 12"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Forlorn Arena",
+                        "x": 188,
+                        "y": 1584,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Fiddlehead 13",
+                "access_rules": [
+                    "^$CanBreak|FlA: Fiddlehead 13"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Forlorn Arena",
+                        "x": 426,
+                        "y": 1879,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Fiddlehead 14",
+                "access_rules": [
+                    "^$CanBreak|FlA: Fiddlehead 14"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Forlorn Arena",
+                        "x": 412,
+                        "y": 2166,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Fiddlehead 15",
+                "access_rules": [
+                    "^$CanBreak|FlA: Fiddlehead 15"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Forlorn Arena",
+                        "x": 212,
+                        "y": 1852,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Fiddlehead 16",
+                "access_rules": [
+                    "^$CanBreak|FlA: Fiddlehead 16"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Forlorn Arena",
+                        "x": 428,
+                        "y": 1195,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Fiddlehead 17",
+                "access_rules": [
+                    "^$CanBreak|FlA: Fiddlehead 17"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Forlorn Arena",
+                        "x": 997,
+                        "y": 1705,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Fiddlehead 18",
+                "access_rules": [
+                    "^$CanBreak|FlA: Fiddlehead 18"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Forlorn Arena",
+                        "x": 653,
+                        "y": 1418,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Fiddlehead 19",
+                "access_rules": [
+                    "^$CanBreak|FlA: Fiddlehead 19"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Forlorn Arena",
+                        "x": 731,
+                        "y": 1515,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Fiddlehead 20",
+                "access_rules": [
+                    "^$CanBreak|FlA: Fiddlehead 20"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Forlorn Arena",
+                        "x": 470,
+                        "y": 1156,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Fiddlehead 21",
+                "access_rules": [
+                    "^$CanBreak|FlA: Fiddlehead 21"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Forlorn Arena",
+                        "x": 376,
+                        "y": 967,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Fiddlehead 22",
+                "access_rules": [
+                    "^$CanBreak|FlA: Fiddlehead 22"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Forlorn Arena",
+                        "x": 434,
+                        "y": 2294,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Fiddlehead 23",
+                "access_rules": [
+                    "^$CanBreak|FlA: Fiddlehead 23"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Forlorn Arena",
+                        "x": 496,
+                        "y": 1241,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Fiddlehead 24",
+                "access_rules": [
+                    "^$CanBreak|FlA: Fiddlehead 24"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Forlorn Arena",
+                        "x": 597,
+                        "y": 1388,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Fiddlehead 25",
+                "access_rules": [
+                    "^$CanBreak|FlA: Fiddlehead 25"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Forlorn Arena",
+                        "x": 651,
+                        "y": 1423,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Fiddlehead 26",
+                "access_rules": [
+                    "^$CanBreak|FlA: Fiddlehead 26"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Forlorn Arena",
+                        "x": 779,
+                        "y": 1816,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Fiddlehead 27",
+                "access_rules": [
+                    "^$CanBreak|FlA: Fiddlehead 27"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Forlorn Arena",
+                        "x": 467,
+                        "y": 2227,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Fiddlehead 28",
+                "access_rules": [
+                    "^$CanBreak|FlA: Fiddlehead 28"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Forlorn Arena",
+                        "x": 936,
+                        "y": 1308,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Fiddlehead 29",
+                "access_rules": [
+                    "^$CanBreak|FlA: Fiddlehead 29"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Forlorn Arena",
+                        "x": 34,
+                        "y": 1858,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Fiddlehead 30",
+                "access_rules": [
+                    "^$CanBreak|FlA: Fiddlehead 30"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Forlorn Arena",
+                        "x": 371,
+                        "y": 1741,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Fiddlehead 31",
+                "access_rules": [
+                    "^$CanBreak|FlA: Fiddlehead 31"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Forlorn Arena",
+                        "x": 716,
+                        "y": 1630,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Fiddlehead 32",
+                "access_rules": [
+                    "^$CanBreak|FlA: Fiddlehead 32"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Forlorn Arena",
+                        "x": 623,
+                        "y": 1165,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Fiddlehead 33",
+                "access_rules": [
+                    "^$CanBreak|FlA: Fiddlehead 33"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Forlorn Arena",
+                        "x": 470,
+                        "y": 1107,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Lotus 1",
+                "access_rules": [
+                    "^$CanBreak|FlA: Lotus 1"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Forlorn Arena",
+                        "x": 803,
+                        "y": 678,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Lotus 2",
+                "access_rules": [
+                    "^$CanBreak|FlA: Lotus 2"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Forlorn Arena",
+                        "x": 82,
+                        "y": 728,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Lotus 3",
+                "access_rules": [
+                    "^$CanBreak|FlA: Lotus 3"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Forlorn Arena",
+                        "x": 892,
+                        "y": 630,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Lotus 4",
+                "access_rules": [
+                    "^$CanBreak|FlA: Lotus 4"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Forlorn Arena",
+                        "x": 857,
+                        "y": 741,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Lotus 5",
+                "access_rules": [
+                    "^$CanBreak|FlA: Lotus 5"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Forlorn Arena",
+                        "x": 647,
+                        "y": 708,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Lotus 6",
+                "access_rules": [
+                    "^$CanBreak|FlA: Lotus 6"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Forlorn Arena",
+                        "x": 663,
+                        "y": 385,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Lotus 7",
+                "access_rules": [
+                    "^$CanBreak|FlA: Lotus 7"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Forlorn Arena",
+                        "x": 48,
+                        "y": 728,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Lotus 8",
+                "access_rules": [
+                    "^$CanBreak|FlA: Lotus 8"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Forlorn Arena",
+                        "x": 1004,
+                        "y": 639,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Lotus 9",
+                "access_rules": [
+                    "^$CanBreak|FlA: Lotus 9"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Forlorn Arena",
+                        "x": 621,
+                        "y": 708,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Lotus 10",
+                "access_rules": [
+                    "^$CanBreak|FlA: Lotus 10"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Forlorn Arena",
+                        "x": 906,
+                        "y": 741,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Lotus 11",
+                "access_rules": [
+                    "^$CanBreak|FlA: Lotus 11"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Forlorn Arena",
+                        "x": 787,
+                        "y": 543,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Lotus 12",
+                "access_rules": [
+                    "^$CanBreak|FlA: Lotus 12"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Forlorn Arena",
+                        "x": 802,
+                        "y": 217,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Lotus 13",
+                "access_rules": [
+                    "^$CanBreak|FlA: Lotus 13"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Forlorn Arena",
+                        "x": 634,
+                        "y": 708,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Lotus 14",
+                "access_rules": [
+                    "^$CanBreak|FlA: Lotus 14"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Forlorn Arena",
+                        "x": 1043,
+                        "y": 658,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Lotus 15",
+                "access_rules": [
+                    "^$CanBreak|FlA: Lotus 15"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Forlorn Arena",
+                        "x": 205,
+                        "y": 150,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Lotus 16",
+                "access_rules": [
+                    "^$CanBreak|FlA: Lotus 16"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Forlorn Arena",
+                        "x": 1009,
+                        "y": 217,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Lotus 17",
+                "access_rules": [
+                    "^$CanBreak|FlA: Lotus 17"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Forlorn Arena",
+                        "x": 870,
+                        "y": 450,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Lotus 18",
+                "access_rules": [
+                    "^$CanBreak|FlA: Lotus 18"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Forlorn Arena",
+                        "x": 230,
+                        "y": 150,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Lotus 19",
+                "access_rules": [
+                    "^$CanBreak|FlA: Lotus 19"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Forlorn Arena",
+                        "x": 88,
+                        "y": 475,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            }
         ]
     }
 ]

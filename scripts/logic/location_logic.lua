@@ -5,19 +5,19 @@ VANILLA_LOCATION_LOGIC = {
 
     ["Rafters"]             = function() return AccessibilityLevel.Normal end,
 
-    ["Clive's Gift"]        = function() return AccessibilityLevel.Normal end,
+    ["Clives Gift"]        = function() return AccessibilityLevel.Normal end,
 
-    ["Demi's Victory Gift"] = function() return And(CanEnter("Chamber of Fate"), WasItemReceived("lucidblade")) end,
+    ["Demis Victory Gift"] = function() return And(CanEnter("Chamber of Fate"), WasItemReceived("lucidblade")) end,
 
-    ["Demi's Class Based Gift"] = function() return AccessibilityLevel.Normal end,
+    ["Demis Class Based Gift"] = function() return AccessibilityLevel.Normal end,
 
-    ["Demi's Spooky Treats"] = function() return AccessibilityLevel.Normal end,
+    ["Demis Spooky Treats"] = function() return AccessibilityLevel.Normal end,
 
-    ["Demi's Reward for All Soul Candies"] = function() return HasMoreThenNConsumables("soulcandy", 34) end,
+    ["Demis Reward for All Soul Candies"] = function() return HasMoreThenNConsumables("soulcandy", 34) end,
 
     ["Statue Honoring the Moon"] = function() return AccessibilityLevel.Normal end,
 
--- Etna's Pupil
+-- Etnas Pupil
     ["Alchemize Concentrated Lunacy"] = function() return And(CanGetMaterial("ashes"), CanGetMaterial("moonpetal"), CanGetMaterial("obsidian")) end,
 
     ["Alchemize Hostility Barrier"] = function() return And(CanGetMaterial("ectoplasm"), CanGetMaterial("ikurrilbroot"), CanGetMaterial("fireopal")) end,
@@ -102,7 +102,7 @@ VANILLA_LOCATION_LOGIC = {
 
     ["On the Bodies of Abdul Cultists"]             = function() return And(CanEnterTemple(), HasSwitch("templeofsilenceswitchkey"), HasDustyOrb()) end,
 
-    ["You are in the know right?"]                    = function() return And(CanEnterTemple(), HasSwitch("templeofsilenceswitchkey"), HasDustyOrb()) end,
+    ["Youre in the know right"]                    = function() return And(CanEnterTemple(), HasSwitch("templeofsilenceswitchkey"), HasDustyOrb()) end,
 
     ["Visions of Byagototh"]                        = function() return And(CanEnterTemple(), HasDustyOrb(), CanJumpHeight("High")) end,
 
@@ -123,15 +123,15 @@ VANILLA_LOCATION_LOGIC = {
 
     ["Hidden Upper Overlook (Right)"]       = function() return Or(HasDustyOrb(), WasItemReceived("icarianflight")) end,
 
-    ["Bonenard's Trash"]                    = function() return AccessibilityLevel.Normal end,
+    ["Bonenards Trash"]                    = function() return AccessibilityLevel.Normal end,
 
     ["Rubble Near Overlook Bridge"]         = function() return AccessibilityLevel.Normal end,
 
     ["Slime Skeleton Chest"]                = function() return AccessibilityLevel.Normal end,
 
-    ["Jellisha's Trash"]                    = function() return HasDustyOrb() end,
+    ["Jellishas Trash"]                    = function() return HasDustyOrb() end,
 
-    ["Jellisha's Quest Reward"]             = function() return HasDustyOrb() end,
+    ["Jellishas Quest Reward"]             = function() return HasDustyOrb() end,
 
     ["Hidden Chest Near Underworks"]        = function() return HasDustyOrb() end,
 
@@ -147,15 +147,15 @@ VANILLA_LOCATION_LOGIC = {
 
     ["Path to Sanguine Sea (Right)"]        = function() return AccessibilityLevel.Normal end,
 
-    ["Jellisha's Jelly Treats"]             = function() return HasDustyOrb() end,
+    ["Jellishas Jelly Treats"]             = function() return HasDustyOrb() end,
 
     ["Headless Horseman"]                   = function() return HasElement(ELEMENT_CODE.fire) end,
 
-    ["Bonenard's Admission of Infidelity"]  = function() return AccessibilityLevel.Normal end,
+    ["Bonenards Admission of Infidelity"]  = function() return AccessibilityLevel.Normal end,
 
-    ["Sewer Traveler's Last Words"]  = function() return AccessibilityLevel.Normal end,
+    ["Sewer Travelers Last Words"]  = function() return AccessibilityLevel.Normal end,
 
-    ["Garrat's Proclamation"]  = function() return AccessibilityLevel.Normal end,
+    ["Garrats Proclamation"]  = function() return AccessibilityLevel.Normal end,
 
 -- Sanguine Sea
     ["Pillar In Front of Castle Le Fanu"]   = function() return CanJumpHeight("High") end,
@@ -226,7 +226,7 @@ VANILLA_LOCATION_LOGIC = {
 
     ["Chest Near Tree"]                 = function() return AccessibilityLevel.Normal end,
 
-    ["Blood Plant's Insides"]           = function() return WasItemReceived("ele_blood") end,
+    ["Blood Plants Insides"]           = function() return WasItemReceived("ele_blood") end,
 
     ["Hanging In The Trees"]            = function() return AccessibilityLevel.Normal end,
 
@@ -234,15 +234,15 @@ VANILLA_LOCATION_LOGIC = {
 
     ["Room Defended by Blood Plant"]    = function() return WasItemReceived("ele_blood") end,
 
-    ["Patchouli's Canopy Offer"]        = function() return AccessibilityLevel.Normal end,
+    ["Patchoulis Canopy Offer"]        = function() return AccessibilityLevel.Normal end,
 
-    ["Patchouli's Reward"]              = function() return WasItemReceived("skullofjosiah") end,
+    ["Patchoulis Reward"]              = function() return WasItemReceived("skullofjosiah") end,
 
     ["Tomb Warning"]                    = function() return AccessibilityLevel.Normal end,
 
     ["On Carnivorous Plants"]           = function() return AccessibilityLevel.Normal end,
 
-    ["Drained Adventurer's Warning"]    = function() return AccessibilityLevel.Normal end,
+    ["Drained Adventurers Warning"]    = function() return AccessibilityLevel.Normal end,
 
     ["Musings of What Lies Below"]      = function() return AccessibilityLevel.Normal end,
 
@@ -308,7 +308,7 @@ VANILLA_LOCATION_LOGIC = {
 
     ["Daedalus Knowledge (Third)"]  = function() return IsItemStageAtLeastN("blackbook", 3) end,
 
-    ["Daedalus' Blackened Treats"]  = function() return AccessibilityLevel.Normal end,
+    ["Daedalus Blackened Treats"]  = function() return AccessibilityLevel.Normal end,
 
     ["Corner Near Daedalus"]        = function() return AccessibilityLevel.Normal end,
 
@@ -323,7 +323,7 @@ VANILLA_LOCATION_LOGIC = {
 
     ["Cattle Cell (Center)"]                    = function() return And(Or(CanEnterCattleCells(), IsItemStageAtLeastN("progressivevampiricsymbol", 2)), HasElement("ele_fire")) end,
 
-    ["Golden Lance Member's Plea"]              = function() return And(Or(CanEnterCattleCells(), IsItemStageAtLeastN("progressivevampiricsymbol", 2)), HasElement("ele_fire")) end,
+    ["Golden Lance Members Plea"]              = function() return And(Or(CanEnterCattleCells(), IsItemStageAtLeastN("progressivevampiricsymbol", 2)), HasElement("ele_fire")) end,
     
     ["Cattle Cell (North)"]                     = function() return WasItemReceived("ele_blood") end,
 
@@ -331,7 +331,7 @@ VANILLA_LOCATION_LOGIC = {
 
     ["Writings of Holy Relic Protection"]       = function() return And(WasItemReceived("ele_blood"), HasDustyOrb()) end,
 
-    ["Crilall's Bloody Treats"]                 = function() return IsItemStageAtLeastN("progressivevampiricsymbol", 1) end,
+    ["Crilalls Bloody Treats"]                 = function() return IsItemStageAtLeastN("progressivevampiricsymbol", 1) end,
 
     ["Hallway Rubble Room"]                     = function() return IsItemStageAtLeastN("progressivevampiricsymbol", 1) end,
 
@@ -341,9 +341,9 @@ VANILLA_LOCATION_LOGIC = {
 
     ["Garrat Resting Room (Wall)"]              = function() return IsItemStageAtLeastN("progressivevampiricsymbol", 1) end,
 
-    ["Jusztina's Letter to Ophelia"]            = function() return IsItemStageAtLeastN("progressivevampiricsymbol", 1) end,
+    ["Jusztinas Letter to Ophelia"]            = function() return IsItemStageAtLeastN("progressivevampiricsymbol", 1) end,
 
-    ["Ophelia's Letter to Jusztina 2"]          = function() return IsItemStageAtLeastN("progressivevampiricsymbol", 1) end,
+    ["Ophelias Letter to Jusztina 2"]          = function() return IsItemStageAtLeastN("progressivevampiricsymbol", 1) end,
 
     ["Hallway Dead End Before Blue Doors"]      = function() return IsItemStageAtLeastN("progressivevampiricsymbol", 1) end,
 
@@ -353,18 +353,18 @@ VANILLA_LOCATION_LOGIC = {
 
     ["Upper Floor Coffin Room (Large Room)"]    = function() return IsItemStageAtLeastN("progressivevampiricsymbol", 2) end,
 
-    ["Jusztina's Diary 1"]                      = function() return IsItemStageAtLeastN("progressivevampiricsymbol", 2) end,
+    ["Jusztinas Diary 1"]                      = function() return IsItemStageAtLeastN("progressivevampiricsymbol", 2) end,
 
-    ["Jusztina's Diary 2"]                      = function() return IsItemStageAtLeastN("progressivevampiricsymbol", 2) end,
+    ["Jusztinas Diary 2"]                      = function() return IsItemStageAtLeastN("progressivevampiricsymbol", 2) end,
 
-    ["Ophelia's Letter to Jusztina 1"]          = function() return IsItemStageAtLeastN("progressivevampiricsymbol", 3) end,
+    ["Ophelias Letter to Jusztina 1"]          = function() return IsItemStageAtLeastN("progressivevampiricsymbol", 3) end,
 
     ["Upper Floor Coffin Room (Double)"]        = function() return And(IsItemStageAtLeastN("progressivevampiricsymbol", 3), HasDustyOrb()) end,
 
     ["Upper Floor Coffin Room (Hallway)"]       = function() return IsItemStageAtLeastN("progressivevampiricsymbol", 2) end,
 
 -- Sealed Ballroom
-    ["Vampire's Complaint"]             = function() return AccessibilityLevel.Normal end,
+    ["Vampires Complaint"]             = function() return AccessibilityLevel.Normal end,
 
     ["Entry Small Room Lounge"]         = function() return HasDoorKey("ballroomsideroomskeyring") end,
 
@@ -372,7 +372,7 @@ VANILLA_LOCATION_LOGIC = {
 
     ["Entry Hidden Couch Top"]          = function() return And(HasDoorKey("ballroomsideroomskeyring"), HasDustyOrb()) end,
 
-    ["Trapped Invader's Writings"]      = function() return And(HasDoorKey("ballroomsideroomskeyring"), HasDustyOrb()) end,
+    ["Trapped Invaders Writings"]      = function() return And(HasDoorKey("ballroomsideroomskeyring"), HasDustyOrb()) end,
 
     ["Entry Hidden Couch Bottom"]       = function() return And(HasDoorKey("ballroomsideroomskeyring"), HasDustyOrb()) end,
 
@@ -400,10 +400,10 @@ VANILLA_LOCATION_LOGIC = {
     ["Invisible Path to Cliffside"] = function() return WereAnyItemsReceived({"coffin", "icarianflight"}) end,
 
 -- Great Well Surface
-    ["Demi's Gift"] = function() return AccessibilityLevel.Normal end,
+    ["Demis Gift"] = function() return AccessibilityLevel.Normal end,
 
 -- Throne Room
-    ["Crilall's Book Repository"] = function() return AccessibilityLevel.Normal end,
+    ["Crilalls Book Repository"] = function() return AccessibilityLevel.Normal end,
 
 -- A Holy Battlefield
     -- ["Sngula Umbra's Remains"] = function() return AccessibilityLevel.Normal end,
@@ -422,7 +422,7 @@ VANILLA_LOCATION_LOGIC = {
 
     ["Corpse Beneath Entrance"]                 = function() return AccessibilityLevel.Normal end,
 
-    ["Shery's Delectable Treats"]               = function() return AccessibilityLevel.Normal end,
+    ["Sherys Delectable Treats"]               = function() return AccessibilityLevel.Normal end,
 
     ["Triple Hidden Chest"]                     = function() return HasDustyOrb() end,
 
@@ -489,7 +489,7 @@ VANILLA_LOCATION_LOGIC = {
     ["Prize Beneath Tree"]  = function() return HasDoorKey("towerofabysskeyring") end,
 
 -- Terminus Prison
-    ["Lobos' Late Treats"]                          = function() return WasItemReceived("terminusprisonkey") end,
+    ["Lobos Late Treats"]                          = function() return WasItemReceived("terminusprisonkey") end,
 
     ["Third Floor Locked Cell Left"]                = function() return WasItemReceived("terminusprisonkey") end,
 
@@ -501,7 +501,7 @@ VANILLA_LOCATION_LOGIC = {
 
     ["Second Floor Broken Cell"]                    = function() return AccessibilityLevel.Normal end,
 
-    ["Second Floor Jailer's Table"]                 = function() return AccessibilityLevel.Normal end,
+    ["Second Floor Jailers Table"]                 = function() return AccessibilityLevel.Normal end,
 
     ["First Floor Hidden Cell"]                     = function() return And(HasDustyOrb(), HasLightSource()) end,
 
@@ -517,7 +517,7 @@ VANILLA_LOCATION_LOGIC = {
 
     ["Green Asylum Bone Pit"]                       = function() return HasLightSource() end,
 
-    ["Egg's Resting Place"]                         = function() return And(HasLightSource(), WasItemReceived("skeletonegg")) end,
+    ["Eggs Resting Place"]                         = function() return And(HasLightSource(), WasItemReceived("skeletonegg")) end,
 
     ["Fourth Floor Cell Hanging Remains"]           = function() return WasItemReceived("terminusprisonkey") end,
 
@@ -527,11 +527,11 @@ VANILLA_LOCATION_LOGIC = {
 
     ["Fourth Floor Jailer Break Room"]              = function() return WasItemReceived("terminusprisonkey") end,
 
-    ["Etna's Resting Place"]                        = function() return WasItemReceived("terminusprisonkey") end,
+    ["Etnas Resting Place"]                        = function() return WasItemReceived("terminusprisonkey") end,
 
     ["Fourth Floor Collapsed Tunnel"]               = function() return WasItemReceived("terminusprisonkey") end,
 
-    ["Calamis' Aftermath"]                          = function() return WasItemReceived("terminusprisonkey") end,
+    ["Calamis Aftermath"]                          = function() return WasItemReceived("terminusprisonkey") end,
 
     ["Jail Complaint"]                              = function() return HasLightSource() end,
 
@@ -543,9 +543,9 @@ VANILLA_LOCATION_LOGIC = {
 
     ["Joyous Escapee"]                              = function() return HasLightSource() end,
 
-    ["Fisher's Last Words"]                         = function() return HasLightSource() end,
+    ["Fishers Last Words"]                         = function() return HasLightSource() end,
 
-    ["Etna's Final Moments"]                        = function() return WasItemReceived("terminusprisonkey") end,
+    ["Etnas Final Moments"]                        = function() return WasItemReceived("terminusprisonkey") end,
 
     ["Changing Creatures and Self"]                 = function() return And(HasDustyOrb(), HasLightSource()) end,
 
@@ -607,12 +607,12 @@ VANILLA_LOCATION_LOGIC = {
 
     ["Prayer For the Golden"]           = function() return HasDoorKey("ashendoorskeyring") end,
 
-    ["Warning Against Abdul's Domain"]  = function() return AccessibilityLevel.Normal end,
+    ["Warning Against Abduls Domain"]  = function() return AccessibilityLevel.Normal end,
 
-    ["Abdul's Domain"]                  = function() return HasDoorKey("ashendoorskeyring") end,
+    ["Abduls Domain"]                  = function() return HasDoorKey("ashendoorskeyring") end,
 
 -- Chamber of Fate
-    ["Calamis' Weapon of Choice"]   = function() return AccessibilityLevel.Normal end,
+    ["Calamis Weapon of Choice"]   = function() return AccessibilityLevel.Normal end,
 
 -- Shopsanity
     ["Buy Enchanted Key"]               = function() return AccessibilityLevel.Normal end,
@@ -760,7 +760,7 @@ VANILLA_LOCATION_LOGIC = {
 
     ["Dreamer Door (Grave of the Sleeper Side)"] = function() return HasDoorKey("dreamerkey") end,
 
-    ["Surface Hole (Wing's Rest)"] = function() return Or(CanJumpHeight("High"), WasItemReceived("coffin")) end,
+    ["Surface Hole (Wings Rest)"] = function() return Or(CanJumpHeight("High"), WasItemReceived("coffin")) end,
 
     ["Hollow Basin Ceiling"] = function() return Or(CanJumpHeight("High"), WasItemReceived("coffin")) end,
 
@@ -845,10 +845,10 @@ ER_LOCATION_LOGIC = {
     ["On the Bodies of Abdul Cultists"]             = function() return Or(VANILLA_LOCATION_LOGIC["On the Bodies of Abdul Cultists"](),
                                                                             And(HasConnection('Rickety Bridge Door (Hollow Basin Side)'), HasDustyOrb())) end,
 
-    ["You are in the know right?"]                    = function() return And(HasDustyOrb(),
+    ["Youre in the know right"]                    = function() return And(HasDustyOrb(),
                                                                             Or(HasConnection('Sewers Door (Hollow Basin Side)'),
                                                                                 And(HasConnection('Rickety Bridge Door (Hollow Basin Side)'), HasSwitch("templeofsilenceswitchkey")),
-                                                                                VANILLA_LOCATION_LOGIC["You are in the know right?"]())) end,
+                                                                                VANILLA_LOCATION_LOGIC["Youre in the know right"]())) end,
 
     ["Visions of Byagototh"]                        = function() return Or(VANILLA_LOCATION_LOGIC["Visions of Byagototh"](),
                                                                             And(HasConnection('Rickety Bridge Door (Hollow Basin Side)'), HasDustyOrb())) end,
@@ -875,7 +875,7 @@ ER_LOCATION_LOGIC = {
 
     ["Cattle Cell (Center)"]                    = function() return And(HasElement("ele_fire"), CanEnterCastleStage(0.5)) end,
 
-    ["Golden Lance Member's Plea"]              = function() return And(HasElement("ele_fire"), CanEnterCastleStage(0.5)) end,
+    ["Golden Lance Members Plea"]              = function() return And(HasElement("ele_fire"), CanEnterCastleStage(0.5)) end,
 
     ["Cattle Cell (North)"]                     = function() return And(HasElement("ele_blood"), CanEnterCastleStage(0.5)) end,
 
@@ -883,7 +883,7 @@ ER_LOCATION_LOGIC = {
 
     ["Writings of Holy Relic Protection"]       = function() return And(HasElement("ele_blood"), CanEnterCastleStage(0.5), HasDustyOrb()) end,
 
-    ["Crilall's Bloody Treats"]                 = function() return CanEnterCastleStage(1) end,
+    ["Crilalls Bloody Treats"]                 = function() return CanEnterCastleStage(1) end,
 
     ["Hallway Rubble Room"]                     = function() return CanEnterCastleStage(1) end,
 
@@ -893,17 +893,17 @@ ER_LOCATION_LOGIC = {
 
     ["Garrat Resting Room (Wall)"]              = function() return CanEnterCastleStage(1) end,
 
-    ["Jusztina's Letter to Ophelia"]            = function() return CanEnterCastleStage(1) end,
+    ["Jusztinas Letter to Ophelia"]            = function() return CanEnterCastleStage(1) end,
 
     ["Hallway Dead End Before Blue Doors"]      = function() return CanEnterCastleStage(1) end,
 
-    ["Ophelia's Letter to Jusztina 2"]          = function() return CanEnterCastleStage(1) end,
+    ["Ophelias Letter to Jusztina 2"]          = function() return CanEnterCastleStage(1) end,
 
     ["Upper Floor Coffin Room (Small Room)"]    = function() return CanEnterCastleStage(2) end,
 
-    ["Jusztina's Diary 1"]                      = function() return CanEnterCastleStage(2) end,
+    ["Jusztinas Diary 1"]                      = function() return CanEnterCastleStage(2) end,
 
-    ["Jusztina's Diary 2"]                      = function() return CanEnterCastleStage(2) end,
+    ["Jusztinas Diary 2"]                      = function() return CanEnterCastleStage(2) end,
 
     ["Upper Floor Coffin Room (Large Room)"]    = function() return CanEnterCastleStage(2) end,
 
@@ -911,7 +911,7 @@ ER_LOCATION_LOGIC = {
 
     ["Upper Floor Coffin Room (Double)"]        = function() return And(CanEnterCastleStage(3), HasDustyOrb()) end,
 
-    ["Ophelia's Letter to Jusztina 1"]          = function() return CanEnterCastleStage(3) end,
+    ["Ophelias Letter to Jusztina 1"]          = function() return CanEnterCastleStage(3) end,
 
     ["Upper Floor Coffin Room (Hallway)"]       = function() return CanEnterCastleStage(2) end,
 

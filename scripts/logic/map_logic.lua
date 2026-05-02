@@ -1,7 +1,7 @@
 VANILLA_MAP_LOGIC = {
     ["Hollow Basin"] = function() return AccessibilityLevel.Normal end,
 
-    ["Wing's Rest"] = function() return AccessibilityLevel.Normal end,
+    ["Wings Rest"] = function() return AccessibilityLevel.Normal end,
 
     ["Forbidden Archives"] = function() return Or(HasDoorKey("brokenstepsdoorkey"), And(CanEnter("Laetus Chasm"), HasDoorKey("brokenstepsdoorkey"))) end,
 

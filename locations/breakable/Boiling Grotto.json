@@ -1,32 +1,396 @@
 [
     {
-        "name": "BreakGrass Boiling Grotto",
+        "name": "Grassanity Boiling Grotto",
         "chest_unopened_img": "/images/items/close.png",
         "chest_opened_img": "/images/items/open.png",
         "overlay_background": "#000000",
         "access_rules": [
             "^$CanEnter|Boiling Grotto"
         ],
+        "visibility_rules": [
+            "grass_on"
+        ],
         "children": [
-            {"name": "Fire Coral 17", "access_rules": ["^$CanBreak|BG: Fire Coral 17"], "chest_unopened_img": "images/items/check_misc_fade.png", "chest_opened_img": "images/items/check_misc.png", "sections": [{}], "map_locations": [{"map": "Boiling Grotto", "x": 256, "y": 158, "size": 16, "shape": "diamond"}]},
-            {"name": "Fire Coral 12", "access_rules": ["^$CanBreak|BG: Fire Coral 12"], "chest_unopened_img": "images/items/check_misc_fade.png", "chest_opened_img": "images/items/check_misc.png", "sections": [{}], "map_locations": [{"map": "Boiling Grotto", "x": 235, "y": 158, "size": 16, "shape": "diamond"}]},
-            {"name": "Fire Coral 2", "access_rules": ["^$CanBreak|BG: Fire Coral 2"], "chest_unopened_img": "images/items/check_misc_fade.png", "chest_opened_img": "images/items/check_misc.png", "sections": [{}], "map_locations": [{"map": "Boiling Grotto", "x": 258, "y": 221, "size": 16, "shape": "diamond"}]},
-            {"name": "Fire Coral 19", "access_rules": ["^$CanBreak|BG: Fire Coral 19"], "chest_unopened_img": "images/items/check_misc_fade.png", "chest_opened_img": "images/items/check_misc.png", "sections": [{}], "map_locations": [{"map": "Boiling Grotto", "x": 217, "y": 504, "size": 16, "shape": "diamond"}]},
-            {"name": "Fire Coral 15", "access_rules": ["^$CanBreak|BG: Fire Coral 15"], "chest_unopened_img": "images/items/check_misc_fade.png", "chest_opened_img": "images/items/check_misc.png", "sections": [{}], "map_locations": [{"map": "Boiling Grotto", "x": 130, "y": 4493, "size": 16, "shape": "diamond"}]},
-            {"name": "Fire Coral 7", "access_rules": ["^$CanBreak|BG: Fire Coral 7"], "chest_unopened_img": "images/items/check_misc_fade.png", "chest_opened_img": "images/items/check_misc.png", "sections": [{}], "map_locations": [{"map": "Boiling Grotto", "x": 101, "y": 441, "size": 16, "shape": "diamond"}]},
-            {"name": "Fire Coral 1", "access_rules": ["^$CanBreak|BG: Fire Coral 1"], "chest_unopened_img": "images/items/check_misc_fade.png", "chest_opened_img": "images/items/check_misc.png", "sections": [{}], "map_locations": [{"map": "Boiling Grotto", "x": 91, "y": 445, "size": 16, "shape": "diamond"}]},
-            {"name": "Fire Coral 16", "access_rules": ["^$CanBreak|BG: Fire Coral 16"], "chest_unopened_img": "images/items/check_misc_fade.png", "chest_opened_img": "images/items/check_misc.png", "sections": [{}], "map_locations": [{"map": "Boiling Grotto", "x": 851, "y": 335, "size": 16, "shape": "diamond"}]},
-            {"name": "Fire Coral 9", "access_rules": ["^$CanBreak|BG: Fire Coral 9"], "chest_unopened_img": "images/items/check_misc_fade.png", "chest_opened_img": "images/items/check_misc.png", "sections": [{}], "map_locations": [{"map": "Boiling Grotto", "x": 851, "y": 280, "size": 16, "shape": "diamond"}]},
-            {"name": "Fire Coral 11", "access_rules": ["^$CanBreak|BG: Fire Coral 11"], "chest_unopened_img": "images/items/check_misc_fade.png", "chest_opened_img": "images/items/check_misc.png", "sections": [{}], "map_locations": [{"map": "Boiling Grotto", "x": 637, "y": 119, "size": 16, "shape": "diamond"}]},
-            {"name": "Fire Coral 5", "access_rules": ["^$CanBreak|BG: Fire Coral 5"], "chest_unopened_img": "images/items/check_misc_fade.png", "chest_opened_img": "images/items/check_misc.png", "sections": [{}], "map_locations": [{"map": "Boiling Grotto", "x": 656, "y": 103, "size": 16, "shape": "diamond"}]},
-            {"name": "Fire Coral 13", "access_rules": ["^$CanBreak|BG: Fire Coral 13"], "chest_unopened_img": "images/items/check_misc_fade.png", "chest_opened_img": "images/items/check_misc.png", "sections": [{}], "map_locations": [{"map": "Boiling Grotto", "x": 630, "y": 245, "size": 16, "shape": "diamond"}]},
-            {"name": "Fire Coral 14", "access_rules": ["^$CanBreak|BG: Fire Coral 14"], "chest_unopened_img": "images/items/check_misc_fade.png", "chest_opened_img": "images/items/check_misc.png", "sections": [{}], "map_locations": [{"map": "Boiling Grotto", "x": 690, "y": 240, "size": 16, "shape": "diamond"}]},
-            {"name": "Fire Coral 8", "access_rules": ["^$CanBreak|BG: Fire Coral 8"], "chest_unopened_img": "images/items/check_misc_fade.png", "chest_opened_img": "images/items/check_misc.png", "sections": [{}], "map_locations": [{"map": "Boiling Grotto", "x": 685, "y": 254, "size": 16, "shape": "diamond"}]},
-            {"name": "Fire Coral 4", "access_rules": ["^$CanBreak|BG: Fire Coral 4"], "chest_unopened_img": "images/items/check_misc_fade.png", "chest_opened_img": "images/items/check_misc.png", "sections": [{}], "map_locations": [{"map": "Boiling Grotto", "x": 843, "y": 109, "size": 16, "shape": "diamond"}]},
-            {"name": "Fire Coral 10", "access_rules": ["^$CanBreak|BG: Fire Coral 10"], "chest_unopened_img": "images/items/check_misc_fade.png", "chest_opened_img": "images/items/check_misc.png", "sections": [{}], "map_locations": [{"map": "Boiling Grotto", "x": 827, "y": 103, "size": 16, "shape": "diamond"}]},
-            {"name": "Fire Coral 18", "access_rules": ["^$CanBreak|BG: Fire Coral 18"], "chest_unopened_img": "images/items/check_misc_fade.png", "chest_opened_img": "images/items/check_misc.png", "sections": [{}], "map_locations": [{"map": "Boiling Grotto", "x": 1026, "y": 703, "size": 16, "shape": "diamond"}]},
-            {"name": "Fire Coral 3", "access_rules": ["^$CanBreak|BG: Fire Coral 3"], "chest_unopened_img": "images/items/check_misc_fade.png", "chest_opened_img": "images/items/check_misc.png", "sections": [{}], "map_locations": [{"map": "Boiling Grotto", "x": 1024, "y": 750, "size": 16, "shape": "diamond"}]},
-            {"name": "Fire Coral 6", "access_rules": ["^$CanBreak|BG: Fire Coral 6"], "chest_unopened_img": "images/items/check_misc_fade.png", "chest_opened_img": "images/items/check_misc.png", "sections": [{}], "map_locations": [{"map": "Boiling Grotto", "x": 1024, "y": 770, "size": 16, "shape": "diamond"}]}
+            {
+                "name": "Fire Coral 1",
+                "access_rules": [
+                    "^$CanBreak|BG: Fire Coral 1"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Boiling Grotto",
+                        "x": 91,
+                        "y": 445,
+                        "size": 16,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Fire Coral 2",
+                "access_rules": [
+                    "^$CanBreak|BG: Fire Coral 2"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Boiling Grotto",
+                        "x": 258,
+                        "y": 221,
+                        "size": 16,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Fire Coral 3",
+                "access_rules": [
+                    "^$CanBreak|BG: Fire Coral 3"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Boiling Grotto",
+                        "x": 1024,
+                        "y": 750,
+                        "size": 16,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Fire Coral 4",
+                "access_rules": [
+                    "^$CanBreak|BG: Fire Coral 4"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Boiling Grotto",
+                        "x": 843,
+                        "y": 109,
+                        "size": 16,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Fire Coral 5",
+                "access_rules": [
+                    "^$CanBreak|BG: Fire Coral 5"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Boiling Grotto",
+                        "x": 656,
+                        "y": 103,
+                        "size": 16,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Fire Coral 6",
+                "access_rules": [
+                    "^$CanBreak|BG: Fire Coral 6"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Boiling Grotto",
+                        "x": 1024,
+                        "y": 770,
+                        "size": 16,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Fire Coral 7",
+                "access_rules": [
+                    "^$CanBreak|BG: Fire Coral 7"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Boiling Grotto",
+                        "x": 101,
+                        "y": 441,
+                        "size": 16,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Fire Coral 8",
+                "access_rules": [
+                    "^$CanBreak|BG: Fire Coral 8"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Boiling Grotto",
+                        "x": 685,
+                        "y": 254,
+                        "size": 16,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Fire Coral 9",
+                "access_rules": [
+                    "^$CanBreak|BG: Fire Coral 9"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Boiling Grotto",
+                        "x": 851,
+                        "y": 280,
+                        "size": 16,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Fire Coral 10",
+                "access_rules": [
+                    "^$CanBreak|BG: Fire Coral 10"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Boiling Grotto",
+                        "x": 827,
+                        "y": 103,
+                        "size": 16,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Fire Coral 11",
+                "access_rules": [
+                    "^$CanBreak|BG: Fire Coral 11"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Boiling Grotto",
+                        "x": 637,
+                        "y": 119,
+                        "size": 16,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Fire Coral 12",
+                "access_rules": [
+                    "^$CanBreak|BG: Fire Coral 12"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Boiling Grotto",
+                        "x": 235,
+                        "y": 158,
+                        "size": 16,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Fire Coral 13",
+                "access_rules": [
+                    "^$CanBreak|BG: Fire Coral 13"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Boiling Grotto",
+                        "x": 630,
+                        "y": 245,
+                        "size": 16,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Fire Coral 14",
+                "access_rules": [
+                    "^$CanBreak|BG: Fire Coral 14"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Boiling Grotto",
+                        "x": 690,
+                        "y": 240,
+                        "size": 16,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Fire Coral 15",
+                "access_rules": [
+                    "^$CanBreak|BG: Fire Coral 15"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Boiling Grotto",
+                        "x": 130,
+                        "y": 4493,
+                        "size": 16,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Fire Coral 16",
+                "access_rules": [
+                    "^$CanBreak|BG: Fire Coral 16"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Boiling Grotto",
+                        "x": 851,
+                        "y": 335,
+                        "size": 16,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Fire Coral 17",
+                "access_rules": [
+                    "^$CanBreak|BG: Fire Coral 17"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Boiling Grotto",
+                        "x": 256,
+                        "y": 158,
+                        "size": 16,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Fire Coral 18",
+                "access_rules": [
+                    "^$CanBreak|BG: Fire Coral 18"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Boiling Grotto",
+                        "x": 1026,
+                        "y": 703,
+                        "size": 16,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Fire Coral 19",
+                "access_rules": [
+                    "^$CanBreak|BG: Fire Coral 19"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Boiling Grotto",
+                        "x": 217,
+                        "y": 504,
+                        "size": 16,
+                        "shape": "diamond"
+                    }
+                ]
+            }
         ]
     }
 ]

@@ -9,11 +9,11 @@
         ],
         "children": [
             {
-                "name": "Drained Adventurer's Warning",
+                "name": "Drained Adventurers Warning",
                 "chest_unopened_img": "images/items/check_misc_fade.png",
                 "chest_opened_img": "images/items/check_misc.png",
                 "access_rules": [
-                    "^$CanReach|Drained Adventurer's Warning"
+                    "^$CanReach|Drained Adventurers Warning"
                 ],
                 "visibility_rules": ["lore_on"],
                 "sections": [
@@ -225,12 +225,12 @@
                  ]
             },
             {
-                "name": "Blood Plant's Insides",
+                "name": "Blood Plants Insides",
                 "chest_unopened_img": "images/items/check_item_fade.png",
                 "chest_opened_img": "images/items/check_item.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "^$CanReach|Blood Plant's Insides"
+                    "^$CanReach|Blood Plants Insides"
                 ],
                 "sections": [
                     {
@@ -327,41 +327,41 @@
                 "overlay_background": "#000000",
                 "sections": [
                     {
-                        "name": "Patchouli's Canopy Offer",
+                        "name": "Patchoulis Canopy Offer",
                         "chest_unopened_img": "images/items/check_item_fade.png",
                         "chest_opened_img": "images/items/check_item.png",
                         "access_rules": [
-                            "^$CanReach|Patchouli's Canopy Offer"
+                            "^$CanReach|Patchoulis Canopy Offer"
                         ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
-                        "name": "Patchouli's Reward",
+                        "name": "Patchoulis Reward",
                         "chest_unopened_img": "images/items/check_item_fade.png",
                         "chest_opened_img": "images/items/check_item.png",
                         "access_rules": [
-                            "^$CanReach|Patchouli's Reward"
+                            "^$CanReach|Patchoulis Reward"
                         ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
-                        "name": "Patchouli's Yuletide Offering",
+                        "name": "Patchoulis Yuletide Offering",
                         "chest_unopened_img": "images/items/check_item_fade.png",
                         "chest_opened_img": "images/items/check_item.png",
                         "access_rules": [
-                            "^$CanReach|Patchouli's Yuletide Offering"
+                            "^$CanReach|Patchoulis Yuletide Offering"
                         ],
                         "visibility_rules": ["christmas_event"],
                         "item_count": 1
                     },
                     {
-                        "name": "Patchouli's Poisoned Treats",
+                        "name": "Patchoulis Poisoned Treats",
                         "chest_unopened_img": "images/items/check_item_fade.png",
                         "chest_opened_img": "images/items/check_item.png",
                         "access_rules": [
-                            "^$CanReach|Patchouli's Poisoned Treats"
+                            "^$CanReach|Patchoulis Poisoned Treats"
                         ],
                         "visibility_rules": ["halloween_event"],
                         "item_count": 1

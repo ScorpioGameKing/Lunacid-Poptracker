@@ -9,7 +9,7 @@
         ],
         "children": [
             {
-                "name": "Demi's Gift",
+                "name": "Demis Gift",
                 "chest_unopened_img": "images/items/check_misc_fade.png",
                 "chest_opened_img": "images/items/check_misc.png",
                 "overlay_background": "#000000",
@@ -17,7 +17,7 @@
                     {
                         "name": "Crystal Shard x 3",
                         "access_rules": [
-                            "^$CanReach|Demi's Gift"
+                            "^$CanReach|Demis Gift"
                         ],
                         "visibility_rules": [],
                         "item_count": 1

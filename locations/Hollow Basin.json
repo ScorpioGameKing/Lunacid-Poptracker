@@ -21,7 +21,7 @@
                   ]
                },
                {
-                  "name": "Encouraging Statue's Words",
+                  "name": "Encouraging Statues Words",
                   "item_count": 1,
                   "visibility_rules": ["lore_on"],
                   "chest_unopened_img": "images/items/check_item_fade.png",
@@ -64,7 +64,7 @@
             ]
          },
          {
-            "name": "Cultist's Writings",
+            "name": "Cultists Writings",
             "chest_unopened_img": "images/items/check_misc_fade.png",
             "chest_opened_img": "images/items/check_misc.png",
             "access_rules": [
@@ -184,11 +184,11 @@
             ]
          },
          {
-            "name": "You are in the know right?",
+            "name": "Youre in the know right",
             "chest_unopened_img": "images/items/check_misc_fade.png",
             "chest_opened_img": "images/items/check_misc.png",
             "access_rules": [
-               "^$CanReach|You are in the know right?"
+               "^$CanReach|Youre in the know right"
             ],
             "visibility_rules": ["lore_on"],
             "sections": [

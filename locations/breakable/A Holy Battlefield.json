@@ -1,1349 +1,1549 @@
 [
     {
-        "name": "BreakGrass A Holy Battlefield",
+        "name": "Grassanity A Holy Battlefield",
         "chest_unopened_img": "/images/items/close.png",
         "chest_opened_img": "/images/items/open.png",
         "overlay_background": "#000000",
         "access_rules": [
             "^$CanEnter|A Holy Battlefield"
         ],
+        "visibility_rules": [
+            "grass_on"
+        ],
         "children": [
             {
                 "name": "Battleground Debris 1",
                 "chest_unopened_img": "images/items/check_misc_fade.png",
                 "chest_opened_img": "images/items/check_misc.png",
-                "access_rules": [
-                "^$CanReach|"
-                ],
                 "sections": [
-                {
-                    "name": "Wood Debris 37",
-                    "access_rules": [],
-                    "visibility_rules": [],
-                    "item_count": 1
-                },
-                {
-                    "name": "Bloodweed 27",
-                    "access_rules": [],
-                    "visibility_rules": [],
-                    "item_count": 1
-                },
-                {
-                    "name": "Wood Debris 12",
-                    "access_rules": [],
-                    "visibility_rules": [],
-                    "item_count": 1
-                },
-                {
-                    "name": "Wood Debris 18",
-                    "access_rules": [],
-                    "visibility_rules": [],
-                    "item_count": 1
-                },
-                {
-                    "name": "Bloodweed 17",
-                    "access_rules": [],
-                    "visibility_rules": [],
-                    "item_count": 1
-                },
-                {
-                    "name": "Bloodweed 83",
-                    "access_rules": [],
-                    "visibility_rules": [],
-                    "item_count": 1
-                },
-                {
-                    "name": "Bloodweed 38",
-                    "access_rules": [],
-                    "visibility_rules": [],
-                    "item_count": 1
-                },
-                {
-                    "name": "Bloodweed 62",
-                    "access_rules": [],
-                    "visibility_rules": [],
-                    "item_count": 1
-                }
+                    {
+                        "name": "Bloodweed 17",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bloodweed 27",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bloodweed 38",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bloodweed 62",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bloodweed 83",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
                 ],
                 "map_locations": [
-                {
-                    "map": "A Holy Battlefield",
-                    "shape": "diamond",
-                    "x": 660,
-                    "y": 361
-                }
+                    {
+                        "map": "A Holy Battlefield",
+                        "shape": "diamond",
+                        "x": 660,
+                        "y": 361
+                    }
                 ]
             },
             {
                 "name": "Battleground Debris 2",
                 "chest_unopened_img": "images/items/check_misc_fade.png",
                 "chest_opened_img": "images/items/check_misc.png",
-                "access_rules": [
-                "^$CanReach|"
-                ],
                 "sections": [
-                {
-                    "name": "Bloodweed 52",
-                    "access_rules": [],
-                    "visibility_rules": [],
-                    "item_count": 1
-                },
-                {
-                    "name": "Bloodweed 78",
-                    "access_rules": [],
-                    "visibility_rules": [],
-                    "item_count": 1
-                },
-                {
-                    "name": "Bloodweed 44",
-                    "access_rules": [],
-                    "visibility_rules": [],
-                    "item_count": 1
-                },
-                {
-                    "name": "Wood Debris 3",
-                    "access_rules": [],
-                    "visibility_rules": [],
-                    "item_count": 1
-                },
-                {
-                    "name": "Wood Debris 56",
-                    "access_rules": [],
-                    "visibility_rules": [],
-                    "item_count": 1
-                },
-                {
-                    "name": "Bloodweed 58",
-                    "access_rules": [],
-                    "visibility_rules": [],
-                    "item_count": 1
-                },
-                {
-                    "name": "Bloodweed 60",
-                    "access_rules": [],
-                    "visibility_rules": [],
-                    "item_count": 1
-                },
-                {
-                    "name": "Wood Debris 27",
-                    "access_rules": [],
-                    "visibility_rules": [],
-                    "item_count": 1
-                },
-                {
-                    "name": "Bloodweed 87",
-                    "access_rules": [],
-                    "visibility_rules": [],
-                    "item_count": 1
-                },
-                {
-                    "name": "Bloodweed 41",
-                    "access_rules": [],
-                    "visibility_rules": [],
-                    "item_count": 1
-                }
+                    {
+                        "name": "Bloodweed 41",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bloodweed 44",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bloodweed 52",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bloodweed 58",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bloodweed 60",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bloodweed 78",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bloodweed 87",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
                 ],
                 "map_locations": [
-                {
-                    "map": "A Holy Battlefield",
-                    "shape": "diamond",
-                    "x": 732,
-                    "y": 255
-                }
+                    {
+                        "map": "A Holy Battlefield",
+                        "shape": "diamond",
+                        "x": 732,
+                        "y": 255
+                    }
                 ]
             },
             {
                 "name": "Battleground Debris 3",
                 "chest_unopened_img": "images/items/check_misc_fade.png",
                 "chest_opened_img": "images/items/check_misc.png",
-                "access_rules": [
-                "^$CanReach|"
-                ],
                 "sections": [
-                {
-                    "name": "Bloodweed 99",
-                    "access_rules": [],
-                    "visibility_rules": [],
-                    "item_count": 1
-                },
-                {
-                    "name": "Bloodweed 20",
-                    "access_rules": [],
-                    "visibility_rules": [],
-                    "item_count": 1
-                },
-                {
-                    "name": "Bloodweed 72",
-                    "access_rules": [],
-                    "visibility_rules": [],
-                    "item_count": 1
-                },
-                {
-                    "name": "Bloodweed 75",
-                    "access_rules": [],
-                    "visibility_rules": [],
-                    "item_count": 1
-                },
-                {
-                    "name": "Bloodweed 24",
-                    "access_rules": [],
-                    "visibility_rules": [],
-                    "item_count": 1
-                },
-                {
-                    "name": "Bloodweed 73",
-                    "access_rules": [],
-                    "visibility_rules": [],
-                    "item_count": 1
-                },
-                {
-                    "name": "Wood Debris 36",
-                    "access_rules": [],
-                    "visibility_rules": [],
-                    "item_count": 1
-                },
-                {
-                    "name": "Wood Debris 7",
-                    "access_rules": [],
-                    "visibility_rules": [],
-                    "item_count": 1
-                },
-                {
-                    "name": "Wood Debris 9",
-                    "access_rules": [],
-                    "visibility_rules": [],
-                    "item_count": 1
-                },
-                {
-                    "name": "Wood Debris 62",
-                    "access_rules": [],
-                    "visibility_rules": [],
-                    "item_count": 1
-                }
+                    {
+                        "name": "Bloodweed 20",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bloodweed 24",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bloodweed 72",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bloodweed 73",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bloodweed 75",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bloodweed 99",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
                 ],
                 "map_locations": [
-                {
-                    "map": "A Holy Battlefield",
-                    "shape": "diamond",
-                    "x": 891,
-                    "y": 248
-                }
+                    {
+                        "map": "A Holy Battlefield",
+                        "shape": "diamond",
+                        "x": 891,
+                        "y": 248
+                    }
                 ]
             },
             {
                 "name": "Battleground Debris 4",
                 "chest_unopened_img": "images/items/check_misc_fade.png",
                 "chest_opened_img": "images/items/check_misc.png",
-                "access_rules": [
-                "^$CanReach|"
-                ],
                 "sections": [
-                {
-                    "name": "Bloodweed 5",
-                    "access_rules": [],
-                    "visibility_rules": [],
-                    "item_count": 1
-                },
-                {
-                    "name": "Bloodweed 81",
-                    "access_rules": [],
-                    "visibility_rules": [],
-                    "item_count": 1
-                },
-                {
-                    "name": "Bloodweed 74",
-                    "access_rules": [],
-                    "visibility_rules": [],
-                    "item_count": 1
-                },
-                {
-                    "name": "Wood Debris 58",
-                    "access_rules": [],
-                    "visibility_rules": [],
-                    "item_count": 1
-                },
-                {
-                    "name": "Wood Debris 54",
-                    "access_rules": [],
-                    "visibility_rules": [],
-                    "item_count": 1
-                },
-                {
-                    "name": "Wood Debris 53",
-                    "access_rules": [],
-                    "visibility_rules": [],
-                    "item_count": 1
-                },
-                {
-                    "name": "Bloodweed 1",
-                    "access_rules": [],
-                    "visibility_rules": [],
-                    "item_count": 1
-                },
-                {
-                    "name": "Wood Debris 28",
-                    "access_rules": [],
-                    "visibility_rules": [],
-                    "item_count": 1
-                },
-                {
-                    "name": "Bloodweed 36",
-                    "access_rules": [],
-                    "visibility_rules": [],
-                    "item_count": 1
-                }
+                    {
+                        "name": "Bloodweed 1",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bloodweed 5",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bloodweed 36",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bloodweed 74",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bloodweed 81",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
                 ],
                 "map_locations": [
-                {
-                    "map": "A Holy Battlefield",
-                    "shape": "diamond",
-                    "x": 955,
-                    "y": 248
-                }
+                    {
+                        "map": "A Holy Battlefield",
+                        "shape": "diamond",
+                        "x": 955,
+                        "y": 248
+                    }
                 ]
             },
             {
                 "name": "Battleground Debris 5",
                 "chest_unopened_img": "images/items/check_misc_fade.png",
                 "chest_opened_img": "images/items/check_misc.png",
-                "access_rules": [
-                "^$CanReach|"
-                ],
                 "sections": [
-                {
-                    "name": "Bloodweed 79",
-                    "access_rules": [],
-                    "visibility_rules": [],
-                    "item_count": 1
-                },
-                {
-                    "name": "Wood Debris 32",
-                    "access_rules": [],
-                    "visibility_rules": [],
-                    "item_count": 1
-                },
-                {
-                    "name": "Bloodweed 101",
-                    "access_rules": [],
-                    "visibility_rules": [],
-                    "item_count": 1
-                },
-                {
-                    "name": "Bloodweed 14",
-                    "access_rules": [],
-                    "visibility_rules": [],
-                    "item_count": 1
-                },
-                {
-                    "name": "Bloodweed 69",
-                    "access_rules": [],
-                    "visibility_rules": [],
-                    "item_count": 1
-                },
-                {
-                    "name": "Wood Debris 43",
-                    "access_rules": [],
-                    "visibility_rules": [],
-                    "item_count": 1
-                },
-                {
-                    "name": "Wood Debris 38",
-                    "access_rules": [],
-                    "visibility_rules": [],
-                    "item_count": 1
-                },
-                {
-                    "name": "Bloodweed 63",
-                    "access_rules": [],
-                    "visibility_rules": [],
-                    "item_count": 1
-                },
-                {
-                    "name": "Bloodweed 9",
-                    "access_rules": [],
-                    "visibility_rules": [],
-                    "item_count": 1
-                },
-                {
-                    "name": "Wood Debris 34",
-                    "access_rules": [],
-                    "visibility_rules": [],
-                    "item_count": 1
-                }
+                    {
+                        "name": "Bloodweed 9",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bloodweed 14",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bloodweed 63",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bloodweed 69",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bloodweed 79",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bloodweed 101",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
                 ],
                 "map_locations": [
-                {
-                    "map": "A Holy Battlefield",
-                    "shape": "diamond",
-                    "x": 1003,
-                    "y": 208
-                }
+                    {
+                        "map": "A Holy Battlefield",
+                        "shape": "diamond",
+                        "x": 1003,
+                        "y": 208
+                    }
                 ]
             },
             {
                 "name": "Battleground Debris 6",
                 "chest_unopened_img": "images/items/check_misc_fade.png",
                 "chest_opened_img": "images/items/check_misc.png",
-                "access_rules": [
-                "^$CanReach|"
-                ],
                 "sections": [
-                {
-                    "name": "Bloodweed 32",
-                    "access_rules": [],
-                    "visibility_rules": [],
-                    "item_count": 1
-                },
-                {
-                    "name": "Bloodweed 46",
-                    "access_rules": [],
-                    "visibility_rules": [],
-                    "item_count": 1
-                },
-                {
-                    "name": "Bloodweed 31",
-                    "access_rules": [],
-                    "visibility_rules": [],
-                    "item_count": 1
-                },
-                {
-                    "name": "Wood Debris 13",
-                    "access_rules": [],
-                    "visibility_rules": [],
-                    "item_count": 1
-                },
-                {
-                    "name": "Bloodweed 85",
-                    "access_rules": [],
-                    "visibility_rules": [],
-                    "item_count": 1
-                },
-                {
-                    "name": "Bloodweed 89",
-                    "access_rules": [],
-                    "visibility_rules": [],
-                    "item_count": 1
-                },
-                {
-                    "name": "Bloodweed 61",
-                    "access_rules": [],
-                    "visibility_rules": [],
-                    "item_count": 1
-                },
-                {
-                    "name": "Wood Debris 65",
-                    "access_rules": [],
-                    "visibility_rules": [],
-                    "item_count": 1
-                },
-                {
-                    "name": "Wood Debris 16",
-                    "access_rules": [],
-                    "visibility_rules": [],
-                    "item_count": 1
-                }
+                    {
+                        "name": "Bloodweed 31",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bloodweed 32",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bloodweed 46",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bloodweed 61",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bloodweed 85",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bloodweed 89",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
                 ],
                 "map_locations": [
-                {
-                    "map": "A Holy Battlefield",
-                    "shape": "diamond",
-                    "x": 902,
-                    "y": 362
-                }
+                    {
+                        "map": "A Holy Battlefield",
+                        "shape": "diamond",
+                        "x": 902,
+                        "y": 362
+                    }
                 ]
             },
             {
                 "name": "Battleground Debris 7",
                 "chest_unopened_img": "images/items/check_misc_fade.png",
                 "chest_opened_img": "images/items/check_misc.png",
-                "access_rules": [
-                "^$CanReach|"
-                ],
                 "sections": [
-                {
-                    "name": "Bloodweed 49",
-                    "access_rules": [],
-                    "visibility_rules": [],
-                    "item_count": 1
-                },
-                {
-                    "name": "Bloodweed 26",
-                    "access_rules": [],
-                    "visibility_rules": [],
-                    "item_count": 1
-                },
-                {
-                    "name": "Wood Debris 59",
-                    "access_rules": [],
-                    "visibility_rules": [],
-                    "item_count": 1
-                },
-                {
-                    "name": "Bloodweed 92",
-                    "access_rules": [],
-                    "visibility_rules": [],
-                    "item_count": 1
-                },
-                {
-                    "name": "Wood Debris 29",
-                    "access_rules": [],
-                    "visibility_rules": [],
-                    "item_count": 1
-                },
-                {
-                    "name": "Bloodweed 91",
-                    "access_rules": [],
-                    "visibility_rules": [],
-                    "item_count": 1
-                },
-                {
-                    "name": "Bloodweed 6",
-                    "access_rules": [],
-                    "visibility_rules": [],
-                    "item_count": 1
-                },
-                {
-                    "name": "Wood Debris 40",
-                    "access_rules": [],
-                    "visibility_rules": [],
-                    "item_count": 1
-                }
+                    {
+                        "name": "Bloodweed 6",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bloodweed 26",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bloodweed 49",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bloodweed 91",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bloodweed 92",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
                 ],
                 "map_locations": [
-                {
-                    "map": "A Holy Battlefield",
-                    "shape": "diamond",
-                    "x": 1149,
-                    "y": 221
-                }
+                    {
+                        "map": "A Holy Battlefield",
+                        "shape": "diamond",
+                        "x": 1149,
+                        "y": 221
+                    }
                 ]
             },
             {
                 "name": "Battleground Debris 8",
                 "chest_unopened_img": "images/items/check_misc_fade.png",
                 "chest_opened_img": "images/items/check_misc.png",
-                "access_rules": [
-                "^$CanReach|"
-                ],
                 "sections": [
-                {
-                    "name": "Bloodweed 94",
-                    "access_rules": [],
-                    "visibility_rules": [],
-                    "item_count": 1
-                },
-                {
-                    "name": "Bloodweed 59",
-                    "access_rules": [],
-                    "visibility_rules": [],
-                    "item_count": 1
-                },
-                {
-                    "name": "Bloodweed 19",
-                    "access_rules": [],
-                    "visibility_rules": [],
-                    "item_count": 1
-                },
-                {
-                    "name": "Bloodweed 3",
-                    "access_rules": [],
-                    "visibility_rules": [],
-                    "item_count": 1
-                },
-                {
-                    "name": "Bloodweed 102",
-                    "access_rules": [],
-                    "visibility_rules": [],
-                    "item_count": 1
-                },
-                {
-                    "name": "Bloodweed 45",
-                    "access_rules": [],
-                    "visibility_rules": [],
-                    "item_count": 1
-                }
+                    {
+                        "name": "Bloodweed 3",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bloodweed 19",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bloodweed 45",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bloodweed 59",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bloodweed 94",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bloodweed 102",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
                 ],
                 "map_locations": [
-                {
-                    "map": "A Holy Battlefield",
-                    "shape": "diamond",
-                    "x": 1091,
-                    "y": 300
-                }
-                ]
-            },
-            {
-                "name": "Battleground Debris 9",
-                "chest_unopened_img": "images/items/check_misc_fade.png",
-                "chest_opened_img": "images/items/check_misc.png",
-                "access_rules": [
-                "^$CanReach|"
-                ],
-                "sections": [
-                {
-                    "name": "Wood Debris 6",
-                    "access_rules": [],
-                    "visibility_rules": [],
-                    "item_count": 1
-                },
-                {
-                    "name": "Wood Debris 2",
-                    "access_rules": [],
-                    "visibility_rules": [],
-                    "item_count": 1
-                },
-                {
-                    "name": "Wood Debris 44",
-                    "access_rules": [],
-                    "visibility_rules": [],
-                    "item_count": 1
-                }
-                ],
-                "map_locations": [
-                {
-                    "map": "A Holy Battlefield",
-                    "shape": "diamond",
-                    "x": 1520,
-                    "y": 675
-                }
-                ]
-            },
-            {
-                "name": "Battleground Debris 10",
-                "chest_unopened_img": "images/items/check_misc_fade.png",
-                "chest_opened_img": "images/items/check_misc.png",
-                "access_rules": [
-                "^$CanReach|"
-                ],
-                "sections": [
-                {
-                    "name": "Wood Debris 14",
-                    "access_rules": [],
-                    "visibility_rules": [],
-                    "item_count": 1
-                },
-                {
-                    "name": "Wood Debris 42",
-                    "access_rules": [],
-                    "visibility_rules": [],
-                    "item_count": 1
-                },
-                {
-                    "name": "Wood Debris 51",
-                    "access_rules": [],
-                    "visibility_rules": [],
-                    "item_count": 1
-                }
-                ],
-                "map_locations": [
-                {
-                    "map": "A Holy Battlefield",
-                    "shape": "diamond",
-                    "x": 1507,
-                    "y": 743
-                }
+                    {
+                        "map": "A Holy Battlefield",
+                        "shape": "diamond",
+                        "x": 1091,
+                        "y": 300
+                    }
                 ]
             },
             {
                 "name": "Battleground Debris 11",
                 "chest_unopened_img": "images/items/check_misc_fade.png",
                 "chest_opened_img": "images/items/check_misc.png",
-                "access_rules": [
-                "^$CanReach|"
-                ],
                 "sections": [
-                {
-                    "name": "Wood Debris 21",
-                    "access_rules": [],
-                    "visibility_rules": [],
-                    "item_count": 1
-                },
-                {
-                    "name": "Wood Debris 17",
-                    "access_rules": [],
-                    "visibility_rules": [],
-                    "item_count": 1
-                },
-                {
-                    "name": "Wood Debris 35",
-                    "access_rules": [],
-                    "visibility_rules": [],
-                    "item_count": 1
-                },
-                {
-                    "name": "Bloodweed 43",
-                    "access_rules": [],
-                    "visibility_rules": [],
-                    "item_count": 1
-                },
-                {
-                    "name": "Bloodweed 70",
-                    "access_rules": [],
-                    "visibility_rules": [],
-                    "item_count": 1
-                },
-                {
-                    "name": "Wood Debris 41",
-                    "access_rules": [],
-                    "visibility_rules": [],
-                    "item_count": 1
-                },
-                {
-                    "name": "Wood Debris 64",
-                    "access_rules": [],
-                    "visibility_rules": [],
-                    "item_count": 1
-                }
+                    {
+                        "name": "Bloodweed 43",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bloodweed 70",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
                 ],
                 "map_locations": [
-                {
-                    "map": "A Holy Battlefield",
-                    "shape": "diamond",
-                    "x": 1234,
-                    "y": 690
-                }
+                    {
+                        "map": "A Holy Battlefield",
+                        "shape": "diamond",
+                        "x": 1234,
+                        "y": 690
+                    }
                 ]
             },
             {
                 "name": "Battleground Debris 12",
                 "chest_unopened_img": "images/items/check_misc_fade.png",
                 "chest_opened_img": "images/items/check_misc.png",
-                "access_rules": [
-                "^$CanReach|"
-                ],
                 "sections": [
-                {
-                    "name": "Wood Debris 48",
-                    "access_rules": [],
-                    "visibility_rules": [],
-                    "item_count": 1
-                },
-                {
-                    "name": "Bloodweed 18",
-                    "access_rules": [],
-                    "visibility_rules": [],
-                    "item_count": 1
-                },
-                {
-                    "name": "Wood Debris 15",
-                    "access_rules": [],
-                    "visibility_rules": [],
-                    "item_count": 1
-                },
-                {
-                    "name": "Bloodweed 34",
-                    "access_rules": [],
-                    "visibility_rules": [],
-                    "item_count": 1
-                },
-                {
-                    "name": "Bloodweed 35",
-                    "access_rules": [],
-                    "visibility_rules": [],
-                    "item_count": 1
-                },
-                {
-                    "name": "Bloodweed 39",
-                    "access_rules": [],
-                    "visibility_rules": [],
-                    "item_count": 1
-                },
-                {
-                    "name": "Wood Debris 61",
-                    "access_rules": [],
-                    "visibility_rules": [],
-                    "item_count": 1
-                }
+                    {
+                        "name": "Bloodweed 18",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bloodweed 34",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bloodweed 35",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bloodweed 39",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
                 ],
                 "map_locations": [
-                {
-                    "map": "A Holy Battlefield",
-                    "shape": "diamond",
-                    "x": 1170,
-                    "y": 600
-                }
+                    {
+                        "map": "A Holy Battlefield",
+                        "shape": "diamond",
+                        "x": 1170,
+                        "y": 600
+                    }
                 ]
             },
             {
                 "name": "Battleground Debris 13",
                 "chest_unopened_img": "images/items/check_misc_fade.png",
                 "chest_opened_img": "images/items/check_misc.png",
-                "access_rules": [
-                "^$CanReach|"
-                ],
                 "sections": [
-                {
-                    "name": "Bloodweed 53",
-                    "access_rules": [],
-                    "visibility_rules": [],
-                    "item_count": 1
-                },
-                {
-                    "name": "Bloodweed 21",
-                    "access_rules": [],
-                    "visibility_rules": [],
-                    "item_count": 1
-                },
-                {
-                    "name": "Bloodweed 84",
-                    "access_rules": [],
-                    "visibility_rules": [],
-                    "item_count": 1
-                },
-                {
-                    "name": "Bloodweed 100",
-                    "access_rules": [],
-                    "visibility_rules": [],
-                    "item_count": 1
-                },
-                {
-                    "name": "Bloodweed 80",
-                    "access_rules": [],
-                    "visibility_rules": [],
-                    "item_count": 1
-                },
-                {
-                    "name": "Bloodweed 66",
-                    "access_rules": [],
-                    "visibility_rules": [],
-                    "item_count": 1
-                },
-                {
-                    "name": "Bloodweed 51",
-                    "access_rules": [],
-                    "visibility_rules": [],
-                    "item_count": 1
-                },
-                {
-                    "name": "Wood Debris 25",
-                    "access_rules": [],
-                    "visibility_rules": [],
-                    "item_count": 1
-                },
-                {
-                    "name": "Wood Debris 45",
-                    "access_rules": [],
-                    "visibility_rules": [],
-                    "item_count": 1
-                }
+                    {
+                        "name": "Bloodweed 21",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bloodweed 51",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bloodweed 53",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bloodweed 66",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bloodweed 80",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bloodweed 84",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bloodweed 100",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
                 ],
                 "map_locations": [
-                {
-                    "map": "A Holy Battlefield",
-                    "shape": "diamond",
-                    "x": 929,
-                    "y": 660
-                }
+                    {
+                        "map": "A Holy Battlefield",
+                        "shape": "diamond",
+                        "x": 929,
+                        "y": 660
+                    }
                 ]
             },
             {
                 "name": "Battleground Debris 14",
                 "chest_unopened_img": "images/items/check_misc_fade.png",
                 "chest_opened_img": "images/items/check_misc.png",
-                "access_rules": [
-                "^$CanReach|"
-                ],
                 "sections": [
-                {
-                    "name": "Bloodweed 86",
-                    "access_rules": [],
-                    "visibility_rules": [],
-                    "item_count": 1
-                },
-                {
-                    "name": "Bloodweed 64",
-                    "access_rules": [],
-                    "visibility_rules": [],
-                    "item_count": 1
-                },
-                {
-                    "name": "Bloodweed 29",
-                    "access_rules": [],
-                    "visibility_rules": [],
-                    "item_count": 1
-                },
-                {
-                    "name": "Wood Debris 46",
-                    "access_rules": [],
-                    "visibility_rules": [],
-                    "item_count": 1
-                },
-                {
-                    "name": "Wood Debris 1",
-                    "access_rules": [],
-                    "visibility_rules": [],
-                    "item_count": 1
-                },
-                {
-                    "name": "Bloodweed 47",
-                    "access_rules": [],
-                    "visibility_rules": [],
-                    "item_count": 1
-                },
-                {
-                    "name": "Wood Debris 19",
-                    "access_rules": [],
-                    "visibility_rules": [],
-                    "item_count": 1
-                },
-                {
-                    "name": "Bloodweed 33",
-                    "access_rules": [],
-                    "visibility_rules": [],
-                    "item_count": 1
-                },
-                {
-                    "name": "Bloodweed 57",
-                    "access_rules": [],
-                    "visibility_rules": [],
-                    "item_count": 1
-                }
+                    {
+                        "name": "Bloodweed 29",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bloodweed 33",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bloodweed 47",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bloodweed 57",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bloodweed 64",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bloodweed 86",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
                 ],
                 "map_locations": [
-                {
-                    "map": "A Holy Battlefield",
-                    "shape": "diamond",
-                    "x": 848,
-                    "y": 640
-                }
+                    {
+                        "map": "A Holy Battlefield",
+                        "shape": "diamond",
+                        "x": 848,
+                        "y": 640
+                    }
                 ]
             },
             {
                 "name": "Battleground Debris 15",
                 "chest_unopened_img": "images/items/check_misc_fade.png",
                 "chest_opened_img": "images/items/check_misc.png",
-                "access_rules": [
-                "^$CanReach|"
-                ],
                 "sections": [
-                {
-                    "name": "Bloodweed 97",
-                    "access_rules": [],
-                    "visibility_rules": [],
-                    "item_count": 1
-                },
-                {
-                    "name": "Bloodweed 76",
-                    "access_rules": [],
-                    "visibility_rules": [],
-                    "item_count": 1
-                },
-                {
-                    "name": "Wood Debris 5",
-                    "access_rules": [],
-                    "visibility_rules": [],
-                    "item_count": 1
-                },
-                {
-                    "name": "Bloodweed 82",
-                    "access_rules": [],
-                    "visibility_rules": [],
-                    "item_count": 1
-                },
-                {
-                    "name": "Bloodweed 56",
-                    "access_rules": [],
-                    "visibility_rules": [],
-                    "item_count": 1
-                },
-                {
-                    "name": "Bloodweed 25",
-                    "access_rules": [],
-                    "visibility_rules": [],
-                    "item_count": 1
-                },
-                {
-                    "name": "Wood Debris 20",
-                    "access_rules": [],
-                    "visibility_rules": [],
-                    "item_count": 1
-                },
-                {
-                    "name": "Bloodweed 50",
-                    "access_rules": [],
-                    "visibility_rules": [],
-                    "item_count": 1
-                },
-                {
-                    "name": "Bloodweed 96",
-                    "access_rules": [],
-                    "visibility_rules": [],
-                    "item_count": 1
-                },
-                {
-                    "name": "Bloodweed 11",
-                    "access_rules": [],
-                    "visibility_rules": [],
-                    "item_count": 1
-                },
-                {
-                    "name": "Wood Debris 30",
-                    "access_rules": [],
-                    "visibility_rules": [],
-                    "item_count": 1
-                },
-                {
-                    "name": "Wood Debris 55",
-                    "access_rules": [],
-                    "visibility_rules": [],
-                    "item_count": 1
-                },
-                {
-                    "name": "Wood Debris 23",
-                    "access_rules": [],
-                    "visibility_rules": [],
-                    "item_count": 1
-                }
+                    {
+                        "name": "Bloodweed 11",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bloodweed 25",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bloodweed 50",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bloodweed 56",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bloodweed 76",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bloodweed 82",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bloodweed 96",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bloodweed 97",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
                 ],
                 "map_locations": [
-                {
-                    "map": "A Holy Battlefield",
-                    "shape": "diamond",
-                    "x": 372,
-                    "y": 695
-                }
+                    {
+                        "map": "A Holy Battlefield",
+                        "shape": "diamond",
+                        "x": 372,
+                        "y": 695
+                    }
                 ]
             },
             {
                 "name": "Battleground Debris 16",
                 "chest_unopened_img": "images/items/check_misc_fade.png",
                 "chest_opened_img": "images/items/check_misc.png",
-                "access_rules": [
-                "^$CanReach|"
-                ],
                 "sections": [
-                {
-                    "name": "Bloodweed 23",
-                    "access_rules": [],
-                    "visibility_rules": [],
-                    "item_count": 1
-                },
-                {
-                    "name": "Bloodweed 12",
-                    "access_rules": [],
-                    "visibility_rules": [],
-                    "item_count": 1
-                },
-                {
-                    "name": "Wood Debris 52",
-                    "access_rules": [],
-                    "visibility_rules": [],
-                    "item_count": 1
-                },
-                {
-                    "name": "Bloodweed 93",
-                    "access_rules": [],
-                    "visibility_rules": [],
-                    "item_count": 1
-                },
-                {
-                    "name": "Bloodweed 4",
-                    "access_rules": [],
-                    "visibility_rules": [],
-                    "item_count": 1
-                },
-                {
-                    "name": "Wood Debris 33",
-                    "access_rules": [],
-                    "visibility_rules": [],
-                    "item_count": 1
-                },
-                {
-                    "name": "Bloodweed 68",
-                    "access_rules": [],
-                    "visibility_rules": [],
-                    "item_count": 1
-                },
-                {
-                    "name": "Wood Debris 31",
-                    "access_rules": [],
-                    "visibility_rules": [],
-                    "item_count": 1
-                }
+                    {
+                        "name": "Bloodweed 4",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bloodweed 12",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bloodweed 23",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bloodweed 68",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bloodweed 93",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
                 ],
                 "map_locations": [
-                {
-                    "map": "A Holy Battlefield",
-                    "shape": "diamond",
-                    "x": 260,
-                    "y": 652
-                }
+                    {
+                        "map": "A Holy Battlefield",
+                        "shape": "diamond",
+                        "x": 260,
+                        "y": 652
+                    }
                 ]
             },
             {
                 "name": "Battleground Debris 17",
                 "chest_unopened_img": "images/items/check_misc_fade.png",
                 "chest_opened_img": "images/items/check_misc.png",
-                "access_rules": [
-                "^$CanReach|"
-                ],
                 "sections": [
-                {
-                    "name": "Bloodweed 90",
-                    "access_rules": [],
-                    "visibility_rules": [],
-                    "item_count": 1
-                },
-                {
-                    "name": "Bloodweed 15",
-                    "access_rules": [],
-                    "visibility_rules": [],
-                    "item_count": 1
-                },
-                {
-                    "name": "Bloodweed 42",
-                    "access_rules": [],
-                    "visibility_rules": [],
-                    "item_count": 1
-                },
-                {
-                    "name": "Bloodweed 8",
-                    "access_rules": [],
-                    "visibility_rules": [],
-                    "item_count": 1
-                },
-                {
-                    "name": "Bloodweed 98",
-                    "access_rules": [],
-                    "visibility_rules": [],
-                    "item_count": 1
-                },
-                {
-                    "name": "Bloodweed 55",
-                    "access_rules": [],
-                    "visibility_rules": [],
-                    "item_count": 1
-                },
-                {
-                    "name": "Bloodweed 2",
-                    "access_rules": [],
-                    "visibility_rules": [],
-                    "item_count": 1
-                },
-                {
-                    "name": "Bloodweed 95",
-                    "access_rules": [],
-                    "visibility_rules": [],
-                    "item_count": 1
-                },
-                {
-                    "name": "Wood Debris 47",
-                    "access_rules": [],
-                    "visibility_rules": [],
-                    "item_count": 1
-                },
-                {
-                    "name": "Wood Debris 39",
-                    "access_rules": [],
-                    "visibility_rules": [],
-                    "item_count": 1
-                },
-                {
-                    "name": "Wood Debris 63",
-                    "access_rules": [],
-                    "visibility_rules": [],
-                    "item_count": 1
-                },
-                {
-                    "name": "Wood Debris 22",
-                    "access_rules": [],
-                    "visibility_rules": [],
-                    "item_count": 1
-                },
-                {
-                    "name": "Wood Debris 26",
-                    "access_rules": [],
-                    "visibility_rules": [],
-                    "item_count": 1
-                }
+                    {
+                        "name": "Bloodweed 2",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bloodweed 8",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bloodweed 15",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bloodweed 42",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bloodweed 55",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bloodweed 90",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bloodweed 95",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bloodweed 98",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
                 ],
                 "map_locations": [
-                {
-                    "map": "A Holy Battlefield",
-                    "shape": "diamond",
-                    "x": 372,
-                    "y": 580
-                }
+                    {
+                        "map": "A Holy Battlefield",
+                        "shape": "diamond",
+                        "x": 372,
+                        "y": 580
+                    }
                 ]
             },
             {
                 "name": "Battleground Debris 18",
                 "chest_unopened_img": "images/items/check_misc_fade.png",
                 "chest_opened_img": "images/items/check_misc.png",
-                "access_rules": [
-                "^$CanReach|"
-                ],
                 "sections": [
-                {
-                    "name": "Bloodweed 7",
-                    "access_rules": [],
-                    "visibility_rules": [],
-                    "item_count": 1
-                },
-                {
-                    "name": "Bloodweed 67",
-                    "access_rules": [],
-                    "visibility_rules": [],
-                    "item_count": 1
-                },
-                {
-                    "name": "Bloodweed 16",
-                    "access_rules": [],
-                    "visibility_rules": [],
-                    "item_count": 1
-                },
-                {
-                    "name": "Bloodweed 77",
-                    "access_rules": [],
-                    "visibility_rules": [],
-                    "item_count": 1
-                },
-                {
-                    "name": "Wood Debris 24",
-                    "access_rules": [],
-                    "visibility_rules": [],
-                    "item_count": 1
-                },
-                {
-                    "name": "Wood Debris 10",
-                    "access_rules": [],
-                    "visibility_rules": [],
-                    "item_count": 1
-                },
-                {
-                    "name": "Wood Debris 4",
-                    "access_rules": [],
-                    "visibility_rules": [],
-                    "item_count": 1
-                },
-                {
-                    "name": "Bloodweed 54",
-                    "access_rules": [],
-                    "visibility_rules": [],
-                    "item_count": 1
-                },
-                {
-                    "name": "Bloodweed 30",
-                    "access_rules": [],
-                    "visibility_rules": [],
-                    "item_count": 1
-                },
-                {
-                    "name": "Bloodweed 71",
-                    "access_rules": [],
-                    "visibility_rules": [],
-                    "item_count": 1
-                },
-                {
-                    "name": "Wood Debris 50",
-                    "access_rules": [],
-                    "visibility_rules": [],
-                    "item_count": 1
-                },
-                {
-                    "name": "Bloodweed 13",
-                    "access_rules": [],
-                    "visibility_rules": [],
-                    "item_count": 1
-                },
-                {
-                    "name": "Wood Debris 60",
-                    "access_rules": [],
-                    "visibility_rules": [],
-                    "item_count": 1
-                },
-                {
-                    "name": "Bloodweed 10",
-                    "access_rules": [],
-                    "visibility_rules": [],
-                    "item_count": 1
-                }
+                    {
+                        "name": "Bloodweed 7",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bloodweed 10",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bloodweed 13",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bloodweed 16",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bloodweed 30",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bloodweed 54",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bloodweed 67",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bloodweed 71",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bloodweed 77",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
                 ],
                 "map_locations": [
-                {
-                    "map": "A Holy Battlefield",
-                    "shape": "diamond",
-                    "x": 271,
-                    "y": 271
-                }
+                    {
+                        "map": "A Holy Battlefield",
+                        "shape": "diamond",
+                        "x": 271,
+                        "y": 271
+                    }
                 ]
             },
             {
                 "name": "Battleground Debris 19",
                 "chest_unopened_img": "images/items/check_misc_fade.png",
                 "chest_opened_img": "images/items/check_misc.png",
-                "access_rules": [
-                "^$CanReach|"
-                ],
                 "sections": [
-                {
-                    "name": "Bloodweed 65",
-                    "access_rules": [],
-                    "visibility_rules": [],
-                    "item_count": 1
-                },
-                {
-                    "name": "Bloodweed 37",
-                    "access_rules": [],
-                    "visibility_rules": [],
-                    "item_count": 1
-                },
-                {
-                    "name": "Bloodweed 40",
-                    "access_rules": [],
-                    "visibility_rules": [],
-                    "item_count": 1
-                },
-                {
-                    "name": "Bloodweed 22",
-                    "access_rules": [],
-                    "visibility_rules": [],
-                    "item_count": 1
-                },
-                {
-                    "name": "Bloodweed 48",
-                    "access_rules": [],
-                    "visibility_rules": [],
-                    "item_count": 1
-                },
-                {
-                    "name": "Bloodweed 28",
-                    "access_rules": [],
-                    "visibility_rules": [],
-                    "item_count": 1
-                },
-                {
-                    "name": "Bloodweed 88",
-                    "access_rules": [],
-                    "visibility_rules": [],
-                    "item_count": 1
-                },
-                {
-                    "name": "Wood Debris 49",
-                    "access_rules": [],
-                    "visibility_rules": [],
-                    "item_count": 1
-                },
-                {
-                    "name": "Wood Debris 8",
-                    "access_rules": [],
-                    "visibility_rules": [],
-                    "item_count": 1
-                },
-                {
-                    "name": "Wood Debris 57",
-                    "access_rules": [],
-                    "visibility_rules": [],
-                    "item_count": 1
-                }
+                    {
+                        "name": "Bloodweed 22",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bloodweed 28",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bloodweed 37",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bloodweed 40",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bloodweed 48",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bloodweed 65",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bloodweed 88",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
                 ],
                 "map_locations": [
-                {
-                    "map": "A Holy Battlefield",
-                    "shape": "diamond",
-                    "x": 291,
-                    "y": 311
-                }
+                    {
+                        "map": "A Holy Battlefield",
+                        "shape": "diamond",
+                        "x": 291,
+                        "y": 311
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Breakables A Holy Battlefield",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            "^$CanEnter|A Holy Battlefield"
+        ],
+        "visibility_rules": [
+            "break_on"
+        ],
+        "children": [
+            {
+                "name": "Battleground Debris 1",
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {
+                        "name": "Wood Debris 12",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Wood Debris 18",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Wood Debris 37",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "A Holy Battlefield",
+                        "shape": "diamond",
+                        "x": 660,
+                        "y": 361
+                    }
+                ]
+            },
+            {
+                "name": "Battleground Debris 2",
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {
+                        "name": "Wood Debris 3",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Wood Debris 27",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Wood Debris 56",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "A Holy Battlefield",
+                        "shape": "diamond",
+                        "x": 732,
+                        "y": 255
+                    }
+                ]
+            },
+            {
+                "name": "Battleground Debris 3",
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {
+                        "name": "Wood Debris 7",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Wood Debris 9",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Wood Debris 36",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Wood Debris 62",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "A Holy Battlefield",
+                        "shape": "diamond",
+                        "x": 891,
+                        "y": 248
+                    }
+                ]
+            },
+            {
+                "name": "Battleground Debris 4",
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {
+                        "name": "Wood Debris 28",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Wood Debris 53",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Wood Debris 54",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Wood Debris 58",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "A Holy Battlefield",
+                        "shape": "diamond",
+                        "x": 955,
+                        "y": 248
+                    }
+                ]
+            },
+            {
+                "name": "Battleground Debris 5",
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {
+                        "name": "Wood Debris 32",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Wood Debris 34",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Wood Debris 38",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Wood Debris 43",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "A Holy Battlefield",
+                        "shape": "diamond",
+                        "x": 1003,
+                        "y": 208
+                    }
+                ]
+            },
+            {
+                "name": "Battleground Debris 6",
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {
+                        "name": "Wood Debris 13",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Wood Debris 16",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Wood Debris 65",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "A Holy Battlefield",
+                        "shape": "diamond",
+                        "x": 902,
+                        "y": 362
+                    }
+                ]
+            },
+            {
+                "name": "Battleground Debris 7",
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {
+                        "name": "Wood Debris 29",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Wood Debris 40",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Wood Debris 59",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "A Holy Battlefield",
+                        "shape": "diamond",
+                        "x": 1149,
+                        "y": 221
+                    }
+                ]
+            },
+            {
+                "name": "Battleground Debris 9",
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {
+                        "name": "Wood Debris 2",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Wood Debris 6",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Wood Debris 44",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "A Holy Battlefield",
+                        "shape": "diamond",
+                        "x": 1520,
+                        "y": 675
+                    }
+                ]
+            },
+            {
+                "name": "Battleground Debris 10",
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {
+                        "name": "Wood Debris 14",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Wood Debris 42",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Wood Debris 51",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "A Holy Battlefield",
+                        "shape": "diamond",
+                        "x": 1507,
+                        "y": 743
+                    }
+                ]
+            },
+            {
+                "name": "Battleground Debris 11",
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {
+                        "name": "Wood Debris 17",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Wood Debris 21",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Wood Debris 35",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Wood Debris 41",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Wood Debris 64",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "A Holy Battlefield",
+                        "shape": "diamond",
+                        "x": 1234,
+                        "y": 690
+                    }
+                ]
+            },
+            {
+                "name": "Battleground Debris 12",
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {
+                        "name": "Wood Debris 15",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Wood Debris 48",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Wood Debris 61",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "A Holy Battlefield",
+                        "shape": "diamond",
+                        "x": 1170,
+                        "y": 600
+                    }
+                ]
+            },
+            {
+                "name": "Battleground Debris 13",
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {
+                        "name": "Wood Debris 25",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Wood Debris 45",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "A Holy Battlefield",
+                        "shape": "diamond",
+                        "x": 929,
+                        "y": 660
+                    }
+                ]
+            },
+            {
+                "name": "Battleground Debris 14",
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {
+                        "name": "Wood Debris 1",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Wood Debris 19",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Wood Debris 46",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "A Holy Battlefield",
+                        "shape": "diamond",
+                        "x": 848,
+                        "y": 640
+                    }
+                ]
+            },
+            {
+                "name": "Battleground Debris 15",
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {
+                        "name": "Wood Debris 5",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Wood Debris 20",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Wood Debris 23",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Wood Debris 30",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Wood Debris 55",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "A Holy Battlefield",
+                        "shape": "diamond",
+                        "x": 372,
+                        "y": 695
+                    }
+                ]
+            },
+            {
+                "name": "Battleground Debris 16",
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {
+                        "name": "Wood Debris 31",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Wood Debris 33",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Wood Debris 52",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "A Holy Battlefield",
+                        "shape": "diamond",
+                        "x": 260,
+                        "y": 652
+                    }
+                ]
+            },
+            {
+                "name": "Battleground Debris 17",
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {
+                        "name": "Wood Debris 22",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Wood Debris 26",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Wood Debris 39",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Wood Debris 47",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Wood Debris 63",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "A Holy Battlefield",
+                        "shape": "diamond",
+                        "x": 372,
+                        "y": 580
+                    }
+                ]
+            },
+            {
+                "name": "Battleground Debris 18",
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {
+                        "name": "Wood Debris 4",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Wood Debris 10",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Wood Debris 24",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Wood Debris 50",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Wood Debris 60",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "A Holy Battlefield",
+                        "shape": "diamond",
+                        "x": 271,
+                        "y": 271
+                    }
+                ]
+            },
+            {
+                "name": "Battleground Debris 19",
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {
+                        "name": "Wood Debris 8",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Wood Debris 49",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Wood Debris 57",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "A Holy Battlefield",
+                        "shape": "diamond",
+                        "x": 291,
+                        "y": 311
+                    }
                 ]
             }
         ]
