@@ -248,6 +248,8 @@ VANILLA_LOCATION_LOGIC = {
 
     ["On Frustrations with Plantlife"]  = function() return AccessibilityLevel.Normal end,
 
+    ["Remains Of Adventurer in Blood Plants Insides"] = function() return WasItemReceived("ele_blood") end,
+
 -- Forest Canopy
     ["Tranquil Dead End Writings"]  = function() return AccessibilityLevel.Normal end,
 
@@ -311,6 +313,8 @@ VANILLA_LOCATION_LOGIC = {
     ["Daedalus Blackened Treats"]  = function() return AccessibilityLevel.Normal end,
 
     ["Corner Near Daedalus"]        = function() return AccessibilityLevel.Normal end,
+
+    ["Daedalus"] = function() return AccessibilityLevel.Normal end,
 
 -- Castle Le Fanu
     ["Outside Corner"]                          = function() return AccessibilityLevel.Normal end,
@@ -914,6 +918,170 @@ ER_LOCATION_LOGIC = {
     ["Ophelias Letter to Jusztina 1"]          = function() return CanEnterCastleStage(3) end,
 
     ["Upper Floor Coffin Room (Hallway)"]       = function() return CanEnterCastleStage(2) end,
+
+-- Terminus Prison
+    ["Lobos Late Treats"]                          = function() return And(WasItemReceived("terminusprisonkey"),
+                                                                            Or(HasAnyConnection({"Prison Main Door (Terminus Prison Side)"}), CanJumpHeight("High"),
+                                                                               And(HasAnyConnection({"Secondary Door (Terminus Prison Side)", "Forbidden Door (Terminus Prison Side)"}), HasSwitch("terminusprisonbackalleyswitchkey")))) end,
+
+    ["Third Floor Locked Cell Left"]                = function() return And(WasItemReceived("terminusprisonkey"),
+                                                                            Or(HasAnyConnection({"Prison Main Door (Terminus Prison Side)"}), CanJumpHeight("High"),
+                                                                               And(HasAnyConnection({"Secondary Door (Terminus Prison Side)", "Forbidden Door (Terminus Prison Side)"}), HasSwitch("terminusprisonbackalleyswitchkey")))) end,
+
+    ["Third Floor Locked Cell Right"]               = function() return And(WasItemReceived("terminusprisonkey"),
+                                                                            Or(HasAnyConnection({"Prison Main Door (Terminus Prison Side)"}), CanJumpHeight("High"),
+                                                                               And(HasAnyConnection({"Secondary Door (Terminus Prison Side)", "Forbidden Door (Terminus Prison Side)"}), HasSwitch("terminusprisonbackalleyswitchkey")))) end,
+
+    ["Third Floor Locked Cell South"]               = function() return And(WasItemReceived("terminusprisonkey"),
+                                                                            Or(HasAnyConnection({"Prison Main Door (Terminus Prison Side)"}), CanJumpHeight("High"),
+                                                                               And(HasAnyConnection({"Secondary Door (Terminus Prison Side)", "Forbidden Door (Terminus Prison Side)"}), HasSwitch("terminusprisonbackalleyswitchkey")))) end,
+
+    ["Almost Bottomless Pit"]                       = function() return And(WasItemReceived("terminusprisonkey"),
+                                                                            Or(HasAnyConnection({"Prison Main Door (Terminus Prison Side)"}),
+                                                                               And(HasAnyConnection({"Secondary Door (Terminus Prison Side)", "Forbidden Door (Terminus Prison Side)"}), HasSwitch("terminusprisonbackalleyswitchkey")))) end,
+    ["Second Floor Broken Cell"]                    = function() return AccessibilityLevel.Normal end,
+
+    ["Second Floor Jailers Table"]                 = function() return AccessibilityLevel.Normal end,
+
+    ["First Floor Hidden Cell"]                     = function() return And(HasDustyOrb(), HasLightSource()) end,
+
+    ["First Floor Hidden Debris Room"]              = function() return And(HasDustyOrb(), HasLightSource()) end,
+
+    ["First Floor Remains"]                         = function() return HasLightSource() end,
+
+    ["Green Asylum Guarded Alcove (Left)"]          = function() return HasLightSource() end,
+
+    ["Green Asylum Guarded Alcove (Right)"]         = function() return HasLightSource() end,
+
+    ["Green Asylum Long Alcove"]                    = function() return HasLightSource() end,
+
+    ["Green Asylum Bone Pit"]                       = function() return HasLightSource() end,
+
+    ["Eggs Resting Place"]                         = function() return And(HasLightSource(), WasItemReceived("skeletonegg")) end,
+
+    ["Fourth Floor Cell Hanging Remains"]           = function() return And(WasItemReceived("terminusprisonkey"),
+                                                                            Or(HasAnyConnection({"Prison Main Door (Terminus Prison Side)"}),
+                                                                               And(HasAnyConnection({"Secondary Door (Terminus Prison Side)", "Forbidden Door (Terminus Prison Side)"}), HasSwitch("terminusprisonbackalleyswitchkey")))) end,
+
+    ["Fourth Floor Maledictus Secret"]              = function() return And(WasItemReceived("terminusprisonkey"), HasDustyOrb(),
+                                                                            Or(HasAnyConnection({"Prison Main Door (Terminus Prison Side)"}),
+                                                                               And(HasAnyConnection({"Secondary Door (Terminus Prison Side)", "Forbidden Door (Terminus Prison Side)"}), HasSwitch("terminusprisonbackalleyswitchkey")))) end,
+
+    ["Fourth Floor Hidden Jailer Sleeping Spot"]    = function() return And(WasItemReceived("terminusprisonkey"), HasDustyOrb(),
+                                                                            Or(HasAnyConnection({"Prison Main Door (Terminus Prison Side)"}),
+                                                                               And(HasAnyConnection({"Secondary Door (Terminus Prison Side)", "Forbidden Door (Terminus Prison Side)"}), HasSwitch("terminusprisonbackalleyswitchkey")))) end,
+
+    ["Fourth Floor Jailer Break Room"]              = function() return And(WasItemReceived("terminusprisonkey"),
+                                                                            Or(HasAnyConnection({"Prison Main Door (Terminus Prison Side)"}),
+                                                                               And(HasAnyConnection({"Secondary Door (Terminus Prison Side)", "Forbidden Door (Terminus Prison Side)"}), HasSwitch("terminusprisonbackalleyswitchkey")))) end,
+
+    ["Etnas Resting Place"]                        = function() return And(WasItemReceived("terminusprisonkey"),
+                                                                            Or(HasAnyConnection({"Prison Main Door (Terminus Prison Side)"}),
+                                                                               And(HasAnyConnection({"Secondary Door (Terminus Prison Side)", "Forbidden Door (Terminus Prison Side)"}), HasSwitch("terminusprisonbackalleyswitchkey")))) end,
+
+    ["Fourth Floor Collapsed Tunnel"]               = function() return And(WasItemReceived("terminusprisonkey"),
+                                                                            Or(HasAnyConnection({"Prison Main Door (Terminus Prison Side)"}),
+                                                                               And(HasAnyConnection({"Secondary Door (Terminus Prison Side)", "Forbidden Door (Terminus Prison Side)"}), HasSwitch("terminusprisonbackalleyswitchkey")))) end,
+
+    ["Calamis Aftermath"]                          = function() return And(WasItemReceived("terminusprisonkey"),
+                                                                            Or(HasAnyConnection({"Prison Main Door (Terminus Prison Side)"}),
+                                                                               And(HasAnyConnection({"Secondary Door (Terminus Prison Side)", "Forbidden Door (Terminus Prison Side)"}), HasSwitch("terminusprisonbackalleyswitchkey")))) end,
+
+    ["Jail Complaint"]                              = function() return HasLightSource() end,
+
+    ["Insane Ramblings of a Prisoner"]              = function() return HasLightSource() end,
+
+    ["On Becoming Friends with Skeletons"]          = function() return HasLightSource() end,
+
+    ["On The Dreamer and Creatures"]                = function() return Or(HasAnyConnection({"Prison Main Door (Terminus Prison Side)"}), CanJumpHeight("High"),
+                                                                               And(HasAnyConnection({"Secondary Door (Terminus Prison Side)", "Forbidden Door (Terminus Prison Side)"}), HasSwitch("terminusprisonbackalleyswitchkey"))) end,
+
+    ["Joyous Escapee"]                              = function() return HasLightSource() end,
+
+    ["Fishers Last Words"]                         = function() return HasLightSource() end,
+
+    ["Etnas Final Moments"]                        = function() return And(WasItemReceived("terminusprisonkey"),
+                                                                            Or(HasAnyConnection({"Prison Main Door (Terminus Prison Side)"}),
+                                                                               And(HasAnyConnection({"Secondary Door (Terminus Prison Side)", "Forbidden Door (Terminus Prison Side)"}), HasSwitch("terminusprisonbackalleyswitchkey")))) end,
+
+    ["Changing Creatures and Self"]                 = function() return And(HasDustyOrb(), HasLightSource()) end,
+
+
+-- Forbidden Archives
+    ["History of the Ages Volume 20 excerpt 2"] = function() return Or( And(HasAnyConnection({"Broken Steps Door (Forbidden Archives Side)"}), VANILLA_LOCATION_LOGIC["History of the Ages Volume 20 excerpt 2"]()),
+                                                                        And(HasAnyConnection({"Library Exit Door (Forbidden Archives Side)"}), IsItemStageAtLeastN("progressivevampiricsymbol", 2))) end,
+
+    ["History of the Ages Volume 20 excerpt 3"] = function() return Or( And(HasAnyConnection({"Broken Steps Door (Forbidden Archives Side)"}), VANILLA_LOCATION_LOGIC["History of the Ages Volume 20 excerpt 3"]()),
+                                                                        And(HasAnyConnection({"Library Exit Door (Forbidden Archives Side)"}), IsItemStageAtLeastN("progressivevampiricsymbol", 2))) end,
+
+    ["History of the Ages Volume 17 excerpt 5"] = function() return Or( And(HasAnyConnection({"Broken Steps Door (Forbidden Archives Side)"}), VANILLA_LOCATION_LOGIC["History of the Ages Volume 20 excerpt 5"]()),
+                                                                        And(HasAnyConnection({"Library Exit Door (Forbidden Archives Side)"}), IsItemStageAtLeastN("progressivevampiricsymbol", 2))) end,
+
+    ["History of the Ages Volume 17 excerpt 6"] = function() return Or( And(HasAnyConnection({"Broken Steps Door (Forbidden Archives Side)"}), VANILLA_LOCATION_LOGIC["History of the Ages Volume 20 excerpt 6"]()),
+                                                                        And(HasAnyConnection({"Library Exit Door (Forbidden Archives Side)"}), IsItemStageAtLeastN("progressivevampiricsymbol", 2))) end,
+
+    ["History of the Ages Volume 17 excerpt 7"] = function() return Or( And(HasAnyConnection({"Broken Steps Door (Forbidden Archives Side)"}), VANILLA_LOCATION_LOGIC["History of the Ages Volume 20 excerpt 7"]()),
+                                                                        And(HasAnyConnection({"Library Exit Door (Forbidden Archives Side)"}), IsItemStageAtLeastN("progressivevampiricsymbol", 2))) end,
+
+    ["History of the Ages Volume 17 excerpt 8"] = function() return Or( And(HasAnyConnection({"Broken Steps Door (Forbidden Archives Side)"}), VANILLA_LOCATION_LOGIC["History of the Ages Volume 20 excerpt 8"]()),
+                                                                        And(HasAnyConnection({"Library Exit Door (Forbidden Archives Side)"}), IsItemStageAtLeastN("progressivevampiricsymbol", 2))) end,
+
+    ["History of the Ages Volume 17 excerpt 9"] = function() return Or( And(HasAnyConnection({"Broken Steps Door (Forbidden Archives Side)"}), VANILLA_LOCATION_LOGIC["History of the Ages Volume 20 excerpt 9"]()),
+                                                                        And(HasAnyConnection({"Library Exit Door (Forbidden Archives Side)"}), IsItemStageAtLeastN("progressivevampiricsymbol", 2))) end,
+
+    ["Monument to Lyria"]           = function() return Or( And(HasAnyConnection({"Broken Steps Door (Forbidden Archives Side)"}), VANILLA_LOCATION_LOGIC["Monument to Lyria"]()),
+                                                                        And(HasAnyConnection({"Library Exit Door (Forbidden Archives Side)"}), IsItemStageAtLeastN("progressivevampiricsymbol", 2))) end,
+
+    ["Back Room Past Bridge"]       = function() return Or( And(HasAnyConnection({"Broken Steps Door (Forbidden Archives Side)"}), VANILLA_LOCATION_LOGIC["Back Room Past Bridge"]()),
+                                                                        And(HasAnyConnection({"Library Exit Door (Forbidden Archives Side)"}), IsItemStageAtLeastN("progressivevampiricsymbol", 2))) end,
+
+    ["Strange Corpse"]              = function() return Or( And(HasAnyConnection({"Broken Steps Door (Forbidden Archives Side)"}), VANILLA_LOCATION_LOGIC["Strange Corpse"]()),
+                                                                        And(HasAnyConnection({"Library Exit Door (Forbidden Archives Side)"}), IsItemStageAtLeastN("progressivevampiricsymbol", 2), HasDustyOrb())) end,
+
+    ["Short Wall Near Trees"]       = function() return Or( And(HasAnyConnection({"Broken Steps Door (Forbidden Archives Side)"}), VANILLA_LOCATION_LOGIC["Short Wall Near Trees"]()),
+                                                                        And(HasAnyConnection({"Library Exit Door (Forbidden Archives Side)"}), IsItemStageAtLeastN("progressivevampiricsymbol", 2))) end,
+
+    ["Against Wall Near Trees"]     = function() return Or( And(HasAnyConnection({"Broken Steps Door (Forbidden Archives Side)"}), VANILLA_LOCATION_LOGIC["Against Wall Near Trees"]()),
+                                                                        And(HasAnyConnection({"Library Exit Door (Forbidden Archives Side)"}), IsItemStageAtLeastN("progressivevampiricsymbol", 2))) end,
+
+    ["Snail Lectern (Near)"]        = function() return Or( And(HasAnyConnection({"Broken Steps Door (Forbidden Archives Side)"}), VANILLA_LOCATION_LOGIC["Snail Lectern (Near)"]()),
+                                                                        And(HasAnyConnection({"Library Exit Door (Forbidden Archives Side)"}), IsItemStageAtLeastN("progressivevampiricsymbol", 2))) end,
+
+    ["Snail Lectern (Far)"]         = function() return Or( And(HasAnyConnection({"Broken Steps Door (Forbidden Archives Side)"}), VANILLA_LOCATION_LOGIC["Snail Lectern (Far)"]()),
+                                                                        And(HasAnyConnection({"Library Exit Door (Forbidden Archives Side)"}), IsItemStageAtLeastN("progressivevampiricsymbol", 2))) end,
+
+    ["Rug on Balcony"]              = function() return Or( And(HasAnyConnection({"Broken Steps Door (Forbidden Archives Side)"}), VANILLA_LOCATION_LOGIC["Rug on Balcony"]()),
+                                                                        And(HasAnyConnection({"Library Exit Door (Forbidden Archives Side)"}), IsItemStageAtLeastN("progressivevampiricsymbol", 2))) end,
+
+    ["Rooftops"]                    = function() return Or( And(HasAnyConnection({"Broken Steps Door (Forbidden Archives Side)"}), VANILLA_LOCATION_LOGIC["Rooftops"]()),
+                                                                        And(HasAnyConnection({"Library Exit Door (Forbidden Archives Side)"}), IsItemStageAtLeastN("progressivevampiricsymbol", 2))) end,
+
+    ["Hidden Room Upper Floor"]     = function() return Or( And(HasAnyConnection({"Broken Steps Door (Forbidden Archives Side)"}), VANILLA_LOCATION_LOGIC["Hidden Room Upper Floor"]()),
+                                                                        And(HasAnyConnection({"Library Exit Door (Forbidden Archives Side)"}), IsItemStageAtLeastN("progressivevampiricsymbol", 2), HasDustyOrb())) end,
+
+    ["Hidden Room Lower Floor"]     = function() return Or( And(HasAnyConnection({"Broken Steps Door (Forbidden Archives Side)"}), VANILLA_LOCATION_LOGIC["Hidden Room Lower Floor"]()),
+                                                                        And(HasAnyConnection({"Library Exit Door (Forbidden Archives Side)"}), IsItemStageAtLeastN("progressivevampiricsymbol", 2), HasDustyOrb())) end,
+
+    ["Near Twisty Tree"]            = function() return Or( And(HasAnyConnection({"Broken Steps Door (Forbidden Archives Side)"}), VANILLA_LOCATION_LOGIC["Near Twisty Tree"]()),
+                                                                        And(HasAnyConnection({"Library Exit Door (Forbidden Archives Side)"}), IsItemStageAtLeastN("progressivevampiricsymbol", 2))) end,
+
+    ["uwu"]                         = function() return Or( And(HasAnyConnection({"Broken Steps Door (Forbidden Archives Side)"}), VANILLA_LOCATION_LOGIC["uwu"]()),
+                                                                        And(HasAnyConnection({"Library Exit Door (Forbidden Archives Side)"}), IsItemStageAtLeastN("progressivevampiricsymbol", 2))) end,
+
+    ["Daedalus Knowledge (First)"]  = function() return Or( And(HasAnyConnection({"Broken Steps Door (Forbidden Archives Side)"}), VANILLA_LOCATION_LOGIC["Daedalus Knowledge (First)"]()),
+                                                                        And(HasAnyConnection({"Library Exit Door (Forbidden Archives Side)"}), IsItemStageAtLeastN("progressivevampiricsymbol", 2), IsItemStageAtLeastN("blackbook", 1))) end,
+
+    ["Daedalus Knowledge (Second)"] = function() return Or( And(HasAnyConnection({"Broken Steps Door (Forbidden Archives Side)"}), VANILLA_LOCATION_LOGIC["Daedalus Knowledge (Second)"]()),
+                                                                        And(HasAnyConnection({"Library Exit Door (Forbidden Archives Side)"}), IsItemStageAtLeastN("progressivevampiricsymbol", 2), IsItemStageAtLeastN("blackbook", 2))) end,
+
+    ["Daedalus Knowledge (Third)"]  = function() return Or( And(HasAnyConnection({"Broken Steps Door (Forbidden Archives Side)"}), VANILLA_LOCATION_LOGIC["Daedalus Knowledge (Third)"]()),
+                                                                        And(HasAnyConnection({"Library Exit Door (Forbidden Archives Side)"}), IsItemStageAtLeastN("progressivevampiricsymbol", 2), IsItemStageAtLeastN("blackbook", 3))) end,
+
+    ["Daedalus Blackened Treats"]  = function() return Or( And(HasAnyConnection({"Broken Steps Door (Forbidden Archives Side)"}), VANILLA_LOCATION_LOGIC["Daedalus Blackened Treats"]()),
+                                                                        And(HasAnyConnection({"Library Exit Door (Forbidden Archives Side)"}), IsItemStageAtLeastN("progressivevampiricsymbol", 2))) end,
+
+    ["Corner Near Daedalus"]        = function() return Or( And(HasAnyConnection({"Broken Steps Door (Forbidden Archives Side)"}), VANILLA_LOCATION_LOGIC["Corner Near Daedalus"]()),
+                                                                        And(HasAnyConnection({"Library Exit Door (Forbidden Archives Side)"}), IsItemStageAtLeastN("progressivevampiricsymbol", 2))) end,
 
 -- Doorsanity
 

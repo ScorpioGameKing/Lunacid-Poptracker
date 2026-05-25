@@ -1,0 +1,96 @@
+[
+    {
+        "name": "Breakables Labyrinth of Ash",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            "^$CanEnter|Labyrinth of Ash"
+        ],
+        "visibility_rules": [
+            "break_on"
+        ],
+        "children": [
+            {
+                "name": "Vase 3",
+                "access_rules": [
+                    "^$CanBreak|LA: Vase 3"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Labyrinth of Ash",
+                        "x": 155,
+                        "y": 987,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Vase 1",
+                "access_rules": [
+                    "^$CanBreak|LA: Vase 1"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Labyrinth of Ash",
+                        "x": 155,
+                        "y": 1000,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Vase 2",
+                "access_rules": [
+                    "^$CanBreak|LA: Vase 2"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Labyrinth of Ash",
+                        "x": 84,
+                        "y": 1027,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Vase 4",
+                "access_rules": [
+                    "^$CanBreak|LA: Vase 4"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Labyrinth of Ash",
+                        "x": 84,
+                        "y": 1040,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            }
+        ]
+    }
+]

@@ -1,6 +1,6 @@
 [
     {
-        "name": "Grassanity The Fetid Mire",
+        "name": "Grasssanity The Fetid Mire",
         "chest_unopened_img": "/images/items/close.png",
         "chest_opened_img": "/images/items/open.png",
         "overlay_background": "#000000",
@@ -12,7 +12,7 @@
         ],
         "children": [
             {
-                "name": "FM: Lotus 1",
+                "name": "Lotus 1",
                 "access_rules": [
                     "^$CanBreak|FM: Lotus 1"
                 ],
@@ -32,7 +32,7 @@
                 ]
             },
             {
-                "name": "FM: Lotus 2",
+                "name": "Lotus 2",
                 "access_rules": [
                     "^$CanBreak|FM: Lotus 2"
                 ],
@@ -52,7 +52,7 @@
                 ]
             },
             {
-                "name": "FM: Lotus 3",
+                "name": "Lotus 3",
                 "access_rules": [
                     "^$CanBreak|FM: Lotus 3"
                 ],
@@ -72,7 +72,7 @@
                 ]
             },
             {
-                "name": "FM: Lotus 4",
+                "name": "Lotus 4",
                 "access_rules": [
                     "^$CanBreak|FM: Lotus 4"
                 ],
@@ -92,7 +92,7 @@
                 ]
             },
             {
-                "name": "FM: Lotus 5",
+                "name": "Lotus 5",
                 "access_rules": [
                     "^$CanBreak|FM: Lotus 5"
                 ],
@@ -112,7 +112,7 @@
                 ]
             },
             {
-                "name": "FM: Lotus 6",
+                "name": "Lotus 6",
                 "access_rules": [
                     "^$CanBreak|FM: Lotus 6"
                 ],
@@ -132,7 +132,7 @@
                 ]
             },
             {
-                "name": "FM: Lotus 7",
+                "name": "Lotus 7",
                 "access_rules": [
                     "^$CanBreak|FM: Lotus 7"
                 ],
@@ -152,7 +152,7 @@
                 ]
             },
             {
-                "name": "FM: Lotus 8",
+                "name": "Lotus 8",
                 "access_rules": [
                     "^$CanBreak|FM: Lotus 8"
                 ],
@@ -172,7 +172,7 @@
                 ]
             },
             {
-                "name": "FM: Lotus 9",
+                "name": "Lotus 9",
                 "access_rules": [
                     "^$CanBreak|FM: Lotus 9"
                 ],
@@ -192,7 +192,7 @@
                 ]
             },
             {
-                "name": "FM: Lotus 10",
+                "name": "Lotus 10",
                 "access_rules": [
                     "^$CanBreak|FM: Lotus 10"
                 ],
@@ -212,7 +212,7 @@
                 ]
             },
             {
-                "name": "FM: Lotus 11",
+                "name": "Lotus 11",
                 "access_rules": [
                     "^$CanBreak|FM: Lotus 11"
                 ],
@@ -232,7 +232,7 @@
                 ]
             },
             {
-                "name": "FM: Lotus 12",
+                "name": "Lotus 12",
                 "access_rules": [
                     "^$CanBreak|FM: Lotus 12"
                 ],
@@ -252,7 +252,7 @@
                 ]
             },
             {
-                "name": "FM: Lotus 13",
+                "name": "Lotus 13",
                 "access_rules": [
                     "^$CanBreak|FM: Lotus 13"
                 ],
@@ -272,7 +272,7 @@
                 ]
             },
             {
-                "name": "FM: Lotus 14",
+                "name": "Lotus 14",
                 "access_rules": [
                     "^$CanBreak|FM: Lotus 14"
                 ],
@@ -292,7 +292,7 @@
                 ]
             },
             {
-                "name": "FM: Lotus 15",
+                "name": "Lotus 15",
                 "access_rules": [
                     "^$CanBreak|FM: Lotus 15"
                 ],
@@ -312,7 +312,7 @@
                 ]
             },
             {
-                "name": "FM: Lotus 16",
+                "name": "Lotus 16",
                 "access_rules": [
                     "^$CanBreak|FM: Lotus 16"
                 ],
@@ -332,7 +332,7 @@
                 ]
             },
             {
-                "name": "FM: Lotus 17",
+                "name": "Lotus 17",
                 "access_rules": [
                     "^$CanBreak|FM: Lotus 17"
                 ],
@@ -352,7 +352,7 @@
                 ]
             },
             {
-                "name": "FM: Lotus 18",
+                "name": "Lotus 18",
                 "access_rules": [
                     "^$CanBreak|FM: Lotus 18"
                 ],
@@ -372,7 +372,7 @@
                 ]
             },
             {
-                "name": "FM: Lotus 19",
+                "name": "Lotus 19",
                 "access_rules": [
                     "^$CanBreak|FM: Lotus 19"
                 ],
@@ -392,7 +392,7 @@
                 ]
             },
             {
-                "name": "FM: Lotus 20",
+                "name": "Lotus 20",
                 "access_rules": [
                     "^$CanBreak|FM: Lotus 20"
                 ],
@@ -412,7 +412,7 @@
                 ]
             },
             {
-                "name": "FM: Lotus 21",
+                "name": "Lotus 21",
                 "access_rules": [
                     "^$CanBreak|FM: Lotus 21"
                 ],
@@ -432,7 +432,7 @@
                 ]
             },
             {
-                "name": "FM: Lotus 22",
+                "name": "Lotus 22",
                 "access_rules": [
                     "^$CanBreak|FM: Lotus 22"
                 ],
@@ -452,7 +452,7 @@
                 ]
             },
             {
-                "name": "FM: Lotus 23",
+                "name": "Lotus 23",
                 "access_rules": [
                     "^$CanBreak|FM: Lotus 23"
                 ],
@@ -472,7 +472,7 @@
                 ]
             },
             {
-                "name": "FM: Lotus 24",
+                "name": "Lotus 24",
                 "access_rules": [
                     "^$CanBreak|FM: Lotus 24"
                 ],
@@ -492,7 +492,7 @@
                 ]
             },
             {
-                "name": "FM: Lotus 25",
+                "name": "Lotus 25",
                 "access_rules": [
                     "^$CanBreak|FM: Lotus 25"
                 ],
@@ -512,7 +512,7 @@
                 ]
             },
             {
-                "name": "FM: Lotus 26",
+                "name": "Lotus 26",
                 "access_rules": [
                     "^$CanBreak|FM: Lotus 26"
                 ],
@@ -532,7 +532,7 @@
                 ]
             },
             {
-                "name": "FM: Lotus 27",
+                "name": "Lotus 27",
                 "access_rules": [
                     "^$CanBreak|FM: Lotus 27"
                 ],
@@ -552,7 +552,7 @@
                 ]
             },
             {
-                "name": "FM: Lotus 28",
+                "name": "Lotus 28",
                 "access_rules": [
                     "^$CanBreak|FM: Lotus 28"
                 ],
@@ -586,7 +586,7 @@
         ],
         "children": [
             {
-                "name": "FM: Barrel 1",
+                "name": "Barrel 1",
                 "access_rules": [
                     "^$CanBreak|FM: Barrel 1"
                 ],
@@ -606,7 +606,7 @@
                 ]
             },
             {
-                "name": "FM: Barrel 2",
+                "name": "Barrel 2",
                 "access_rules": [
                     "^$CanBreak|FM: Barrel 2"
                 ],
@@ -626,7 +626,7 @@
                 ]
             },
             {
-                "name": "FM: Barrel 3",
+                "name": "Barrel 3",
                 "access_rules": [
                     "^$CanBreak|FM: Barrel 3"
                 ],
@@ -646,7 +646,7 @@
                 ]
             },
             {
-                "name": "FM: Coffin 1",
+                "name": "Coffin 1",
                 "access_rules": [
                     "^$CanBreak|FM: Coffin 1"
                 ],
@@ -666,7 +666,7 @@
                 ]
             },
             {
-                "name": "FM: Coffin 2",
+                "name": "Coffin 2",
                 "access_rules": [
                     "^$CanBreak|FM: Coffin 2"
                 ],
@@ -686,7 +686,7 @@
                 ]
             },
             {
-                "name": "FM: Coffin 3",
+                "name": "Coffin 3",
                 "access_rules": [
                     "^$CanBreak|FM: Coffin 3"
                 ],
@@ -706,7 +706,7 @@
                 ]
             },
             {
-                "name": "FM: Coffin 4",
+                "name": "Coffin 4",
                 "access_rules": [
                     "^$CanBreak|FM: Coffin 4"
                 ],
@@ -726,7 +726,7 @@
                 ]
             },
             {
-                "name": "FM: Crate 1",
+                "name": "Crate 1",
                 "access_rules": [
                     "^$CanBreak|FM: Crate 1"
                 ],
@@ -746,7 +746,7 @@
                 ]
             },
             {
-                "name": "FM: Crate 2",
+                "name": "Crate 2",
                 "access_rules": [
                     "^$CanBreak|FM: Crate 2"
                 ],
@@ -766,7 +766,7 @@
                 ]
             },
             {
-                "name": "FM: Crate 3",
+                "name": "Crate 3",
                 "access_rules": [
                     "^$CanBreak|FM: Crate 3"
                 ],
@@ -786,7 +786,7 @@
                 ]
             },
             {
-                "name": "FM: Vase 1",
+                "name": "Vase 1",
                 "access_rules": [
                     "^$CanBreak|FM: Vase 1"
                 ],
@@ -806,7 +806,7 @@
                 ]
             },
             {
-                "name": "FM: Vase 2",
+                "name": "Vase 2",
                 "access_rules": [
                     "^$CanBreak|FM: Vase 2"
                 ],
@@ -826,7 +826,7 @@
                 ]
             },
             {
-                "name": "FM: Vase 3",
+                "name": "Vase 3",
                 "access_rules": [
                     "^$CanBreak|FM: Vase 3"
                 ],
@@ -846,7 +846,7 @@
                 ]
             },
             {
-                "name": "FM: Vase 4",
+                "name": "Vase 4",
                 "access_rules": [
                     "^$CanBreak|FM: Vase 4"
                 ],
@@ -866,7 +866,7 @@
                 ]
             },
             {
-                "name": "FM: Vase 5",
+                "name": "Vase 5",
                 "access_rules": [
                     "^$CanBreak|FM: Vase 5"
                 ],
@@ -886,7 +886,7 @@
                 ]
             },
             {
-                "name": "FM: Vase 6",
+                "name": "Vase 6",
                 "access_rules": [
                     "^$CanBreak|FM: Vase 6"
                 ],
@@ -906,7 +906,7 @@
                 ]
             },
             {
-                "name": "FM: Vase 7",
+                "name": "Vase 7",
                 "access_rules": [
                     "^$CanBreak|FM: Vase 7"
                 ],
@@ -926,7 +926,7 @@
                 ]
             },
             {
-                "name": "FM: Vase 8",
+                "name": "Vase 8",
                 "access_rules": [
                     "^$CanBreak|FM: Vase 8"
                 ],
@@ -946,7 +946,7 @@
                 ]
             },
             {
-                "name": "FM: Vase 9",
+                "name": "Vase 9",
                 "access_rules": [
                     "^$CanBreak|FM: Vase 9"
                 ],
@@ -966,7 +966,7 @@
                 ]
             },
             {
-                "name": "FM: Vase 10",
+                "name": "Vase 10",
                 "access_rules": [
                     "^$CanBreak|FM: Vase 10"
                 ],
@@ -986,7 +986,7 @@
                 ]
             },
             {
-                "name": "FM: Vase 11",
+                "name": "Vase 11",
                 "access_rules": [
                     "^$CanBreak|FM: Vase 11"
                 ],
@@ -1006,7 +1006,7 @@
                 ]
             },
             {
-                "name": "FM: Vase 12",
+                "name": "Vase 12",
                 "access_rules": [
                     "^$CanBreak|FM: Vase 12"
                 ],
@@ -1026,7 +1026,7 @@
                 ]
             },
             {
-                "name": "FM: Vase 13",
+                "name": "Vase 13",
                 "access_rules": [
                     "^$CanBreak|FM: Vase 13"
                 ],
@@ -1046,7 +1046,7 @@
                 ]
             },
             {
-                "name": "FM: Vase 14",
+                "name": "Vase 14",
                 "access_rules": [
                     "^$CanBreak|FM: Vase 14"
                 ],
@@ -1066,7 +1066,7 @@
                 ]
             },
             {
-                "name": "FM: Vase 15",
+                "name": "Vase 15",
                 "access_rules": [
                     "^$CanBreak|FM: Vase 15"
                 ],
@@ -1086,7 +1086,7 @@
                 ]
             },
             {
-                "name": "FM: Vase 16",
+                "name": "Vase 16",
                 "access_rules": [
                     "^$CanBreak|FM: Vase 16"
                 ],
@@ -1106,7 +1106,7 @@
                 ]
             },
             {
-                "name": "FM: Vase 17",
+                "name": "Vase 17",
                 "access_rules": [
                     "^$CanBreak|FM: Vase 17"
                 ],
@@ -1126,7 +1126,7 @@
                 ]
             },
             {
-                "name": "FM: Vase 18",
+                "name": "Vase 18",
                 "access_rules": [
                     "^$CanBreak|FM: Vase 18"
                 ],
@@ -1146,7 +1146,7 @@
                 ]
             },
             {
-                "name": "FM: Vase 19",
+                "name": "Vase 19",
                 "access_rules": [
                     "^$CanBreak|FM: Vase 19"
                 ],
@@ -1166,7 +1166,7 @@
                 ]
             },
             {
-                "name": "FM: Vase 20",
+                "name": "Vase 20",
                 "access_rules": [
                     "^$CanBreak|FM: Vase 20"
                 ],
@@ -1186,7 +1186,7 @@
                 ]
             },
             {
-                "name": "FM: Vase 21",
+                "name": "Vase 21",
                 "access_rules": [
                     "^$CanBreak|FM: Vase 21"
                 ],

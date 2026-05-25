@@ -4,7 +4,7 @@ ENABLE_DEBUG_LOG = false
 
 CURRENT_SCENE = "Hollow Basin"
 TRAVERSED_ENTRANCES = {}
-ENEMY_LOCATIONS = {}
+ENEMY_REGIONS = {}
 
 -- get current variant
 local variant = Tracker.ActiveVariantUID
@@ -16,17 +16,22 @@ if ENABLE_DEBUG_LOG then
 end
 
 -- Utility Script for helper functions etc.
+---@module 'scripts.utils'
 ScriptHost:LoadScript("scripts/utils.lua")
 
 -- Items
 Tracker:AddItems("items/items.json")
 
 -- Logic
+---@module 'scripts.logic'
 ScriptHost:LoadScript("scripts/logic/logic.lua")
 
 -- Custom Items
+---@module 'scripts.custom_items.class'
 ScriptHost:LoadScript("scripts/custom_items/class.lua")
+---@module 'scripts.custom_items.progressiveTogglePlus'
 ScriptHost:LoadScript("scripts/custom_items/progressiveTogglePlus.lua")
+---@module 'scripts.custom_items.progressiveTogglePlusWrapper'
 ScriptHost:LoadScript("scripts/custom_items/progressiveTogglePlusWrapper.lua")
 
 -- Maps
@@ -75,6 +80,7 @@ Tracker:AddLocations("locations/breakable/The Fetid Mire.json")
 Tracker:AddLocations("locations/breakable/Terminus Prison.json")
 Tracker:AddLocations("locations/breakable/Forlorn Arena.json")
 Tracker:AddLocations("locations/breakable/A Holy Battlefield.json")
+Tracker:AddLocations("locations/breakable/Labyrinth of Ash.json")
 
 -- Layout
 Tracker:AddLayouts("layouts/tabs.json")
@@ -85,5 +91,6 @@ Tracker:AddLayouts("layouts/broadcast.json")
 
 -- AutoTracking for Poptracker
 if PopVersion and PopVersion >= "0.18.0" then
+    ---@module 'scripts.autotracking'
     ScriptHost:LoadScript("scripts/autotracking.lua")
 end

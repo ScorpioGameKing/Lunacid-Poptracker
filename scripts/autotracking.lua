@@ -17,5 +17,6 @@ print("---------------------------------------------------------------------")
 print("")
 
 -- loads the AP autotracking code
+---@module 'scripts.autotracking.archipelago'
 ScriptHost:LoadScript("scripts/autotracking/archipelago.lua")
 

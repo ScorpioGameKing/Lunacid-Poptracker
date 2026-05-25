@@ -1,6 +1,6 @@
 [
     {
-        "name": "Grassanity Sealed Ballroom",
+        "name": "Grasssanity Sealed Ballroom",
         "chest_unopened_img": "/images/items/close.png",
         "chest_opened_img": "/images/items/open.png",
         "overlay_background": "#000000",
@@ -12,7 +12,7 @@
         ],
         "children": [
             {
-                "name": "SB: Bloodweed 1",
+                "name": "Bloodweed 1",
                 "access_rules": [
                     "^$CanBreak|SB: Bloodweed 1"
                 ],
@@ -32,7 +32,7 @@
                 ]
             },
             {
-                "name": "SB: Bloodweed 2",
+                "name": "Bloodweed 2",
                 "access_rules": [
                     "^$CanBreak|SB: Bloodweed 2"
                 ],
@@ -52,7 +52,7 @@
                 ]
             },
             {
-                "name": "SB: Bloodweed 3",
+                "name": "Bloodweed 3",
                 "access_rules": [
                     "^$CanBreak|SB: Bloodweed 3"
                 ],
@@ -72,7 +72,7 @@
                 ]
             },
             {
-                "name": "SB: Bloodweed 4",
+                "name": "Bloodweed 4",
                 "access_rules": [
                     "^$CanBreak|SB: Bloodweed 4"
                 ],
@@ -92,7 +92,7 @@
                 ]
             },
             {
-                "name": "SB: Bloodweed 5",
+                "name": "Bloodweed 5",
                 "access_rules": [
                     "^$CanBreak|SB: Bloodweed 5"
                 ],
@@ -112,7 +112,7 @@
                 ]
             },
             {
-                "name": "SB: Bloodweed 6",
+                "name": "Bloodweed 6",
                 "access_rules": [
                     "^$CanBreak|SB: Bloodweed 6"
                 ],
@@ -132,7 +132,7 @@
                 ]
             },
             {
-                "name": "SB: Bloodweed 7",
+                "name": "Bloodweed 7",
                 "access_rules": [
                     "^$CanBreak|SB: Bloodweed 7"
                 ],
@@ -152,7 +152,7 @@
                 ]
             },
             {
-                "name": "SB: Bloodweed 8",
+                "name": "Bloodweed 8",
                 "access_rules": [
                     "^$CanBreak|SB: Bloodweed 8"
                 ],
@@ -172,7 +172,7 @@
                 ]
             },
             {
-                "name": "SB: Bloodweed 9",
+                "name": "Bloodweed 9",
                 "access_rules": [
                     "^$CanBreak|SB: Bloodweed 9"
                 ],
@@ -206,7 +206,7 @@
         ],
         "children": [
             {
-                "name": "SB: Crate 1",
+                "name": "Crate 1",
                 "access_rules": [
                     "^$CanBreak|SB: Crate 1"
                 ],
@@ -226,7 +226,7 @@
                 ]
             },
             {
-                "name": "SB: Crate 2",
+                "name": "Crate 2",
                 "access_rules": [
                     "^$CanBreak|SB: Crate 2"
                 ],

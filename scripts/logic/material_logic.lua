@@ -1,10 +1,10 @@
 MATERIAL_LOGIC = {
     ["ashes"] = function() return Or(
-        CanEnter("Hollow Basin"),
-        CanEnter("The Fetid Mire"), 
-        CanEnter("Accursed Tomb"), 
-        And(CanEnter("Castle Le Fanu"), CanEnterCastleStage(1)), 
-        And(CanEnter("Terminus Prison"), WasItemReceived("terminusprisonkey")),
+        CanReachRegion(R_HOLLOW_BASIN),
+        CanReachRegion(R_FETID_MIRE), 
+        CanReachRegion(R_ACCURSED_TOMB), 
+        And(CanReachRegion(R_CASTLE_LE_FANU_ENTRANCE), CanEnterCastleStage(1)), 
+        And(CanReachRegion(R_TERMINUS_PRISON_1F), WasItemReceived("terminusprisonkey")),
         CanReachAndKill(ENEMY.slime_skeleton)
     ) 
     end,
@@ -17,19 +17,19 @@ MATERIAL_LOGIC = {
     ) end,
 
     ["opal"] = function() return Or(
-        CanEnter("Yosei Forest"), 
+        CanReachRegion(R_YOSEI_FOREST), 
         CanReachAndKill(ENEMY.yakul), 
         CanReachAndKill(ENEMY.kodama)
     ) end,
 
     ["yellowmorel"] = function() return Or(
-        CanEnter("Yosei Forest"), 
+        CanReachRegion(R_YOSEI_FOREST), 
         CanReachAndKill(ENEMY.venus), 
         CanReachAndKill(ENEMY.neptune)
     ) end,
 
     ["lotusseedpod"] = function() return Or(
-        CanEnter("The Fetid Mire"), 
+        CanReachRegion(R_FETID_MIRE), 
         CanReachAndKill(ENEMY.rat_king)
     ) end,
 
@@ -59,7 +59,7 @@ MATERIAL_LOGIC = {
 
     ["destroyingangelmushroom"] = function()
         return Or(
-            CanEnter("Yosei Forest"),
+                CanReachRegion(R_YOSEI_FOREST),
             CanReachAndKill(ENEMY.venus),
             CanReachAndKill(ENEMY.neptune),
             CanReachAndKill(ENEMY.unilateralis),
@@ -69,7 +69,7 @@ MATERIAL_LOGIC = {
     end,
 
     ["oceanboneshard"] = function() return Or(
-        CanEnter("Yosei Forest"), 
+        CanReachRegion(R_YOSEI_FOREST), 
         CanReachAndKill(ENEMY.snail),
         CanReachAndKill(ENEMY.milk_snail)
     ) end,
@@ -79,10 +79,10 @@ MATERIAL_LOGIC = {
         CanReachAndKill(ENEMY.enlightened_one)
     ) end,
 
-    ["moonpetal"] = function() return And(CanEnter("Castle Le Fanu"), CanEnterCastleStage(0)) end,
+    ["moonpetal"] = function() return And(CanReachRegion(R_CASTLE_LE_FANU_ENTRANCE), CanEnterCastleStage(0)) end,
 
     ["bloodweed"] = function() return Or(
-        And(CanEnter("Castle Le Fanu"), CanEnterCastleStage(1)),
+        And(CanReachRegion(R_CASTLE_LE_FANU_ENTRANCE), CanEnterCastleStage(1)),
         CanReachAndKill(ENEMY.hemalith)
     ) end,
 
@@ -106,9 +106,9 @@ MATERIAL_LOGIC = {
 
     ["ikurrilbroot"] = function() return CanReachAndKill(ENEMY.ikurrilb) end,
 
-    ["firecoral"] = function() return CanEnter("Boiling Grotto") end,
+    ["firecoral"] = function() return CanReachRegion(R_BOILING_GROTTO) end,
 
-    ["fiddlehead"] = function() return CanEnter("Forlorn Arena") end,
+    ["fiddlehead"] = function() return CanReachRegion(R_FORLORN_ARENA) end,
 }
 
 function CanGetMaterial(material)

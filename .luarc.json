@@ -3,6 +3,11 @@
     "workspace.library": ["../../api/lua/definition"],
     "runtime.version": "Lua 5.4",
     "diagnostics.globals": [
-        "autoFill"
+        "autoFill",
+        "ENABLE_DEBUG_LOG",
+        "CURRENT_SCENE",
+        "TRAVERSED_ENTRANCES",
+        "ENEMY_LOCATIONS",
+        "IS_ITEMS_ONLY"
     ]
 }

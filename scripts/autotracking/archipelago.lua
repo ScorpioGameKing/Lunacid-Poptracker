@@ -49,7 +49,7 @@ function onClear(slot_data)
     CUR_INDEX = -1
     CURRENT_SCENE = "Hollow Basin"
     TRAVERSED_ENTRANCES = {}
-    ENEMY_LOCATIONS = {}
+    ENEMY_REGIONS = {}
 
     Archipelago:SetNotify({
         string.format("Slot:%d:currentScene", Archipelago.PlayerNumber),
@@ -120,7 +120,7 @@ function onClear(slot_data)
     LOCAL_ITEMS = {}
     GLOBAL_ITEMS = {}
     AutoFill()
-
+    
     -- manually run snes interface functions after onClear in case we are already ingame
 end
 
@@ -263,8 +263,10 @@ Archipelago:AddSetReplyHandler("DataStorageHandler", function (key, value, oldVa
         print("oldValue: ", oldValue)
     end
     if key == string.format("Slot:%d:currentScene", Archipelago.PlayerNumber) and value then
-        CURRENT_SCENE = value
-        Tracker:UiHint("ActivateTab", value)
+        local scene = value:gsub("'", "")
+        CURRENT_SCENE = scene
+        Tracker:UiHint("ActivateTab", scene)
+        print("current scene: ", scene)
     end
 
     if key == string.format("Slot:%d:TraversedEntrances", Archipelago.PlayerNumber) and value then
@@ -274,7 +276,6 @@ Archipelago:AddSetReplyHandler("DataStorageHandler", function (key, value, oldVa
             mapData[entry.Key] = entry.Value
         end
         TRAVERSED_ENTRANCES = mapData
-        print(dump_table(mapData, 2))
     end
 
     if key == string.format("Slot:%d:LV_GATE_BASIN", Archipelago.PlayerNumber) then
@@ -294,7 +295,6 @@ Archipelago:AddSetReplyHandler("DataStorageHandler", function (key, value, oldVa
     end
 
     if key == string.format("Slot:%d:BoughtItems", Archipelago.PlayerNumber) then
-        print(dump_table(value))
         if type(value) == "table" then
             for _, v in pairs(value) do
                 if v == "ENKEY_PICKUP" then
@@ -333,7 +333,6 @@ Archipelago:AddRetrievedHandler("DataStorageHandler", function (key, value)
             mapData[entry.Key] = entry.Value
         end
         TRAVERSED_ENTRANCES = mapData
-        print(dump_table(mapData, 2))
     end
 
     if key == string.format("Slot:%d:LV_GATE_BASIN", Archipelago.PlayerNumber) then
@@ -399,7 +398,7 @@ function AutoFill()
         starting_class = {code="starting_class", mapping=nil},
         bookworm = {code="lore_on", mapping=nil},
         grasssanity = {code="grass_on", mapping=nil},
-        breakables = {code="break_on", mapping=nil}
+        breakables = {code="break_on", mapping=nil},
         enemy_randomization = {code="enemy_toggle", mapping=nil},
     }
 
@@ -437,8 +436,11 @@ function AutoFill()
     if SLOT_DATA["rolled_month"] == 12 then
         Tracker:FindObjectForCode("christmas_event").Active = true
     end
-    print(dump_table(SLOT_DATA))
-    print(Tracker:FindObjectForCode("lore_on").Active)
+
+    if SLOT_DATA["enemy_regions"] then
+        ENEMY_REGIONS = SLOT_DATA["enemy_regions"]
+    end
+
 end
 
 function Update()

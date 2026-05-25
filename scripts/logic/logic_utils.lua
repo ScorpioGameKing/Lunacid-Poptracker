@@ -228,13 +228,7 @@ function CanSolveClocktower()
     )
 end
 
-function StartingIn(map)
-    if map == STARTING_AREA[Tracker:FindObjectForCode('starting_area').AcquiredCount + 1] then
-        return AccessibilityLevel.Normal
-    end
 
-    return AccessibilityLevel.None
-end
 
 function CanJumpHeight(height)
     if height == "High" then

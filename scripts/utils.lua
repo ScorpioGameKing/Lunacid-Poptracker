@@ -26,4 +26,6 @@ ELEMENT_CODE = {
     fire = "ele_fire",
     dark = "ele_dark",
     poison = "ele_poison",
+    ice = "ele_ice",
+    physical = "ele_physical",
 }

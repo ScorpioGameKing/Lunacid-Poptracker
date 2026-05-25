@@ -1,6 +1,6 @@
 [
     {
-        "name": "Grassanity Yosei Forest",
+        "name": "Grasssanity Yosei Forest",
         "chest_unopened_img": "/images/items/close.png",
         "chest_opened_img": "/images/items/open.png",
         "overlay_background": "#000000",
@@ -164,8 +164,8 @@
                 "map_locations": [
                     {
                         "map": "Yosei Forest",
-                        "x": 1808,
-                        "y": 711,
+                        "x": 924,
+                        "y": 1065,
                         "size": 12,
                         "shape": "diamond"
                     }
@@ -244,8 +244,8 @@
                 "map_locations": [
                     {
                         "map": "Yosei Forest",
-                        "x": 924,
-                        "y": 1065,
+                        "x": 1808,
+                        "y": 711,
                         "size": 12,
                         "shape": "diamond"
                     }
@@ -404,7 +404,7 @@
                 "map_locations": [
                     {
                         "map": "Yosei Forest",
-                        "x": 1915,
+                        "x": 1815,
                         "y": 1074,
                         "size": 12,
                         "shape": "diamond"
@@ -592,9 +592,9 @@
                 ]
             },
             {
-                "name": "Mushroom 29",
+                "name": "Mushroom 30",
                 "access_rules": [
-                    "^$CanBreak|YF: Mushroom 29"
+                    "^$CanBreak|YF: Mushroom 30"
                 ],
                 "chest_unopened_img": "images/items/check_misc_fade.png",
                 "chest_opened_img": "images/items/check_misc.png",
@@ -684,8 +684,8 @@
                 "map_locations": [
                     {
                         "map": "Yosei Forest",
-                        "x": 2175,
-                        "y": 303,
+                        "x": 1571,
+                        "y": 300,
                         "size": 12,
                         "shape": "diamond"
                     }
@@ -735,6 +735,26 @@
                 "name": "Mushroom 37",
                 "access_rules": [
                     "^$CanBreak|YF: Mushroom 37"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Yosei Forest",
+                        "x": 1800,
+                        "y": 145,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Mushroom 38",
+                "access_rules": [
+                    "^$CanBreak|YF: Mushroom 38"
                 ],
                 "chest_unopened_img": "images/items/check_misc_fade.png",
                 "chest_opened_img": "images/items/check_misc.png",
@@ -944,8 +964,8 @@
                 "map_locations": [
                     {
                         "map": "Yosei Forest",
-                        "x": 2186,
-                        "y": 303,
+                        "x": 1584,
+                        "y": 300,
                         "size": 12,
                         "shape": "diamond"
                     }
@@ -964,8 +984,8 @@
                 "map_locations": [
                     {
                         "map": "Yosei Forest",
-                        "x": 1808,
-                        "y": 105,
+                        "x": 1160,
+                        "y": 107,
                         "size": 12,
                         "shape": "diamond"
                     }
@@ -1258,8 +1278,8 @@
                 "map_locations": [
                     {
                         "map": "Yosei Forest",
-                        "x": 99,
-                        "y": 941,
+                        "x": 110,
+                        "y": 950,
                         "size": 12,
                         "shape": "diamond"
                     }
@@ -1378,7 +1398,7 @@
                 "map_locations": [
                     {
                         "map": "Yosei Forest",
-                        "x": 171,
+                        "x": 180,
                         "y": 941,
                         "size": 12,
                         "shape": "diamond"
@@ -1458,8 +1478,8 @@
                 "map_locations": [
                     {
                         "map": "Yosei Forest",
-                        "x": 168,
-                        "y": 941,
+                        "x": 171,
+                        "y": 950,
                         "size": 12,
                         "shape": "diamond"
                     }

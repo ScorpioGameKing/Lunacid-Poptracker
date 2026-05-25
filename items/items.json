@@ -100,6 +100,18 @@
         "codes": "ele_poison"
     },
     {
+        "name": "Physical Element",
+        "type": "toggle",
+        "img": "images/items/ele_physical.png",
+        "codes": "ele_physical"
+    },
+    {
+        "name": "Ice Element",
+        "type": "toggle",
+        "img": "images/items/ele_ice.png",
+        "codes": "ele_ice"
+    },
+    {
         "name": "Wand of Power",
         "type": "toggle",
         "img": "images/items/ele_enigma.png",
