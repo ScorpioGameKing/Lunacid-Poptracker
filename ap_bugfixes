@@ -1,0 +1,2 @@
+ cattle_to_castle = { to = R_CASTLE_LE_FANU_ENTRANCE, rule = function() return AccessibilityLevel.Normal end },
+ castle_main_halls_to_entrance = { to = R_CASTLE_LE_FANU_ENTRANCE, rule = function() return AccessibilityLevel.Normal end },

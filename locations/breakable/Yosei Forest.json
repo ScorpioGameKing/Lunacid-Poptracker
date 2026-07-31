@@ -1,0 +1,1504 @@
+[
+    {
+        "name": "Grasssanity Yosei Forest",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+"visibility_rules": [
+            "grass_on"
+        ],
+        "children": [
+            {
+                "name": "Mushroom 1",
+                "access_rules": [
+                    "^$CanBreak|YF: Mushroom 1"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Yosei Forest",
+                        "x": 457,
+                        "y": 583,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Mushroom 2",
+                "access_rules": [
+                    "^$CanBreak|YF: Mushroom 2"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Yosei Forest",
+                        "x": 1208,
+                        "y": 303,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Mushroom 3",
+                "access_rules": [
+                    "^$CanBreak|YF: Mushroom 3"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Yosei Forest",
+                        "x": 1065,
+                        "y": 546,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Mushroom 4",
+                "access_rules": [
+                    "^$CanBreak|YF: Mushroom 4"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Yosei Forest",
+                        "x": 1413,
+                        "y": 252,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Mushroom 5",
+                "access_rules": [
+                    "^$CanBreak|YF: Mushroom 5"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Yosei Forest",
+                        "x": 991,
+                        "y": 302,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Mushroom 6",
+                "access_rules": [
+                    "^$CanBreak|YF: Mushroom 6"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Yosei Forest",
+                        "x": 2156,
+                        "y": 172,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Mushroom 7",
+                "access_rules": [
+                    "^$CanBreak|YF: Mushroom 7"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Yosei Forest",
+                        "x": 1215,
+                        "y": 844,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Mushroom 8",
+                "access_rules": [
+                    "^$CanBreak|YF: Mushroom 8"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Yosei Forest",
+                        "x": 924,
+                        "y": 1065,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Mushroom 9",
+                "access_rules": [
+                    "^$CanBreak|YF: Mushroom 9"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Yosei Forest",
+                        "x": 1428,
+                        "y": 1089,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Mushroom 10",
+                "access_rules": [
+                    "^$CanBreak|YF: Mushroom 10"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Yosei Forest",
+                        "x": 2345,
+                        "y": 479,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Mushroom 11",
+                "access_rules": [
+                    "^$CanBreak|YF: Mushroom 11"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Yosei Forest",
+                        "x": 772,
+                        "y": 311,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Mushroom 12",
+                "access_rules": [
+                    "^$CanBreak|YF: Mushroom 12"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Yosei Forest",
+                        "x": 1808,
+                        "y": 711,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Mushroom 13",
+                "access_rules": [
+                    "^$CanBreak|YF: Mushroom 13"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Yosei Forest",
+                        "x": 1725,
+                        "y": 985,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Mushroom 14",
+                "access_rules": [
+                    "^$CanBreak|YF: Mushroom 14"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Yosei Forest",
+                        "x": 1384,
+                        "y": 252,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Mushroom 15",
+                "access_rules": [
+                    "^$CanBreak|YF: Mushroom 15"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Yosei Forest",
+                        "x": 1823,
+                        "y": 909,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Mushroom 16",
+                "access_rules": [
+                    "^$CanBreak|YF: Mushroom 16"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Yosei Forest",
+                        "x": 2145,
+                        "y": 172,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Mushroom 17",
+                "access_rules": [
+                    "^$CanBreak|YF: Mushroom 17"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Yosei Forest",
+                        "x": 2103,
+                        "y": 120,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Mushroom 18",
+                "access_rules": [
+                    "^$CanBreak|YF: Mushroom 18"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Yosei Forest",
+                        "x": 1928,
+                        "y": 811,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Mushroom 19",
+                "access_rules": [
+                    "^$CanBreak|YF: Mushroom 19"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Yosei Forest",
+                        "x": 946,
+                        "y": 1059,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Mushroom 20",
+                "access_rules": [
+                    "^$CanBreak|YF: Mushroom 20"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Yosei Forest",
+                        "x": 1815,
+                        "y": 1074,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Mushroom 21",
+                "access_rules": [
+                    "^$CanBreak|YF: Mushroom 21"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Yosei Forest",
+                        "x": 1102,
+                        "y": 433,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Mushroom 22",
+                "access_rules": [
+                    "^$CanBreak|YF: Mushroom 22"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Yosei Forest",
+                        "x": 902,
+                        "y": 1109,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Mushroom 23",
+                "access_rules": [
+                    "^$CanBreak|YF: Mushroom 23"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Yosei Forest",
+                        "x": 1862,
+                        "y": 1024,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Mushroom 24",
+                "access_rules": [
+                    "^$CanBreak|YF: Mushroom 24"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Yosei Forest",
+                        "x": 1951,
+                        "y": 318,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Mushroom 25",
+                "access_rules": [
+                    "^$CanBreak|YF: Mushroom 25"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Yosei Forest",
+                        "x": 1404,
+                        "y": 155,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Mushroom 26",
+                "access_rules": [
+                    "^$CanBreak|YF: Mushroom 26"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Yosei Forest",
+                        "x": 1302,
+                        "y": 1007,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Mushroom 27",
+                "access_rules": [
+                    "^$CanBreak|YF: Mushroom 27"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Yosei Forest",
+                        "x": 752,
+                        "y": 576,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Mushroom 28",
+                "access_rules": [
+                    "^$CanBreak|YF: Mushroom 28"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Yosei Forest",
+                        "x": 1723,
+                        "y": 1078,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Mushroom 29",
+                "access_rules": [
+                    "^$CanBreak|YF: Mushroom 29"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Yosei Forest",
+                        "x": 781,
+                        "y": 1176,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Mushroom 30",
+                "access_rules": [
+                    "^$CanBreak|YF: Mushroom 30"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Yosei Forest",
+                        "x": 883,
+                        "y": 361,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Mushroom 31",
+                "access_rules": [
+                    "^$CanBreak|YF: Mushroom 31"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Yosei Forest",
+                        "x": 281,
+                        "y": 576,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Mushroom 32",
+                "access_rules": [
+                    "^$CanBreak|YF: Mushroom 32"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Yosei Forest",
+                        "x": 718,
+                        "y": 1230,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Mushroom 33",
+                "access_rules": [
+                    "^$CanBreak|YF: Mushroom 33"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Yosei Forest",
+                        "x": 1786,
+                        "y": 876,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Mushroom 34",
+                "access_rules": [
+                    "^$CanBreak|YF: Mushroom 34"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Yosei Forest",
+                        "x": 1571,
+                        "y": 300,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Mushroom 35",
+                "access_rules": [
+                    "^$CanBreak|YF: Mushroom 35"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Yosei Forest",
+                        "x": 2195,
+                        "y": 300,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Mushroom 36",
+                "access_rules": [
+                    "^$CanBreak|YF: Mushroom 36"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Yosei Forest",
+                        "x": 1899,
+                        "y": 932,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Mushroom 37",
+                "access_rules": [
+                    "^$CanBreak|YF: Mushroom 37"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Yosei Forest",
+                        "x": 1800,
+                        "y": 145,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Mushroom 38",
+                "access_rules": [
+                    "^$CanBreak|YF: Mushroom 38"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Yosei Forest",
+                        "x": 1951,
+                        "y": 346,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Mushroom 39",
+                "access_rules": [
+                    "^$CanBreak|YF: Mushroom 39"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Yosei Forest",
+                        "x": 1002,
+                        "y": 309,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Mushroom 40",
+                "access_rules": [
+                    "^$CanBreak|YF: Mushroom 40"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Yosei Forest",
+                        "x": 1421,
+                        "y": 155,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Mushroom 41",
+                "access_rules": [
+                    "^$CanBreak|YF: Mushroom 41"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Yosei Forest",
+                        "x": 1009,
+                        "y": 1252,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Mushroom 42",
+                "access_rules": [
+                    "^$CanBreak|YF: Mushroom 42"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Yosei Forest",
+                        "x": 924,
+                        "y": 1048,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Mushroom 43",
+                "access_rules": [
+                    "^$CanBreak|YF: Mushroom 43"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Yosei Forest",
+                        "x": 974,
+                        "y": 925,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Mushroom 44",
+                "access_rules": [
+                    "^$CanBreak|YF: Mushroom 44"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Yosei Forest",
+                        "x": 1934,
+                        "y": 815,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Mushroom 45",
+                "access_rules": [
+                    "^$CanBreak|YF: Mushroom 45"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Yosei Forest",
+                        "x": 1839,
+                        "y": 1002,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Mushroom 46",
+                "access_rules": [
+                    "^$CanBreak|YF: Mushroom 46"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Yosei Forest",
+                        "x": 2186,
+                        "y": 303,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Mushroom 47",
+                "access_rules": [
+                    "^$CanBreak|YF: Mushroom 47"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Yosei Forest",
+                        "x": 292,
+                        "y": 585,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Mushroom 48",
+                "access_rules": [
+                    "^$CanBreak|YF: Mushroom 48"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Yosei Forest",
+                        "x": 1584,
+                        "y": 300,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Mushroom 49",
+                "access_rules": [
+                    "^$CanBreak|YF: Mushroom 49"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Yosei Forest",
+                        "x": 1160,
+                        "y": 107,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Mushroom 50",
+                "access_rules": [
+                    "^$CanBreak|YF: Mushroom 50"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Yosei Forest",
+                        "x": 913,
+                        "y": 1213,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Mushroom 51",
+                "access_rules": [
+                    "^$CanBreak|YF: Mushroom 51"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Yosei Forest",
+                        "x": 784,
+                        "y": 1191,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Breakables Yosei Forest",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+"visibility_rules": [
+            "break_on"
+        ],
+        "children": [
+            {
+                "name": "Barrel 1",
+                "access_rules": [
+                    "^$CanBreak|YF: Barrel 1"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Yosei Forest",
+                        "x": 309,
+                        "y": 791,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Barrel 2",
+                "access_rules": [
+                    "^$CanBreak|YF: Barrel 2"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Yosei Forest",
+                        "x": 731,
+                        "y": 906,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Barrel 3",
+                "access_rules": [
+                    "^$CanBreak|YF: Barrel 3"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Yosei Forest",
+                        "x": 272,
+                        "y": 915,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Barrel 4",
+                "access_rules": [
+                    "^$CanBreak|YF: Barrel 4"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Yosei Forest",
+                        "x": 179,
+                        "y": 1067,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Barrel 5",
+                "access_rules": [
+                    "^$CanBreak|YF: Barrel 5"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Yosei Forest",
+                        "x": 177,
+                        "y": 1019,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Barrel 6",
+                "access_rules": [
+                    "^$CanBreak|YF: Barrel 6"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Yosei Forest",
+                        "x": 317,
+                        "y": 750,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Barrel 7",
+                "access_rules": [
+                    "^$CanBreak|YF: Barrel 7"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Yosei Forest",
+                        "x": 1358,
+                        "y": 409,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Barrel 8",
+                "access_rules": [
+                    "^$CanBreak|YF: Barrel 8"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Yosei Forest",
+                        "x": 313,
+                        "y": 770,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Barrel 9",
+                "access_rules": [
+                    "^$CanBreak|YF: Barrel 9"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Yosei Forest",
+                        "x": 177,
+                        "y": 1050,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Barrel 10",
+                "access_rules": [
+                    "^$CanBreak|YF: Barrel 10"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Yosei Forest",
+                        "x": 175,
+                        "y": 1039,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Crate 1",
+                "access_rules": [
+                    "^$CanBreak|YF: Crate 1"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Yosei Forest",
+                        "x": 383,
+                        "y": 1106,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Crate 2",
+                "access_rules": [
+                    "^$CanBreak|YF: Crate 2"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Yosei Forest",
+                        "x": 110,
+                        "y": 950,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Crate 3",
+                "access_rules": [
+                    "^$CanBreak|YF: Crate 3"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Yosei Forest",
+                        "x": 1339,
+                        "y": 409,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Crate 4",
+                "access_rules": [
+                    "^$CanBreak|YF: Crate 4"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Yosei Forest",
+                        "x": 179,
+                        "y": 1009,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Crate 5",
+                "access_rules": [
+                    "^$CanBreak|YF: Crate 5"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Yosei Forest",
+                        "x": 289,
+                        "y": 828,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Crate 6",
+                "access_rules": [
+                    "^$CanBreak|YF: Crate 6"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Yosei Forest",
+                        "x": 722,
+                        "y": 974,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Crate 7",
+                "access_rules": [
+                    "^$CanBreak|YF: Crate 7"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Yosei Forest",
+                        "x": 733,
+                        "y": 967,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Crate 8",
+                "access_rules": [
+                    "^$CanBreak|YF: Crate 8"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Yosei Forest",
+                        "x": 180,
+                        "y": 941,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Crate 9",
+                "access_rules": [
+                    "^$CanBreak|YF: Crate 9"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Yosei Forest",
+                        "x": 96,
+                        "y": 941,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Crate 10",
+                "access_rules": [
+                    "^$CanBreak|YF: Crate 10"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Yosei Forest",
+                        "x": 87,
+                        "y": 815,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Crate 11",
+                "access_rules": [
+                    "^$CanBreak|YF: Crate 11"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Yosei Forest",
+                        "x": 359,
+                        "y": 854,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Crate 12",
+                "access_rules": [
+                    "^$CanBreak|YF: Crate 12"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Yosei Forest",
+                        "x": 171,
+                        "y": 950,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Crate 13",
+                "access_rules": [
+                    "^$CanBreak|YF: Crate 13"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Yosei Forest",
+                        "x": 303,
+                        "y": 826,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ]
+            }
+        ]
+    }
+]

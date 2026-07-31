@@ -241,6 +241,7 @@ ELEMENT = {
     poison = "Poison",
     ice = "Ice",
     normal = "Normal",
+    physical = "Physical",
     ignore = "IGNORE",
     melee = "Melee",
 }
@@ -399,10 +400,10 @@ ElementAction = {
         Tracker:FindObjectForCode("ele_poison").Active = true
     end,
     [ELEMENT.ice] = function()
-        -- Tracker:FindObjectForCode("ele_ice").Active = true
+        Tracker:FindObjectForCode("ele_ice").Active = true
     end,
     [ELEMENT.normal] = function()
-        -- Tracker:FindObjectForCode("ele_normal").Active = true
+        Tracker:FindObjectForCode("ele_physical").Active = true
     end,
     ["wandofpower"] = function()
         Tracker:FindObjectForCode("wandofpower").Active = true

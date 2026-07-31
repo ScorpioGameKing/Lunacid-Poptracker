@@ -4,16 +4,13 @@
         "chest_unopened_img": "/images/items/close.png",
         "chest_opened_img": "/images/items/open.png",
         "overlay_background": "#000000",
-        "access_rules": [
-            "^$CanEnter|Labyrinth of Ash"
-        ],
-        "children": [
+"children": [
             {
-                "name": "Abdul's Domain",
+                "name": "Abduls Domain",
                 "chest_unopened_img": "images/items/check_misc_fade.png",
                 "chest_opened_img": "images/items/check_misc.png",
                 "access_rules": [
-                    "^$CanReach|Abdul's Domain"
+                    "^$CanReach|Abduls Domain"
                 ],
                 "visibility_rules": ["lore_on"],
                 "sections": [
@@ -30,7 +27,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Abdul's Journal",
+                        "name": "Abduls Journal",
                         "item_count": 1
                     }
                 ],
@@ -67,11 +64,11 @@
                 ]
             },
             {
-                "name": "Warning Against Abdul's Domain",
+                "name": "Warning Against Abduls Domain",
                 "chest_unopened_img": "images/items/check_misc_fade.png",
                 "chest_opened_img": "images/items/check_misc.png",
                 "access_rules": [
-                    "^$CanReach|Warning Against Abdul's Domain"
+                    "^$CanReach|Warning Against Abduls Domain"
                 ],
                 "visibility_rules": ["lore_on"],
                 "sections": [

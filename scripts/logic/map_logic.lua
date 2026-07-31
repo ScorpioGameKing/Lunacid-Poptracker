@@ -1,148 +1,161 @@
-VANILLA_MAP_LOGIC = {
-    ["Hollow Basin"] = function() return AccessibilityLevel.Normal end,
+local ENTRANCE_FROM = {}
+for src_id, region in pairs(REGIONS) do
+    for _, exit_id in ipairs(region.exits or {}) do
+        ENTRANCE_FROM[exit_id] = src_id
+    end
+end
 
-    ["Wing's Rest"] = function() return AccessibilityLevel.Normal end,
+local WARP_TO_ENTRY = {}
+for id, entrance in pairs(ENTRANCES) do
+    if entrance.warp then
+        WARP_TO_ENTRY[entrance.warp] = id
+    end
+end
 
-    ["Forbidden Archives"] = function() return Or(HasDoorKey("brokenstepsdoorkey"), And(CanEnter("Laetus Chasm"), HasDoorKey("brokenstepsdoorkey"))) end,
+local INCOMING = {}
 
-    ["The Fetid Mire"] = function() return Or(And(CanEnterTemple(), HasSwitch("templeofsilenceswitchkey"), HasDoorKey("sewersdoorkey")),
-                                            And(CanEnter("The Sanguine Sea"), HasDoorKey("sewersseadoorkey"))) end,
+function BuildIncoming()
+    INCOMING = {}
+    for src_id, region in pairs(REGIONS) do
+        for _, exit_id in ipairs(region.exits or {}) do
+            local entrance = ENTRANCES[exit_id]
+            if entrance then
+                local to = entrance.to
+                if entrance.warp and TRAVERSED_ENTRANCES and TRAVERSED_ENTRANCES[entrance.warp] then
+                    local target_warp = TRAVERSED_ENTRANCES[entrance.warp]
+                    local target_id = WARP_TO_ENTRY[target_warp]
+                    if target_id then
+                        to = ENTRANCE_FROM[target_id]
+                    end
+                end
+                if not INCOMING[to] then
+                    INCOMING[to] = {}
+                end
+                table.insert(INCOMING[to], {
+                    id = exit_id,
+                    source = src_id,
+                    warp = entrance.warp,
+                    rule = entrance.rule
+                })
+            end
+        end
+    end
+end
 
-    ["Yosei Forest"] = function() return Or(And(CanEnterTemple(), HasSwitch("templeofsilenceswitchkey"), HasDoorKey("lowerricketybridgedoorkey")),
-                                            And(CanEnter("Accursed Tomb"), CanJumpHeight("High"), HasDoorKey("tombsecretdoorkey"), HasLightSource())) end,
+BuildIncoming()
 
-    ["Forest Canopy"] = function() return And(CanEnter("Yosei Forest"), HandleGate('forest'), HasDoorKey("treetopdoorkey")) end,
-
-    ["The Sanguine Sea"] = function() return Or(And(CanEnter("The Fetid Mire"), HasDoorKey("sewersseadoorkey")),
-                                                And(CanEnter("Accursed Tomb"), HasDoorKey("accurseddoorkey"), HasLightSource())) end,
-
-    ["Castle Le Fanu"] = function() return And(CanEnter("The Sanguine Sea"), HasDoorKey("castledoorskey")) end,
-
-    ["A Holy Battlefield"] = function() return CanEnter("Castle Le Fanu") end,
-
-    ["Accursed Tomb"] = function() return Or(And(CanEnter("The Sanguine Sea"), HasDoorKey("accurseddoorkey")),
-                                             And(CanEnter("Yosei Forest"), HasDoorKey("tombsecretdoorkey"))) end,
-
-    ["Laetus Chasm"] = function() return Or(And(IsItemStageAtLeastN("progressivevampiricsymbol", 2), Or(HasSwitch("forbiddenarchiveselevatorswitchkeyring"), CanJumpHeight("High"))), -- via Library
-                                                CanEnter("Great Well Surface"), HasDoorKey("surfacedoorkey")) end, -- via GWS
-
-    ["Great Well Surface"] = function() return Or(And(CanEnter("Laetus Chasm"), HasDoorKey("surfacedoorkey")), CanJumpHeight("High")) end,
-
-    ["Boiling Grotto"] = function() return And(CanEnter("Castle Le Fanu"), IsItemStageAtLeastN("progressivevampiricsymbol", 2), HasDoorKey("burninghotkey")) end,
-
-    ["Tower of Abyss"] = function() return And(CanEnter("Boiling Grotto"), HasDustyOrb()) end,
-
-    ["Throne Chamber"] = function() return And(CanEnter("Castle Le Fanu"), IsItemStageAtLeastN("progressivevampiricsymbol", 3), HasDoorKey("queen'sthronedoorkey")) end,
-
-    ["Sealed Ballroom"] = function() return And(CanEnter("Castle Le Fanu"), IsItemStageAtLeastN("progressivevampiricsymbol", 2), HasDoorKey("lightaccurseddoorkey"),
-                                                And(Or(HasElement("ele_dark"), HasElement("ele_poison")), Or(CanJumpHeight("High"), WasItemReceived("ranged_attacks")))) end, -- can activate switch
-
-    ["Terminus Prison"] = function() return And(CanEnter("Throne Chamber"), HasDoorKey("prisonmaindoorkey")) end,
-
-    ["Labyrinth of Ash"] = function() return And(CanEnter("Terminus Prison"), HasDoorKey("forbiddendoorkey")) end,
-
-    ["Forlorn Arena"] = function() return And(CanEnter("Terminus Prison"), WasItemReceived("terminusprisonkey"), HasDoorKey("secondarylockkey"), HasSwitch("forlornarenagateswitchkey")) end,
-
-    ["Chamber of Fate"] = function() return And(CanEnter("Forlorn Arena"), WereAllItemsReceived({"watertalisman", "earthtalisman"}), HasDoorKey("sucsariankey")) end,
+MAP_TO_REGION = {
+    ["Hollow Basin"] = R_HOLLOW_BASIN,
+    ["Wings Rest"] = R_WINGS_REST,
+    ["Forbidden Archives"] = R_FORBIDDEN_ARCHIVES_1F_FRONT,
+    ["The Fetid Mire"] = R_FETID_MIRE,
+    ["Yosei Forest"] = R_YOSEI_FOREST,
+    ["Forest Canopy"] = R_FOREST_CANOPY,
+    ["The Sanguine Sea"] = R_SANGUINE_SEA,
+    ["Castle Le Fanu"] = R_CASTLE_LE_FANU_ENTRANCE,
+    ["A Holy Battlefield"] = R_HOLY_BATTLEGROUND,
+    ["Accursed Tomb"] = R_ACCURSED_TOMB,
+    ["Laetus Chasm"] = R_LAETUS_CHASM,
+    ["Great Well Surface"] = R_GREAT_WELL_SURFACE,
+    ["Boiling Grotto"] = R_BOILING_GROTTO,
+    ["Tower of Abyss"] = R_TOWER_OF_ABYSS,
+    ["Throne Chamber"] = R_THRONE_CHAMBER,
+    ["Sealed Ballroom"] = R_SEALED_BALLROOM,
+    ["Terminus Prison"] = R_TERMINUS_PRISON_1F,
+    ["Labyrinth of Ash"] = R_LABYRINTH_OF_ASH,
+    ["Forlorn Arena"] = R_FORLORN_ARENA,
+    ["Chamber of Fate"] = R_CHAMBER_OF_FATE
 }
 
-ER_MAP_LOGIC = {
-    ["Hollow Basin"] = function() return HasAnyConnection({
-        "Hollow Basin Ceiling",
-        "Broken Steps Door (Hollow Basin Side)",
-        "Sewers Door (Hollow Basin Side)",
-        "Rickety Bridge Door (Hollow Basin Side)"
-    }) end,
-
-    ["Forbidden Archives"] = function() return Or(HasConnection("Broken Steps Door (Forbidden Archives Side)"),
-                                            And(HasConnection('Library Exit Door (Forbidden Archives Side)'), IsItemStageAtLeastN("progressivevampiricsymbol", 2))) end,
-
-    ["The Fetid Mire"] = function() return Or(HasConnection('Sewers Door (The Fetid Mire Side)'),
-                                        HasConnection('Sewers Sea Door (The Fetid Mire Side)')) end,
-
-    ["Yosei Forest"] = function() return Or(HasConnection('Rickety Bridge Door (Yosei Forest Side)'),
-                                            And(HasConnection('Tomb Secret Door (Yosei Forest Side)'), CanJumpHeight('High')),
-                                            And(HasConnection('Treetop Door (Yosei Forest Side)'), HandleGate('forest'))) end,
-
-    ["Forest Canopy"] = function() return HasConnection('Treetop Door (Forest Canopy Path)') end,
-
-    ["The Sanguine Sea"] = function() return Or(HasConnection('Sewers Sea Door (Sanguine Sea Side)'),
-                                                HasConnection('Castle Doors (Sanguine Sea Side)'),
-                                                HasConnection('Accursed Door (Sanguine Sea Side)')) end,
-
-    ["Castle Le Fanu"] = function() return Or(HasConnection('Castle Doors (Castle Le Fanu Side)'),
-                                              HasConnection("Burning Hot Door (Castle Le Fanu Side)"),
-                                              HasConnection("Jump from Castle Le Fanu Walls"),
-                                              And(HasConnection("Queen's Throne Door (Castle Le Fanu Side)"), IsItemStageAtLeastN("progressivevampiricsymbol", 3))) end,
-
-    ["A Holy Battlefield"] = function() return HasConnection('Climb Rope Out Of Battlefield') end,
-
-    ["Accursed Tomb"] = function() return Or(HasConnection('Accursed Door (Accursed Tomb Side)'),
-                                             HasConnection('Tomb Secret Door (Accursed Tomb Side)')) end,
-
-    ["Laetus Chasm"] = function() return Or(HasConnection('Library Exit Door (Laetus Chasm Side)'),
-                                            HasConnection('Surface Door (Laetus Chasm Side)')) end,
-
-    ["Great Well Surface"] = function() return Or(HasConnection("Surface Door (Great Well Surface Side)"), CanJumpHeight("High")) end,
-
-    ["Boiling Grotto"] = function() return HasConnection('Burning Hot Door (Boiling Grotto Side)') end,
-
-    ["Tower of Abyss"] = function() return And(HasConnection('Burning Hot Door (Boiling Grotto Side)'), HasDustyOrb()) end,
-
-    ["Throne Chamber"] = function() return Or(HasConnection('Prison Main Door (Throne Chamber Side)'),
-                                           HasConnection("Queen's Throne Door (Throne Chamber Side)")) end,
-
-    ["Sealed Ballroom"] = function() return Or(HasConnection('Light Accursed Door (Sealed Ballroom Side)')) end,
-
-    ["Terminus Prison"] = function() return Or(HasConnection('Prison Main Door (Terminus Prison Side)'),
-                                               HasConnection('Secondary Door (Terminus Prison Side)'),
-                                               HasConnection('Forbidden Door (Terminus Prison Side)')) end,
-
-    ["Labyrinth of Ash"] = function() return HasConnection("Forbidden Door (Labyrinth of Ash Side)") end,
-
-    ["Forlorn Arena"] = function() return HasConnection("Secondary Door (Forlorn Arena Side)") end,
-
-    ["Chamber of Fate"] = function() return And(HasConnection("Secondary Door (Forlorn Arena Side)"), WereAllItemsReceived({"watertalisman", "earthtalisman"})) end,
-}
-
-STARTING_AREA = {
-    "Hollow Basin",
-    "The Fetid Mire",
-    "Yosei Forest",
-    "Forbidden Archives",
-    "Accursed Tomb",
-    "Castle Le Fanu",
-    "Boiling Grotto",
-    "Terminus Prison",
-    "Forlorn Arena",
-    "Labyrinth of Ash"
+local STARTING_AREA_REGIONS = {
+    [0] = R_HOLLOW_BASIN,
+    [1] = R_FETID_MIRE,
+    [2] = R_YOSEI_FOREST,
+    [3] = R_FORBIDDEN_ARCHIVES_2F,
+    [4] = R_ACCURSED_TOMB,
+    [5] = R_CASTLE_LE_FANU_ENTRANCE,
+    [6] = R_BOILING_GROTTO,
+    [7] = R_TERMINUS_PRISON_3F,
+    [8] = R_FORLORN_ARENA,
+    [9] = R_LABYRINTH_OF_ASH,
 }
 
 local visiting = {}
+local region_cache = {}
+local cache_valid = false
 
-function CanEnter(map)
-    if visiting[map] then
-        return AccessibilityLevel.None
+function ClearRegionCache()
+    region_cache = {}
+    visiting = {}
+    cache_valid = true
+end
+
+function CanReachRegion(region_id)
+
+    if cache_valid and region_cache[region_id] ~= nil then
+        return region_cache[region_id]
     end
 
-    visiting[map] = true
+    if visiting[region_id] then
+        return AccessibilityLevel.None
+    end
+    visiting[region_id] = true
 
-    local result
+    local result = AccessibilityLevel.None
+    local er = Tracker:FindObjectForCode('entrance_toggle').Active
 
-    if StartingIn(map) == AccessibilityLevel.Normal then
+    if region_id == R_STARTING_AREA or region_id == R_WINGS_REST then
         result = AccessibilityLevel.Normal
+    elseif STARTING_AREA_REGIONS[Tracker:FindObjectForCode('starting_area').AcquiredCount] == region_id then
+        result = AccessibilityLevel.Normal
+    else
+        local incoming = INCOMING[region_id]
 
-    elseif Tracker:FindObjectForCode('entrance_toggle').Active or Tracker:FindObjectForCode("starting_area").AcquiredCount > 0 then
-        if type(ER_MAP_LOGIC[map]) == "function" then
-            result = ER_MAP_LOGIC[map]()
+        if incoming then
+            for _, entry in ipairs(incoming) do
+                local traverse_ok
+
+                if er and entry.warp then
+                    if TRAVERSED_ENTRANCES and TRAVERSED_ENTRANCES[entry.warp] then
+                        traverse_ok = AccessibilityLevel.Normal
+                    else
+                        traverse_ok = AccessibilityLevel.None
+                    end
+                else
+                    traverse_ok = entry.rule()
+                end
+
+                if traverse_ok ~= AccessibilityLevel.None and entry.source then
+                    local src_result = CanReachRegion(entry.source)
+                    result = Or(result, And(src_result, traverse_ok))
+                end
+            end
         end
     end
 
-    if not result and type(VANILLA_MAP_LOGIC[map]) == "function" then
-        result = VANILLA_MAP_LOGIC[map]()
+    visiting[region_id] = nil
+    if cache_valid then
+        region_cache[region_id] = result
     end
+    return result
+end
 
-    visiting[map] = nil
+function CanEnter(map)
+    local region_id = MAP_TO_REGION[map]
+    if not region_id then
+        return AccessibilityLevel.None
+    end
+    return CanReachRegion(region_id)
+end
 
-    return result or AccessibilityLevel.None
+function CanEnterRegion(region)
+    return CanReachRegion(region)
+end
+
+function StartingIn(region_id)
+    local region = STARTING_AREA_REGIONS[Tracker:FindObjectForCode('starting_area').AcquiredCount]
+    if region and region_id == region then
+        return AccessibilityLevel.Normal
+    end
+    return AccessibilityLevel.None
 end

@@ -8,10 +8,7 @@
       "children": [
          {
             "name": "Hollow Basin",
-            "access_rules": [
-               "^$CanEnter|Hollow Basin"
-            ],
-            "children": [
+"children": [
                {
                   "name": "Hollow Basin Switch",
                   "chest_unopened_img": "images/items/check_misc_fade.png",
@@ -62,10 +59,7 @@
          },
          {
             "name": "Forbidden Archives",
-            "access_rules": [
-               "^$CanEnter|Forbidden Archives"
-            ],
-            "children": [
+"children": [
                {
                   "name": "Forbidden Archives Shortcut Switch",
                   "visibility_rules": [
@@ -252,10 +246,7 @@
          },
          {
             "name": "Accursed Tomb",
-            "access_rules": [
-               "^$CanEnter|Accursed Tomb"
-            ],
-            "children": [
+"children": [
                {
                   "name": "Accursed Tomb Lobby Switch",
                   "access_rules": [
@@ -375,10 +366,7 @@
          },
          {
             "name": "The Fetid Mire",
-            "access_rules": [
-               "^$CanEnter|The Fetid Mire"
-            ],
-            "children": [
+"children": [
                {
                   "name": "Fetid Mire Switch",
                   "access_rules": [
@@ -406,10 +394,7 @@
          },
          {
             "name": "Sealed Ballroom",
-            "access_rules": [
-               "^$CanEnter|Sealed Ballroom"
-            ],
-            "children": [
+"children": [
                {
                   "name": "Sealed Ballroom Switch",
                   "access_rules": [
@@ -437,10 +422,7 @@
          },
          {
             "name": "Boiling Grotto",
-            "access_rules": [
-               "^$CanEnter|Boiling Grotto"
-            ],
-            "children": [
+"children": [
                {
                   "name": "Boiling Grotto Fire Switch (North)",
                   "visibility_rules": [
@@ -553,10 +535,7 @@
          },
          {
             "name": "Terminus Prison",
-            "access_rules": [
-               "^$CanEnter|Terminus Prison"
-            ],
-            "children": [
+"children": [
                {
                   "name": "Terminus Prison Back Alley Switch",
                   "visibility_rules":[
@@ -611,10 +590,7 @@
          },
          {
             "name": "Forlorn Arena",
-            "access_rules": [
-               "^$CanEnter|Forlorn Arena"
-            ],
-            "children": [
+"children": [
                {
                   "name": "Temple of Water Switch",
                   "access_rules": [
@@ -665,10 +641,7 @@
          },
          {
             "name": "Labyrinth of Ash",
-            "access_rules": [
-               "^$CanEnter|Labyrinth of Ash"
-            ],
-            "children": [
+"children": [
                {
                   "name": "Labyrinth of Ash Switch",
                   "access_rules": [

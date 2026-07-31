@@ -100,6 +100,18 @@
         "codes": "ele_poison"
     },
     {
+        "name": "Physical Element",
+        "type": "toggle",
+        "img": "images/items/ele_physical.png",
+        "codes": "ele_physical"
+    },
+    {
+        "name": "Ice Element",
+        "type": "toggle",
+        "img": "images/items/ele_ice.png",
+        "codes": "ele_ice"
+    },
+    {
         "name": "Wand of Power",
         "type": "toggle",
         "img": "images/items/ele_enigma.png",
@@ -108,49 +120,49 @@
     {
         "name": "Basin Living Gate opened",
         "type": "toggle",
-        "img": "images/items/misc.png",
+        "img": "images/items/living_gate.png",
         "codes": "livinggate_basin"
     },
     {
         "name": "Forest Living Gate opened",
         "type": "toggle",
-        "img": "images/items/misc.png",
+        "img": "images/items/living_gate.png",
         "codes": "livinggate_forest"
     },
     {
         "name": "Summon Coffin",
         "type": "toggle",
-        "img": "images/items/misc.png",
+        "img": "images/items/sp_coffin.png",
         "codes": "coffin"
     },
     {
         "name": "Icarian Flight",
         "type": "toggle",
-        "img": "images/items/misc.png",
+        "img": "images/items/sp_if.png",
         "codes": "icarianflight"
     },
     {
         "name": "Rock Bridge",
         "type": "toggle",
-        "img": "images/items/misc.png",
+        "img": "images/items/sp_rb.png",
         "codes": "rockbridge"
     },
     {
         "name": "Barrier",
         "type": "toggle",
-        "img": "images/items/misc.png",
+        "img": "images/items/sp_bar.png",
         "codes": "barrier"
     },
     {
         "name": "Summon Snail",
         "type": "toggle",
-        "img": "images/items/misc.png",
+        "img": "images/items/sp_snail.png",
         "codes": "summonsnail"
     },
     {
         "name": "Wind Dash",
         "type": "toggle",
-        "img": "images/items/misc.png",
+        "img": "images/items/sp_wd.png",
         "codes": "winddash"
     },
     {
@@ -271,259 +283,223 @@
     {
         "name": "Ignis Calor",
         "type": "toggle",
-        "img": "images/items/misc.png",
+        "img": "images/items/sp_ignis.png",
         "codes": "igniscalor"
     },
     {
         "name": "Temple of Silence Switch Key",
         "type": "toggle",
-        "img": "images/items/setting_on.png",
-        "disabled_img": "images/items/setting_off.png",
+        "img": "images/switches/sk_tempsi.png",
         "codes": "templeofsilenceswitchkey"
     },
     {
         "name": "Hollow Basin Switch Key",
         "type": "toggle",
-        "img": "images/items/setting_on.png",
-        "disabled_img": "images/items/setting_off.png",
+        "img": "images/switches/sk_hollbas.png",
         "codes": "hollowbasinswitchkey"
     },
     {
         "name": "Fetid Mire Switch Key",
         "type": "toggle",
-        "img": "images/items/setting_on.png",
-        "disabled_img": "images/items/setting_off.png",
+        "img": "images/switches/sk_fetmre.png",
         "codes": "fetidmireswitchkey"
     },
     {
         "name": "Archives Shortcut Switch Key",
         "type": "toggle",
-        "img": "images/items/setting_on.png",
-        "disabled_img": "images/items/setting_off.png",
+        "img": "images/switches/sk_arcshrt.png",
         "codes": "forbiddenarchivesshortcutswitchkey"
     },
     {
         "name": "Archives Elevator Keyring",
         "type": "toggle",
-        "img": "images/items/setting_on.png",
-        "disabled_img": "images/items/setting_off.png",
+        "img": "images/switches/sk_arcelve.png",
         "codes": "forbiddenarchiveselevatorswitchkeyring"
     },
     {
         "name": "Accursed Tomb Switch Keyring",
         "type": "toggle",
-        "img": "images/items/setting_on.png",
-        "disabled_img": "images/items/setting_off.png",
+        "img": "images/switches/sk_acctmb.png",
         "codes": "accursedtombswitchkeyring"
     },
     {
         "name": "Prometheus Fire Switch Keyring",
         "type": "toggle",
-        "img": "images/items/setting_on.png",
-        "disabled_img": "images/items/setting_off.png",
+        "img": "images/switches/sk_profire.png",
         "codes": "prometheusfireswitchkeyring"
     },
     {
         "name": "Sealed Ballroom Switch Key",
         "type": "toggle",
-        "img": "images/items/setting_on.png",
-        "disabled_img": "images/items/setting_off.png",
+        "img": "images/switches/sk_sealbal.png",
         "codes": "sealedballroomswitchkey"
     },
     {
         "name": "Grotto Fire Switch Keyring",
         "type": "toggle",
-        "img": "images/items/setting_on.png",
-        "disabled_img": "images/items/setting_off.png",
+        "img": "images/switches/sk_grotfir.png",
         "codes": "grottofireswitchkeyring"
     },
     {
         "name": "Sand Temple Switch Keyring",
         "type": "toggle",
-        "img": "images/items/setting_on.png",
-        "disabled_img": "images/items/setting_off.png",
+        "img": "images/switches/sk_sndtm.png",
         "codes": "sandtempleswitcheskeyring"
     },
     {
         "name": "Terminus Prison Back Alley Switch Key",
         "type": "toggle",
-        "img": "images/items/setting_on.png",
-        "disabled_img": "images/items/setting_off.png",
+        "img": "images/switches/sk_terpris.png",
         "codes": "terminusprisonbackalleyswitchkey"
     },
     {
         "name": "Forlorn Arena Gate Switch Key",
         "type": "toggle",
-        "img": "images/items/setting_on.png",
-        "disabled_img": "images/items/setting_off.png",
+        "img": "images/switches/sk_forlare.png",
         "codes": "forlornarenagateswitchkey"
     },
     {
         "name": "Labyrinth of Ash Switch Key",
         "type": "toggle",
-        "img": "images/items/setting_on.png",
-        "disabled_img": "images/items/setting_off.png",
+        "img": "images/switches/sk_labash.png",
         "codes": "labyrinthofashswitchkey"
     },
     {
         "name": "Temple of Water Switch Key",
         "type": "toggle",
-        "img": "images/items/setting_on.png",
-        "disabled_img": "images/items/setting_off.png",
+        "img": "images/switches/sk_temwa.png",
         "codes": "templeofwaterswitchkey"
     },
     {
         "name": "Temple of Earth Switch Key",
         "type": "toggle",
-        "img": "images/items/setting_on.png",
-        "disabled_img": "images/items/setting_off.png",
+        "img": "images/switches/sk_temert.png",
         "codes": "templeofearthswitchkey"
     },
     {
         "name": "Broken Steps Door Key",
         "type": "toggle",
-        "img": "images/items/setting_on.png",
-        "disabled_img": "images/items/setting_off.png",
+        "img": "images/doors/dk_bs.png",
         "codes": "brokenstepsdoorkey"
     },
     {
         "name": "Lower Rickety Bridge Door Key",
         "type": "toggle",
-        "img": "images/items/setting_on.png",
-        "disabled_img": "images/items/setting_off.png",
+        "img": "images/doors/dk_lrb.png",
         "codes": "lowerricketybridgedoorkey"
     },
     {
         "name": "Sewers Door Key",
         "type": "toggle",
-        "img": "images/items/setting_on.png",
-        "disabled_img": "images/items/setting_off.png",
+        "img": "images/doors/dk_sew.png",
         "codes": "sewersdoorkey"
     },
     {
         "name": "Treetop Door Key",
         "type": "toggle",
-        "img": "images/items/setting_on.png",
-        "disabled_img": "images/items/setting_off.png",
+        "img": "images/doors/dk_tree.png",
         "codes": "treetopdoorkey"
     },
     {
         "name": "Tomb Secret Door Key",
         "type": "toggle",
-        "img": "images/items/setting_on.png",
-        "disabled_img": "images/items/setting_off.png",
+        "img": "images/doors/dk_ts.png",
         "codes": "tombsecretdoorkey"
     },
     {
         "name": "Sewers Sea Door Key",
         "type": "toggle",
-        "img": "images/items/setting_on.png",
-        "disabled_img": "images/items/setting_off.png",
+        "img": "images/doors/dk_sews.png",
         "codes": "sewersseadoorkey"
     },
     {
         "name": "Accursed Door Key",
         "type": "toggle",
-        "img": "images/items/setting_on.png",
-        "disabled_img": "images/items/setting_off.png",
+        "img": "images/doors/dk_accu.png",
         "codes": "accurseddoorkey"
     },
     {
         "name": "Castle Doors Key",
         "type": "toggle",
-        "img": "images/items/setting_on.png",
-        "disabled_img": "images/items/setting_off.png",
+        "img": "images/doors/dk_cast.png",
         "codes": "castledoorskey"
     },
     {
         "name": "Library Exit Door Key",
         "type": "toggle",
-        "img": "images/items/setting_on.png",
-        "disabled_img": "images/items/setting_off.png",
+        "img": "images/doors/dk_libex.png",
         "codes": "libraryexitdoorkey"
     },
     {
         "name": "Surface Door Key",
         "type": "toggle",
-        "img": "images/items/setting_on.png",
-        "disabled_img": "images/items/setting_off.png",
+        "img": "images/doors/dk_surf.png",
         "codes": "surfacedoorkey"
     },
     {
         "name": "Light Accursed Door Key",
         "type": "toggle",
-        "img": "images/items/setting_on.png",
-        "disabled_img": "images/items/setting_off.png",
+        "img": "images/doors/dk_la.png",
         "codes": "lightaccurseddoorkey"
     },
     {
         "name": "Queen's Throne Door Key",
         "type": "toggle",
-        "img": "images/items/setting_on.png",
-        "disabled_img": "images/items/setting_off.png",
+        "img": "images/doors/dk_qt.png",
         "codes": "queen'sthronedoorkey"
     },
     {
         "name": "Prison Main Door Key",
         "type": "toggle",
-        "img": "images/items/setting_on.png",
-        "disabled_img": "images/items/setting_off.png",
+        "img": "images/doors/dk_pm.png",
         "codes": "prisonmaindoorkey"
     },
     {
         "name": "Secondary Lock Key",
         "type": "toggle",
-        "img": "images/items/setting_on.png",
-        "disabled_img": "images/items/setting_off.png",
+        "img": "images/doors/dk_secl.png",
         "codes": "secondarylockkey"
     },
     {
         "name": "Burning Hot Key",
         "type": "toggle",
-        "img": "images/items/setting_on.png",
-        "disabled_img": "images/items/setting_off.png",
+        "img": "images/doors/dk_brnh.png",
         "codes": "burninghotkey"
     },
     {
         "name": "Forbidden Door Key",
         "type": "toggle",
-        "img": "images/items/setting_on.png",
-        "disabled_img": "images/items/setting_off.png",
+        "img": "images/doors/dk_frb.png",
         "codes": "forbiddendoorkey"
     },
     {
         "name": "Sucsarian Key",
         "type": "toggle",
-        "img": "images/items/setting_on.png",
-        "disabled_img": "images/items/setting_off.png",
+        "img": "images/doors/dk_sucs.png",
         "codes": "sucsariankey"
     },
     {
         "name": "Dreamer Key",
         "type": "toggle",
-        "img": "images/items/setting_on.png",
-        "disabled_img": "images/items/setting_off.png",
+        "img": "images/doors/dk_drm.png",
         "codes": "dreamerkey"
     },
     {
         "name": "Ballroom Side Rooms Keyring",
         "type": "toggle",
-        "img": "images/items/setting_on.png",
-        "disabled_img": "images/items/setting_off.png",
+        "img": "images/doors/dk_bsr.png",
         "codes": "ballroomsideroomskeyring"
     },
     {
         "name": "Tower of Abyss Keyring",
         "type": "toggle",
-        "img": "images/items/setting_on.png",
-        "disabled_img": "images/items/setting_off.png",
+        "img": "images/doors/dk_toa.png",
         "codes": "towerofabysskeyring"
     },
     {
         "name": "Ashen Door Keyring",
         "type": "toggle",
-        "img": "images/items/setting_on.png",
-        "disabled_img": "images/items/setting_off.png",
+        "img": "images/doors/dk_ashd.png",
         "codes": "ashendoorskeyring"
     },
     {
@@ -723,7 +699,7 @@
         "codes": "quench_on"
     },
     {
-        "name": "Etna's Pupil Enabled",
+        "name": "Etnas Pupil Enabled",
         "type": "toggle",
         "img": "images/settings/etnas_pupil_on.png",
         "disabled_img": "images/settings/etnas_pupil_off.png",
@@ -797,6 +773,27 @@
         "img": "images/settings/bookworm_on.png",
         "disabled_img": "images/settings/bookworm_off.png",
         "codes": "lore_on"
+    },
+    {
+        "name": "Breakable Sanity",
+        "type": "toggle",
+        "img": "images/settings/break_on.png",
+        "disabled_img": "images/settings/break_off.png",
+        "codes": "break_on"
+    },
+    {
+        "name": "Grass Sanity",
+        "type": "toggle",
+        "img": "images/settings/grass_on.png",
+        "disabled_img": "images/settings/grass_off.png",
+        "codes": "grass_on"
+    },
+    {
+        "name": "Enemizer",
+        "type": "toggle",
+        "img": "images/settings/enemizer_on.png",
+        "disabled_img": "images/settings/enemizer_off.png",
+        "codes": "enemy_toggle"
     },
     {
         "name": "Update Toggle",

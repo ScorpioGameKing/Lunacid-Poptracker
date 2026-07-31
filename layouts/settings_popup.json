@@ -30,7 +30,7 @@
                     ["drops_on", "shops_on", "quench_on", "etna_on"],
                     ["switch_locks", "door_lock_toggle", "secret_doors", "entrance_toggle"],
                     ["show_switches", "show_doors", "starting_class", "starting_area"],
-                    ["lore_on"]
+                    ["lore_on", "break_on", "grass_on", "enemy_toggle"]
                 ]
             }
         ]

@@ -4,7 +4,7 @@ ENABLE_DEBUG_LOG = false
 
 CURRENT_SCENE = "Hollow Basin"
 TRAVERSED_ENTRANCES = {}
-ENEMY_LOCATIONS = {}
+ENEMY_REGIONS = {}
 
 -- get current variant
 local variant = Tracker.ActiveVariantUID
@@ -16,17 +16,22 @@ if ENABLE_DEBUG_LOG then
 end
 
 -- Utility Script for helper functions etc.
+---@module 'scripts.utils'
 ScriptHost:LoadScript("scripts/utils.lua")
 
 -- Items
 Tracker:AddItems("items/items.json")
 
 -- Logic
+---@module 'scripts.logic'
 ScriptHost:LoadScript("scripts/logic/logic.lua")
 
 -- Custom Items
+---@module 'scripts.custom_items.class'
 ScriptHost:LoadScript("scripts/custom_items/class.lua")
+---@module 'scripts.custom_items.progressiveTogglePlus'
 ScriptHost:LoadScript("scripts/custom_items/progressiveTogglePlus.lua")
+---@module 'scripts.custom_items.progressiveTogglePlusWrapper'
 ScriptHost:LoadScript("scripts/custom_items/progressiveTogglePlusWrapper.lua")
 
 -- Maps
@@ -53,20 +58,29 @@ Tracker:AddLocations("locations/The Fetid Mire.json")
 Tracker:AddLocations("locations/The Sanguine Sea.json")
 Tracker:AddLocations("locations/Throne Chamber.json")
 Tracker:AddLocations("locations/Tower of Abyss.json")
-Tracker:AddLocations("locations/Wing's Rest.json")
+Tracker:AddLocations("locations/Wings Rest.json")
 Tracker:AddLocations("locations/Yosei Forest.json")
 
 Tracker:AddLocations("locations/misc/LivingGates.json")
 Tracker:AddLocations("locations/misc/Doors.json")
 Tracker:AddLocations("locations/misc/Dropsanity.json")
 Tracker:AddLocations("locations/misc/Overworld.json")
-Tracker:AddLocations("locations/misc/Etna's Pupil.json")
+Tracker:AddLocations("locations/misc/Etnas Pupil.json")
 Tracker:AddLocations("locations/misc/Quenchsanity.json")
 Tracker:AddLocations("locations/misc/Shopsanity.json")
 Tracker:AddLocations("locations/misc/Switchlocks.json")
 
 Tracker:AddLocations("locations/breakable/Hollow Basin.json")
 Tracker:AddLocations("locations/breakable/Castle Le Fanu.json")
+Tracker:AddLocations("locations/breakable/Accursed Tomb.json")
+Tracker:AddLocations("locations/breakable/Yosei Forest.json")
+Tracker:AddLocations("locations/breakable/Boiling Grotto.json")
+Tracker:AddLocations("locations/breakable/Sealed Ballroom.json")
+Tracker:AddLocations("locations/breakable/The Fetid Mire.json")
+Tracker:AddLocations("locations/breakable/Terminus Prison.json")
+Tracker:AddLocations("locations/breakable/Forlorn Arena.json")
+Tracker:AddLocations("locations/breakable/A Holy Battlefield.json")
+Tracker:AddLocations("locations/breakable/Labyrinth of Ash.json")
 
 -- Layout
 Tracker:AddLayouts("layouts/tabs.json")
@@ -77,5 +91,6 @@ Tracker:AddLayouts("layouts/broadcast.json")
 
 -- AutoTracking for Poptracker
 if PopVersion and PopVersion >= "0.18.0" then
+    ---@module 'scripts.autotracking'
     ScriptHost:LoadScript("scripts/autotracking.lua")
 end

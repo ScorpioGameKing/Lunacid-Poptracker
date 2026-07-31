@@ -27,10 +27,10 @@ function IsItemStageAtLeastN(item, n)
 end
 
 function HasConnection(warp)
-    if TRAVERSED_ENTRANCES[warp] then
+    if TRAVERSED_ENTRANCES and TRAVERSED_ENTRANCES[warp] then
         return AccessibilityLevel.Normal
     end
-    return StartingIn(warp)
+    return AccessibilityLevel.None
 end
 
 function HasAnyConnection(warps)
@@ -228,13 +228,7 @@ function CanSolveClocktower()
     )
 end
 
-function StartingIn(map)
-    if map == STARTING_AREA[Tracker:FindObjectForCode('starting_area').AcquiredCount + 1] then
-        return AccessibilityLevel.Normal
-    end
 
-    return AccessibilityLevel.None
-end
 
 function CanJumpHeight(height)
     if height == "High" then

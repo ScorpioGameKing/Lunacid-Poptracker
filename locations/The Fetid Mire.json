@@ -4,16 +4,13 @@
         "chest_unopened_img": "/images/items/close.png",
         "chest_opened_img": "/images/items/open.png",
         "overlay_background": "#000000",
-        "access_rules": [
-            "^$CanEnter|The Fetid Mire"
-        ],
-        "children": [
+"children": [
             {
-                "name": "Garrat's Proclamation",
+                "name": "Garrats Proclamation",
                 "chest_unopened_img": "images/items/check_misc_fade.png",
                 "chest_opened_img": "images/items/check_misc.png",
                 "access_rules": [
-                    "^$CanReach|Garrat's Proclamation"
+                    "^$CanReach|Garrats Proclamation"
                 ],
                 "visibility_rules": ["lore_on"],
                 "sections": [
@@ -33,11 +30,11 @@
                  ]
             },
             {
-                "name": "Bonenard's Admission of Infidelity",
+                "name": "Bonenards Admission of Infidelity",
                 "chest_unopened_img": "images/items/check_misc_fade.png",
                 "chest_opened_img": "images/items/check_misc.png",
                 "access_rules": [
-                    "^$CanReach|Bonenard's Admission of Infidelity"
+                    "^$CanReach|Bonenards Admission of Infidelity"
                 ],
                 "visibility_rules": ["lore_on"],
                 "sections": [
@@ -153,12 +150,12 @@
                  ]
             },
             {
-                "name": "Bonenard's Trash",
+                "name": "Bonenards Trash",
                 "chest_unopened_img": "images/items/check_item_fade.png",
                 "chest_opened_img": "images/items/check_item.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "^$CanReach|Bonenard's Trash"
+                    "^$CanReach|Bonenards Trash"
                 ],
                 "sections": [
                     {
@@ -225,12 +222,12 @@
                  ]
             },
             {
-                "name": "Jellisha's Trash",
+                "name": "Jellishas Trash",
                 "chest_unopened_img": "images/items/check_item_fade.png",
                 "chest_opened_img": "images/items/check_item.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "^$CanReach|Jellisha's Trash"
+                    "^$CanReach|Jellishas Trash"
                 ],
                 "sections": [
                     {
@@ -249,12 +246,12 @@
                  ]
             },
             {
-                "name": "Jellisha's Jelly Treats",
+                "name": "Jellishas Jelly Treats",
                 "chest_unopened_img": "images/items/check_item_fade.png",
                 "chest_opened_img": "images/items/check_item.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "^$CanReach|Jellisha's Jelly Treats"
+                    "^$CanReach|Jellishas Jelly Treats"
                 ],
                 "sections": [
                     {
@@ -272,12 +269,12 @@
                 ]
             },
             {
-                "name": "Jellisha's Quest Reward",
+                "name": "Jellishas Quest Reward",
                 "chest_unopened_img": "images/items/check_spell_fade.png",
                 "chest_opened_img": "images/items/check_spell.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "^$CanReach|Jellisha's Quest Reward"
+                    "^$CanReach|Jellishas Quest Reward"
                 ],
                 "sections": [
                     {
@@ -455,8 +452,8 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Sewer Traveler's Last Words",
-                        "access_rules": ["^$CanReach|Sewer Traveler's Last Words"],
+                        "name": "Sewer Travelers Last Words",
+                        "access_rules": ["^$CanReach|Sewer Travelers Last Words"],
                         "visibility_rules": ["lore_on"],
                         "item_count": 1
                     }

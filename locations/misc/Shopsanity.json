@@ -9,7 +9,7 @@
         ],
         "children": [
             {
-                "name": "Sheryl's Shop",
+                "name": "Sheryls Shop",
                 "visibility_rules": [],
                 "sections": [
                     {
@@ -79,7 +79,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "Wing's Rest",
+                        "map": "Wings Rest",
                         "x": 864,
                         "y": 972
                     },

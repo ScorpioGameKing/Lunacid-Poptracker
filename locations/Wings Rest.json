@@ -1,10 +1,7 @@
 [
     {
-        "name": "Wing's Rest",
-        "access_rules": [
-            "^$CanEnter|Wing's Rest"
-        ],
-        "children": [
+        "name": "Wings Rest",
+"children": [
             {
                 "name": "Rafters",
                 "chest_unopened_img": "images/items/check_item_fade.png",
@@ -23,7 +20,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "Wing's Rest",
+                        "map": "Wings Rest",
                         "x": 729,
                         "y": 1340
                     }
@@ -47,19 +44,19 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "Wing's Rest",
+                        "map": "Wings Rest",
                         "x": 548,
                         "y": 126
                     }
                 ]
             },
             {
-                "name": "Clive's Gift",
+                "name": "Clives Gift",
                 "chest_unopened_img": "images/items/check_item_fade.png",
                 "chest_opened_img": "images/items/check_item.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "^$CanReach|Clive's Gift"
+                    "^$CanReach|Clives Gift"
                 ],
                 "sections": [
                     {
@@ -71,14 +68,14 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "Wing's Rest",
+                        "map": "Wings Rest",
                         "x": 420,
                         "y": 858
                     }
                 ]
             },
             {
-                "name": "Demi's Gift",
+                "name": "Demis Gift",
                 "chest_unopened_img": "images/items/check_item_fade.png",
                 "chest_opened_img": "images/items/check_item.png",
                 "overlay_background": "#000000",
@@ -86,7 +83,7 @@
                     {
                         "name": "Class Based Gift",
                         "access_rules": [
-                            "^$CanReach|Demi's Class Based Gift"
+                            "^$CanReach|Demis Class Based Gift"
                         ],
                         "visibility_rules": ["^$ClassBasedGift"],
                         "item_count": 1
@@ -94,23 +91,23 @@
                     {
                         "name": "Dusty Crystal Orb",
                         "access_rules": [
-                            "^$CanReach|Demi's Victory Gift"
+                            "^$CanReach|Demis Victory Gift"
                         ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
-                        "name": "Demi's Spooky Treats",
+                        "name": "Demis Spooky Treats",
                         "access_rules": [
-                            "^$CanReach|Demi's Spooky Treats"
+                            "^$CanReach|Demis Spooky Treats"
                         ],
                         "visibility_rules": ["halloween_event"],
                         "item_count": 1
                     },
                     {
-                        "name": "Demi's Reward for All Soul Candies",
+                        "name": "Demis Reward for All Soul Candies",
                         "access_rules": [
-                            "^$CanReach|Demi's Reward for All Soul Candies"
+                            "^$CanReach|Demis Reward for All Soul Candies"
                         ],
                         "visibility_rules": ["halloween_event"],
                         "item_count": 1
@@ -126,7 +123,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "Wing's Rest",
+                        "map": "Wings Rest",
                         "x": 794,
                         "y": 561
                     }
@@ -151,7 +148,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "Wing's Rest",
+                        "map": "Wings Rest",
                         "x": 620,
                         "y": 1128
                     }

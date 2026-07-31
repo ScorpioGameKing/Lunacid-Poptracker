@@ -25,7 +25,7 @@
                 "content": {
                     "type": "map",
                     "maps": [
-                        "Wing's Rest"
+                        "Wings Rest"
                     ]
                 }
             },
@@ -233,11 +233,11 @@
                 }
             },
             {
-                "title": "Wing's Rest",
+                "title": "Wings Rest",
                 "content": {
                     "type": "map",
                     "maps": [
-                        "Wing's Rest"
+                        "Wings Rest"
                     ]
                 }
             },

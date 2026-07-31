@@ -13,8 +13,8 @@
                         "type": "itemgrid",
                         "item_margin": "4, 5",
                         "h_alignment": "left",
-        "item_height": 36,
-        "item_width": 36,
+                        "item_height": 36,
+                        "item_width": 36,
                         "rows": [
                             ["strangecoin", "progressivevampiricsymbol", "enchantedkey", "terminusprisonkey", "corruptkey", "lucidblade"],
                             ["vhstape", "whitevhstape", "watertalisman", "earthtalisman", "lightsource", "jotunnslayer"],
@@ -42,8 +42,8 @@
                         "item_height": 36,
                         "item_width": 36,
                         "rows": [
-                            ["livinggate_basin", "livinggate_forest", "", "", "igniscalor"],
-                            ["wandofpower", "ele_poison", "ele_light", "ele_blood", "ele_fire", "ele_dark"],
+                            ["livinggate_basin", "livinggate_forest", "", "igniscalor", "wandofpower", "ele_physical"],
+                            ["ele_ice", "ele_poison", "ele_light", "ele_blood", "ele_fire", "ele_dark"],
                             ["coffin", "icarianflight", "rockbridge", "barrier", "summonsnail", "winddash"]
                         ]
                     }

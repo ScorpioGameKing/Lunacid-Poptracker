@@ -1,0 +1,1204 @@
+[
+    {
+        "name": "Grasssanity The Fetid Mire",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+"visibility_rules": [
+            "grass_on"
+        ],
+        "children": [
+            {
+                "name": "Lotus 1",
+                "access_rules": [
+                    "^$CanBreak|FM: Lotus 1"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "The Fetid Mire",
+                        "x": 852,
+                        "y": 1091,
+                        "size": 16,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Lotus 2",
+                "access_rules": [
+                    "^$CanBreak|FM: Lotus 2"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "The Fetid Mire",
+                        "x": 793,
+                        "y": 838,
+                        "size": 16,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Lotus 3",
+                "access_rules": [
+                    "^$CanBreak|FM: Lotus 3"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "The Fetid Mire",
+                        "x": 503,
+                        "y": 1088,
+                        "size": 16,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Lotus 4",
+                "access_rules": [
+                    "^$CanBreak|FM: Lotus 4"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "The Fetid Mire",
+                        "x": 1527,
+                        "y": 2099,
+                        "size": 16,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Lotus 5",
+                "access_rules": [
+                    "^$CanBreak|FM: Lotus 5"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "The Fetid Mire",
+                        "x": 526,
+                        "y": 424,
+                        "size": 16,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Lotus 6",
+                "access_rules": [
+                    "^$CanBreak|FM: Lotus 6"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "The Fetid Mire",
+                        "x": 1581,
+                        "y": 1924,
+                        "size": 16,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Lotus 7",
+                "access_rules": [
+                    "^$CanBreak|FM: Lotus 7"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "The Fetid Mire",
+                        "x": 1713,
+                        "y": 2306,
+                        "size": 16,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Lotus 8",
+                "access_rules": [
+                    "^$CanBreak|FM: Lotus 8"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "The Fetid Mire",
+                        "x": 1924,
+                        "y": 1337,
+                        "size": 16,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Lotus 9",
+                "access_rules": [
+                    "^$CanBreak|FM: Lotus 9"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "The Fetid Mire",
+                        "x": 1964,
+                        "y": 1236,
+                        "size": 16,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Lotus 10",
+                "access_rules": [
+                    "^$CanBreak|FM: Lotus 10"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "The Fetid Mire",
+                        "x": 1572,
+                        "y": 2097,
+                        "size": 16,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Lotus 11",
+                "access_rules": [
+                    "^$CanBreak|FM: Lotus 11"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "The Fetid Mire",
+                        "x": 554,
+                        "y": 942,
+                        "size": 16,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Lotus 12",
+                "access_rules": [
+                    "^$CanBreak|FM: Lotus 12"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "The Fetid Mire",
+                        "x": 958,
+                        "y": 1051,
+                        "size": 16,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Lotus 13",
+                "access_rules": [
+                    "^$CanBreak|FM: Lotus 13"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "The Fetid Mire",
+                        "x": 1760,
+                        "y": 2266,
+                        "size": 16,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Lotus 14",
+                "access_rules": [
+                    "^$CanBreak|FM: Lotus 14"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "The Fetid Mire",
+                        "x": 528,
+                        "y": 267,
+                        "size": 16,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Lotus 15",
+                "access_rules": [
+                    "^$CanBreak|FM: Lotus 15"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "The Fetid Mire",
+                        "x": 952,
+                        "y": 1209,
+                        "size": 16,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Lotus 16",
+                "access_rules": [
+                    "^$CanBreak|FM: Lotus 16"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "The Fetid Mire",
+                        "x": 1013,
+                        "y": 1093,
+                        "size": 16,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Lotus 17",
+                "access_rules": [
+                    "^$CanBreak|FM: Lotus 17"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "The Fetid Mire",
+                        "x": 1316,
+                        "y": 1241,
+                        "size": 16,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Lotus 18",
+                "access_rules": [
+                    "^$CanBreak|FM: Lotus 18"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "The Fetid Mire",
+                        "x": 1759,
+                        "y": 2204,
+                        "size": 16,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Lotus 19",
+                "access_rules": [
+                    "^$CanBreak|FM: Lotus 19"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "The Fetid Mire",
+                        "x": 1760,
+                        "y": 2001,
+                        "size": 16,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Lotus 20",
+                "access_rules": [
+                    "^$CanBreak|FM: Lotus 20"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "The Fetid Mire",
+                        "x": 1569,
+                        "y": 1066,
+                        "size": 16,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Lotus 21",
+                "access_rules": [
+                    "^$CanBreak|FM: Lotus 21"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "The Fetid Mire",
+                        "x": 525,
+                        "y": 646,
+                        "size": 16,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Lotus 22",
+                "access_rules": [
+                    "^$CanBreak|FM: Lotus 22"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "The Fetid Mire",
+                        "x": 551,
+                        "y": 424,
+                        "size": 16,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Lotus 23",
+                "access_rules": [
+                    "^$CanBreak|FM: Lotus 23"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "The Fetid Mire",
+                        "x": 1964,
+                        "y": 1414,
+                        "size": 16,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Lotus 24",
+                "access_rules": [
+                    "^$CanBreak|FM: Lotus 24"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "The Fetid Mire",
+                        "x": 882,
+                        "y": 1386,
+                        "size": 16,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Lotus 25",
+                "access_rules": [
+                    "^$CanBreak|FM: Lotus 25"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "The Fetid Mire",
+                        "x": 1327,
+                        "y": 1629,
+                        "size": 16,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Lotus 26",
+                "access_rules": [
+                    "^$CanBreak|FM: Lotus 26"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "The Fetid Mire",
+                        "x": 1505,
+                        "y": 1919,
+                        "size": 16,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Lotus 27",
+                "access_rules": [
+                    "^$CanBreak|FM: Lotus 27"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "The Fetid Mire",
+                        "x": 1342,
+                        "y": 1675,
+                        "size": 16,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Lotus 28",
+                "access_rules": [
+                    "^$CanBreak|FM: Lotus 28"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "The Fetid Mire",
+                        "x": 700,
+                        "y": 860,
+                        "size": 16,
+                        "shape": "diamond"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Breakables The Fetid Mire",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+"visibility_rules": [
+            "break_on"
+        ],
+        "children": [
+            {
+                "name": "Barrel 1",
+                "access_rules": [
+                    "^$CanBreak|FM: Barrel 1"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "The Fetid Mire",
+                        "x": 531,
+                        "y": 1174,
+                        "size": 16,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Barrel 2",
+                "access_rules": [
+                    "^$CanBreak|FM: Barrel 2"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "The Fetid Mire",
+                        "x": 666,
+                        "y": 1131,
+                        "size": 16,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Barrel 3",
+                "access_rules": [
+                    "^$CanBreak|FM: Barrel 3"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "The Fetid Mire",
+                        "x": 514,
+                        "y": 1174,
+                        "size": 16,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Coffin 1",
+                "access_rules": [
+                    "^$CanBreak|FM: Coffin 1"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "The Fetid Mire",
+                        "x": 470,
+                        "y": 121,
+                        "size": 16,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Coffin 2",
+                "access_rules": [
+                    "^$CanBreak|FM: Coffin 2"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "The Fetid Mire",
+                        "x": 469,
+                        "y": 97,
+                        "size": 16,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Coffin 3",
+                "access_rules": [
+                    "^$CanBreak|FM: Coffin 3"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "The Fetid Mire",
+                        "x": 430,
+                        "y": 123,
+                        "size": 16,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Coffin 4",
+                "access_rules": [
+                    "^$CanBreak|FM: Coffin 4"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "The Fetid Mire",
+                        "x": 430,
+                        "y": 97,
+                        "size": 16,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Crate 1",
+                "access_rules": [
+                    "^$CanBreak|FM: Crate 1"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "The Fetid Mire",
+                        "x": 514,
+                        "y": 1130,
+                        "size": 16,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Crate 2",
+                "access_rules": [
+                    "^$CanBreak|FM: Crate 2"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "The Fetid Mire",
+                        "x": 548,
+                        "y": 1174,
+                        "size": 16,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Crate 3",
+                "access_rules": [
+                    "^$CanBreak|FM: Crate 3"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "The Fetid Mire",
+                        "x": 666,
+                        "y": 1175,
+                        "size": 16,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Vase 1",
+                "access_rules": [
+                    "^$CanBreak|FM: Vase 1"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "The Fetid Mire",
+                        "x": 600,
+                        "y": 1175,
+                        "size": 16,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Vase 2",
+                "access_rules": [
+                    "^$CanBreak|FM: Vase 2"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "The Fetid Mire",
+                        "x": 1969,
+                        "y": 1888,
+                        "size": 16,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Vase 3",
+                "access_rules": [
+                    "^$CanBreak|FM: Vase 3"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "The Fetid Mire",
+                        "x": 1752,
+                        "y": 1865,
+                        "size": 16,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Vase 4",
+                "access_rules": [
+                    "^$CanBreak|FM: Vase 4"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "The Fetid Mire",
+                        "x": 1759,
+                        "y": 1977,
+                        "size": 16,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Vase 5",
+                "access_rules": [
+                    "^$CanBreak|FM: Vase 5"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "The Fetid Mire",
+                        "x": 1693,
+                        "y": 1934,
+                        "size": 16,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Vase 6",
+                "access_rules": [
+                    "^$CanBreak|FM: Vase 6"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "The Fetid Mire",
+                        "x": 1742,
+                        "y": 1854,
+                        "size": 16,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Vase 7",
+                "access_rules": [
+                    "^$CanBreak|FM: Vase 7"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "The Fetid Mire",
+                        "x": 1939,
+                        "y": 1875,
+                        "size": 16,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Vase 8",
+                "access_rules": [
+                    "^$CanBreak|FM: Vase 8"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "The Fetid Mire",
+                        "x": 1828,
+                        "y": 1946,
+                        "size": 16,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Vase 9",
+                "access_rules": [
+                    "^$CanBreak|FM: Vase 9"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "The Fetid Mire",
+                        "x": 1827,
+                        "y": 1975,
+                        "size": 16,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Vase 10",
+                "access_rules": [
+                    "^$CanBreak|FM: Vase 10"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "The Fetid Mire",
+                        "x": 1640,
+                        "y": 1945,
+                        "size": 16,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Vase 11",
+                "access_rules": [
+                    "^$CanBreak|FM: Vase 11"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "The Fetid Mire",
+                        "x": 1986,
+                        "y": 1872,
+                        "size": 16,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Vase 12",
+                "access_rules": [
+                    "^$CanBreak|FM: Vase 12"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "The Fetid Mire",
+                        "x": 1639,
+                        "y": 1982,
+                        "size": 16,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Vase 13",
+                "access_rules": [
+                    "^$CanBreak|FM: Vase 13"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "The Fetid Mire",
+                        "x": 1954,
+                        "y": 1964,
+                        "size": 16,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Vase 14",
+                "access_rules": [
+                    "^$CanBreak|FM: Vase 14"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "The Fetid Mire",
+                        "x": 1839,
+                        "y": 1965,
+                        "size": 16,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Vase 15",
+                "access_rules": [
+                    "^$CanBreak|FM: Vase 15"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "The Fetid Mire",
+                        "x": 1986,
+                        "y": 1833,
+                        "size": 16,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Vase 16",
+                "access_rules": [
+                    "^$CanBreak|FM: Vase 16"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "The Fetid Mire",
+                        "x": 1948,
+                        "y": 1884,
+                        "size": 16,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Vase 17",
+                "access_rules": [
+                    "^$CanBreak|FM: Vase 17"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "The Fetid Mire",
+                        "x": 1956,
+                        "y": 1888,
+                        "size": 16,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Vase 18",
+                "access_rules": [
+                    "^$CanBreak|FM: Vase 18"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "The Fetid Mire",
+                        "x": 600,
+                        "y": 1131,
+                        "size": 16,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Vase 19",
+                "access_rules": [
+                    "^$CanBreak|FM: Vase 19"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "The Fetid Mire",
+                        "x": 1939,
+                        "y": 1832,
+                        "size": 16,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Vase 20",
+                "access_rules": [
+                    "^$CanBreak|FM: Vase 20"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "The Fetid Mire",
+                        "x": 1592,
+                        "y": 1984,
+                        "size": 16,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Vase 21",
+                "access_rules": [
+                    "^$CanBreak|FM: Vase 21"
+                ],
+                "chest_unopened_img": "images/items/check_misc_fade.png",
+                "chest_opened_img": "images/items/check_misc.png",
+                "sections": [
+                    {}
+                ],
+                "map_locations": [
+                    {
+                        "map": "The Fetid Mire",
+                        "x": 1969,
+                        "y": 1963,
+                        "size": 16,
+                        "shape": "diamond"
+                    }
+                ]
+            }
+        ]
+    }
+]
