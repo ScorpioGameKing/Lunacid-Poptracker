@@ -1,86 +1,94 @@
 {
-    "versions": [
-        {
-            "package_version": "0.9.5",
-            "download_url": "https://github.com/ScorpioGameKing/Lunacid-Poptracker/releases/download/beta-0.9.5/Lunacid-Poptracker-0.9.5.zip",
-            "sha256": "2996220a462355a2fa54fd17a094d38dbc280aaae64dadfacaa9ac8c4bf130bd",
-            "changelog": [
-                "Halloween Event bugfixes",
-                "general bugfixes",
-                "Loresanity Support"
-            ]
-        },
-        {
-            "package_version": "0.9.4",
-            "download_url": "https://github.com/ScorpioGameKing/Lunacid-Poptracker/releases/download/beta-0.9.4/Lunacid-Poptracker-0.9.4.zip",
-            "sha256": "a508c2aac316a11738c66945c0b303e56b5e27bbe371ef90e7f7cd6a0af6984f",
-            "changelog": [
-                "Halloween Event",
-                "Dropsanity Support (Unique)",
-                "Etna's Pupil Support",
-                "visual bugfixes"
-            ]
-        },
-        {
-            "package_version": "0.9.3",
-            "download_url": "https://github.com/ScorpioGameKing/Lunacid-Poptracker/releases/download/beta-0.9.3/Lunacid-Poptracker-0.9.3.zip",
-            "sha256": "0fdb1c027133b0b391eddce778d45052e0af5250db28ae827782688743f9afbb",
-            "changelog": [
-                "logic fixes"
-            ]
-        },
-        {
-            "package_version": "0.9.2",
-            "download_url": "https://github.com/ScorpioGameKing/Lunacid-Poptracker/releases/download/beta-0.9.2/Lunacid-Poptracker-0.9.2.zip",
-            "sha256": "f6df7a07736ee0b8079c576bb0343dea07d090c8e23f1d5fee20c21ab11ca927",
-            "changelog": [
-                "updated broadcast view",
-                "fixed cattle cell hidden wall now beeing treated as such",
-                "fixed Hollow Basin and Castle Le Fanu logic when starting in them"
-            ]
-        },
-        {
-            "package_version": "0.9.1",
-            "download_url": "https://github.com/ScorpioGameKing/Lunacid-Poptracker/releases/download/beta-0.9.1/Lunacid-Poptracker-0.9.1.zip",
-            "sha256": "e7f6620f9faa286c941dc1462d1c708cc253fa85b3d6ece77bdd3ea3cbff58ac",
-            "changelog": [
-                "multiple visual and logic fixes"
-            ]
-        },
-        {
-            "package_version": "0.9.0",
-            "download_url": "https://github.com/ScorpioGameKing/Lunacid-Poptracker/releases/download/beta-0.9.0/Lunacid-Poptracker-0.9.0.zip",
-            "sha256": "da3afc943b1a70c2233c42f298134680d25d9befc1f5f2b26f062c686015670d",
-            "changelog": [
-                "complete rework of the tracker to work with version 0.9.7+ of the AP Randomizer"
-            ]
-        },
-        {
-            "package_version": "0.8.1",
-            "download_url": "https://github.com/ScorpioGameKing/Lunacid-Poptracker/releases/download/alpha-0.8.1/Lunacid-Poptracker.0.8.1.zip",
-            "sha256": "42ac232217b5cc1a287103cb2bf0aa5f7e2579056f58e2326279034100d4fee5",
-            "changelog": [
-                "Merged Aeltael's PR to update the item IDs to work with 0.8.0+ seeds.",
-                "This does break previous version's auto-tracking so only update to this if you're up to date with the mod and apworld!"
-            ]
-        },
-        {
-            "package_version": "0.8.0",
-            "download_url": "https://github.com/ScorpioGameKing/Lunacid-Poptracker/releases/download/alpha-0.8.0-pre/Lunacid-Poptracker-0.8.0-pre.zip",
-            "sha256": "eb893f3e35054506a09e7f67b15800f94d81d930f1e34c7677dd83d2d5b0bafd",
-            "changelog": [
-                "AP SUPPORT IS HALF WORKING, LOCATIONS RELEASE, ITEMS ARE NOT TRACKED PROPERLY",
-                "Laundry List of Misc fixes",
-                "Added Door Lock Support (Fuzzy Logic)"
-            ]
-        },
-        {
-            "package_version": "0.7.0",
-            "download_url": "https://github.com/ScorpioGameKing/Lunacid-Poptracker/releases/download/alpha-0.7.0/Lunacid-Poptracker-0.7.0.zip",
-            "sha256": "9ae7e6fe986e615540fc685757136fa140e379ffcdbbb7c89a60dc709d49368d",
-            "changelog": [
-                "various logic fixes, location tweaks and most importantly AP Autotracking implementation"
-            ]
-        }
-    ]
+  "versions": [
+    {
+      "package_version": "0.10.0",
+      "download_url": "https://github.com/ScorpioGameKing/Lunacid-Poptracker/releases/download/beta-0.10.0/Lunacid-Poptracker-0.10.0.zip",
+      "sha256": "bb2a36039272f383a60b4343b1a1f89643706d8d4d2346094e3b1eee351add41",
+      "changelog": [
+        "new beta"
+      ]
+    },
+    {
+      "package_version": "0.9.5",
+      "download_url": "https://github.com/ScorpioGameKing/Lunacid-Poptracker/releases/download/beta-0.9.5/Lunacid-Poptracker-0.9.5.zip",
+      "sha256": "2996220a462355a2fa54fd17a094d38dbc280aaae64dadfacaa9ac8c4bf130bd",
+      "changelog": [
+        "Halloween Event bugfixes",
+        "general bugfixes",
+        "Loresanity Support"
+      ]
+    },
+    {
+      "package_version": "0.9.4",
+      "download_url": "https://github.com/ScorpioGameKing/Lunacid-Poptracker/releases/download/beta-0.9.4/Lunacid-Poptracker-0.9.4.zip",
+      "sha256": "a508c2aac316a11738c66945c0b303e56b5e27bbe371ef90e7f7cd6a0af6984f",
+      "changelog": [
+        "Halloween Event",
+        "Dropsanity Support (Unique)",
+        "Etna's Pupil Support",
+        "visual bugfixes"
+      ]
+    },
+    {
+      "package_version": "0.9.3",
+      "download_url": "https://github.com/ScorpioGameKing/Lunacid-Poptracker/releases/download/beta-0.9.3/Lunacid-Poptracker-0.9.3.zip",
+      "sha256": "0fdb1c027133b0b391eddce778d45052e0af5250db28ae827782688743f9afbb",
+      "changelog": [
+        "logic fixes"
+      ]
+    },
+    {
+      "package_version": "0.9.2",
+      "download_url": "https://github.com/ScorpioGameKing/Lunacid-Poptracker/releases/download/beta-0.9.2/Lunacid-Poptracker-0.9.2.zip",
+      "sha256": "f6df7a07736ee0b8079c576bb0343dea07d090c8e23f1d5fee20c21ab11ca927",
+      "changelog": [
+        "updated broadcast view",
+        "fixed cattle cell hidden wall now beeing treated as such",
+        "fixed Hollow Basin and Castle Le Fanu logic when starting in them"
+      ]
+    },
+    {
+      "package_version": "0.9.1",
+      "download_url": "https://github.com/ScorpioGameKing/Lunacid-Poptracker/releases/download/beta-0.9.1/Lunacid-Poptracker-0.9.1.zip",
+      "sha256": "e7f6620f9faa286c941dc1462d1c708cc253fa85b3d6ece77bdd3ea3cbff58ac",
+      "changelog": [
+        "multiple visual and logic fixes"
+      ]
+    },
+    {
+      "package_version": "0.9.0",
+      "download_url": "https://github.com/ScorpioGameKing/Lunacid-Poptracker/releases/download/beta-0.9.0/Lunacid-Poptracker-0.9.0.zip",
+      "sha256": "da3afc943b1a70c2233c42f298134680d25d9befc1f5f2b26f062c686015670d",
+      "changelog": [
+        "complete rework of the tracker to work with version 0.9.7+ of the AP Randomizer"
+      ]
+    },
+    {
+      "package_version": "0.8.1",
+      "download_url": "https://github.com/ScorpioGameKing/Lunacid-Poptracker/releases/download/alpha-0.8.1/Lunacid-Poptracker.0.8.1.zip",
+      "sha256": "42ac232217b5cc1a287103cb2bf0aa5f7e2579056f58e2326279034100d4fee5",
+      "changelog": [
+        "Merged Aeltael's PR to update the item IDs to work with 0.8.0+ seeds.",
+        "This does break previous version's auto-tracking so only update to this if you're up to date with the mod and apworld!"
+      ]
+    },
+    {
+      "package_version": "0.8.0",
+      "download_url": "https://github.com/ScorpioGameKing/Lunacid-Poptracker/releases/download/alpha-0.8.0-pre/Lunacid-Poptracker-0.8.0-pre.zip",
+      "sha256": "eb893f3e35054506a09e7f67b15800f94d81d930f1e34c7677dd83d2d5b0bafd",
+      "changelog": [
+        "AP SUPPORT IS HALF WORKING, LOCATIONS RELEASE, ITEMS ARE NOT TRACKED PROPERLY",
+        "Laundry List of Misc fixes",
+        "Added Door Lock Support (Fuzzy Logic)"
+      ]
+    },
+    {
+      "package_version": "0.7.0",
+      "download_url": "https://github.com/ScorpioGameKing/Lunacid-Poptracker/releases/download/alpha-0.7.0/Lunacid-Poptracker-0.7.0.zip",
+      "sha256": "9ae7e6fe986e615540fc685757136fa140e379ffcdbbb7c89a60dc709d49368d",
+      "changelog": [
+        "various logic fixes, location tweaks and most importantly AP Autotracking implementation"
+      ]
+    }
+  ]
 }
