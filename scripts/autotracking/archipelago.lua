@@ -50,6 +50,7 @@ function onClear(slot_data)
     CURRENT_SCENE = "Hollow Basin"
     TRAVERSED_ENTRANCES = {}
     ENEMY_REGIONS = {}
+    BuildIncoming()
 
     Archipelago:SetNotify({
         string.format("Slot:%d:currentScene", Archipelago.PlayerNumber),
@@ -276,6 +277,8 @@ Archipelago:AddSetReplyHandler("DataStorageHandler", function (key, value, oldVa
             mapData[entry.Key] = entry.Value
         end
         TRAVERSED_ENTRANCES = mapData
+        print(dump_table(TRAVERSED_ENTRANCES))
+        BuildIncoming()
     end
 
     if key == string.format("Slot:%d:LV_GATE_BASIN", Archipelago.PlayerNumber) then
@@ -317,13 +320,10 @@ end)
 
 Archipelago:AddRetrievedHandler("DataStorageHandler", function (key, value)
     if key == string.format("Slot:%d:currentScene", Archipelago.PlayerNumber) and value then
-            if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
-                print("key: ", key)
-                print("value: ", value)
-            end
-        
-            CURRENT_SCENE = value
-            Tracker:UiHint("ActivateTab", value)
+        local scene = value:gsub("'", "")
+        CURRENT_SCENE = scene
+        Tracker:UiHint("ActivateTab", scene)
+        print("current scene: ", scene)
     end
 
     if key == string.format("Slot:%d:TraversedEntrances", Archipelago.PlayerNumber) and value then
@@ -333,6 +333,8 @@ Archipelago:AddRetrievedHandler("DataStorageHandler", function (key, value)
             mapData[entry.Key] = entry.Value
         end
         TRAVERSED_ENTRANCES = mapData
+        print(dump_table(TRAVERSED_ENTRANCES))
+        BuildIncoming()
     end
 
     if key == string.format("Slot:%d:LV_GATE_BASIN", Archipelago.PlayerNumber) then

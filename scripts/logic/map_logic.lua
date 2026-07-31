@@ -1,24 +1,48 @@
 local ENTRANCE_FROM = {}
-local INCOMING = {}
-
 for src_id, region in pairs(REGIONS) do
     for _, exit_id in ipairs(region.exits or {}) do
-        local entrance = ENTRANCES[exit_id]
-        if entrance then
-            ENTRANCE_FROM[exit_id] = src_id
-            local to = entrance.to
-            if not INCOMING[to] then
-                INCOMING[to] = {}
+        ENTRANCE_FROM[exit_id] = src_id
+    end
+end
+
+local WARP_TO_ENTRY = {}
+for id, entrance in pairs(ENTRANCES) do
+    if entrance.warp then
+        WARP_TO_ENTRY[entrance.warp] = id
+    end
+end
+
+local INCOMING = {}
+
+function BuildIncoming()
+    INCOMING = {}
+    for src_id, region in pairs(REGIONS) do
+        for _, exit_id in ipairs(region.exits or {}) do
+            local entrance = ENTRANCES[exit_id]
+            if entrance then
+                local to = entrance.to
+                if entrance.warp and TRAVERSED_ENTRANCES and TRAVERSED_ENTRANCES[entrance.warp] then
+                    local target_warp = TRAVERSED_ENTRANCES[entrance.warp]
+                    local target_id = WARP_TO_ENTRY[target_warp]
+                    if target_id then
+                        to = ENTRANCE_FROM[target_id]
+                    end
+                end
+                if not INCOMING[to] then
+                    INCOMING[to] = {}
+                end
+                table.insert(INCOMING[to], {
+                    id = exit_id,
+                    source = src_id,
+                    warp = entrance.warp,
+                    rule = entrance.rule
+                })
             end
-            table.insert(INCOMING[to], {
-                id = exit_id,
-                source = src_id,
-                warp = entrance.warp,
-                rule = entrance.rule
-            })
         end
     end
 end
+
+BuildIncoming()
 
 MAP_TO_REGION = {
     ["Hollow Basin"] = R_HOLLOW_BASIN,
@@ -57,8 +81,20 @@ local STARTING_AREA_REGIONS = {
 }
 
 local visiting = {}
+local region_cache = {}
+local cache_valid = false
+
+function ClearRegionCache()
+    region_cache = {}
+    visiting = {}
+    cache_valid = true
+end
 
 function CanReachRegion(region_id)
+
+    if cache_valid and region_cache[region_id] ~= nil then
+        return region_cache[region_id]
+    end
 
     if visiting[region_id] then
         return AccessibilityLevel.None
@@ -67,38 +103,29 @@ function CanReachRegion(region_id)
 
     local result = AccessibilityLevel.None
     local er = Tracker:FindObjectForCode('entrance_toggle').Active
-        or Tracker:FindObjectForCode("starting_area").AcquiredCount > 0
 
     if region_id == R_STARTING_AREA or region_id == R_WINGS_REST then
-        visiting[region_id] = nil
-        return AccessibilityLevel.Normal
-    end
+        result = AccessibilityLevel.Normal
+    elseif STARTING_AREA_REGIONS[Tracker:FindObjectForCode('starting_area').AcquiredCount] == region_id then
+        result = AccessibilityLevel.Normal
+    else
+        local incoming = INCOMING[region_id]
 
-    local start_region = STARTING_AREA_REGIONS[Tracker:FindObjectForCode('starting_area').AcquiredCount]
-    if start_region and region_id == start_region then
-        visiting[region_id] = nil
-        return AccessibilityLevel.Normal
-    end
+        if incoming then
+            for _, entry in ipairs(incoming) do
+                local traverse_ok
 
-    local incoming = INCOMING[region_id]
+                if er and entry.warp then
+                    if TRAVERSED_ENTRANCES and TRAVERSED_ENTRANCES[entry.warp] then
+                        traverse_ok = AccessibilityLevel.Normal
+                    else
+                        traverse_ok = AccessibilityLevel.None
+                    end
+                else
+                    traverse_ok = entry.rule()
+                end
 
-    if incoming then
-        for _, entry in ipairs(incoming) do
-            local traverse_ok
-            local needs_source = true
-
-            if er and entry.warp then
-                traverse_ok = HasConnection(entry.warp)
-                needs_source = false
-            else
-                traverse_ok = entry.rule()
-                needs_source = true
-            end
-
-            if traverse_ok then
-                if not needs_source then
-                    result = Or(result, traverse_ok)
-                elseif entry.source then
+                if traverse_ok ~= AccessibilityLevel.None and entry.source then
                     local src_result = CanReachRegion(entry.source)
                     result = Or(result, And(src_result, traverse_ok))
                 end
@@ -106,11 +133,10 @@ function CanReachRegion(region_id)
         end
     end
 
-    if result == AccessibilityLevel.Normal then
-        print(region_id)
-    end
-
     visiting[region_id] = nil
+    if cache_valid then
+        region_cache[region_id] = result
+    end
     return result
 end
 

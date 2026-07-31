@@ -408,17 +408,17 @@ BREAKGRASS = {
     ["TP: Bloodweed 76"] = function() return CanReachRegion(R_TERMINUS_PRISON_2F_ROOMS) end,
     ["TP: Bloodweed 77"] = function() return And(CanReachRegion(R_TERMINUS_PRISON_1F), HasLightSource()) end,
     -- Sealed Ballroom
-    ["SB: Crate 1"] = function() return And(CanReachRegion(R_SEALED_BALLROOM_ROOM_WITHIN_SECRET), HasDustyOrb()) end,
-    ["SB: Bloodweed 1"] = function() return And(CanReachRegion(R_SEALED_BALLROOM_SECRET_WALLS), HasDustyOrb()) end,
-    ["SB: Crate 2"] = function() return And(CanReachRegion(R_SEALED_BALLROOM_ROOM_WITHIN_SECRET), HasDustyOrb()) end,
-    ["SB: Bloodweed 2"] = function() return And(CanReachRegion(R_SEALED_BALLROOM_SECRET_WALLS), HasDustyOrb()) end,
-    ["SB: Bloodweed 3"] = function() return And(CanReachRegion(R_SEALED_BALLROOM_SECRET_WALLS), HasDustyOrb()) end,
-    ["SB: Bloodweed 4"] = function() return And(CanReachRegion(R_SEALED_BALLROOM_SECRET_WALLS), HasDustyOrb()) end,
-    ["SB: Bloodweed 5"] = function() return And(CanReachRegion(R_SEALED_BALLROOM_SECRET_WALLS), HasDustyOrb()) end,
-    ["SB: Bloodweed 6"] = function() return And(CanReachRegion(R_SEALED_BALLROOM_SECRET_WALLS), HasDustyOrb()) end,
-    ["SB: Bloodweed 7"] = function() return And(CanReachRegion(R_SEALED_BALLROOM_SECRET_WALLS), HasDustyOrb()) end,
-    ["SB: Bloodweed 8"] = function() return And(CanReachRegion(R_SEALED_BALLROOM_SECRET_WALLS), HasDustyOrb()) end,
-    ["SB: Bloodweed 9"] = function() return And(CanReachRegion(R_SEALED_BALLROOM_SECRET_WALLS), HasDustyOrb()) end,
+    ["SB: Crate 1"] = function() return CanReachRegion(R_SEALED_BALLROOM_ROOM_WITHIN_SECRET) end,
+    ["SB: Bloodweed 1"] = function() return CanReachRegion(R_SEALED_BALLROOM_SECRET_WALLS) end,
+    ["SB: Crate 2"] = function() return CanReachRegion(R_SEALED_BALLROOM_ROOM_WITHIN_SECRET) end,
+    ["SB: Bloodweed 2"] = function() return CanReachRegion(R_SEALED_BALLROOM_SECRET_WALLS) end,
+    ["SB: Bloodweed 3"] = function() return CanReachRegion(R_SEALED_BALLROOM_SECRET_WALLS) end,
+    ["SB: Bloodweed 4"] = function() return CanReachRegion(R_SEALED_BALLROOM_SECRET_WALLS) end,
+    ["SB: Bloodweed 5"] = function() return CanReachRegion(R_SEALED_BALLROOM_SECRET_WALLS) end,
+    ["SB: Bloodweed 6"] = function() return CanReachRegion(R_SEALED_BALLROOM_SECRET_WALLS) end,
+    ["SB: Bloodweed 7"] = function() return CanReachRegion(R_SEALED_BALLROOM_SECRET_WALLS) end,
+    ["SB: Bloodweed 8"] = function() return CanReachRegion(R_SEALED_BALLROOM_SECRET_WALLS) end,
+    ["SB: Bloodweed 9"] = function() return CanReachRegion(R_SEALED_BALLROOM_SECRET_WALLS) end,
     -- Forlorn Arena
     ["FlA: Fiddlehead 1"] = function() return CanReachRegion(R_FORLORN_ARENA) end,
     ["FlA: Lotus 1"] = function() return And(CanReachRegion(R_TEMPLE_OF_WATER),
@@ -887,6 +887,7 @@ BREAKGRASS = {
 }
 
 function CanBreak(location)
+
     if type(BREAKGRASS[location]) == "function" then
         return BREAKGRASS[location]()
     end

@@ -1,10 +1,7 @@
 [
     {
         "name": "Wings Rest",
-        "access_rules": [
-            "^$CanEnter|Wings Rest"
-        ],
-        "children": [
+"children": [
             {
                 "name": "Rafters",
                 "chest_unopened_img": "images/items/check_item_fade.png",

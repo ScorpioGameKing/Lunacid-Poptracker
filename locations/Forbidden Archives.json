@@ -2,10 +2,7 @@
     {
         "name": "Forbidden Archives",
         "overlay_background": "#000000",
-        "access_rules": [
-            "^$CanEnter|Forbidden Archives"
-        ],
-        "children": [
+"children": [
             {
                 "name": "Monument to Lyria",
                 "chest_unopened_img": "images/items/check_misc_fade.png",

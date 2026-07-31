@@ -27,10 +27,10 @@ function IsItemStageAtLeastN(item, n)
 end
 
 function HasConnection(warp)
-    if TRAVERSED_ENTRANCES[warp] then
+    if TRAVERSED_ENTRANCES and TRAVERSED_ENTRANCES[warp] then
         return AccessibilityLevel.Normal
     end
-    return StartingIn(warp)
+    return AccessibilityLevel.None
 end
 
 function HasAnyConnection(warps)
